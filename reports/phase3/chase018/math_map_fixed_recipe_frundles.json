@@ -1,0 +1,20 @@
+{
+  "asof": "2026-11-05 13:21 Asia/Hong_Kong",
+  "name": "hough_tex0.4_thr035_apo60_ff0.9_sin0.35_agNone",
+  "S_loocv_cal_pa_mt": 0.13293555901039555,
+  "MAE_loocv": {
+    "pa_deg": 0.9279384631482271,
+    "fl_mm": 2.2967497297340818,
+    "mt_mm": 0.15826250681487788
+  },
+  "kw": {
+    "fasc_thr": 0.35,
+    "apo_thr": 0.6,
+    "tex_w": 0.4,
+    "fl_factor": 0.9,
+    "fl_sin_w": 0.35,
+    "agree_thr": null,
+    "pa_mode": "hough"
+  },
+  "note": "Fixed Frundles-map recipe retained as comparator; superseded as MultExp floor by nested_feature_rule_fasc_adapt"
+}

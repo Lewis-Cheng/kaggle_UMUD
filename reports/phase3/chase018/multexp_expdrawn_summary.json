@@ -1,0 +1,121 @@
+{
+  "updated": "2026-11-05 16:58:38 UTC+08:00",
+  "usable_expdrawn": 199,
+  "extract_fail": 50,
+  "extract_fail_reasons": {
+    "shape ann": 7,
+    "corr_below_0.97": 43
+  },
+  "extract_method": "ann[:,200:1000] align raw (corr>=0.97); red R>200,G<60,B<60; dilate_r=1",
+  "runs": {
+    "mix309": {
+      "train_mix": {
+        "expdrawn": 199,
+        "labtrain": 296
+      },
+      "val_dice": 0.3790217101573944,
+      "raw_S": 0.1436986639874109,
+      "blend_alpha": 0.25,
+      "blend_S": 0.14044712448014207,
+      "champ": {
+        "tag": "blend_a0.25",
+        "S": 0.14044712448014207,
+        "detail": {
+          "thr": 0.3,
+          "S": 0.14044712448014207,
+          "mae_pa": 0.9917516463925724,
+          "mae_fl": 2.439538882598102,
+          "mae_mt": 0.15826250681487788,
+          "n": 35,
+          "recipe": "hough_tex0.4_thr035_apo60_ff0.9_sin0.35_agNone"
+        },
+        "cache": "/home/chocheng9/kaggle_UMUD/reports/phase3/chase018/cache/maps_multexp_expdrawn_blend25"
+      },
+      "hist_last": {
+        "epoch": 10,
+        "loss": 0.3346554728654715,
+        "val_dice": 0.3785217195749283,
+        "bce": 0.12449879514483306,
+        "dice": 0.649299952846307,
+        "orient": 0.1292229492503863
+      }
+    },
+    "only": {
+      "train_mix": {
+        "expdrawn": 199
+      },
+      "val_dice": 0.2903728410601616,
+      "raw_S": 0.2539147367958074,
+      "blend_alpha": 0.15,
+      "blend_S": 0.13903478572889152,
+      "champ": {
+        "tag": "blend_a0.15",
+        "S": 0.13903478572889152,
+        "detail": {
+          "thr": 0.3,
+          "S": 0.13903478572889152,
+          "mae_pa": 1.0019649009931166,
+          "mae_fl": 2.3682687011731947,
+          "mae_mt": 0.15826250681487788,
+          "n": 35,
+          "recipe": "hough_tex0.4_thr035_apo60_ff0.9_sin0.35_agNone"
+        },
+        "cache": "/home/chocheng9/kaggle_UMUD/reports/phase3/chase018/cache/maps_multexp_expdrawn_blend15"
+      },
+      "hist_last": {
+        "epoch": 10,
+        "loss": 0.4363451145944141,
+        "val_dice": 0.2903728410601616,
+        "bce": 0.22864491527988798,
+        "dice": 0.7553760551270985,
+        "orient": 0.16879965790680476
+      }
+    }
+  },
+  "frundles_ref_S": 0.13293555901039555,
+  "frundles_ref_mae": {
+    "pa": 0.9279384631482271,
+    "fl": 2.2967497297340818,
+    "mt": 0.15826250681487788
+  },
+  "champ_tag": "expdrawn_only_blend",
+  "champ_S": 0.13903478572889152,
+  "champ_detail": {
+    "thr": 0.3,
+    "S": 0.13903478572889152,
+    "mae_pa": 1.0019649009931166,
+    "mae_fl": 2.3682687011731947,
+    "mae_mt": 0.15826250681487788,
+    "n": 35,
+    "recipe": "hough_tex0.4_thr035_apo60_ff0.9_sin0.35_agNone"
+  },
+  "hold": 0.13195144580335014,
+  "hold_C": 0.13195,
+  "gate": 0.12,
+  "promote": false,
+  "gate_pass": false,
+  "no_kaggle": true,
+  "multexp_in_train": false,
+  "candidates_sorted": [
+    {
+      "name": "frundles_ref",
+      "S": 0.13293555901039555
+    },
+    {
+      "name": "expdrawn_only_blend",
+      "S": 0.13903478572889152
+    },
+    {
+      "name": "expdrawn_mix309_blend",
+      "S": 0.14044712448014207
+    },
+    {
+      "name": "expdrawn_mix309_raw",
+      "S": 0.1436986639874109
+    },
+    {
+      "name": "expdrawn_only_raw",
+      "S": 0.2539147367958074
+    }
+  ]
+}

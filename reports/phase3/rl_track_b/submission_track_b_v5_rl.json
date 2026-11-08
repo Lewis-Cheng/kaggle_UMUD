@@ -1,0 +1,29 @@
+{
+  "n": 309,
+  "action_hist": {
+    "gh_only": 0,
+    "blend_gh75_et25": 0,
+    "blend_gh50_et50": 309,
+    "blend_gh25_et75": 0,
+    "et_only": 0,
+    "median_prior": 0,
+    "unable_use_prior": 0,
+    "target_mix_et_pa_mt_gh_fl": 0
+  },
+  "policy": "/home/chocheng9/kaggle_UMUD/reports/phase3/rl_track_b/geometry_bandit.npz",
+  "gh_submission": "/home/chocheng9/kaggle_UMUD/reports/phase3/submission_tier_b_seg_gh_v5best.csv",
+  "et_submission": "/home/chocheng9/kaggle_UMUD/reports/phase3/submission_extratrees_mask_proxy.csv",
+  "pipeline": "frozen_v5_GH + ExtraTrees \u2192 RL discrete refiner",
+  "claims_self_eval_as_goal": false,
+  "format": "utf-8-sig BOM + CRLF + semicolon (sample-matched)",
+  "n_rows": 309,
+  "test_action_hist": {
+    "blend_gh50_et50": 309
+  },
+  "soft_validate": "pass",
+  "kaggle_submit_status": "paused_pending_token_refresh",
+  "prior_submit_errors": [
+    "Invalid submission file extension (.ext)",
+    "ID column image_id not found in submission (ref 57994042)"
+  ]
+}

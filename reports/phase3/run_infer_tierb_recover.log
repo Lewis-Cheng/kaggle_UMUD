@@ -1,0 +1,77 @@
+== infer_seg_v3 with recover ckpt (val+test) ==
+inferred 50/1047
+inferred 100/1047
+inferred 150/1047
+inferred 200/1047
+inferred 250/1047
+inferred 300/1047
+inferred 350/1047
+inferred 400/1047
+inferred 450/1047
+inferred 500/1047
+inferred 550/1047
+inferred 600/1047
+inferred 650/1047
+inferred 700/1047
+inferred 750/1047
+inferred 800/1047
+inferred 850/1047
+inferred 900/1047
+inferred 950/1047
+inferred 1000/1047
+inferred 1047/1047
+wrote 1047 pairs thr_fasc=0.5
+pred counts:
+1047
+1047
+309
+== tier_b ==
+tier_b_seg_gh_best val_MAE_pa=6.42750028393872 fl=8.513171574885586 mt=6.256838635506608 test_ok=309/309 submission=reports/phase3/submission_tier_b_seg_gh_best.csv
+== metrics ==
+{
+  "audit": "tier_b_seg_gh",
+  "scale_provenance_run": "ambrosm_v2_ui_prior",
+  "pred_mask_dir": "reports/phase3/seg_preds_best",
+  "val_metrics": {
+    "label": "MAE_predMask_GH_vs_GTMask_GH_AmbrosM_NOT_expert_NOT_LB",
+    "n_val_stems": 738,
+    "n_gt_mm": 544,
+    "n_pred_mm": 545,
+    "n_paired_mm": 544,
+    "pa_mae": 6.42750028393872,
+    "fl_mae": 8.513171574885586,
+    "mt_mae": 6.256838635506608,
+    "priors_from_gt_mm": {
+      "pa_deg": 6.491989323725299,
+      "fl_mm": 51.71328941374848,
+      "mt_mm": 21.5
+    },
+    "diagnostic_S1_vs_gt_mask_gh": 1.2887646301330404
+  },
+  "test": {
+    "n": 309,
+    "n_fail_or_unusable": 0,
+    "n_ok_mm": 309,
+    "policy": "direct_pred_masks_GeometryHead_AmbrosM_NOT_ExtraTrees",
+    "submission": "reports/phase3/submission_tier_b_seg_gh_best.csv"
+  },
+  "official_S": null,
+  "official_S_reason": "no_independent_expert_gt_csv_in_data_root",
+  "expert_score": null,
+  "extratrees_v2_compare": {
+    "extratrees_val_mae": {
+      "diagnostic_S1_vs_gh_targets": 0.5090726352583422,
+      "fl_mae": 9.857590605995789,
+      "label": "MAE_vs_GeometryHead_AmbrosM_targets_NOT_expert_GT_NOT_LB",
+      "mt_mae": 1.0031300813873358,
+      "n_train_mm": 1744,
+      "n_val_mm": 544,
+      "note_S": "diagnostic only vs GeometryHead AmbrosM targets; NOT official S / NOT leaderboard (no independent expert GT locally)",
+      "pa_mae": 2.228251968877594
+    },
+    "note": "ET supervised by GH targets; seg-GH compared to GT-mask GH \u2014 different reference, both NOT expert"
+  },
+  "n_train_stems_split": 2376,
+  "attention_still_blocked": true,
+  "note": "NOT LB. Val MAE is pred-mask GH vs GT-mask GH under AmbrosM scale."
+}DONE_INFER2

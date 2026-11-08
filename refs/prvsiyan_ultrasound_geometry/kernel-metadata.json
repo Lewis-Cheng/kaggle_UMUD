@@ -1,0 +1,19 @@
+{
+  "id": "prvsiyan/trying-some-stuff-with-ultrasound-geometry",
+  "id_no": 141487643,
+  "title": "trying some stuff with ultrasound geometry",
+  "code_file": "trying-some-stuff-with-ultrasound-geometry.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": false,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "keywords": [],
+  "dataset_sources": [],
+  "kernel_sources": [],
+  "competition_sources": [
+    "umud-challenge-muscle-architecture-in-ultrasound-data"
+  ],
+  "model_sources": []
+}

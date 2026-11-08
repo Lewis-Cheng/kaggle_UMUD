@@ -1,0 +1,22 @@
+device=cuda:0 n=35 tag=nested_gt_teacher_v1
+selecting GT teachers...
+teacher_counts {'ridge_blend03': 10, 'blend_base_morph25': 2, 'morph_connect': 2, 'baseline': 15, 'blend_base_morph': 1, 'corridor_dilate': 5}
+LEAKY_TEACHER_ORACLE {'S_loocv_cal_pa_mt': 0.1217512556034344, 'MAE_loocv': {'pa_deg': 0.8062855162641528, 'fl_mm': 2.137421022676268, 'mt_mm': 0.15826250681487788}, 'n': 35, 'n_ok': 35, 'gate_0.12': False, 'beats_0.13195': True}
+n_groups=35 fold_counts=[7, 7, 7, 7, 7]
+
+=== fold 0 train=28 held=7 ===
+fold 0 done ep=15 loss=0.1042 rem=44.9m
+
+=== fold 1 train=28 held=7 ===
+fold 1 done ep=15 loss=0.1042 rem=44.8m
+
+=== fold 2 train=28 held=7 ===
+fold 2 done ep=15 loss=0.1014 rem=44.7m
+
+=== fold 3 train=28 held=7 ===
+fold 3 done ep=15 loss=0.1025 rem=44.6m
+
+=== fold 4 train=28 held=7 ===
+fold 4 done ep=15 loss=0.1011 rem=44.5m
+NOT promoted
+FT_NESTED_RESULT S=0.14469 PA=1.051 FL=2.475 MT=0.158 leaky_oracle=0.12175 vs_C=0.13195 gate=False promote=False

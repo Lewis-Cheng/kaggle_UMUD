@@ -1,0 +1,116 @@
+===== launch Fri Nov  6 10:11:24 PM HKT 2026 =====
+[crop_aug] gpu0 used=15462/46068 MiB free=30606 util=99%
+[crop_aug] gpu1 used=16181/46068 MiB free=29887 util=100%
+[crop_aug] gpu2 used=14898/46068 MiB free=31170 util=99%
+[crop_aug] gpu3 used=18942/46068 MiB free=27126 util=99%
+[crop_aug] start 2026-11-06 22:11:24 UTC+08:00 device=cuda:2
+[crop_aug] MultExp hashes n=35 HELD OUT
+[crop_aug] kept={'labtrain': 1841, 'expdrawn': 199} dropped_near_multexp={'labtrain': 13, 'expdrawn': 0}
+[crop_aug] staged 2040 pairs under /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/cache/crop_aug_stage/images
+[crop_aug] TRAIN /home/chocheng9/kaggle_UMUD/.venv/bin/python /home/chocheng9/kaggle_UMUD/scripts/chase018/train_fasc_frundles_recipe.py --img-dir /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/cache/crop_aug_stage/images --mask-dir /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/cache/crop_aug_stage/masks --out-dir /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts --init /home/chocheng9/kaggle_UMUD/data/external/frundles_weights/fasc_resnet34_384x576_f0.pt --tag fasc_resnet34_384x576_crop_scale_aug --epochs 25 --bs 6 --lr 0.0001 --device cuda:2 --seed 7 --crop-min 0.6 --rot-deg 8.0 --rot-prob 0.5
+pairs=2040
+loading images into RAM …
+groups=2009 train=1629 val=411
+prep val tensors …
+continue from /home/chocheng9/kaggle_UMUD/data/external/frundles_weights/fasc_resnet34_384x576_f0.pt
+{"epoch": 0, "train_loss": 0.776040574281418, "val_hard_dice": 0.3953208003709786, "best": 0.3953208003709786} (36s)
+saved /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_crop_scale_aug_best.pt val_hard_dice 0.3953208003709786
+{"epoch": 1, "train_loss": 0.7433608246905338, "val_hard_dice": 0.3982472805138632, "best": 0.3982472805138632} (34s)
+saved /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_crop_scale_aug_best.pt val_hard_dice 0.3982472805138632
+{"epoch": 2, "train_loss": 0.7222215951148874, "val_hard_dice": 0.40899286415527625, "best": 0.40899286415527625} (36s)
+saved /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_crop_scale_aug_best.pt val_hard_dice 0.40899286415527625
+{"epoch": 3, "train_loss": 0.7159994438125639, "val_hard_dice": 0.42353735396461767, "best": 0.42353735396461767} (36s)
+saved /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_crop_scale_aug_best.pt val_hard_dice 0.42353735396461767
+{"epoch": 4, "train_loss": 0.6997359355437359, "val_hard_dice": 0.4296106331032268, "best": 0.4296106331032268} (35s)
+saved /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_crop_scale_aug_best.pt val_hard_dice 0.4296106331032268
+{"epoch": 5, "train_loss": 0.6882133798405693, "val_hard_dice": 0.4338022396512275, "best": 0.4338022396512275} (35s)
+saved /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_crop_scale_aug_best.pt val_hard_dice 0.4338022396512275
+{"epoch": 6, "train_loss": 0.6854238690485374, "val_hard_dice": 0.4390872140072848, "best": 0.4390872140072848} (34s)
+saved /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_crop_scale_aug_best.pt val_hard_dice 0.4390872140072848
+{"epoch": 7, "train_loss": 0.6838606085724497, "val_hard_dice": 0.4384358996421171, "best": 0.4390872140072848} (36s)
+{"epoch": 8, "train_loss": 0.6749854048239788, "val_hard_dice": 0.44291117878000813, "best": 0.44291117878000813} (36s)
+saved /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_crop_scale_aug_best.pt val_hard_dice 0.44291117878000813
+{"epoch": 9, "train_loss": 0.6659898617170834, "val_hard_dice": 0.44714506256899406, "best": 0.44714506256899406} (35s)
+saved /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_crop_scale_aug_best.pt val_hard_dice 0.44714506256899406
+{"epoch": 10, "train_loss": 0.6584253953391775, "val_hard_dice": 0.4567661158142299, "best": 0.4567661158142299} (35s)
+saved /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_crop_scale_aug_best.pt val_hard_dice 0.4567661158142299
+{"epoch": 11, "train_loss": 0.6516452119359231, "val_hard_dice": 0.4590048151149657, "best": 0.4590048151149657} (37s)
+saved /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_crop_scale_aug_best.pt val_hard_dice 0.4590048151149657
+{"epoch": 12, "train_loss": 0.6502950951402038, "val_hard_dice": 0.458576687749865, "best": 0.4590048151149657} (35s)
+{"epoch": 13, "train_loss": 0.6407293207750989, "val_hard_dice": 0.46379215105316646, "best": 0.46379215105316646} (34s)
+saved /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_crop_scale_aug_best.pt val_hard_dice 0.46379215105316646
+{"epoch": 14, "train_loss": 0.6362002564532291, "val_hard_dice": 0.45477547268145274, "best": 0.46379215105316646} (34s)
+{"epoch": 15, "train_loss": 0.6381398762724056, "val_hard_dice": 0.4689148189885193, "best": 0.4689148189885193} (35s)
+saved /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_crop_scale_aug_best.pt val_hard_dice 0.4689148189885193
+{"epoch": 16, "train_loss": 0.6273876296638122, "val_hard_dice": 0.4722788364710309, "best": 0.4722788364710309} (35s)
+saved /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_crop_scale_aug_best.pt val_hard_dice 0.4722788364710309
+{"epoch": 17, "train_loss": 0.6233940077223901, "val_hard_dice": 0.4780573646952636, "best": 0.4780573646952636} (35s)
+saved /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_crop_scale_aug_best.pt val_hard_dice 0.4780573646952636
+{"epoch": 18, "train_loss": 0.6220032246130419, "val_hard_dice": 0.48009387452672, "best": 0.48009387452672} (35s)
+saved /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_crop_scale_aug_best.pt val_hard_dice 0.48009387452672
+{"epoch": 19, "train_loss": 0.6159249808075683, "val_hard_dice": 0.48072131808366797, "best": 0.48072131808366797} (35s)
+saved /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_crop_scale_aug_best.pt val_hard_dice 0.48072131808366797
+{"epoch": 20, "train_loss": 0.6125009286447645, "val_hard_dice": 0.48088400758385946, "best": 0.48088400758385946} (35s)
+saved /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_crop_scale_aug_best.pt val_hard_dice 0.48088400758385946
+{"epoch": 21, "train_loss": 0.6129362076191005, "val_hard_dice": 0.48484038871570223, "best": 0.48484038871570223} (34s)
+saved /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_crop_scale_aug_best.pt val_hard_dice 0.48484038871570223
+{"epoch": 22, "train_loss": 0.6095330402859902, "val_hard_dice": 0.4833571272029784, "best": 0.48484038871570223} (34s)
+{"epoch": 23, "train_loss": 0.6111222313119037, "val_hard_dice": 0.4845799417246287, "best": 0.48484038871570223} (35s)
+{"epoch": 24, "train_loss": 0.6088791978975063, "val_hard_dice": 0.484269296818406, "best": 0.48484038871570223} (34s)
+done in 878s best=0.4848
+[crop_aug] INFER /home/chocheng9/kaggle_UMUD/.venv/bin/python /home/chocheng9/kaggle_UMUD/scripts/chase018/infer_multexp_maps.py --fasc-ckpt /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_crop_scale_aug_best.pt --cache-dir /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/cache/maps_multexp_crop_scale_aug --device cuda:2 --force
+[infer_multexp_maps] device=cuda:2 n=35 cache=/home/chocheng9/kaggle_UMUD/reports/phase3/chase018/cache/maps_multexp_crop_scale_aug
+[infer_multexp_maps] fasc override /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_crop_scale_aug_best.pt
+  wrote 1 im_01_arch.tif apo=(384, 576) fasc=(384, 576)
+  wrote 5 im_05_arch.tif apo=(384, 576) fasc=(384, 576)
+  wrote 10 im_10_arch.tif apo=(384, 576) fasc=(384, 576)
+  wrote 15 im_15_arch.tif apo=(384, 576) fasc=(384, 576)
+  wrote 20 im_20_arch.tif apo=(384, 576) fasc=(384, 576)
+  wrote 25 im_25_arch.tif apo=(384, 576) fasc=(384, 576)
+  wrote 30 im_30_arch.tif apo=(384, 576) fasc=(384, 576)
+  wrote 35 im_35_arch.tif apo=(384, 576) fasc=(384, 576)
+[infer_multexp_maps] DONE wrote=35 skipped_existing=0 cache_count=35
+[crop_aug] eval raw FT maps with frozen recipe
+  [raw_crop_aug] frozen S=0.15111 PA=1.027 FL=2.754 MT=0.158 n=35
+  [raw_crop_aug] sin_w=0.25 (full, diagnostic) S=0.15081
+  [raw_crop_aug] sin_w=0.28 (full, diagnostic) S=0.15021
+  [raw_crop_aug] sin_w=0.30 (full, diagnostic) S=0.15021
+  [raw_crop_aug] sin_w=0.35 (full, diagnostic) S=0.15111
+  [raw_crop_aug] sin_w=0.40 (full, diagnostic) S=0.15302
+  [raw_crop_aug] NESTED sin_w S=0.15196 PA=1.027 FL=2.784 MT=0.158 picks={0.28: 17, 0.3: 18}
+[crop_aug] eval Frundles baseline maps
+  [frundles_ref] frozen S=0.13294 PA=0.928 FL=2.297 MT=0.158 n=35
+[crop_aug] diagnostic blend alpha=0.15 n=35
+  [blend_a0.15] frozen S=0.13759 PA=1.003 FL=2.315 MT=0.158 n=35
+[crop_aug] diagnostic blend alpha=0.25 n=35
+  [blend_a0.25] frozen S=0.14526 PA=1.027 FL=2.543 MT=0.158 n=35
+[crop_aug] diagnostic blend alpha=0.40 n=35
+  [blend_a0.40] frozen S=0.14985 PA=1.036 FL=2.690 MT=0.158 n=35
+{
+  "champ": {
+    "S": 0.1511103524431287,
+    "mae_pa": 1.0265605266402322,
+    "mae_fl": 2.7537975509375525,
+    "mae_mt": 0.15826250681487788,
+    "n": 35,
+    "tag": "raw_crop_aug",
+    "recipe": "hough_tex0.4_thr035_apo60_ff0.9_sin0.35_agNone",
+    "fl_sin_w": 0.35,
+    "cache": "/home/chocheng9/kaggle_UMUD/reports/phase3/chase018/cache/maps_multexp_crop_scale_aug"
+  },
+  "promote": false,
+  "gate": false,
+  "hold": 0.13449,
+  "frundles_ref": {
+    "S": 0.13293555901039555,
+    "mae_pa": 0.9279384631482271,
+    "mae_fl": 2.2967497297340818,
+    "mae_mt": 0.15826250681487788,
+    "n": 35,
+    "tag": "frundles_ref",
+    "recipe": "hough_tex0.4_thr035_apo60_ff0.9_sin0.35_agNone",
+    "fl_sin_w": 0.35,
+    "cache": "/home/chocheng9/kaggle_UMUD/reports/phase3/chase018/cache/maps_multexp"
+  }
+}
+[crop_aug] DONE 2026-11-06 22:27:25 UTC+08:00 elapsed=961s wrote /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/multexp_crop_scale_aug.json

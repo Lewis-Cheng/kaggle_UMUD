@@ -1,0 +1,18 @@
+building pool preds...
+baseline: S=0.13294
+ridge_blend03: S=0.13683
+morph_connect: S=0.13734
+corridor_dilate: S=0.13641
+blend_base_morph: S=0.13631
+ridge_soft02: S=0.13294
+nested trainS...
+{'S_loocv_cal_pa_mt': 0.13293555901039555, 'MAE_loocv': {'pa_deg': 0.9279384631482271, 'fl_mm': 2.2967497297340818, 'mt_mm': 0.15826250681487788}, 'picked_counts': {'baseline': 35, 'ridge_blend03': 0, 'morph_connect': 0, 'corridor_dilate': 0, 'blend_base_morph': 0, 'ridge_soft02': 0}, 'beats_0.13294': False, 'gate_0.12': False}
+nested rule fast...
+{'S_loocv_cal_pa_mt': 0.13195144580335014, 'MAE_loocv': {'pa_deg': 0.9124039825246483, 'fl_mm': 2.292390615561086, 'mt_mm': 0.15826250681487788}, 'picked_counts': {'baseline': 16, 'ridge_blend03': 1, 'morph_connect': 0, 'corridor_dilate': 0, 'blend_base_morph': 18, 'ridge_soft02': 0}, 'beats_0.13294': True, 'gate_0.12': False, 'gap_to_0.12': 0.011951445803350141}
+nested knn...
+3 {'S_loocv_cal_pa_mt': 0.1457304551697223, 'MAE_loocv': {'pa_deg': 1.0166531131276926, 'fl_mm': 2.5799360294331177, 'mt_mm': 0.15826250681487788}, 'picked_counts': {'baseline': 16, 'ridge_blend03': 8, 'morph_connect': 1, 'corridor_dilate': 7, 'blend_base_morph': 3, 'ridge_soft02': 0}, 'beats_0.13294': False, 'gate_0.12': False, 'k': 3}
+5 {'S_loocv_cal_pa_mt': 0.13245957007623108, 'MAE_loocv': {'pa_deg': 0.9289580205596031, 'fl_mm': 2.2775749441640953, 'mt_mm': 0.15826250681487788}, 'picked_counts': {'baseline': 13, 'ridge_blend03': 7, 'morph_connect': 0, 'corridor_dilate': 6, 'blend_base_morph': 9, 'ridge_soft02': 0}, 'beats_0.13294': True, 'gate_0.12': False, 'k': 5}
+7 {'S_loocv_cal_pa_mt': 0.13230187739998794, 'MAE_loocv': {'pa_deg': 0.9026123100122435, 'fl_mm': 2.3245897291336255, 'mt_mm': 0.15826250681487788}, 'picked_counts': {'baseline': 15, 'ridge_blend03': 4, 'morph_connect': 0, 'corridor_dilate': 4, 'blend_base_morph': 12, 'ridge_soft02': 0}, 'beats_0.13294': True, 'gate_0.12': False, 'k': 7}
+oracle {'S_loocv_cal_pa_mt': 0.12162027047783627, 'MAE_loocv': {'pa_deg': 0.8145480546118625, 'fl_mm': 2.116180626961331, 'mt_mm': 0.15826250681487788}}
+BEST {'name': 'nested_feature_rule', 'S_loocv_cal_pa_mt': 0.13195144580335014, 'MAE_loocv': {'pa_deg': 0.9124039825246483, 'fl_mm': 2.292390615561086, 'mt_mm': 0.15826250681487788}, 'picked_counts': {'baseline': 16, 'ridge_blend03': 1, 'morph_connect': 0, 'corridor_dilate': 0, 'blend_base_morph': 18, 'ridge_soft02': 0}, 'beats_0.13294': True, 'gate_0.12': False, 'gap_to_0.12': 0.011951445803350141}
+wrote /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/multexp_fasc_adapt_scores.json /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/multexp_fasc_adapt_v2_scores.json

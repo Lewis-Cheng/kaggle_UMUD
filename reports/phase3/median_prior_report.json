@@ -1,0 +1,22 @@
+{
+  "baseline": "median_prior",
+  "medians": {
+    "fl_mm": 50.163316237970605,
+    "mt_mm": 13.004999999999999,
+    "pa_deg": 5.445698064952495
+  },
+  "mm_per_px": 0.07225,
+  "n_test": 309,
+  "n_train_proxy_values": {
+    "n_fl": 2190,
+    "n_mt": 843,
+    "n_pa": 2190
+  },
+  "notes": [
+    "Constant prior from train-split mask-proxy medians (or FALLBACK_PRIORS).",
+    "NOT a leaderboard claim. Scale may be unknown."
+  ],
+  "scale_provenance": "unknown",
+  "submission": "/home/chocheng9/kaggle_UMUD/reports/phase3/submission_median_prior.csv",
+  "tier": "A_proxy_not_tier_b"
+}

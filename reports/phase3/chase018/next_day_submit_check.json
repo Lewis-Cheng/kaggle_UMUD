@@ -1,0 +1,15 @@
+{
+  "asof": "2026-11-06T09:05:47+08:00",
+  "submitted": false,
+  "reason": "nothing_new",
+  "best_public": 0.29895,
+  "best_public_ref": 58005465,
+  "best_public_file": "submission_texture_rl.csv",
+  "rl_gate_pass": true,
+  "rl_loocv_S": 0.15743075847590762,
+  "ch_only_S": 0.17177858300835125,
+  "multexp_honest_best_S": 0.13449,
+  "multexp_gate_012": false,
+  "daily_submits_today_utc": 0,
+  "next_lever": "MultExp-domain fasc crop+scale (+tiny rot) aug FT; MultExp held out"
+}

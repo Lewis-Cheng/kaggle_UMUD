@@ -1,0 +1,59 @@
+{
+  "ckpt": "/home/chocheng9/kaggle_UMUD/reports/phase3/seg_ckpts/seg_fasc_v5_best.pt",
+  "arch": "MSTinyUNet",
+  "size": 512,
+  "variant": "fasc_v5_edt_cldice_ms",
+  "stored_val_dice": 0.2846309831975224,
+  "square_resize_native": {
+    "0.3": {
+      "n": 566,
+      "macro_dice": 0.2754492777914342,
+      "dice_p50": 0.26502185670889955,
+      "empty_pred_frac": 0.0,
+      "thr": 0.3,
+      "letterbox": false
+    },
+    "0.35": {
+      "n": 566,
+      "macro_dice": 0.2789833076511844,
+      "dice_p50": 0.26902081476738127,
+      "empty_pred_frac": 0.0,
+      "thr": 0.35,
+      "letterbox": false
+    },
+    "0.5": {
+      "n": 566,
+      "macro_dice": 0.2846309831975224,
+      "dice_p50": 0.2756301438741703,
+      "empty_pred_frac": 0.0,
+      "thr": 0.5,
+      "letterbox": false
+    }
+  },
+  "letterbox_native": {
+    "0.3": {
+      "n": 566,
+      "macro_dice": 0.20172853210549613,
+      "dice_p50": 0.18842754658639221,
+      "empty_pred_frac": 0.0,
+      "thr": 0.3,
+      "letterbox": true
+    },
+    "0.35": {
+      "n": 566,
+      "macro_dice": 0.20478239596972464,
+      "dice_p50": 0.19240506336164076,
+      "empty_pred_frac": 0.0,
+      "thr": 0.35,
+      "letterbox": true
+    },
+    "0.5": {
+      "n": 566,
+      "macro_dice": 0.2108129464565545,
+      "dice_p50": 0.20113285351356916,
+      "empty_pred_frac": 0.0,
+      "thr": 0.5,
+      "letterbox": true
+    }
+  }
+}

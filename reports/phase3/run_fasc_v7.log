@@ -1,0 +1,41 @@
+fasc_v7 train=2195 val=566 size=576 base=48 edt_r=3.5 pos_w=45.0 cldice_w=1.0 amp=True bs=12 device=cuda:1
+warm-start /home/chocheng9/kaggle_UMUD/reports/phase3/seg_ckpts/seg_fasc_v5_best.pt missing=0 unexpected=0 src_dice=0.2846309831975224
+epoch 1/35 loss=2.1628 native@0.35=0.2753 native@0.5=0.2800
+  saved best_native=0.2800
+epoch 2/35 loss=2.1546 native@0.35=0.2756 native@0.5=0.2733
+epoch 3/35 loss=2.1460 native@0.35=0.2656 native@0.5=0.2705
+epoch 4/35 loss=2.1448 native@0.35=0.2745 native@0.5=0.2814
+  saved best_native=0.2814
+epoch 5/35 loss=2.1394 native@0.35=0.2721 native@0.5=0.2787
+epoch 6/35 loss=2.1342 native@0.35=0.2744 native@0.5=0.2803
+epoch 7/35 loss=2.1282 native@0.35=0.2732 native@0.5=0.2783
+epoch 8/35 loss=2.1230 native@0.35=0.2769 native@0.5=0.2772
+epoch 9/35 loss=2.1163 native@0.35=0.2750 native@0.5=0.2758
+epoch 10/35 loss=2.1103 native@0.35=0.2785 native@0.5=0.2801
+epoch 11/35 loss=2.1085 native@0.35=0.2791 native@0.5=0.2828
+  saved best_native=0.2828
+epoch 12/35 loss=2.1019 native@0.35=0.2764 native@0.5=0.2793
+epoch 13/35 loss=2.0969 native@0.35=0.2810 native@0.5=0.2811
+epoch 14/35 loss=2.0915 native@0.35=0.2745 native@0.5=0.2750
+epoch 15/35 loss=2.0831 native@0.35=0.2804 native@0.5=0.2807
+epoch 16/35 loss=2.0761 native@0.35=0.2763 native@0.5=0.2765
+epoch 17/35 loss=2.0661 native@0.35=0.2765 native@0.5=0.2754
+epoch 18/35 loss=2.0652 native@0.35=0.2760 native@0.5=0.2751
+epoch 19/35 loss=2.0537 native@0.35=0.2755 native@0.5=0.2731
+epoch 20/35 loss=2.0467 native@0.35=0.2781 native@0.5=0.2773
+epoch 21/35 loss=2.0392 native@0.35=0.2789 native@0.5=0.2771
+epoch 22/35 loss=2.0351 native@0.35=0.2750 native@0.5=0.2714
+epoch 23/35 loss=2.0274 native@0.35=0.2756 native@0.5=0.2734
+epoch 24/35 loss=2.0199 native@0.35=0.2755 native@0.5=0.2720
+epoch 25/35 loss=2.0170 native@0.35=0.2730 native@0.5=0.2686
+epoch 26/35 loss=2.0135 native@0.35=0.2734 native@0.5=0.2674
+epoch 27/35 loss=2.0046 native@0.35=0.2755 native@0.5=0.2714
+epoch 28/35 loss=2.0013 native@0.35=0.2749 native@0.5=0.2694
+epoch 29/35 loss=1.9969 native@0.35=0.2731 native@0.5=0.2673
+epoch 30/35 loss=1.9898 native@0.35=0.2723 native@0.5=0.2658
+epoch 31/35 loss=1.9901 native@0.35=0.2729 native@0.5=0.2663
+epoch 32/35 loss=1.9884 native@0.35=0.2726 native@0.5=0.2662
+epoch 33/35 loss=1.9813 native@0.35=0.2719 native@0.5=0.2646
+epoch 34/35 loss=1.9846 native@0.35=0.2716 native@0.5=0.2641
+epoch 35/35 loss=1.9853 native@0.35=0.2724 native@0.5=0.2655
+best_native_macro_dice=0.2828 ckpt=/home/chocheng9/kaggle_UMUD/reports/phase3/seg_ckpts/seg_fasc_v7_best.pt

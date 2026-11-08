@@ -1,0 +1,31 @@
+{
+  "rule": {
+    "alpha": 0.15,
+    "fi": 0,
+    "fkey": "fasc_mass",
+    "lo_is_below": false,
+    "sin_w": 0.3,
+    "thr": 0.012220594618055556,
+    "train_proxy": 0.345427552881776,
+    "v_hi": "morph_connect",
+    "v_lo": "ridge_blend03"
+  },
+  "calibration": {
+    "pa_a": 0.9333170915023697,
+    "pa_b": 1.6568097499695502,
+    "mt_a": 1.006823838143492,
+    "mt_b": 0.03576074463682354
+  },
+  "sanity": {
+    "fullfit_loocv_S": 0.1292900912262647,
+    "fullfit_loocv_MAE": {
+      "pa_deg": 0.8966636536749444,
+      "fl_mm": 2.2280622129313774,
+      "mt_mm": 0.15826250681487788
+    },
+    "pick_counts": {
+      "morph_connect": 17,
+      "ridge_blend03": 18
+    }
+  }
+}

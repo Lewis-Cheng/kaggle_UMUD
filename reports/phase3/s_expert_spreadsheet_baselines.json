@@ -1,0 +1,44 @@
+{
+  "gt": "median R1-R7 MultExpData architecture v0.1.0",
+  "n_images": 35,
+  "scoring": "official umud.metric.score.score_components; lower S better; label S_expert_NOT_LB",
+  "spreadsheet_baselines": {
+    "SMA": {
+      "source": "SMA columns in Results xlsx",
+      "n_scored": 34,
+      "n_total": 35,
+      "MAE_PA": 2.4156274509803914,
+      "MAE_FL": 7.248031372580137,
+      "MAE_MT": 0.42350405938605384,
+      "S_expert_NOT_LB": 0.38259199978384817,
+      "S1": 0.38259173644680927,
+      "S2": 0.2627183894659485,
+      "S3": 0.61864941325076,
+      "note": "Official UMUD S (lower better); GT=median R1-R7; NOT Kaggle LB",
+      "tolerances": {
+        "pa_deg": 6.0,
+        "fl_mm": 12.0,
+        "mt_mm": 3.0
+      }
+    },
+    "DLTrack": {
+      "source": "DLTrack columns in Results xlsx",
+      "n_scored": 35,
+      "n_total": 35,
+      "MAE_PA": 1.5334851974190737,
+      "MAE_FL": 3.2943848355014813,
+      "MAE_MT": 1.0210589673771262,
+      "S_expert_NOT_LB": 0.29015550557474895,
+      "S1": 0.2901553083291148,
+      "S2": 0.19683074593172298,
+      "S3": 0.4148882482725884,
+      "note": "Official UMUD S (lower better); GT=median R1-R7; NOT Kaggle LB",
+      "tolerances": {
+        "pa_deg": 6.0,
+        "fl_mm": 12.0,
+        "mt_mm": 3.0
+      }
+    }
+  },
+  "v5_seg_gh_baseline": null
+}

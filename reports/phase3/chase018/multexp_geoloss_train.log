@@ -1,0 +1,105 @@
+[geoloss] start 2026-11-05 16:01:55 UTC+08:00
+[geoloss] device=cuda:2 epochs=12 lr=5e-05
+[geoloss] MultExp hashes n=35 (HELD OUT)
+[geoloss] labtrain discovered 1854
+[geoloss] comp discovered 2761
+[geoloss] SKIP expdrawn: missing /home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn_images or /home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn_masks
+[geoloss] unique stems=4615 before MultExp filter
+[geoloss] after MultExp dHash filter: keep=4591 drop=24 by_src={'labtrain': 1841, 'comp': 2750}
+[geoloss] train=4047 val=544 groups=3017
+[geoloss] init=frundles_state encoder=resnet34 size=(384, 576) path=/home/chocheng9/kaggle_UMUD/data/external/frundles_weights/fasc_resnet34_384x576_f0.pt
+epoch 1/12 loss=0.4377 bce=0.026 dice=0.745 cldice=0.747 orient=0.183 val_dice=0.2880
+saved /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_geoloss_labtrain_comp_best.pt best_dice 0.2880275251672548
+epoch 2/12 loss=0.4179 bce=0.020 dice=0.719 cldice=0.719 orient=0.155 val_dice=0.2980
+saved /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_geoloss_labtrain_comp_best.pt best_dice 0.29797804311794396
+epoch 3/12 loss=0.4108 bce=0.020 dice=0.708 cldice=0.707 orient=0.145 val_dice=0.3060
+saved /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_geoloss_labtrain_comp_best.pt best_dice 0.30597736489246874
+epoch 4/12 loss=0.4043 bce=0.020 dice=0.697 cldice=0.696 orient=0.140 val_dice=0.3106
+saved /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_geoloss_labtrain_comp_best.pt best_dice 0.31064025663277683
+epoch 5/12 loss=0.3986 bce=0.021 dice=0.686 cldice=0.686 orient=0.138 val_dice=0.3165
+saved /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_geoloss_labtrain_comp_best.pt best_dice 0.3164876703830326
+epoch 6/12 loss=0.3921 bce=0.021 dice=0.675 cldice=0.675 orient=0.135 val_dice=0.3224
+saved /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_geoloss_labtrain_comp_best.pt best_dice 0.3224138444399132
+epoch 7/12 loss=0.3865 bce=0.021 dice=0.665 cldice=0.665 orient=0.135 val_dice=0.3306
+saved /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_geoloss_labtrain_comp_best.pt best_dice 0.33062491982298736
+epoch 8/12 loss=0.3808 bce=0.020 dice=0.655 cldice=0.655 orient=0.133 val_dice=0.3319
+saved /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_geoloss_labtrain_comp_best.pt best_dice 0.3319232761859894
+epoch 9/12 loss=0.3754 bce=0.020 dice=0.646 cldice=0.646 orient=0.133 val_dice=0.3370
+saved /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_geoloss_labtrain_comp_best.pt best_dice 0.3370153765906306
+epoch 10/12 loss=0.3720 bce=0.020 dice=0.640 cldice=0.640 orient=0.132 val_dice=0.3400
+saved /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_geoloss_labtrain_comp_best.pt best_dice 0.34000375143745365
+epoch 11/12 loss=0.3694 bce=0.020 dice=0.635 cldice=0.635 orient=0.132 val_dice=0.3405
+saved /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_geoloss_labtrain_comp_best.pt best_dice 0.3404870320330648
+epoch 12/12 loss=0.3682 bce=0.020 dice=0.633 cldice=0.633 orient=0.132 val_dice=0.3407
+saved /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_geoloss_labtrain_comp_best.pt best_dice 0.34070195717846646
+[geoloss] dump MultExp maps -> /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/cache/maps_multexp_geoloss
+[geoloss] dumped 35
+[geoloss] eval raw geoloss fasc + Frundles apo
+  thr=0.25 S=0.15079 PA=1.055 FL=2.685 MT=0.158
+  thr=0.30 S=0.14864 PA=1.002 FL=2.715 MT=0.158
+  thr=0.35 S=0.15165 PA=1.043 FL=2.740 MT=0.158
+  thr=0.40 S=0.14448 PA=0.893 FL=2.782 MT=0.158
+  thr=0.45 S=0.14993 PA=1.030 FL=2.705 MT=0.158
+[geoloss] blend alpha=0.25 n=35 dir=/home/chocheng9/kaggle_UMUD/reports/phase3/chase018/cache/maps_multexp_geoloss_blend25
+  thr=0.25 S=0.14432 PA=1.047 FL=2.469 MT=0.158
+  thr=0.30 S=0.14574 PA=1.097 FL=2.419 MT=0.158
+  thr=0.35 S=0.14139 PA=0.993 FL=2.471 MT=0.158
+  thr=0.40 S=0.14350 PA=1.060 FL=2.414 MT=0.158
+  thr=0.45 S=0.14439 PA=1.018 FL=2.530 MT=0.158
+[geoloss] blend alpha=0.40 n=35 dir=/home/chocheng9/kaggle_UMUD/reports/phase3/chase018/cache/maps_multexp_geoloss_blend40
+  thr=0.25 S=0.13777 PA=1.011 FL=2.304 MT=0.158
+  thr=0.30 S=0.14782 PA=1.058 FL=2.572 MT=0.158
+  thr=0.35 S=0.14838 PA=1.076 FL=2.556 MT=0.158
+  thr=0.40 S=0.15131 PA=1.090 FL=2.634 MT=0.158
+  thr=0.45 S=0.15011 PA=1.122 FL=2.527 MT=0.158
+[geoloss] blend alpha=0.55 n=35 dir=/home/chocheng9/kaggle_UMUD/reports/phase3/chase018/cache/maps_multexp_geoloss_blend55
+  thr=0.25 S=0.14716 PA=1.088 FL=2.489 MT=0.158
+  thr=0.30 S=0.15300 PA=1.079 FL=2.717 MT=0.158
+  thr=0.35 S=0.14882 PA=1.103 FL=2.518 MT=0.158
+  thr=0.40 S=0.14734 PA=1.069 FL=2.533 MT=0.158
+  thr=0.45 S=0.14250 PA=1.027 FL=2.444 MT=0.158
+[geoloss] blend alpha=0.70 n=35 dir=/home/chocheng9/kaggle_UMUD/reports/phase3/chase018/cache/maps_multexp_geoloss_blend70
+  thr=0.25 S=0.14693 PA=1.051 FL=2.554 MT=0.158
+  thr=0.30 S=0.14097 PA=0.980 FL=2.482 MT=0.158
+  thr=0.35 S=0.15038 PA=1.037 FL=2.706 MT=0.158
+  thr=0.40 S=0.14572 PA=0.967 FL=2.679 MT=0.158
+  thr=0.45 S=0.14959 PA=1.031 FL=2.691 MT=0.158
+[geoloss] ref Frundles fasc eval
+  thr=0.25 S=0.14476 PA=1.033 FL=2.512 MT=0.158
+  thr=0.30 S=0.13995 PA=0.994 FL=2.418 MT=0.158
+  thr=0.35 S=0.13294 PA=0.928 FL=2.297 MT=0.158
+  thr=0.40 S=0.13992 PA=0.996 FL=2.412 MT=0.158
+  thr=0.45 S=0.13785 PA=0.956 FL=2.418 MT=0.158
+{
+  "champ": {
+    "tag": "blend_a0.40",
+    "S": 0.1377727313565292,
+    "detail": {
+      "thr": 0.25,
+      "S": 0.1377727313565292,
+      "mae_pa": 1.011486364010756,
+      "mae_fl": 2.3037915266000466,
+      "mae_mt": 0.15826250681487788,
+      "n": 35,
+      "kw": {
+        "name": "hough_tex0.4_thr035_apo60_ff0.9_sin0.35_agNone",
+        "apo_thr": 0.6,
+        "fasc_thr": 0.25,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.4,
+        "fl_sin_w": 0.35,
+        "fl_factor": 0.9,
+        "agree_thr": null,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      }
+    },
+    "cache": "/home/chocheng9/kaggle_UMUD/reports/phase3/chase018/cache/maps_multexp_geoloss_blend40"
+  },
+  "promote": false,
+  "gate": false,
+  "hold": 0.13195144580335014
+}
+[geoloss] DONE 2026-11-05 16:12:29 UTC+08:00 elapsed=634s wrote /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/multexp_geoloss_labtrain_comp.json

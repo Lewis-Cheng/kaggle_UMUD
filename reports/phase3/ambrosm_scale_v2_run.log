@@ -1,0 +1,23 @@
+pool=test n=309 dir=/home/chocheng9/kaggle_UMUD/data/raw/umud/test_images_v2/test_set_v2
+  test: 200/309
+pool=fasc n=2761 dir=/home/chocheng9/kaggle_UMUD/data/raw/umud/fasc_imgs_v1/fasc_images_new_model_v1
+  fasc: 200/2761
+  fasc: 400/2761
+  fasc: 600/2761
+  fasc: 800/2761
+  fasc: 1000/2761
+  fasc: 1200/2761
+  fasc: 1400/2761
+  fasc: 1600/2761
+  fasc: 1800/2761
+  fasc: 2000/2761
+  fasc: 2200/2761
+  fasc: 2400/2761
+  fasc: 2600/2761
+pool=apo n=1048 dir=/home/chocheng9/kaggle_UMUD/data/raw/umud/apo_imgs_v1/apo_images_new_model_v1
+  apo: 200/1048
+  apo: 400/1048
+  apo: 600/1048
+  apo: 800/1048
+  apo: 1000/1048
+Wrote /home/chocheng9/kaggle_UMUD/reports/phase3/ambrosm_scale_v2_report.json and /home/chocheng9/kaggle_UMUD/reports/phase3/ambrosm_scale_v2_rows.csv prov={'measured': 2318, 'family_prior': 427, 'unknown': 1373} with_px=2745/4118

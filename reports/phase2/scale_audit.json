@@ -1,0 +1,335 @@
+{
+  "anisotropic_discovered_probe": null,
+  "audit": "phase2_scale_audit",
+  "calibration_provenance": "known",
+  "data_root": "/home/chocheng9/kaggle_UMUD/data/raw/umud",
+  "delta_vs_rival_0_07225": {
+    "0.05_minus_0.07225": {
+      "delta_proxy_fl_mm": {
+        "mean": -21.61589037094702,
+        "n": 198,
+        "p10": -30.983620856293786,
+        "p50": -27.398687859221234,
+        "p90": -11.753908823434305,
+        "std": 8.740423991836893
+      },
+      "delta_proxy_mt_mm": {
+        "mean": -5.673082499999998,
+        "n": 200,
+        "p10": -9.420649999999995,
+        "p50": -5.684874999999998,
+        "p90": -1.9691250000000078,
+        "std": 3.1043796990210044
+      },
+      "note": "signed proxy delta vs rival isotropic 0.07225; NOT leaderboard"
+    },
+    "0.1_minus_0.07225": {
+      "delta_proxy_fl_mm": {
+        "mean": 26.959144170506978,
+        "n": 198,
+        "p10": 14.659369431474254,
+        "p50": 34.171397217680436,
+        "p90": 38.64249342751251,
+        "std": 10.900978237010065
+      },
+      "delta_proxy_mt_mm": {
+        "mean": 7.075417500000003,
+        "n": 200,
+        "p10": 2.4558750000000042,
+        "p50": 7.090125000000002,
+        "p90": 11.749350000000007,
+        "std": 3.871754456082379
+      },
+      "note": "signed proxy delta vs rival isotropic 0.07225; NOT leaderboard"
+    },
+    "25.4_minus_0.07225": {
+      "delta_proxy_fl_mm": {
+        "mean": 24605.92662214623,
+        "n": 198,
+        "p10": 13379.778166415204,
+        "p50": 31188.63444612992,
+        "p90": 35269.456321033496,
+        "std": 9949.45050603357
+      },
+      "delta_proxy_mt_mm": {
+        "mean": 6457.816417499999,
+        "n": 200,
+        "p10": 2241.5058750000035,
+        "p50": 6471.240125,
+        "p90": 10723.769349999997,
+        "std": 3533.7956369383946
+      },
+      "note": "signed proxy delta vs rival isotropic 0.07225; NOT leaderboard"
+    }
+  },
+  "discovered_image_spacings_sample": [
+    {
+      "note": "dpi\u2192mm/px conversion; ultrasound may not use print dpi",
+      "path": "/home/chocheng9/kaggle_UMUD/data/raw/umud/fasc_imgs_v1/fasc_images_new_model_v1/image_0000.tif",
+      "source": "image_dpi",
+      "sx": 25.4,
+      "sy": 25.4
+    },
+    {
+      "note": "dpi\u2192mm/px conversion; ultrasound may not use print dpi",
+      "path": "/home/chocheng9/kaggle_UMUD/data/raw/umud/fasc_imgs_v1/fasc_images_new_model_v1/image_0001.tif",
+      "source": "image_dpi",
+      "sx": 25.4,
+      "sy": 25.4
+    },
+    {
+      "note": "dpi\u2192mm/px conversion; ultrasound may not use print dpi",
+      "path": "/home/chocheng9/kaggle_UMUD/data/raw/umud/fasc_imgs_v1/fasc_images_new_model_v1/image_0002.tif",
+      "source": "image_dpi",
+      "sx": 25.4,
+      "sy": 25.4
+    },
+    {
+      "note": "dpi\u2192mm/px conversion; ultrasound may not use print dpi",
+      "path": "/home/chocheng9/kaggle_UMUD/data/raw/umud/fasc_imgs_v1/fasc_images_new_model_v1/image_0003.tif",
+      "source": "image_dpi",
+      "sx": 25.4,
+      "sy": 25.4
+    },
+    {
+      "note": "dpi\u2192mm/px conversion; ultrasound may not use print dpi",
+      "path": "/home/chocheng9/kaggle_UMUD/data/raw/umud/fasc_imgs_v1/fasc_images_new_model_v1/image_0004.tif",
+      "source": "image_dpi",
+      "sx": 25.4,
+      "sy": 25.4
+    },
+    {
+      "note": "dpi\u2192mm/px conversion; ultrasound may not use print dpi",
+      "path": "/home/chocheng9/kaggle_UMUD/data/raw/umud/fasc_imgs_v1/fasc_images_new_model_v1/image_0005.tif",
+      "source": "image_dpi",
+      "sx": 25.4,
+      "sy": 25.4
+    },
+    {
+      "note": "dpi\u2192mm/px conversion; ultrasound may not use print dpi",
+      "path": "/home/chocheng9/kaggle_UMUD/data/raw/umud/fasc_imgs_v1/fasc_images_new_model_v1/image_0006.tif",
+      "source": "image_dpi",
+      "sx": 25.4,
+      "sy": 25.4
+    },
+    {
+      "note": "dpi\u2192mm/px conversion; ultrasound may not use print dpi",
+      "path": "/home/chocheng9/kaggle_UMUD/data/raw/umud/fasc_imgs_v1/fasc_images_new_model_v1/image_0007.tif",
+      "source": "image_dpi",
+      "sx": 25.4,
+      "sy": 25.4
+    },
+    {
+      "note": "dpi\u2192mm/px conversion; ultrasound may not use print dpi",
+      "path": "/home/chocheng9/kaggle_UMUD/data/raw/umud/fasc_imgs_v1/fasc_images_new_model_v1/image_0008.tif",
+      "source": "image_dpi",
+      "sx": 25.4,
+      "sy": 25.4
+    },
+    {
+      "note": "dpi\u2192mm/px conversion; ultrasound may not use print dpi",
+      "path": "/home/chocheng9/kaggle_UMUD/data/raw/umud/fasc_imgs_v1/fasc_images_new_model_v1/image_0009.tif",
+      "source": "image_dpi",
+      "sx": 25.4,
+      "sy": 25.4
+    },
+    {
+      "note": "dpi\u2192mm/px conversion; ultrasound may not use print dpi",
+      "path": "/home/chocheng9/kaggle_UMUD/data/raw/umud/apo_imgs_v1/apo_images_new_model_v1/image_0000.tif",
+      "source": "image_dpi",
+      "sx": 25.4,
+      "sy": 25.4
+    },
+    {
+      "note": "dpi\u2192mm/px conversion; ultrasound may not use print dpi",
+      "path": "/home/chocheng9/kaggle_UMUD/data/raw/umud/apo_imgs_v1/apo_images_new_model_v1/image_0001.tif",
+      "source": "image_dpi",
+      "sx": 25.4,
+      "sy": 25.4
+    },
+    {
+      "note": "dpi\u2192mm/px conversion; ultrasound may not use print dpi",
+      "path": "/home/chocheng9/kaggle_UMUD/data/raw/umud/apo_imgs_v1/apo_images_new_model_v1/image_0002.tif",
+      "source": "image_dpi",
+      "sx": 25.4,
+      "sy": 25.4
+    },
+    {
+      "note": "dpi\u2192mm/px conversion; ultrasound may not use print dpi",
+      "path": "/home/chocheng9/kaggle_UMUD/data/raw/umud/apo_imgs_v1/apo_images_new_model_v1/image_0003.tif",
+      "source": "image_dpi",
+      "sx": 25.4,
+      "sy": 25.4
+    },
+    {
+      "note": "dpi\u2192mm/px conversion; ultrasound may not use print dpi",
+      "path": "/home/chocheng9/kaggle_UMUD/data/raw/umud/apo_imgs_v1/apo_images_new_model_v1/image_0004.tif",
+      "source": "image_dpi",
+      "sx": 25.4,
+      "sy": 25.4
+    },
+    {
+      "note": "dpi\u2192mm/px conversion; ultrasound may not use print dpi",
+      "path": "/home/chocheng9/kaggle_UMUD/data/raw/umud/apo_imgs_v1/apo_images_new_model_v1/image_0005.tif",
+      "source": "image_dpi",
+      "sx": 25.4,
+      "sy": 25.4
+    },
+    {
+      "note": "dpi\u2192mm/px conversion; ultrasound may not use print dpi",
+      "path": "/home/chocheng9/kaggle_UMUD/data/raw/umud/apo_imgs_v1/apo_images_new_model_v1/image_0006.tif",
+      "source": "image_dpi",
+      "sx": 25.4,
+      "sy": 25.4
+    },
+    {
+      "note": "dpi\u2192mm/px conversion; ultrasound may not use print dpi",
+      "path": "/home/chocheng9/kaggle_UMUD/data/raw/umud/apo_imgs_v1/apo_images_new_model_v1/image_0007.tif",
+      "source": "image_dpi",
+      "sx": 25.4,
+      "sy": 25.4
+    },
+    {
+      "note": "dpi\u2192mm/px conversion; ultrasound may not use print dpi",
+      "path": "/home/chocheng9/kaggle_UMUD/data/raw/umud/apo_imgs_v1/apo_images_new_model_v1/image_0008.tif",
+      "source": "image_dpi",
+      "sx": 25.4,
+      "sy": 25.4
+    },
+    {
+      "note": "dpi\u2192mm/px conversion; ultrasound may not use print dpi",
+      "path": "/home/chocheng9/kaggle_UMUD/data/raw/umud/apo_imgs_v1/apo_images_new_model_v1/image_0009.tif",
+      "source": "image_dpi",
+      "sx": 25.4,
+      "sy": 25.4
+    }
+  ],
+  "discovered_text_spacings_sample": [],
+  "isotropic_scales_tried": [
+    0.05,
+    0.07225,
+    0.1,
+    25.4
+  ],
+  "label": "PROXY_SENSITIVITY_NOT_TIER_B",
+  "n_apo_proxy_failed": 0,
+  "n_apo_proxy_used": 200,
+  "n_fasc_proxy_failed": 2,
+  "n_fasc_proxy_used": 198,
+  "n_paired_stems_available": 1048,
+  "n_sample_requested": 200,
+  "notes": [
+    "FL/MT here are mask-derived proxies (PCA length / peak-gap), not expert scalars.",
+    "Do not promote models on this proxy; Tier B needs independent PA/FL/MT + pinned scorer.",
+    "calibration_provenance=known only when metadata/dpi/text yields a usable spacing."
+  ],
+  "pair_mode": "identical_stem",
+  "per_scale_mm": {
+    "0.05": {
+      "label": "PROXY_NOT_TIER_B",
+      "mm_per_px_isotropic": 0.05,
+      "proxy_fl_mm": {
+        "mean": 48.575034541454,
+        "n": 198,
+        "p10": 26.41327825490856,
+        "p50": 61.57008507690167,
+        "p90": 69.6261142838063,
+        "std": 19.641402228846957
+      },
+      "proxy_mt_mm": {
+        "mean": 12.7485,
+        "n": 200,
+        "p10": 4.425000000000007,
+        "p50": 12.775,
+        "p90": 21.17,
+        "std": 6.9761341551033835
+      }
+    },
+    "0.07225": {
+      "label": "PROXY_NOT_TIER_B",
+      "mm_per_px_isotropic": 0.07225,
+      "proxy_fl_mm": {
+        "mean": 70.19092491240103,
+        "n": 198,
+        "p10": 38.16718707834286,
+        "p50": 88.9687729361229,
+        "p90": 100.60973514010009,
+        "std": 28.381826220683855
+      },
+      "proxy_mt_mm": {
+        "mean": 18.421582499999996,
+        "n": 200,
+        "p10": 6.39412500000001,
+        "p50": 18.459874999999997,
+        "p90": 30.590649999999997,
+        "std": 10.080513854124389
+      }
+    },
+    "0.1": {
+      "label": "PROXY_NOT_TIER_B",
+      "mm_per_px_isotropic": 0.1,
+      "proxy_fl_mm": {
+        "mean": 97.150069082908,
+        "n": 198,
+        "p10": 52.82655650981712,
+        "p50": 123.14017015380334,
+        "p90": 139.2522285676126,
+        "std": 39.28280445769391
+      },
+      "proxy_mt_mm": {
+        "mean": 25.497,
+        "n": 200,
+        "p10": 8.850000000000014,
+        "p50": 25.55,
+        "p90": 42.34,
+        "std": 13.952268310206767
+      }
+    },
+    "25.4": {
+      "label": "PROXY_NOT_TIER_B",
+      "mm_per_px_isotropic": 25.4,
+      "proxy_fl_mm": {
+        "mean": 24676.117547058628,
+        "n": 198,
+        "p10": 13417.945353493547,
+        "p50": 31277.60321906604,
+        "p90": 35370.06605617359,
+        "std": 9977.832332254255
+      },
+      "proxy_mt_mm": {
+        "mean": 6476.238,
+        "n": 200,
+        "p10": 2247.9000000000037,
+        "p50": 6489.7,
+        "p90": 10754.359999999999,
+        "std": 3543.8761507925187
+      }
+    }
+  },
+  "proxy_fl_length_px": {
+    "mean": 971.50069082908,
+    "n": 198,
+    "p10": 528.2655650981712,
+    "p50": 1231.4017015380332,
+    "p90": 1392.5222856761259,
+    "std": 392.82804457693913
+  },
+  "proxy_mt_gap_px": {
+    "mean": 254.97,
+    "n": 200,
+    "p10": 88.50000000000014,
+    "p50": 255.5,
+    "p90": 423.4,
+    "std": 139.52268310206765
+  },
+  "proxy_pa_deg": {
+    "mean": 6.908298230516981,
+    "n": 198,
+    "p10": 2.03977003606544,
+    "p50": 7.0285180831500895,
+    "p90": 10.984148555494297,
+    "std": 3.4543910677031335
+  },
+  "recommended_scale": 25.4,
+  "timestamp_utc": "2026-11-04T02:26:29+00:00"
+}

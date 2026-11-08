@@ -1,0 +1,108 @@
+== diag fasc ==
+{
+  "train": {
+    "tag": "train",
+    "n_sampled": 120,
+    "fg_frac_mean": 0.0024939686804773048,
+    "fg_frac_p50": 0.002584980208604201,
+    "fg_frac_p10": 0.0013989410880933806,
+    "size_h_p50": 556.0,
+    "size_w_p50": 996.0,
+    "thickness_px_p50": 2.0,
+    "fov_rows_in_scale_csv": 120,
+    "implied_pos_weight": 399.9673448700311
+  },
+  "val": {
+    "tag": "val",
+    "n_sampled": 120,
+    "fg_frac_mean": 0.0020026582759651813,
+    "fg_frac_p50": 0.002008935020658172,
+    "fg_frac_p10": 0.000994462760675973,
+    "size_h_p50": 556.0,
+    "size_w_p50": 996.0,
+    "thickness_px_p50": 2.0,
+    "fov_rows_in_scale_csv": 77,
+    "implied_pos_weight": 498.3363131401187
+  },
+  "current_pred_vs_gt": {
+    "n": 120,
+    "dice_mean": 0.22372841821035253,
+    "dice_p50": 0.22539300375102456,
+    "empty_pred_frac": 0.0
+  },
+  "hypotheses": [
+    "fg_frac << 1% \u2192 extreme imbalance; need pos_weight ~1/fg or dilated soft targets",
+    "thickness few px \u2192 bilinear resize to 256/384 destroys lines; prefer FOV crop + higher res or nearest+dilate",
+    "HUD chrome outside FOV confuses model; AmbrosM fov_* crop should help",
+    "Dice-only on thin lines under-penalizes misses; use weighted BCE + soft-clDice or dilate-target Dice"
+  ]
+}
+== re-hunt expert GT ==
+{"expert_gt_found": false, "candidates": 3}
+== broader GT search ==
+{
+  "broader_hits": [
+    "/home/chocheng9/kaggle_UMUD/data/raw/umud/sample_submission.csv",
+    "/home/chocheng9/kaggle_UMUD/reports/phase3/submission_extratrees_mask_proxy.csv",
+    "/home/chocheng9/kaggle_UMUD/reports/phase3/submission_tier_b_geometry_v2.csv",
+    "/home/chocheng9/kaggle_UMUD/reports/phase3/submission_tier_b_geometry.csv",
+    "/home/chocheng9/kaggle_UMUD/reports/phase3/submission_tier_b_seg_gh.csv",
+    "/home/chocheng9/kaggle_UMUD/reports/phase3/tier_b_geometry_v2_rows.csv",
+    "/home/chocheng9/kaggle_UMUD/reports/phase3/tier_b_seg_gh_rows.csv",
+    "/home/chocheng9/kaggle_UMUD/reports/phase3/submission_geometry_head_proxy.csv",
+    "/home/chocheng9/kaggle_UMUD/reports/phase3/tier_b_geometry_rows.csv",
+    "/home/chocheng9/kaggle_UMUD/reports/phase3/submission_median_prior.csv",
+    "/home/chocheng9/kaggle_UMUD/reports/phase3_tier_b_smoke/submission_tier_b_geometry.csv",
+    "/home/chocheng9/kaggle_UMUD/reports/phase3_tier_b_smoke/tier_b_geometry_rows.csv"
+  ],
+  "n": 12
+}
+== train fasc v3 ==
+fasc_v3 train=2195 val=566 fov_stems=1774 pos_weight=80.0 size=512 device=cuda:1
+Traceback (most recent call last):
+  File "/home/chocheng9/kaggle_UMUD/scripts/baselines/train_seg_fasc_v3.py", line 320, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/home/chocheng9/kaggle_UMUD/scripts/baselines/train_seg_fasc_v3.py", line 258, in main
+    logits = model(x)
+             ^^^^^^^^
+  File "/home/chocheng9/images_reduced/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chocheng9/images_reduced/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chocheng9/kaggle_UMUD/src/umud/seg/unet_v2.py", line 85, in forward
+    d4 = self.dec4(torch.cat([self._match(self.up4(d5), e4), e4], dim=1))
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chocheng9/images_reduced/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chocheng9/images_reduced/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chocheng9/kaggle_UMUD/src/umud/seg/unet_v2.py", line 23, in forward
+    return self.net(x)
+           ^^^^^^^^^^^
+  File "/home/chocheng9/images_reduced/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chocheng9/images_reduced/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chocheng9/images_reduced/.venv/lib/python3.12/site-packages/torch/nn/modules/container.py", line 253, in forward
+    input = module(input)
+            ^^^^^^^^^^^^^
+  File "/home/chocheng9/images_reduced/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chocheng9/images_reduced/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chocheng9/images_reduced/.venv/lib/python3.12/site-packages/torch/nn/modules/conv.py", line 553, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chocheng9/images_reduced/.venv/lib/python3.12/site-packages/torch/nn/modules/conv.py", line 548, in _conv_forward
+    return F.conv2d(
+           ^^^^^^^^^
+RuntimeError: Given groups=1, weight of size [192, 384, 3, 3], expected input[8, 576, 64, 64] to have 384 channels, but got 576 channels instead

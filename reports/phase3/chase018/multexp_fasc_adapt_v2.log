@@ -1,0 +1,18 @@
+running variants...
+baseline: S=0.13294 pa=0.928 fl=2.297 mt=0.158 beats=False
+belly_gate: S=0.14176 pa=1.014 fl=2.442 mt=0.158 beats=False
+ridge_blend03: S=0.13683 pa=0.977 fl=2.339 mt=0.158 beats=False
+morph_connect: S=0.13734 pa=0.964 fl=2.382 mt=0.158 beats=False
+corridor_dilate: S=0.13641 pa=0.964 fl=2.350 mt=0.158 beats=False
+ridge_soft02: S=0.13294 pa=0.928 fl=2.297 mt=0.158 beats=False
+ridge_soft015: S=0.13294 pa=0.928 fl=2.297 mt=0.158 beats=False
+close3_belly: S=0.14176 pa=1.014 fl=2.442 mt=0.158 beats=False
+blend_base_ridge03: S=0.14343 pa=1.062 fl=2.407 mt=0.158 beats=False
+blend_base_morph: S=0.13631 pa=0.942 fl=2.390 mt=0.158 beats=False
+nested trainS pick...
+trainS {'S_loocv_cal_pa_mt': 0.13293555901039555, 'MAE_loocv': {'pa_deg': 0.9279384631482271, 'fl_mm': 2.2967497297340818, 'mt_mm': 0.15826250681487788}, 'picked_counts': {'baseline': 35, 'belly_gate': 0, 'ridge_blend03': 0, 'morph_connect': 0, 'corridor_dilate': 0, 'ridge_soft02': 0, 'ridge_soft015': 0, 'close3_belly': 0, 'blend_base_ridge03': 0, 'blend_base_morph': 0}, 'gate_0.12': False, 'beats_0.13294': False}
+nested feature rule (may take a bit)...
+rule {'S_loocv_cal_pa_mt': 0.13405685262459222, 'MAE_loocv': {'pa_deg': 0.9334084818588806, 'fl_mm': 2.3261763801731354, 'mt_mm': 0.15826250681487788}, 'picked_counts': {'blend_base_morph': 17, 'baseline': 11, 'ridge_blend03': 7}, 'gate_0.12': False, 'beats_0.13294': False, 'gap_to_0.12': 0.01405685262459222, 'n_rules_searched': 720}
+oracle {'S_loocv_cal_pa_mt': 0.12070577363659861, 'MAE_loocv': {'pa_deg': 0.8077277809142007, 'fl_mm': 2.09689935150741, 'mt_mm': 0.15826250681487788}}
+wrote /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/multexp_fasc_adapt_v2_scores.json
+BEST_HONEST baseline S=0.13294 promote=False gate=False

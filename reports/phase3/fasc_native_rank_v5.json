@@ -1,0 +1,141 @@
+{
+  "baseline_v4b": 0.2676,
+  "ranked": [
+    {
+      "eval_path": "reports/phase3/eval_seg_fasc_v5_best_native.json",
+      "ckpt": "/home/chocheng9/kaggle_UMUD/reports/phase3/seg_ckpts/seg_fasc_v5_best.pt",
+      "variant": "fasc_v5_edt_cldice_ms",
+      "best_native_macro_dice": 0.2846309831975224,
+      "best_detail": {
+        "mode": "square_resize_native",
+        "thr": 0.5,
+        "n": 566,
+        "macro_dice": 0.2846309831975224,
+        "dice_p50": 0.2756301438741703,
+        "empty_pred_frac": 0.0,
+        "letterbox": false
+      },
+      "size": 512,
+      "arch": "MSTinyUNet"
+    },
+    {
+      "eval_path": "reports/phase3/eval_seg_fasc_v5b_best_native.json",
+      "ckpt": "/home/chocheng9/kaggle_UMUD/reports/phase3/seg_ckpts/seg_fasc_v5b_best.pt",
+      "variant": "fasc_v5b_timm_edt_cldice",
+      "best_native_macro_dice": 0.27381777556643655,
+      "best_detail": {
+        "mode": "square_resize_native",
+        "thr": 0.5,
+        "n": 566,
+        "macro_dice": 0.27381777556643655,
+        "dice_p50": 0.2652366816957242,
+        "empty_pred_frac": 0.0,
+        "letterbox": false
+      },
+      "size": 384,
+      "arch": "TimmUNet"
+    },
+    {
+      "eval_path": "reports/phase3/eval_seg_fasc_v4b_best_native.json",
+      "ckpt": "/home/chocheng9/kaggle_UMUD/reports/phase3/seg_ckpts/seg_fasc_v4b_best.pt",
+      "variant": "fasc_v4b_align_square",
+      "best_native_macro_dice": 0.2675978698738973,
+      "best_detail": {
+        "mode": "square_resize_native",
+        "thr": 0.5,
+        "n": 566,
+        "macro_dice": 0.2675978698738973,
+        "dice_p50": 0.25828780317779804,
+        "empty_pred_frac": 0.0,
+        "letterbox": false
+      },
+      "size": 384,
+      "arch": "TinyUNet"
+    },
+    {
+      "eval_path": "reports/phase3/eval_seg_fasc_v2_recover_best_native.json",
+      "ckpt": "/home/chocheng9/kaggle_UMUD/reports/phase3/seg_ckpts/seg_fasc_v2_recover_best.pt",
+      "variant": "fasc_v2_recover",
+      "best_native_macro_dice": 0.24994737104633308,
+      "best_detail": {
+        "mode": "square_resize_native",
+        "thr": 0.5,
+        "n": 566,
+        "macro_dice": 0.24994737104633308,
+        "dice_p50": 0.24307362626334963,
+        "empty_pred_frac": 0.0,
+        "letterbox": false
+      },
+      "size": 384,
+      "arch": "TinyUNet"
+    },
+    {
+      "eval_path": "reports/phase3/eval_seg_fasc_v4_best_native.json",
+      "ckpt": "/home/chocheng9/kaggle_UMUD/reports/phase3/seg_ckpts/seg_fasc_v4_best.pt",
+      "variant": "fasc_v4_letterbox_dilate",
+      "best_native_macro_dice": 0.17243936336586327,
+      "best_detail": {
+        "mode": "square_resize_native",
+        "thr": 0.5,
+        "n": 566,
+        "macro_dice": 0.17243936336586327,
+        "dice_p50": 0.17635316265463108,
+        "empty_pred_frac": 0.0,
+        "letterbox": false
+      },
+      "size": 512,
+      "arch": "TinyUNet"
+    },
+    {
+      "eval_path": "reports/phase3/eval_seg_fasc_v4c_best_native.json",
+      "ckpt": "/home/chocheng9/kaggle_UMUD/reports/phase3/seg_ckpts/seg_fasc_v4c_best.pt",
+      "variant": "fasc_v4c_thick_soft",
+      "best_native_macro_dice": 0.08408936498991587,
+      "best_detail": {
+        "mode": "square_resize_native",
+        "thr": 0.5,
+        "n": 566,
+        "macro_dice": 0.08408936498991587,
+        "dice_p50": 0.08584805773657174,
+        "empty_pred_frac": 0.0,
+        "letterbox": false
+      },
+      "size": 512,
+      "arch": "TinyUNet"
+    },
+    {
+      "eval_path": "reports/phase3/eval_seg_fasc_best_native.json",
+      "ckpt": "/home/chocheng9/kaggle_UMUD/reports/phase3/seg_ckpts/seg_fasc_best.pt",
+      "variant": "fasc_v3c_safe_fov",
+      "best_native_macro_dice": 0.07188745165959325,
+      "best_detail": {
+        "mode": "square_resize_native",
+        "thr": 0.5,
+        "n": 566,
+        "macro_dice": 0.07188745165959325,
+        "dice_p50": 0.06985880210843404,
+        "empty_pred_frac": 0.0,
+        "letterbox": false
+      },
+      "size": 512,
+      "arch": "FascUNet"
+    }
+  ],
+  "winner": {
+    "eval_path": "reports/phase3/eval_seg_fasc_v5_best_native.json",
+    "ckpt": "/home/chocheng9/kaggle_UMUD/reports/phase3/seg_ckpts/seg_fasc_v5_best.pt",
+    "variant": "fasc_v5_edt_cldice_ms",
+    "best_native_macro_dice": 0.2846309831975224,
+    "best_detail": {
+      "mode": "square_resize_native",
+      "thr": 0.5,
+      "n": 566,
+      "macro_dice": 0.2846309831975224,
+      "dice_p50": 0.2756301438741703,
+      "empty_pred_frac": 0.0,
+      "letterbox": false
+    },
+    "size": 512,
+    "arch": "MSTinyUNet"
+  }
+}

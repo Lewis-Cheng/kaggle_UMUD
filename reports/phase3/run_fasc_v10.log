@@ -1,0 +1,50 @@
+fasc_v10 train=2195 val=566 size=576 base=48 cldice_w=1.5 ft_w=1.0 bce_w=0.35 amp=True bs=10 device=cuda:2
+warm-start reports/phase3/seg_ckpts/seg_fasc_v5_best.pt miss=0 unexp=0 src=0.2846309831975224
+epoch 1/35 loss=2.2413 native@0.35=0.2616 native@0.5=0.2699
+  saved best_native=0.2699
+epoch 2/35 loss=2.2250 native@0.35=0.2593 native@0.5=0.2660
+epoch 3/35 loss=2.2145 native@0.35=0.2580 native@0.5=0.2657
+epoch 4/35 loss=2.2095 native@0.35=0.2622 native@0.5=0.2696
+epoch 5/35 loss=2.2036 native@0.35=0.2626 native@0.5=0.2693
+epoch 6/35 loss=2.2009 native@0.35=0.2677 native@0.5=0.2732
+  saved best_native=0.2732
+epoch 7/35 loss=2.1970 native@0.35=0.2639 native@0.5=0.2671
+epoch 8/35 loss=2.1937 native@0.35=0.2683 native@0.5=0.2760
+  saved best_native=0.2760
+epoch 9/35 loss=2.1884 native@0.35=0.2625 native@0.5=0.2713
+epoch 10/35 loss=2.1893 native@0.35=0.2588 native@0.5=0.2658
+epoch 11/35 loss=2.1854 native@0.35=0.2662 native@0.5=0.2743
+epoch 12/35 loss=2.1856 native@0.35=0.2661 native@0.5=0.2735
+epoch 13/35 loss=2.1773 native@0.35=0.2658 native@0.5=0.2722
+epoch 14/35 loss=2.1772 native@0.35=0.2704 native@0.5=0.2766
+  saved best_native=0.2766
+epoch 15/35 loss=2.1733 native@0.35=0.2727 native@0.5=0.2780
+  saved best_native=0.2780
+epoch 16/35 loss=2.1716 native@0.35=0.2709 native@0.5=0.2740
+epoch 17/35 loss=2.1709 native@0.35=0.2694 native@0.5=0.2764
+epoch 18/35 loss=2.1697 native@0.35=0.2672 native@0.5=0.2752
+epoch 19/35 loss=2.1649 native@0.35=0.2748 native@0.5=0.2804
+  saved best_native=0.2804
+epoch 20/35 loss=2.1647 native@0.35=0.2783 native@0.5=0.2828
+  saved best_native=0.2828
+epoch 21/35 loss=2.1622 native@0.35=0.2737 native@0.5=0.2800
+epoch 22/35 loss=2.1587 native@0.35=0.2751 native@0.5=0.2808
+epoch 23/35 loss=2.1548 native@0.35=0.2777 native@0.5=0.2831
+  saved best_native=0.2831
+epoch 24/35 loss=2.1539 native@0.35=0.2750 native@0.5=0.2804
+epoch 25/35 loss=2.1510 native@0.35=0.2760 native@0.5=0.2814
+epoch 26/35 loss=2.1502 native@0.35=0.2797 native@0.5=0.2827
+epoch 27/35 loss=2.1496 native@0.35=0.2760 native@0.5=0.2819
+epoch 28/35 loss=2.1486 native@0.35=0.2780 native@0.5=0.2822
+epoch 29/35 loss=2.1470 native@0.35=0.2781 native@0.5=0.2827
+epoch 30/35 loss=2.1437 native@0.35=0.2785 native@0.5=0.2835
+  saved best_native=0.2835
+epoch 31/35 loss=2.1439 native@0.35=0.2781 native@0.5=0.2828
+epoch 32/35 loss=2.1435 native@0.35=0.2779 native@0.5=0.2830
+epoch 33/35 loss=2.1437 native@0.35=0.2790 native@0.5=0.2834
+epoch 34/35 loss=2.1427 native@0.35=0.2792 native@0.5=0.2837
+  saved best_native=0.2837
+epoch 35/35 loss=2.1450 native@0.35=0.2795 native@0.5=0.2837
+  saved best_native=0.2837
+best_native_macro_dice=0.2837 ckpt=reports/phase3/seg_ckpts/seg_fasc_v10_best.pt
+DONE__2026-11-04T18:10:22+08:00

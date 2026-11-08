@@ -1,0 +1,603 @@
+{
+  "ts_hk": "2026-11-05 14:54:15 UTC+08:00",
+  "hold_S": 0.13195144580335014,
+  "gate": 0.12,
+  "frozen_recipe": {
+    "name": "hough_tex0.4_thr035_apo60_ff0.9_sin0.35_agNone",
+    "apo_thr": 0.6,
+    "fasc_thr": 0.35,
+    "min_len": 3.0,
+    "depth_at": 0.7,
+    "tex_w": 0.4,
+    "fl_sin_w": 0.35,
+    "fl_factor": 0.9,
+    "agree_thr": null,
+    "tex_lo": 0.5,
+    "tex_hi": 0.95,
+    "pa_mode": "hough"
+  },
+  "inventory": {
+    "external_weights": [
+      "data/external/frundles_weights/apo_resnet34_384x576_f0.pt",
+      "data/external/frundles_weights/fasc_resnet34_384x576_f0.pt"
+    ],
+    "phase3_lab_fasc_ckpts_n": 27,
+    "phase3_lab_fasc_top": [
+      "seg_fasc_v5_best.pt (Dice~0.285 MSTinyUNet)",
+      "seg_fasc_v10_best.pt (Dice~0.284)",
+      "seg_fasc_v6b_best.pt (Dice~0.283)",
+      "NOTE: all Dice\u226aFrundles/scratch~0.41; treated as weak outside-family DL"
+    ],
+    "chase018_ckpts_n": 14,
+    "chase018_ckpts_note": "Frundles FT / scratch / nested \u2014 EXHAUSTED, not re-dumped",
+    "map_caches": [
+      "maps_multexp",
+      "maps_multexp_classical_frangi",
+      "maps_multexp_fasc_ft_loocv_gt_teacher_blend_v2",
+      "maps_multexp_fasc_ft_nested_gt_teacher_v1",
+      "maps_multexp_fasc_ft_smoke_nested_geo",
+      "maps_multexp_ft_overnight",
+      "maps_multexp_geopaint_frundles",
+      "maps_multexp_geopaint_orient_rw",
+      "maps_multexp_geopaint_stripe020",
+      "maps_multexp_geopaint_stripe055",
+      "maps_multexp_gt_teacher_leaky_nested_gt_teacher_v1",
+      "maps_multexp_scratch60_s7",
+      "maps_multexp_scratch_best",
+      "maps_multexp_selftrain_b"
+    ],
+    "public_non_frundles_on_disk": false,
+    "documented_weight_urls": [
+      "kaggle dataset watehell/umud-r34-unet-weights (Frundles only)"
+    ],
+    "multexp_pixel_fasc_gt": false,
+    "multexp_gt_note": "expert_consensus PA/FL/MT only; no MultExp fasc masks \u2192 skip nested MultExp fasc head"
+  },
+  "dump_stats": {},
+  "sources_tried": [
+    "frangi",
+    "ridge",
+    "frangi_ridge",
+    "gabor",
+    "all_blend",
+    "blend_frundles_frangi_ridge_a0.3",
+    "blend_frundles_frangi_ridge_a0.5",
+    "blend_frundles_frangi_ridge_a0.7",
+    "frundles_baseline"
+  ],
+  "all_results": [
+    {
+      "tag": "classical_frangi",
+      "thr": 0.2,
+      "n": 35,
+      "ok": 35,
+      "S": 0.6244051118166114,
+      "S1": 0.6244046174109573,
+      "MAE": {
+        "pa_deg": 1.2702481269374772,
+        "fl_mm": 19.305019945659996,
+        "mt_mm": 0.15826250681487788
+      },
+      "gate_0.12": false,
+      "beats_hold": false,
+      "gap_to_hold": 0.49245366601326124,
+      "gap_to_0.12": 0.5044051118166114,
+      "kw": {
+        "apo_thr": 0.6,
+        "fasc_thr": 0.2,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.4,
+        "fl_sin_w": 0.35,
+        "fl_factor": 0.9,
+        "agree_thr": null,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      }
+    },
+    {
+      "tag": "classical_frangi",
+      "thr": 0.28,
+      "n": 35,
+      "ok": 35,
+      "S": 0.5606813325991272,
+      "S1": 0.5606808441472566,
+      "MAE": {
+        "pa_deg": 1.5129672941993362,
+        "fl_mm": 16.525525773643054,
+        "mt_mm": 0.15826250681487788
+      },
+      "gate_0.12": false,
+      "beats_hold": false,
+      "gap_to_hold": 0.42872988679577706,
+      "gap_to_0.12": 0.44068133259912723,
+      "kw": {
+        "apo_thr": 0.6,
+        "fasc_thr": 0.28,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.4,
+        "fl_sin_w": 0.35,
+        "fl_factor": 0.9,
+        "agree_thr": null,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      }
+    },
+    {
+      "tag": "classical_frangi",
+      "thr": 0.35,
+      "n": 35,
+      "ok": 35,
+      "S": 0.5273961989666871,
+      "S1": 0.5273957275216258,
+      "MAE": {
+        "pa_deg": 1.497033977675538,
+        "fl_mm": 15.35912820816794,
+        "mt_mm": 0.15826250681487788
+      },
+      "gate_0.12": false,
+      "beats_hold": false,
+      "gap_to_hold": 0.39544475316333694,
+      "gap_to_0.12": 0.4073961989666871,
+      "kw": {
+        "apo_thr": 0.6,
+        "fasc_thr": 0.35,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.4,
+        "fl_sin_w": 0.35,
+        "fl_factor": 0.9,
+        "agree_thr": null,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      }
+    },
+    {
+      "tag": "classical_frangi",
+      "thr": 0.45,
+      "n": 35,
+      "ok": 35,
+      "S": 0.6235265303199187,
+      "S1": 0.6235260377456325,
+      "MAE": {
+        "pa_deg": 1.6695658102257305,
+        "fl_mm": 18.4747557111318,
+        "mt_mm": 0.15826250681487788
+      },
+      "gate_0.12": false,
+      "beats_hold": false,
+      "gap_to_hold": 0.4915750845165685,
+      "gap_to_0.12": 0.5035265303199187,
+      "kw": {
+        "apo_thr": 0.6,
+        "fasc_thr": 0.45,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.4,
+        "fl_sin_w": 0.35,
+        "fl_factor": 0.9,
+        "agree_thr": null,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      }
+    },
+    {
+      "tag": "classical_frangi",
+      "thr": 0.55,
+      "n": 35,
+      "ok": 35,
+      "S": 0.648838520660106,
+      "S1": 0.6488379282245228,
+      "MAE": {
+        "pa_deg": 1.3154277883476884,
+        "fl_mm": 20.094259812127934,
+        "mt_mm": 0.15826250681487788
+      },
+      "gate_0.12": false,
+      "beats_hold": false,
+      "gap_to_hold": 0.5168870748567559,
+      "gap_to_0.12": 0.5288385206601061,
+      "kw": {
+        "apo_thr": 0.6,
+        "fasc_thr": 0.55,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.4,
+        "fl_sin_w": 0.35,
+        "fl_factor": 0.9,
+        "agree_thr": null,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      }
+    },
+    {
+      "tag": "classical_frangi",
+      "thr": 0.65,
+      "n": 35,
+      "ok": 35,
+      "S": 0.6804073148044931,
+      "S1": 0.6804067405359615,
+      "MAE": {
+        "pa_deg": 1.6395777006483383,
+        "fl_mm": 20.582437230738428,
+        "mt_mm": 0.15826250681487788
+      },
+      "gate_0.12": false,
+      "beats_hold": false,
+      "gap_to_hold": 0.548455869001143,
+      "gap_to_0.12": 0.5604073148044931,
+      "kw": {
+        "apo_thr": 0.6,
+        "fasc_thr": 0.65,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.4,
+        "fl_sin_w": 0.35,
+        "fl_factor": 0.9,
+        "agree_thr": null,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      }
+    },
+    {
+      "tag": "classical_ridge",
+      "thr": 0.2,
+      "error": "too few",
+      "n": 0
+    },
+    {
+      "tag": "classical_ridge",
+      "thr": 0.28,
+      "error": "too few",
+      "n": 0
+    },
+    {
+      "tag": "classical_ridge",
+      "thr": 0.35,
+      "error": "too few",
+      "n": 0
+    },
+    {
+      "tag": "classical_ridge",
+      "thr": 0.45,
+      "error": "too few",
+      "n": 0
+    },
+    {
+      "tag": "classical_ridge",
+      "thr": 0.55,
+      "error": "too few",
+      "n": 0
+    },
+    {
+      "tag": "classical_ridge",
+      "thr": 0.65,
+      "error": "too few",
+      "n": 0
+    },
+    {
+      "tag": "classical_frangi_ridge",
+      "thr": 0.2,
+      "error": "too few",
+      "n": 0
+    },
+    {
+      "tag": "classical_frangi_ridge",
+      "thr": 0.28,
+      "error": "too few",
+      "n": 0
+    },
+    {
+      "tag": "classical_frangi_ridge",
+      "thr": 0.35,
+      "error": "too few",
+      "n": 0
+    },
+    {
+      "tag": "classical_frangi_ridge",
+      "thr": 0.45,
+      "error": "too few",
+      "n": 0
+    },
+    {
+      "tag": "classical_frangi_ridge",
+      "thr": 0.55,
+      "error": "too few",
+      "n": 0
+    },
+    {
+      "tag": "classical_frangi_ridge",
+      "thr": 0.65,
+      "error": "too few",
+      "n": 0
+    },
+    {
+      "tag": "classical_gabor",
+      "thr": 0.2,
+      "error": "too few",
+      "n": 0
+    },
+    {
+      "tag": "classical_gabor",
+      "thr": 0.28,
+      "error": "too few",
+      "n": 0
+    },
+    {
+      "tag": "classical_gabor",
+      "thr": 0.35,
+      "error": "too few",
+      "n": 0
+    },
+    {
+      "tag": "classical_gabor",
+      "thr": 0.45,
+      "error": "too few",
+      "n": 0
+    },
+    {
+      "tag": "classical_gabor",
+      "thr": 0.55,
+      "error": "too few",
+      "n": 0
+    },
+    {
+      "tag": "classical_gabor",
+      "thr": 0.65,
+      "error": "too few",
+      "n": 0
+    },
+    {
+      "tag": "classical_all_blend",
+      "thr": 0.2,
+      "error": "too few",
+      "n": 0
+    },
+    {
+      "tag": "classical_all_blend",
+      "thr": 0.28,
+      "error": "too few",
+      "n": 0
+    },
+    {
+      "tag": "classical_all_blend",
+      "thr": 0.35,
+      "error": "too few",
+      "n": 0
+    },
+    {
+      "tag": "classical_all_blend",
+      "thr": 0.45,
+      "error": "too few",
+      "n": 0
+    },
+    {
+      "tag": "classical_all_blend",
+      "thr": 0.55,
+      "error": "too few",
+      "n": 0
+    },
+    {
+      "tag": "classical_all_blend",
+      "thr": 0.65,
+      "error": "too few",
+      "n": 0
+    },
+    {
+      "tag": "blend_frundles_frangi_ridge_a0.3",
+      "thr": 0.2,
+      "error": "too few",
+      "n": 0
+    },
+    {
+      "tag": "blend_frundles_frangi_ridge_a0.3",
+      "thr": 0.28,
+      "error": "too few",
+      "n": 0
+    },
+    {
+      "tag": "blend_frundles_frangi_ridge_a0.3",
+      "thr": 0.35,
+      "error": "too few",
+      "n": 0
+    },
+    {
+      "tag": "blend_frundles_frangi_ridge_a0.3",
+      "thr": 0.45,
+      "error": "too few",
+      "n": 0
+    },
+    {
+      "tag": "blend_frundles_frangi_ridge_a0.3",
+      "thr": 0.55,
+      "error": "too few",
+      "n": 0
+    },
+    {
+      "tag": "blend_frundles_frangi_ridge_a0.3",
+      "thr": 0.65,
+      "error": "too few",
+      "n": 0
+    },
+    {
+      "tag": "blend_frundles_frangi_ridge_a0.5",
+      "thr": 0.2,
+      "error": "too few",
+      "n": 0
+    },
+    {
+      "tag": "blend_frundles_frangi_ridge_a0.5",
+      "thr": 0.28,
+      "error": "too few",
+      "n": 0
+    },
+    {
+      "tag": "blend_frundles_frangi_ridge_a0.5",
+      "thr": 0.35,
+      "error": "too few",
+      "n": 0
+    },
+    {
+      "tag": "blend_frundles_frangi_ridge_a0.5",
+      "thr": 0.45,
+      "error": "too few",
+      "n": 0
+    },
+    {
+      "tag": "blend_frundles_frangi_ridge_a0.5",
+      "thr": 0.55,
+      "error": "too few",
+      "n": 0
+    },
+    {
+      "tag": "blend_frundles_frangi_ridge_a0.5",
+      "thr": 0.65,
+      "error": "too few",
+      "n": 0
+    },
+    {
+      "tag": "blend_frundles_frangi_ridge_a0.7",
+      "thr": 0.2,
+      "error": "too few",
+      "n": 0
+    },
+    {
+      "tag": "blend_frundles_frangi_ridge_a0.7",
+      "thr": 0.28,
+      "error": "too few",
+      "n": 0
+    },
+    {
+      "tag": "blend_frundles_frangi_ridge_a0.7",
+      "thr": 0.35,
+      "error": "too few",
+      "n": 0
+    },
+    {
+      "tag": "blend_frundles_frangi_ridge_a0.7",
+      "thr": 0.45,
+      "error": "too few",
+      "n": 0
+    },
+    {
+      "tag": "blend_frundles_frangi_ridge_a0.7",
+      "thr": 0.55,
+      "error": "too few",
+      "n": 0
+    },
+    {
+      "tag": "blend_frundles_frangi_ridge_a0.7",
+      "thr": 0.65,
+      "error": "too few",
+      "n": 0
+    },
+    {
+      "tag": "frundles_baseline",
+      "thr": 0.35,
+      "n": 35,
+      "ok": 35,
+      "S": 0.13293555901039555,
+      "S1": 0.13293546342472354,
+      "MAE": {
+        "pa_deg": 0.9279384631482271,
+        "fl_mm": 2.2967497297340818,
+        "mt_mm": 0.15826250681487788
+      },
+      "gate_0.12": false,
+      "beats_hold": false,
+      "gap_to_hold": 0.0009841132070454173,
+      "gap_to_0.12": 0.012935559010395559,
+      "kw": {
+        "apo_thr": 0.6,
+        "fasc_thr": 0.35,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.4,
+        "fl_sin_w": 0.35,
+        "fl_factor": 0.9,
+        "agree_thr": null,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      }
+    }
+  ],
+  "best_outside_family": {
+    "tag": "classical_frangi",
+    "thr": 0.35,
+    "n": 35,
+    "ok": 35,
+    "S": 0.5273961989666871,
+    "S1": 0.5273957275216258,
+    "MAE": {
+      "pa_deg": 1.497033977675538,
+      "fl_mm": 15.35912820816794,
+      "mt_mm": 0.15826250681487788
+    },
+    "gate_0.12": false,
+    "beats_hold": false,
+    "gap_to_hold": 0.39544475316333694,
+    "gap_to_0.12": 0.4073961989666871,
+    "kw": {
+      "apo_thr": 0.6,
+      "fasc_thr": 0.35,
+      "min_len": 3.0,
+      "depth_at": 0.7,
+      "tex_w": 0.4,
+      "fl_sin_w": 0.35,
+      "fl_factor": 0.9,
+      "agree_thr": null,
+      "tex_lo": 0.5,
+      "tex_hi": 0.95,
+      "pa_mode": "hough"
+    },
+    "cache": "/home/chocheng9/kaggle_UMUD/reports/phase3/chase018/cache/maps_multexp_classical_frangi"
+  },
+  "frundles_baseline_best": {
+    "tag": "frundles_baseline",
+    "thr": 0.35,
+    "n": 35,
+    "ok": 35,
+    "S": 0.13293555901039555,
+    "S1": 0.13293546342472354,
+    "MAE": {
+      "pa_deg": 0.9279384631482271,
+      "fl_mm": 2.2967497297340818,
+      "mt_mm": 0.15826250681487788
+    },
+    "gate_0.12": false,
+    "beats_hold": false,
+    "gap_to_hold": 0.0009841132070454173,
+    "gap_to_0.12": 0.012935559010395559,
+    "kw": {
+      "apo_thr": 0.6,
+      "fasc_thr": 0.35,
+      "min_len": 3.0,
+      "depth_at": 0.7,
+      "tex_w": 0.4,
+      "fl_sin_w": 0.35,
+      "fl_factor": 0.9,
+      "agree_thr": null,
+      "tex_lo": 0.5,
+      "tex_hi": 0.95,
+      "pa_mode": "hough"
+    }
+  },
+  "promoted": null,
+  "gate_pass": false,
+  "beats_hold": false,
+  "skipped": {
+    "public_mawra_ambros_dltrack_xiaolei_vibecoder": "not on disk; only Frundles URL documented in-repo \u2014 no download",
+    "lab_scratch_best_scratch60_ft": "exhausted / forbidden re-dump",
+    "multexp_nested_fasc_gt_masks": "no MultExp pixel fasc GT",
+    "phase3_v5_v12_dump": "Dice~0.28\u226a0.41; deferred unless classical fails inventory need \u2014 optional next"
+  },
+  "next_lever": "Classical + blend did not beat 0.13195. Next: (1) dump phase3 MSTinyUNet v5/v12 MultExp maps despite low Dice as true outside-family DL, (2) apo-bounded multi-orientation Frangi with dark-ridge bias + fasc skeleton thinning as fasc channel, (3) seek documented Mawra/open fasc weight URL in refs before any new download."
+}

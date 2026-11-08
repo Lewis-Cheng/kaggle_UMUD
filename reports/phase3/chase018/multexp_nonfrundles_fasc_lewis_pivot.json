@@ -1,0 +1,74 @@
+{
+  "ts": "2026-11-05 15:52:22 UTC+08:00",
+  "hold": 0.13195144580335014,
+  "gate": 0.12,
+  "rows": [
+    {
+      "name": "classical_frangi",
+      "S": 0.5273961989666871,
+      "thr": 0.35,
+      "note": "outside-family classical"
+    },
+    {
+      "name": "frundles_baseline",
+      "S": 0.13293555901039555,
+      "thr": 0.35,
+      "note": "reference"
+    },
+    {
+      "name": "labtrain_imagenet",
+      "S": 0.13817728585553185,
+      "thr": 0.25,
+      "note": "OSF LabTrain 1854; MultExp never in train"
+    },
+    {
+      "name": "labtrain_comp_ft",
+      "S": 0.1377911253869276,
+      "thr": 0.25,
+      "note": "LabTrain\u2192FT LabTrain+comp; MultExp dHash-excluded"
+    },
+    {
+      "name": "blend_best",
+      "S": 0.13293555901039555,
+      "thr": 0.35,
+      "note": "tag=labtrain a=0.0"
+    },
+    {
+      "name": "dltrack_vgg16",
+      "S": 0.14879581314237195,
+      "thr": 0.3,
+      "note": "Zenodo DLTrack fasc + Frundles apo"
+    }
+  ],
+  "best_outside_family": {
+    "name": "labtrain_comp_ft",
+    "S": 0.1377911253869276,
+    "thr": 0.25,
+    "note": "LabTrain\u2192FT LabTrain+comp; MultExp dHash-excluded"
+  },
+  "promoted": false,
+  "gate_pass": false,
+  "labtrain_assets": {
+    "fasc_images": 367494790,
+    "fasc_masks_n": 1854,
+    "fasc_images_n": 1854,
+    "apo_images_zip": 305141391,
+    "apo_masks_n": 1722,
+    "dltrack_zip": 482330977,
+    "dltrack_h5_n": 2,
+    "dltrack_h5": [
+      "labtrain_DLTrack_models/DLTrack_models/model-apo-VGG16-BCE-512.h5",
+      "labtrain_DLTrack_models/DLTrack_models/model-fasc-VGG16-BCE-512.h5"
+    ],
+    "architecture_folders": {
+      "Muscle Architecture - Fascicles": [],
+      "Muscle Architecture - Aponeurosis": [],
+      "Bechmark Models": {
+        "error": "HTTP Error 404: Not Found"
+      }
+    },
+    "tensorflow": false,
+    "keras": false,
+    "labtrain_comp_overlap_names": 0
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "asof": "2026-11-05 17:11:18 Asia/Hong_Kong",
+  "experiment": "A_aporel_soft_pa",
+  "n_pa_targets": 152,
+  "mean_target_pa": 15.373294685624776,
+  "val_dice_best": null,
+  "ckpt": "/home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_aporelpa_best.pt",
+  "frundles_ref": {
+    "S": 0.13735269059611768,
+    "mae": {
+      "pa_deg": 0.9279384631482271,
+      "fl_mm": 2.45576636349085,
+      "mt_mm": 0.15826250681487788
+    }
+  },
+  "results": [
+    {
+      "tag": "aporelpa_raw",
+      "thr": 0.3,
+      "S": 0.3652737649763146,
+      "mae": {
+        "pa_deg": 1.147988565258228,
+        "fl_mm": 10.220822041156119,
+        "mt_mm": 0.15826250681487788
+      }
+    },
+    {
+      "tag": "aporelpa_raw",
+      "thr": 0.35,
+      "S": 0.24760958714405867,
+      "mae": {
+        "pa_deg": 1.1499695308487234,
+        "fl_mm": 5.980949797509611,
+        "mt_mm": 0.15826250681487788
+      }
+    },
+    {
+      "tag": "aporelpa_raw",
+      "thr": 0.4,
+      "S": 0.21171301652326377,
+      "mae": {
+        "pa_deg": 1.2111682856936608,
+        "fl_mm": 4.5662765026523715,
+        "mt_mm": 0.15826250681487788
+      }
+    },
+    {
+      "tag": "blend_a0.15",
+      "thr": 0.35,
+      "S": 0.14387982841031322,
+      "mae": {
+        "pa_deg": 1.0199071332367116,
+        "fl_mm": 2.506805459530449,
+        "mt_mm": 0.15826250681487788
+      }
+    },
+    {
+      "tag": "blend_a0.25",
+      "thr": 0.35,
+      "S": 0.14927581469632972,
+      "mae": {
+        "pa_deg": 1.0443088173737547,
+        "fl_mm": 2.652257421917191,
+        "mt_mm": 0.15826250681487788
+      }
+    },
+    {
+      "tag": "blend_a0.40",
+      "thr": 0.35,
+      "S": 0.16265917985739184,
+      "mae": {
+        "pa_deg": 1.1197563002475222,
+        "fl_mm": 2.983162709198863,
+        "mt_mm": 0.15826250681487788
+      }
+    },
+    {
+      "tag": "pa_head_blend50",
+      "thr": 0.35,
+      "S": 0.15034159784134038,
+      "mae": {
+        "pa_deg": 0.9223373887940843,
+        "fl_mm": 2.9345681167774202,
+        "mt_mm": 0.15826250681487788
+      }
+    }
+  ],
+  "best": {
+    "tag": "blend_a0.15",
+    "thr": 0.35,
+    "S": 0.14387982841031322,
+    "mae": {
+      "pa_deg": 1.0199071332367116,
+      "fl_mm": 2.506805459530449,
+      "mt_mm": 0.15826250681487788
+    },
+    "cache": "/home/chocheng9/kaggle_UMUD/reports/phase3/chase018/cache/maps_multexp_aporelpa_blend15"
+  },
+  "pa_improved_vs_frundles": false,
+  "beats_hold": false,
+  "gate_0.12": false,
+  "elapsed_min": 0.6030901710192362,
+  "kaggle_submit": false,
+  "resumed": true
+}

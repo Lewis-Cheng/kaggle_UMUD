@@ -1,0 +1,34 @@
+loading weights on cuda
+override fasc reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_scratch_best.pt
+infer 1/309 IMG_00001.tif
+infer 26/309 IMG_00026.tif
+infer 51/309 IMG_00051.tif
+infer 76/309 IMG_00076.tif
+infer 101/309 IMG_00101.tif
+infer 126/309 IMG_00126.tif
+infer 151/309 IMG_00151.tif
+infer 176/309 IMG_00176.tif
+infer 201/309 IMG_00201.tif
+infer 226/309 IMG_00226.tif
+infer 251/309 IMG_00251.tif
+infer 276/309 IMG_00276.png
+infer 301/309 IMG_00301.png
+infer 309/309 IMG_00309.png
+fallback (not ok): 0 tex finite: 309
+wrote reports/phase3/chase018/submission_fasc_ft.csv rows 309
+       pa_deg   fl_mm   mt_mm
+count  309.00  309.00  309.00
+mean    16.07   83.75   21.38
+std      4.40   22.64    4.08
+min      7.77   30.19   12.36
+25%     13.00   68.15   18.41
+50%     15.55   82.69   20.78
+75%     17.98   98.02   24.92
+max     31.59  138.26   33.67
+layouts ok rate:
+layout
+crop       1.0
+lumify     1.0
+siemens    1.0
+telemed    1.0
+Name: ok, dtype: float64

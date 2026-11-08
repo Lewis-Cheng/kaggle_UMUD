@@ -1,0 +1,59 @@
+{
+  "ckpt": "reports/phase3/seg_ckpts/seg_fasc_v10_best.pt",
+  "arch": "MSTinyUNet",
+  "size": 576,
+  "variant": "fasc_v10_focal_tversky_cropzoom",
+  "stored_val_dice": 0.28374401773518637,
+  "square_resize_native": {
+    "0.3": {
+      "n": 566,
+      "macro_dice": 0.27717239399106675,
+      "dice_p50": 0.26948679415186955,
+      "empty_pred_frac": 0.0,
+      "thr": 0.3,
+      "letterbox": false
+    },
+    "0.35": {
+      "n": 566,
+      "macro_dice": 0.27950715892607325,
+      "dice_p50": 0.27140496234958056,
+      "empty_pred_frac": 0.0,
+      "thr": 0.35,
+      "letterbox": false
+    },
+    "0.5": {
+      "n": 566,
+      "macro_dice": 0.28374401784732295,
+      "dice_p50": 0.27573275623715165,
+      "empty_pred_frac": 0.0,
+      "thr": 0.5,
+      "letterbox": false
+    }
+  },
+  "letterbox_native": {
+    "0.3": {
+      "n": 566,
+      "macro_dice": 0.2099625210798799,
+      "dice_p50": 0.19704422257265894,
+      "empty_pred_frac": 0.0,
+      "thr": 0.3,
+      "letterbox": true
+    },
+    "0.35": {
+      "n": 566,
+      "macro_dice": 0.21174278268685143,
+      "dice_p50": 0.19877163618124746,
+      "empty_pred_frac": 0.0,
+      "thr": 0.35,
+      "letterbox": true
+    },
+    "0.5": {
+      "n": 566,
+      "macro_dice": 0.21496715013365675,
+      "dice_p50": 0.20419889520349194,
+      "empty_pred_frac": 0.0,
+      "thr": 0.5,
+      "letterbox": true
+    }
+  }
+}

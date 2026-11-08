@@ -1,0 +1,2495 @@
+{
+  "summary": {
+    "n_ok": 199,
+    "n_fail": 50,
+    "n_low_red": 0,
+    "min_corr": 0.97,
+    "dilate_r": 1,
+    "out_img": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn_images",
+    "out_mask": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn_masks"
+  },
+  "meta": [
+    {
+      "stem": "young_NAY_1_ANON_1",
+      "ok": true,
+      "split": "young",
+      "subj": "NAY_1",
+      "corr": 0.9922706324240054,
+      "n_red": 2910,
+      "pos_frac": 0.017878289473684212,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_1/timepoint1/ANON_1.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_1/timepoint1/ANON_2.tiff"
+    },
+    {
+      "stem": "young_NAY_1_ANON_3",
+      "ok": true,
+      "split": "young",
+      "subj": "NAY_1",
+      "corr": 0.9918407715666225,
+      "n_red": 3247,
+      "pos_frac": 0.01844983552631579,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_1/timepoint1/ANON_3.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_1/timepoint1/ANON_4.tiff"
+    },
+    {
+      "stem": "young_NAY_10_ANON_37",
+      "ok": true,
+      "split": "young",
+      "subj": "NAY_10",
+      "corr": 0.99394012074679,
+      "n_red": 2759,
+      "pos_frac": 0.016897615131578947,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_10/timepoint1/ANON_37.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_10/timepoint1/ANON_38.tiff"
+    },
+    {
+      "stem": "young_NAY_10_ANON_39",
+      "ok": true,
+      "split": "young",
+      "subj": "NAY_10",
+      "corr": 0.9917624825296263,
+      "n_red": 2853,
+      "pos_frac": 0.017497944078947367,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_10/timepoint1/ANON_39.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_10/timepoint1/ANON_40.tiff"
+    },
+    {
+      "stem": "young_NAY_11_ANON_41",
+      "ok": true,
+      "split": "young",
+      "subj": "NAY_11",
+      "corr": 0.9905913078873878,
+      "n_red": 3387,
+      "pos_frac": 0.019720394736842107,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_11/timepoint1/ANON_41.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_11/timepoint1/ANON_42.tiff"
+    },
+    {
+      "stem": "young_NAY_11_ANON_43",
+      "ok": true,
+      "split": "young",
+      "subj": "NAY_11",
+      "corr": 0.9944100162232975,
+      "n_red": 2644,
+      "pos_frac": 0.01626439144736842,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_11/timepoint1/ANON_43.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_11/timepoint1/ANON_44.tiff"
+    },
+    {
+      "stem": "young_NAY_12_ANON_45",
+      "ok": true,
+      "split": "young",
+      "subj": "NAY_12",
+      "corr": 0.9955749007167367,
+      "n_red": 2528,
+      "pos_frac": 0.015522203947368422,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_12/timepoint1/ANON_45.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_12/timepoint1/ANON_46.tiff"
+    },
+    {
+      "stem": "young_NAY_12_ANON_47",
+      "ok": true,
+      "split": "young",
+      "subj": "NAY_12",
+      "corr": 0.9939996080281606,
+      "n_red": 2860,
+      "pos_frac": 0.01763980263157895,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_12/timepoint1/ANON_47.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_12/timepoint1/ANON_48.tiff"
+    },
+    {
+      "stem": "young_NAY_13_ANON_49",
+      "ok": true,
+      "split": "young",
+      "subj": "NAY_13",
+      "corr": 0.9935280801483907,
+      "n_red": 2664,
+      "pos_frac": 0.01640419407894737,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_13/timepoint1/ANON_49.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_13/timepoint1/ANON_50.tiff"
+    },
+    {
+      "stem": "young_NAY_13_ANON_51",
+      "ok": true,
+      "split": "young",
+      "subj": "NAY_13",
+      "corr": 0.9916742340988082,
+      "n_red": 2645,
+      "pos_frac": 0.016256167763157896,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_13/timepoint1/ANON_51.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_13/timepoint1/ANON_52.tiff"
+    },
+    {
+      "stem": "ANON_53",
+      "ok": false,
+      "reason": "shape ann=(608, 800, 3) raw=(608, 800, 3)"
+    },
+    {
+      "stem": "young_NAY_14_ANON_55",
+      "ok": true,
+      "split": "young",
+      "subj": "NAY_14",
+      "corr": 0.9940687687020948,
+      "n_red": 2268,
+      "pos_frac": 0.013873355263157895,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_14/timepoint1/ANON_55.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_14/timepoint1/ANON_56.tiff"
+    },
+    {
+      "stem": "young_NAY_15_ANON_57",
+      "ok": true,
+      "split": "young",
+      "subj": "NAY_15",
+      "corr": 0.9913818468919531,
+      "n_red": 2877,
+      "pos_frac": 0.01768297697368421,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_15/timepoint1/ANON_57.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_15/timepoint1/ANON_58.tiff"
+    },
+    {
+      "stem": "young_NAY_15_ANON_59",
+      "ok": true,
+      "split": "young",
+      "subj": "NAY_15",
+      "corr": 0.9913059834663382,
+      "n_red": 2711,
+      "pos_frac": 0.016646792763157895,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_15/timepoint1/ANON_59.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_15/timepoint1/ANON_60.tiff"
+    },
+    {
+      "stem": "young_NAY_16_ANON_61",
+      "ok": true,
+      "split": "young",
+      "subj": "NAY_16",
+      "corr": 0.9828849109944536,
+      "n_red": 3195,
+      "pos_frac": 0.01957236842105263,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_16/timepoint1/ANON_61.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_16/timepoint1/ANON_62.tiff"
+    },
+    {
+      "stem": "young_NAY_16_ANON_63",
+      "ok": true,
+      "split": "young",
+      "subj": "NAY_16",
+      "corr": 0.9940836372560395,
+      "n_red": 2639,
+      "pos_frac": 0.01618421052631579,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_16/timepoint1/ANON_63.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_16/timepoint1/ANON_64.tiff"
+    },
+    {
+      "stem": "young_NAY_17_ANON_65",
+      "ok": true,
+      "split": "young",
+      "subj": "NAY_17",
+      "corr": 0.9933032996734491,
+      "n_red": 3596,
+      "pos_frac": 0.022103207236842105,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_17/timepoint1/ANON_65.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_17/timepoint1/ANON_66.tiff"
+    },
+    {
+      "stem": "young_NAY_17_ANON_67",
+      "ok": true,
+      "split": "young",
+      "subj": "NAY_17",
+      "corr": 0.9939898700691572,
+      "n_red": 2722,
+      "pos_frac": 0.01671875,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_17/timepoint1/ANON_67.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_17/timepoint1/ANON_68.tiff"
+    },
+    {
+      "stem": "ANON_69",
+      "ok": false,
+      "reason": "shape ann=(608, 800, 3) raw=(608, 800, 3)"
+    },
+    {
+      "stem": "young_NAY_18_ANON_71",
+      "ok": true,
+      "split": "young",
+      "subj": "NAY_18",
+      "corr": 0.9927217145077021,
+      "n_red": 2942,
+      "pos_frac": 0.018100328947368422,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_18/timepoint1/ANON_71.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_18/timepoint1/ANON_72.tiff"
+    },
+    {
+      "stem": "young_NAY_19_ANON_73",
+      "ok": true,
+      "split": "young",
+      "subj": "NAY_19",
+      "corr": 0.9945550461829114,
+      "n_red": 2660,
+      "pos_frac": 0.01635690789473684,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_19/timepoint1/ANON_73.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_19/timepoint1/ANON_74.tiff"
+    },
+    {
+      "stem": "young_NAY_19_ANON_75",
+      "ok": true,
+      "split": "young",
+      "subj": "NAY_19",
+      "corr": 0.9934219501563993,
+      "n_red": 2612,
+      "pos_frac": 0.016023848684210525,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_19/timepoint1/ANON_75.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_19/timepoint1/ANON_76.tiff"
+    },
+    {
+      "stem": "young_NAY_2_ANON_5",
+      "ok": true,
+      "split": "young",
+      "subj": "NAY_2",
+      "corr": 0.9942767029257144,
+      "n_red": 2624,
+      "pos_frac": 0.016101973684210527,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_2/timepoint1/ANON_5.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_2/timepoint1/ANON_6.tiff"
+    },
+    {
+      "stem": "young_NAY_2_ANON_7",
+      "ok": true,
+      "split": "young",
+      "subj": "NAY_2",
+      "corr": 0.9924007810757742,
+      "n_red": 3220,
+      "pos_frac": 0.01977796052631579,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_2/timepoint1/ANON_7.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_2/timepoint1/ANON_8.tiff"
+    },
+    {
+      "stem": "young_NAY_20_ANON_77",
+      "ok": true,
+      "split": "young",
+      "subj": "NAY_20",
+      "corr": 0.9935182271313532,
+      "n_red": 3147,
+      "pos_frac": 0.01939967105263158,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_20/timepoint1/ANON_77.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_20/timepoint1/ANON_78.tiff"
+    },
+    {
+      "stem": "ANON_79",
+      "ok": false,
+      "reason": "corr=0.2690",
+      "n_red": 2556
+    },
+    {
+      "stem": "young_NAY_21_ANON_81",
+      "ok": true,
+      "split": "young",
+      "subj": "NAY_21",
+      "corr": 0.9893156561139244,
+      "n_red": 3771,
+      "pos_frac": 0.021414473684210525,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_21/timepoint1/ANON_81.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_21/timepoint1/ANON_82.tiff"
+    },
+    {
+      "stem": "young_NAY_21_ANON_83",
+      "ok": true,
+      "split": "young",
+      "subj": "NAY_21",
+      "corr": 0.9948468352162105,
+      "n_red": 2715,
+      "pos_frac": 0.016636513157894738,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_21/timepoint1/ANON_83.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_21/timepoint1/ANON_84.tiff"
+    },
+    {
+      "stem": "ANON_85",
+      "ok": false,
+      "reason": "shape ann=(608, 800, 3) raw=(608, 800, 3)"
+    },
+    {
+      "stem": "young_NAY_22_ANON_87",
+      "ok": true,
+      "split": "young",
+      "subj": "NAY_22",
+      "corr": 0.9922675588024374,
+      "n_red": 2658,
+      "pos_frac": 0.016307565789473684,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_22/timepoint1/ANON_87.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_22/timepoint1/ANON_88.tiff"
+    },
+    {
+      "stem": "young_NAY_23_ANON_89",
+      "ok": true,
+      "split": "young",
+      "subj": "NAY_23",
+      "corr": 0.9918998660413059,
+      "n_red": 3663,
+      "pos_frac": 0.022479440789473684,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_23/timepoint1/ANON_89.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_23/timepoint1/ANON_90.tiff"
+    },
+    {
+      "stem": "young_NAY_23_ANON_91",
+      "ok": true,
+      "split": "young",
+      "subj": "NAY_23",
+      "corr": 0.9925760475901144,
+      "n_red": 2958,
+      "pos_frac": 0.018221628289473685,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_23/timepoint1/ANON_91.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_23/timepoint1/ANON_92.tiff"
+    },
+    {
+      "stem": "young_NAY_24_ANON_93",
+      "ok": true,
+      "split": "young",
+      "subj": "NAY_24",
+      "corr": 0.9933527068695992,
+      "n_red": 3706,
+      "pos_frac": 0.022824835526315788,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_24/timepoint1/ANON_93.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_24/timepoint1/ANON_94.tiff"
+    },
+    {
+      "stem": "young_NAY_24_ANON_95",
+      "ok": true,
+      "split": "young",
+      "subj": "NAY_24",
+      "corr": 0.9933369909057959,
+      "n_red": 3339,
+      "pos_frac": 0.020592105263157894,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_24/timepoint1/ANON_95.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_24/timepoint1/ANON_96.tiff"
+    },
+    {
+      "stem": "ANON_97",
+      "ok": false,
+      "reason": "corr=0.7121",
+      "n_red": 2849
+    },
+    {
+      "stem": "ANON_99",
+      "ok": false,
+      "reason": "corr=0.7095",
+      "n_red": 3016
+    },
+    {
+      "stem": "young_NAY_26_ANON_101",
+      "ok": true,
+      "split": "young",
+      "subj": "NAY_26",
+      "corr": 0.9915511836352765,
+      "n_red": 3432,
+      "pos_frac": 0.021112253289473686,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_26/timepoint1/ANON_101.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_26/timepoint1/ANON_102.tiff"
+    },
+    {
+      "stem": "young_NAY_26_ANON_103",
+      "ok": true,
+      "split": "young",
+      "subj": "NAY_26",
+      "corr": 0.9937258680733086,
+      "n_red": 3096,
+      "pos_frac": 0.019029605263157896,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_26/timepoint1/ANON_103.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_26/timepoint1/ANON_104.tiff"
+    },
+    {
+      "stem": "ANON_105",
+      "ok": false,
+      "reason": "corr=0.3217",
+      "n_red": 2653
+    },
+    {
+      "stem": "young_NAY_27_ANON_107",
+      "ok": true,
+      "split": "young",
+      "subj": "NAY_27",
+      "corr": 0.991831385288745,
+      "n_red": 3435,
+      "pos_frac": 0.021188322368421053,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_27/timepoint1/ANON_107.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_27/timepoint1/ANON_108.tiff"
+    },
+    {
+      "stem": "ANON_109",
+      "ok": false,
+      "reason": "shape ann=(608, 800, 3) raw=(608, 800, 3)"
+    },
+    {
+      "stem": "young_NAY_28_ANON_111",
+      "ok": true,
+      "split": "young",
+      "subj": "NAY_28",
+      "corr": 0.9943613520841034,
+      "n_red": 2664,
+      "pos_frac": 0.016385690789473686,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_28/timepoint1/ANON_111.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_28/timepoint1/ANON_112.tiff"
+    },
+    {
+      "stem": "young_NAY_29_ANON_113",
+      "ok": true,
+      "split": "young",
+      "subj": "NAY_29",
+      "corr": 0.9923275882707053,
+      "n_red": 3277,
+      "pos_frac": 0.020166529605263158,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_29/timepoint1/ANON_113.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_29/timepoint1/ANON_114.tiff"
+    },
+    {
+      "stem": "young_NAY_29_ANON_115",
+      "ok": true,
+      "split": "young",
+      "subj": "NAY_29",
+      "corr": 0.9945764871850231,
+      "n_red": 2442,
+      "pos_frac": 0.01501439144736842,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_29/timepoint1/ANON_115.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_29/timepoint1/ANON_116.tiff"
+    },
+    {
+      "stem": "ANON_11",
+      "ok": false,
+      "reason": "corr=0.6619",
+      "n_red": 2885
+    },
+    {
+      "stem": "ANON_9",
+      "ok": false,
+      "reason": "corr=0.6612",
+      "n_red": 3091
+    },
+    {
+      "stem": "young_NAY_30_ANON_117",
+      "ok": true,
+      "split": "young",
+      "subj": "NAY_30",
+      "corr": 0.9932329651281321,
+      "n_red": 3064,
+      "pos_frac": 0.018830180921052632,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_30/timepoint1/ANON_117.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_30/timepoint1/ANON_118.tiff"
+    },
+    {
+      "stem": "young_NAY_30_ANON_119",
+      "ok": true,
+      "split": "young",
+      "subj": "NAY_30",
+      "corr": 0.9928965929258583,
+      "n_red": 2963,
+      "pos_frac": 0.01820518092105263,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_30/timepoint1/ANON_119.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_30/timepoint1/ANON_120.tiff"
+    },
+    {
+      "stem": "young_NAY_31_ANON_121",
+      "ok": true,
+      "split": "young",
+      "subj": "NAY_31",
+      "corr": 0.991971223939475,
+      "n_red": 3222,
+      "pos_frac": 0.019796463815789474,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_31/timepoint1/ANON_121.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_31/timepoint1/ANON_122.tiff"
+    },
+    {
+      "stem": "young_NAY_31_ANON_123",
+      "ok": true,
+      "split": "young",
+      "subj": "NAY_31",
+      "corr": 0.9932449880289331,
+      "n_red": 3186,
+      "pos_frac": 0.019601151315789475,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_31/timepoint1/ANON_123.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_31/timepoint1/ANON_124.tiff"
+    },
+    {
+      "stem": "young_NAY_32_ANON_125",
+      "ok": true,
+      "split": "young",
+      "subj": "NAY_32",
+      "corr": 0.9954517361698817,
+      "n_red": 2838,
+      "pos_frac": 0.017456825657894737,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_32/timepoint1/ANON_125.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_32/timepoint1/ANON_126.tiff"
+    },
+    {
+      "stem": "young_NAY_32_ANON_127",
+      "ok": true,
+      "split": "young",
+      "subj": "NAY_32",
+      "corr": 0.9940052314765424,
+      "n_red": 2799,
+      "pos_frac": 0.017257401315789473,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_32/timepoint1/ANON_127.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_32/timepoint1/ANON_128.tiff"
+    },
+    {
+      "stem": "ANON_129",
+      "ok": false,
+      "reason": "corr=0.2137",
+      "n_red": 2199
+    },
+    {
+      "stem": "young_NAY_33_ANON_131",
+      "ok": true,
+      "split": "young",
+      "subj": "NAY_33",
+      "corr": 0.9922721450897168,
+      "n_red": 2749,
+      "pos_frac": 0.01694078947368421,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_33/timepoint1/ANON_131.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_33/timepoint1/ANON_132.tiff"
+    },
+    {
+      "stem": "ANON_133",
+      "ok": false,
+      "reason": "shape ann=(608, 800, 3) raw=(608, 800, 3)"
+    },
+    {
+      "stem": "young_NAY_34_ANON_135",
+      "ok": true,
+      "split": "young",
+      "subj": "NAY_34",
+      "corr": 0.9898900209691205,
+      "n_red": 2837,
+      "pos_frac": 0.017479440789473683,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_34/timepoint1/ANON_135.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_34/timepoint1/ANON_136.tiff"
+    },
+    {
+      "stem": "young_NAY_35_ANON_137",
+      "ok": true,
+      "split": "young",
+      "subj": "NAY_35",
+      "corr": 0.992210116584819,
+      "n_red": 4403,
+      "pos_frac": 0.02708264802631579,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_35/timepoint1/ANON_137.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_35/timepoint1/ANON_138.tiff"
+    },
+    {
+      "stem": "young_NAY_35_ANON_139",
+      "ok": true,
+      "split": "young",
+      "subj": "NAY_35",
+      "corr": 0.9940050582368014,
+      "n_red": 3069,
+      "pos_frac": 0.018914473684210526,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_35/timepoint1/ANON_139.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_35/timepoint1/ANON_140.tiff"
+    },
+    {
+      "stem": "young_NAY_37_ANON_141",
+      "ok": true,
+      "split": "young",
+      "subj": "NAY_37",
+      "corr": 0.9930727664284068,
+      "n_red": 3108,
+      "pos_frac": 0.019074835526315788,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_37/timepoint1/ANON_141.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_37/timepoint1/ANON_142.tiff"
+    },
+    {
+      "stem": "young_NAY_37_ANON_143",
+      "ok": true,
+      "split": "young",
+      "subj": "NAY_37",
+      "corr": 0.9938214981859145,
+      "n_red": 3077,
+      "pos_frac": 0.018848684210526316,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_37/timepoint1/ANON_143.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_37/timepoint1/ANON_144.tiff"
+    },
+    {
+      "stem": "young_NAY_38_ANON_145",
+      "ok": true,
+      "split": "young",
+      "subj": "NAY_38",
+      "corr": 0.9933046795485388,
+      "n_red": 3185,
+      "pos_frac": 0.019580592105263157,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_38/timepoint1/ANON_145.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_38/timepoint1/ANON_146.tiff"
+    },
+    {
+      "stem": "young_NAY_38_ANON_147",
+      "ok": true,
+      "split": "young",
+      "subj": "NAY_38",
+      "corr": 0.9925726954370426,
+      "n_red": 3254,
+      "pos_frac": 0.02002467105263158,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_38/timepoint1/ANON_147.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_38/timepoint1/ANON_148.tiff"
+    },
+    {
+      "stem": "ANON_149",
+      "ok": false,
+      "reason": "corr=0.4304",
+      "n_red": 3088
+    },
+    {
+      "stem": "young_NAY_39_ANON_151",
+      "ok": true,
+      "split": "young",
+      "subj": "NAY_39",
+      "corr": 0.9932647149475324,
+      "n_red": 2893,
+      "pos_frac": 0.01774671052631579,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_39/timepoint1/ANON_151.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_39/timepoint1/ANON_152.tiff"
+    },
+    {
+      "stem": "young_NAY_4_ANON_13",
+      "ok": true,
+      "split": "young",
+      "subj": "NAY_4",
+      "corr": 0.9946769552554463,
+      "n_red": 2986,
+      "pos_frac": 0.018318256578947367,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_4/timepoint1/ANON_13.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_4/timepoint1/ANON_14.tiff"
+    },
+    {
+      "stem": "young_NAY_4_ANON_15",
+      "ok": true,
+      "split": "young",
+      "subj": "NAY_4",
+      "corr": 0.9921832363980587,
+      "n_red": 3296,
+      "pos_frac": 0.020322779605263158,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_4/timepoint1/ANON_15.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_4/timepoint1/ANON_16.tiff"
+    },
+    {
+      "stem": "young_NAY_40_ANON_153",
+      "ok": true,
+      "split": "young",
+      "subj": "NAY_40",
+      "corr": 0.9925607955472479,
+      "n_red": 2968,
+      "pos_frac": 0.018246299342105265,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_40/timepoint1/ANON_153.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_40/timepoint1/ANON_154.tiff"
+    },
+    {
+      "stem": "young_NAY_40_ANON_155",
+      "ok": true,
+      "split": "young",
+      "subj": "NAY_40",
+      "corr": 0.9935031267416652,
+      "n_red": 2471,
+      "pos_frac": 0.015185032894736841,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_40/timepoint1/ANON_155.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_40/timepoint1/ANON_156.tiff"
+    },
+    {
+      "stem": "young_NAY_5_ANON_17",
+      "ok": true,
+      "split": "young",
+      "subj": "NAY_5",
+      "corr": 0.9933290781729261,
+      "n_red": 3379,
+      "pos_frac": 0.02079152960526316,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_5/timepoint1/ANON_17.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_5/timepoint1/ANON_18.tiff"
+    },
+    {
+      "stem": "young_NAY_5_ANON_19",
+      "ok": true,
+      "split": "young",
+      "subj": "NAY_5",
+      "corr": 0.9935607550463139,
+      "n_red": 2965,
+      "pos_frac": 0.018231907894736842,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_5/timepoint1/ANON_19.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_5/timepoint1/ANON_20.tiff"
+    },
+    {
+      "stem": "ANON_21",
+      "ok": false,
+      "reason": "shape ann=(608, 800, 3) raw=(608, 800, 3)"
+    },
+    {
+      "stem": "young_NAY_6_ANON_23",
+      "ok": true,
+      "split": "young",
+      "subj": "NAY_6",
+      "corr": 0.9929270168881597,
+      "n_red": 2558,
+      "pos_frac": 0.01568873355263158,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_6/timepoint1/ANON_23.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_6/timepoint1/ANON_24.tiff"
+    },
+    {
+      "stem": "young_NAY_7_ANON_25",
+      "ok": true,
+      "split": "young",
+      "subj": "NAY_7",
+      "corr": 0.994876721286099,
+      "n_red": 2750,
+      "pos_frac": 0.016907894736842104,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_7/timepoint1/ANON_25.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_7/timepoint1/ANON_26.tiff"
+    },
+    {
+      "stem": "young_NAY_7_ANON_27",
+      "ok": true,
+      "split": "young",
+      "subj": "NAY_7",
+      "corr": 0.9930434980058013,
+      "n_red": 2820,
+      "pos_frac": 0.017378700657894736,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_7/timepoint1/ANON_27.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_7/timepoint1/ANON_28.tiff"
+    },
+    {
+      "stem": "young_NAY_8_ANON_29",
+      "ok": true,
+      "split": "young",
+      "subj": "NAY_8",
+      "corr": 0.9948630543962058,
+      "n_red": 2508,
+      "pos_frac": 0.015421463815789474,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_8/timepoint1/ANON_29.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_8/timepoint1/ANON_30.tiff"
+    },
+    {
+      "stem": "young_NAY_8_ANON_31",
+      "ok": true,
+      "split": "young",
+      "subj": "NAY_8",
+      "corr": 0.9941028613030254,
+      "n_red": 3809,
+      "pos_frac": 0.022220394736842106,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_8/timepoint1/ANON_31.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_8/timepoint1/ANON_32.tiff"
+    },
+    {
+      "stem": "young_NAY_9_ANON_33",
+      "ok": true,
+      "split": "young",
+      "subj": "NAY_9",
+      "corr": 0.9928308136619486,
+      "n_red": 2803,
+      "pos_frac": 0.01641858552631579,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_9/timepoint1/ANON_33.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_9/timepoint1/ANON_34.tiff"
+    },
+    {
+      "stem": "young_NAY_9_ANON_35",
+      "ok": true,
+      "split": "young",
+      "subj": "NAY_9",
+      "corr": 0.9939729328461854,
+      "n_red": 2522,
+      "pos_frac": 0.015516036184210526,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_9/timepoint1/ANON_35.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/young/NeuAge_Young_ANONYMIZED_annotated_v1/NAY_9/timepoint1/ANON_36.tiff"
+    },
+    {
+      "stem": "ANON_1",
+      "ok": false,
+      "reason": "corr=0.3990",
+      "n_red": 3005
+    },
+    {
+      "stem": "ANON_3",
+      "ok": false,
+      "reason": "corr=0.5883",
+      "n_red": 3928
+    },
+    {
+      "stem": "old_NAO_10_ANON_37",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_10",
+      "corr": 0.9954611336496516,
+      "n_red": 2986,
+      "pos_frac": 0.01840049342105263,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_10/timepoint1/ANON_37.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_10/timepoint1/ANON_38.tiff"
+    },
+    {
+      "stem": "old_NAO_10_ANON_39",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_10",
+      "corr": 0.9936498770559775,
+      "n_red": 3235,
+      "pos_frac": 0.019919819078947368,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_10/timepoint1/ANON_39.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_10/timepoint1/ANON_40.tiff"
+    },
+    {
+      "stem": "old_NAO_11_ANON_41",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_11",
+      "corr": 0.9932001132000253,
+      "n_red": 2819,
+      "pos_frac": 0.01738075657894737,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_11/timepoint1/ANON_41.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_11/timepoint1/ANON_42.tiff"
+    },
+    {
+      "stem": "old_NAO_11_ANON_43",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_11",
+      "corr": 0.9922985792445923,
+      "n_red": 3926,
+      "pos_frac": 0.024115953947368422,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_11/timepoint1/ANON_43.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_11/timepoint1/ANON_44.tiff"
+    },
+    {
+      "stem": "old_NAO_12_ANON_45",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_12",
+      "corr": 0.9957673071426127,
+      "n_red": 2335,
+      "pos_frac": 0.014356496710526316,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_12/timepoint1/ANON_45.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_12/timepoint1/ANON_46.tiff"
+    },
+    {
+      "stem": "old_NAO_12_ANON_47",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_12",
+      "corr": 0.9940495528158367,
+      "n_red": 2541,
+      "pos_frac": 0.015618832236842106,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_12/timepoint1/ANON_47.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_12/timepoint1/ANON_48.tiff"
+    },
+    {
+      "stem": "old_NAO_13_ANON_49",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_13",
+      "corr": 0.9940907322015144,
+      "n_red": 2647,
+      "pos_frac": 0.016280838815789473,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_13/timepoint1/ANON_49.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_13/timepoint1/ANON_50.tiff"
+    },
+    {
+      "stem": "old_NAO_13_ANON_51",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_13",
+      "corr": 0.9921122424231675,
+      "n_red": 2824,
+      "pos_frac": 0.017339638157894736,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_13/timepoint1/ANON_51.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_13/timepoint1/ANON_52.tiff"
+    },
+    {
+      "stem": "old_NAO_14_ANON_53",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_14",
+      "corr": 0.9931666939527205,
+      "n_red": 3538,
+      "pos_frac": 0.021256167763157894,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_14/timepoint1/ANON_53.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_14/timepoint1/ANON_54.tiff"
+    },
+    {
+      "stem": "ANON_55",
+      "ok": false,
+      "reason": "corr=0.6734",
+      "n_red": 3572
+    },
+    {
+      "stem": "old_NAO_15_ANON_57",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_15",
+      "corr": 0.9943031963335733,
+      "n_red": 3002,
+      "pos_frac": 0.01791529605263158,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_15/timepoint1/ANON_57.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_15/timepoint1/ANON_58.tiff"
+    },
+    {
+      "stem": "old_NAO_15_ANON_59",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_15",
+      "corr": 0.9915390025625035,
+      "n_red": 3653,
+      "pos_frac": 0.022374588815789475,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_15/timepoint1/ANON_59.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_15/timepoint1/ANON_60.tiff"
+    },
+    {
+      "stem": "old_NAO_16_ANON_61",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_16",
+      "corr": 0.9945825556302226,
+      "n_red": 2817,
+      "pos_frac": 0.017347861842105263,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_16/timepoint1/ANON_61.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_16/timepoint1/ANON_62.tiff"
+    },
+    {
+      "stem": "old_NAO_16_ANON_63",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_16",
+      "corr": 0.9945034611450825,
+      "n_red": 2619,
+      "pos_frac": 0.016085526315789474,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_16/timepoint1/ANON_63.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_16/timepoint1/ANON_64.tiff"
+    },
+    {
+      "stem": "old_NAO_17_ANON_65",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_17",
+      "corr": 0.9951590526474018,
+      "n_red": 2715,
+      "pos_frac": 0.016698190789473683,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_17/timepoint1/ANON_65.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_17/timepoint1/ANON_66.tiff"
+    },
+    {
+      "stem": "old_NAO_17_ANON_67",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_17",
+      "corr": 0.9947273461592019,
+      "n_red": 2812,
+      "pos_frac": 0.01729440789473684,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_17/timepoint1/ANON_67.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_17/timepoint1/ANON_68.tiff"
+    },
+    {
+      "stem": "old_NAO_18_ANON_69",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_18",
+      "corr": 0.9941771435882534,
+      "n_red": 2740,
+      "pos_frac": 0.016827713815789475,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_18/timepoint1/ANON_69.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_18/timepoint1/ANON_70.tiff"
+    },
+    {
+      "stem": "old_NAO_18_ANON_71",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_18",
+      "corr": 0.9932085325984017,
+      "n_red": 3072,
+      "pos_frac": 0.018922697368421053,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_18/timepoint1/ANON_71.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_18/timepoint1/ANON_72.tiff"
+    },
+    {
+      "stem": "old_NAO_19_ANON_73",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_19",
+      "corr": 0.9945708002931839,
+      "n_red": 3030,
+      "pos_frac": 0.018630756578947368,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_19/timepoint1/ANON_73.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_19/timepoint1/ANON_74.tiff"
+    },
+    {
+      "stem": "old_NAO_19_ANON_75",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_19",
+      "corr": 0.9945359684244596,
+      "n_red": 4473,
+      "pos_frac": 0.027045641447368422,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_19/timepoint1/ANON_75.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_19/timepoint1/ANON_76.tiff"
+    },
+    {
+      "stem": "old_NAO_2_ANON_5",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_2",
+      "corr": 0.9934356287119352,
+      "n_red": 2911,
+      "pos_frac": 0.017935855263157895,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_2/timepoint1/ANON_5.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_2/timepoint1/ANON_6.tiff"
+    },
+    {
+      "stem": "old_NAO_2_ANON_7",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_2",
+      "corr": 0.9946361062737133,
+      "n_red": 3054,
+      "pos_frac": 0.018787006578947368,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_2/timepoint1/ANON_7.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_2/timepoint1/ANON_8.tiff"
+    },
+    {
+      "stem": "old_NAO_20_ANON_77",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_20",
+      "corr": 0.9945118499490065,
+      "n_red": 2972,
+      "pos_frac": 0.018301809210526317,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_20/timepoint1/ANON_77.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_20/timepoint1/ANON_78.tiff"
+    },
+    {
+      "stem": "ANON_79",
+      "ok": false,
+      "reason": "corr=0.5542",
+      "n_red": 3146
+    },
+    {
+      "stem": "old_NAO_21_ANON_81",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_21",
+      "corr": 0.9954742979390985,
+      "n_red": 2441,
+      "pos_frac": 0.014991776315789474,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_21/timepoint1/ANON_81.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_21/timepoint1/ANON_82.tiff"
+    },
+    {
+      "stem": "old_NAO_21_ANON_83",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_21",
+      "corr": 0.9936834051240652,
+      "n_red": 2784,
+      "pos_frac": 0.017033305921052632,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_21/timepoint1/ANON_83.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_21/timepoint1/ANON_84.tiff"
+    },
+    {
+      "stem": "old_NAO_22_ANON_85",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_22",
+      "corr": 0.9945212904498052,
+      "n_red": 2870,
+      "pos_frac": 0.017650082236842106,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_22/timepoint1/ANON_85.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_22/timepoint1/ANON_86.tiff"
+    },
+    {
+      "stem": "old_NAO_22_ANON_87",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_22",
+      "corr": 0.9945092498864928,
+      "n_red": 2871,
+      "pos_frac": 0.01764597039473684,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_22/timepoint1/ANON_87.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_22/timepoint1/ANON_88.tiff"
+    },
+    {
+      "stem": "old_NAO_23_ANON_89",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_23",
+      "corr": 0.9955074851107362,
+      "n_red": 2752,
+      "pos_frac": 0.01692845394736842,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_23/timepoint1/ANON_89.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_23/timepoint1/ANON_90.tiff"
+    },
+    {
+      "stem": "old_NAO_23_ANON_91",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_23",
+      "corr": 0.9956775717929276,
+      "n_red": 2745,
+      "pos_frac": 0.016877055921052632,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_23/timepoint1/ANON_91.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_23/timepoint1/ANON_92.tiff"
+    },
+    {
+      "stem": "ANON_93",
+      "ok": false,
+      "reason": "corr=0.4387",
+      "n_red": 2831
+    },
+    {
+      "stem": "old_NAO_24_ANON_95",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_24",
+      "corr": 0.9946115767468137,
+      "n_red": 2755,
+      "pos_frac": 0.016897615131578947,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_24/timepoint1/ANON_95.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_24/timepoint1/ANON_96.tiff"
+    },
+    {
+      "stem": "ANON_97",
+      "ok": false,
+      "reason": "corr=0.8149",
+      "n_red": 2543
+    },
+    {
+      "stem": "ANON_99",
+      "ok": false,
+      "reason": "corr=0.8156",
+      "n_red": 2888
+    },
+    {
+      "stem": "old_NAO_26_ANON_101",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_26",
+      "corr": 0.993228508459665,
+      "n_red": 2899,
+      "pos_frac": 0.01783922697368421,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_26/timepoint1/ANON_101.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_26/timepoint1/ANON_102.tiff"
+    },
+    {
+      "stem": "old_NAO_26_ANON_103",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_26",
+      "corr": 0.9886457014990094,
+      "n_red": 4410,
+      "pos_frac": 0.027181332236842104,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_26/timepoint1/ANON_103.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_26/timepoint1/ANON_104.tiff"
+    },
+    {
+      "stem": "ANON_105",
+      "ok": false,
+      "reason": "corr=0.5297",
+      "n_red": 4619
+    },
+    {
+      "stem": "old_NAO_27_ANON_107",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_27",
+      "corr": 0.9912866576831022,
+      "n_red": 3917,
+      "pos_frac": 0.024136513157894737,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_27/timepoint1/ANON_107.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_27/timepoint1/ANON_108.tiff"
+    },
+    {
+      "stem": "old_NAO_28_ANON_109",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_28",
+      "corr": 0.9958788922399431,
+      "n_red": 1985,
+      "pos_frac": 0.012210115131578948,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_28/timepoint1/ANON_109.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_28/timepoint1/ANON_110.tiff"
+    },
+    {
+      "stem": "old_NAO_28_ANON_111",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_28",
+      "corr": 0.9929867735542115,
+      "n_red": 2849,
+      "pos_frac": 0.01752672697368421,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_28/timepoint1/ANON_111.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_28/timepoint1/ANON_112.tiff"
+    },
+    {
+      "stem": "old_NAO_29_ANON_113",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_29",
+      "corr": 0.9926016283506424,
+      "n_red": 3258,
+      "pos_frac": 0.020055509868421053,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_29/timepoint1/ANON_113.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_29/timepoint1/ANON_114.tiff"
+    },
+    {
+      "stem": "old_NAO_29_ANON_115",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_29",
+      "corr": 0.9928460399933754,
+      "n_red": 3342,
+      "pos_frac": 0.020550986842105264,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_29/timepoint1/ANON_115.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_29/timepoint1/ANON_116.tiff"
+    },
+    {
+      "stem": "ANON_11",
+      "ok": false,
+      "reason": "corr=0.4700",
+      "n_red": 3259
+    },
+    {
+      "stem": "ANON_9",
+      "ok": false,
+      "reason": "corr=0.6771",
+      "n_red": 3710
+    },
+    {
+      "stem": "old_NAO_30_ANON_117",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_30",
+      "corr": 0.9936433228459551,
+      "n_red": 3228,
+      "pos_frac": 0.01988486842105263,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_30/timepoint1/ANON_117.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_30/timepoint1/ANON_118.tiff"
+    },
+    {
+      "stem": "old_NAO_30_ANON_119",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_30",
+      "corr": 0.9948233438950307,
+      "n_red": 3092,
+      "pos_frac": 0.019081003289473684,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_30/timepoint1/ANON_119.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_30/timepoint1/ANON_120.tiff"
+    },
+    {
+      "stem": "ANON_121",
+      "ok": false,
+      "reason": "corr=0.4245",
+      "n_red": 3318
+    },
+    {
+      "stem": "ANON_123",
+      "ok": false,
+      "reason": "corr=0.4165",
+      "n_red": 3901
+    },
+    {
+      "stem": "old_NAO_32_ANON_125",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_32",
+      "corr": 0.9956190045879068,
+      "n_red": 2253,
+      "pos_frac": 0.013850740131578948,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_32/timepoint1/ANON_125.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_32/timepoint1/ANON_126.tiff"
+    },
+    {
+      "stem": "ANON_127",
+      "ok": false,
+      "reason": "shape ann=(608, 800, 3) raw=(608, 800, 3)"
+    },
+    {
+      "stem": "old_NAO_33_ANON_129",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_33",
+      "corr": 0.9940546399334302,
+      "n_red": 2313,
+      "pos_frac": 0.014183799342105263,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_33/timepoint1/ANON_129.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_33/timepoint1/ANON_130.tiff"
+    },
+    {
+      "stem": "ANON_131",
+      "ok": false,
+      "reason": "corr=0.4839",
+      "n_red": 2616
+    },
+    {
+      "stem": "old_NAO_34_ANON_133",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_34",
+      "corr": 0.9937185477378231,
+      "n_red": 3153,
+      "pos_frac": 0.019422286184210526,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_34/timepoint1/ANON_133.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_34/timepoint1/ANON_134.tiff"
+    },
+    {
+      "stem": "old_NAO_34_ANON_135",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_34",
+      "corr": 0.993067578351263,
+      "n_red": 3576,
+      "pos_frac": 0.022012746710526315,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_34/timepoint1/ANON_135.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_34/timepoint1/ANON_136.tiff"
+    },
+    {
+      "stem": "old_NAO_35_ANON_137",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_35",
+      "corr": 0.9955223985837227,
+      "n_red": 3035,
+      "pos_frac": 0.018634868421052633,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_35/timepoint1/ANON_137.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_35/timepoint1/ANON_138.tiff"
+    },
+    {
+      "stem": "old_NAO_35_ANON_139",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_35",
+      "corr": 0.9941641683870791,
+      "n_red": 3092,
+      "pos_frac": 0.018982319078947367,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_35/timepoint1/ANON_139.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_35/timepoint1/ANON_140.tiff"
+    },
+    {
+      "stem": "ANON_141",
+      "ok": false,
+      "reason": "corr=0.5229",
+      "n_red": 1932
+    },
+    {
+      "stem": "ANON_143",
+      "ok": false,
+      "reason": "corr=0.5838",
+      "n_red": 2656
+    },
+    {
+      "stem": "old_NAO_37_ANON_145",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_37",
+      "corr": 0.9959110831483186,
+      "n_red": 2691,
+      "pos_frac": 0.016527549342105263,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_37/timepoint1/ANON_145.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_37/timepoint1/ANON_146.tiff"
+    },
+    {
+      "stem": "old_NAO_37_ANON_147",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_37",
+      "corr": 0.9935746423060365,
+      "n_red": 3257,
+      "pos_frac": 0.020055509868421053,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_37/timepoint1/ANON_147.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_37/timepoint1/ANON_148.tiff"
+    },
+    {
+      "stem": "old_NAO_38_ANON_149",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_38",
+      "corr": 0.9925665830797369,
+      "n_red": 3052,
+      "pos_frac": 0.01877672697368421,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_38/timepoint1/ANON_149.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_38/timepoint1/ANON_150.tiff"
+    },
+    {
+      "stem": "old_NAO_38_ANON_151",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_38",
+      "corr": 0.9927188601754867,
+      "n_red": 3333,
+      "pos_frac": 0.02050575657894737,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_38/timepoint1/ANON_151.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_38/timepoint1/ANON_152.tiff"
+    },
+    {
+      "stem": "old_NAO_39_ANON_153",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_39",
+      "corr": 0.9925761293347203,
+      "n_red": 3955,
+      "pos_frac": 0.024354440789473686,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_39/timepoint1/ANON_153.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_39/timepoint1/ANON_154.tiff"
+    },
+    {
+      "stem": "old_NAO_39_ANON_155",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_39",
+      "corr": 0.9924662373256911,
+      "n_red": 3865,
+      "pos_frac": 0.02379111842105263,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_39/timepoint1/ANON_155.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_39/timepoint1/ANON_156.tiff"
+    },
+    {
+      "stem": "old_NAO_4_ANON_13",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_4",
+      "corr": 0.9931490821796376,
+      "n_red": 2988,
+      "pos_frac": 0.018406661184210527,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_4/timepoint1/ANON_13.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_4/timepoint1/ANON_14.tiff"
+    },
+    {
+      "stem": "old_NAO_4_ANON_15",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_4",
+      "corr": 0.9924273102494374,
+      "n_red": 3564,
+      "pos_frac": 0.021944901315789474,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_4/timepoint1/ANON_15.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_4/timepoint1/ANON_16.tiff"
+    },
+    {
+      "stem": "old_NAO_40_ANON_157",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_40",
+      "corr": 0.9928468856637959,
+      "n_red": 2648,
+      "pos_frac": 0.01631167763157895,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_40/timepoint1/ANON_157.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_40/timepoint1/ANON_158.tiff"
+    },
+    {
+      "stem": "old_NAO_40_ANON_159",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_40",
+      "corr": 0.9925590692655087,
+      "n_red": 3348,
+      "pos_frac": 0.020631167763157893,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_40/timepoint1/ANON_159.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_40/timepoint1/ANON_160.tiff"
+    },
+    {
+      "stem": "old_NAO_41_ANON_161",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_41",
+      "corr": 0.9943006840265417,
+      "n_red": 2840,
+      "pos_frac": 0.017428042763157896,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_41/timepoint1/ANON_161.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_41/timepoint1/ANON_162.tiff"
+    },
+    {
+      "stem": "old_NAO_41_ANON_163",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_41",
+      "corr": 0.9942136617550114,
+      "n_red": 3204,
+      "pos_frac": 0.01972450657894737,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_41/timepoint1/ANON_163.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_41/timepoint1/ANON_164.tiff"
+    },
+    {
+      "stem": "old_NAO_42_ANON_165",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_42",
+      "corr": 0.995048717011332,
+      "n_red": 2832,
+      "pos_frac": 0.017378700657894736,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_42/timepoint1/ANON_165.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_42/timepoint1/ANON_166.tiff"
+    },
+    {
+      "stem": "old_NAO_42_ANON_167",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_42",
+      "corr": 0.9947570987918899,
+      "n_red": 3019,
+      "pos_frac": 0.018544407894736843,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_42/timepoint1/ANON_167.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_42/timepoint1/ANON_168.tiff"
+    },
+    {
+      "stem": "old_NAO_43_ANON_169",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_43",
+      "corr": 0.9923648889370922,
+      "n_red": 2960,
+      "pos_frac": 0.018199013157894735,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_43/timepoint1/ANON_169.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_43/timepoint1/ANON_170.tiff"
+    },
+    {
+      "stem": "old_NAO_43_ANON_171",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_43",
+      "corr": 0.9914675734222134,
+      "n_red": 3238,
+      "pos_frac": 0.01991159539473684,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_43/timepoint1/ANON_171.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_43/timepoint1/ANON_172.tiff"
+    },
+    {
+      "stem": "old_NAO_44_ANON_173",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_44",
+      "corr": 0.9939207745635006,
+      "n_red": 2653,
+      "pos_frac": 0.016324013157894737,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_44/timepoint1/ANON_173.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_44/timepoint1/ANON_174.tiff"
+    },
+    {
+      "stem": "old_NAO_44_ANON_175",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_44",
+      "corr": 0.9932666041934317,
+      "n_red": 3174,
+      "pos_frac": 0.01952713815789474,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_44/timepoint1/ANON_175.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_44/timepoint1/ANON_176.tiff"
+    },
+    {
+      "stem": "old_NAO_45_ANON_177",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_45",
+      "corr": 0.994308545403001,
+      "n_red": 3239,
+      "pos_frac": 0.01997738486842105,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_45/timepoint1/ANON_177.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_45/timepoint1/ANON_178.tiff"
+    },
+    {
+      "stem": "old_NAO_45_ANON_179",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_45",
+      "corr": 0.9939275537230657,
+      "n_red": 3981,
+      "pos_frac": 0.02451891447368421,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_45/timepoint1/ANON_179.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_45/timepoint1/ANON_180.tiff"
+    },
+    {
+      "stem": "old_NAO_46_ANON_181",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_46",
+      "corr": 0.9931788516778067,
+      "n_red": 2553,
+      "pos_frac": 0.01568667763157895,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_46/timepoint1/ANON_181.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_46/timepoint1/ANON_182.tiff"
+    },
+    {
+      "stem": "old_NAO_46_ANON_183",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_46",
+      "corr": 0.9936412221379503,
+      "n_red": 2963,
+      "pos_frac": 0.018279194078947368,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_46/timepoint1/ANON_183.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_46/timepoint1/ANON_184.tiff"
+    },
+    {
+      "stem": "old_NAO_47_ANON_185",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_47",
+      "corr": 0.9938317631542232,
+      "n_red": 2760,
+      "pos_frac": 0.016930509868421054,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_47/timepoint1/ANON_185.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_47/timepoint1/ANON_186.tiff"
+    },
+    {
+      "stem": "old_NAO_47_ANON_187",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_47",
+      "corr": 0.9937254287883774,
+      "n_red": 2747,
+      "pos_frac": 0.016786595394736842,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_47/timepoint1/ANON_187.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_47/timepoint1/ANON_188.tiff"
+    },
+    {
+      "stem": "old_NAO_48_ANON_189",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_48",
+      "corr": 0.9941392326381278,
+      "n_red": 2762,
+      "pos_frac": 0.016944901315789473,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_48/timepoint1/ANON_189.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_48/timepoint1/ANON_190.tiff"
+    },
+    {
+      "stem": "ANON_191",
+      "ok": false,
+      "reason": "corr=0.4021",
+      "n_red": 3105
+    },
+    {
+      "stem": "old_NAO_49_ANON_193",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_49",
+      "corr": 0.9941336220196546,
+      "n_red": 3015,
+      "pos_frac": 0.018497121710526317,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_49/timepoint1/ANON_193.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_49/timepoint1/ANON_194.tiff"
+    },
+    {
+      "stem": "old_NAO_49_ANON_195",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_49",
+      "corr": 0.9924144993566979,
+      "n_red": 3181,
+      "pos_frac": 0.019578536184210526,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_49/timepoint1/ANON_195.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_49/timepoint1/ANON_196.tiff"
+    },
+    {
+      "stem": "old_NAO_5_ANON_17",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_5",
+      "corr": 0.9941196727078438,
+      "n_red": 2847,
+      "pos_frac": 0.0175,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_5/timepoint1/ANON_17.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_5/timepoint1/ANON_18.tiff"
+    },
+    {
+      "stem": "old_NAO_5_ANON_19",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_5",
+      "corr": 0.9934919044934557,
+      "n_red": 3118,
+      "pos_frac": 0.019212582236842104,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_5/timepoint1/ANON_19.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_5/timepoint1/ANON_20.tiff"
+    },
+    {
+      "stem": "old_NAO_50_ANON_197",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_50",
+      "corr": 0.9953245091951072,
+      "n_red": 2911,
+      "pos_frac": 0.01791735197368421,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_50/timepoint1/ANON_197.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_50/timepoint1/ANON_198.tiff"
+    },
+    {
+      "stem": "old_NAO_50_ANON_199",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_50",
+      "corr": 0.993985046539578,
+      "n_red": 3556,
+      "pos_frac": 0.021897615131578948,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_50/timepoint1/ANON_199.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_50/timepoint1/ANON_200.tiff"
+    },
+    {
+      "stem": "ANON_201",
+      "ok": false,
+      "reason": "corr=0.4020",
+      "n_red": 2389
+    },
+    {
+      "stem": "old_NAO_51_ANON_203",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_51",
+      "corr": 0.9931280418036724,
+      "n_red": 3236,
+      "pos_frac": 0.019950657894736844,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_51/timepoint1/ANON_203.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_51/timepoint1/ANON_204.tiff"
+    },
+    {
+      "stem": "ANON_205",
+      "ok": false,
+      "reason": "corr=0.4481",
+      "n_red": 3753
+    },
+    {
+      "stem": "ANON_207",
+      "ok": false,
+      "reason": "corr=0.2170",
+      "n_red": 2549
+    },
+    {
+      "stem": "old_NAO_53_ANON_209",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_53",
+      "corr": 0.9944163287004247,
+      "n_red": 3174,
+      "pos_frac": 0.019510690789473685,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_53/timepoint1/ANON_209.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_53/timepoint1/ANON_210.tiff"
+    },
+    {
+      "stem": "old_NAO_53_ANON_211",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_53",
+      "corr": 0.9942805122827135,
+      "n_red": 3424,
+      "pos_frac": 0.02109375,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_53/timepoint1/ANON_211.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_53/timepoint1/ANON_212.tiff"
+    },
+    {
+      "stem": "old_NAO_54_ANON_213",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_54",
+      "corr": 0.9947161322971406,
+      "n_red": 2706,
+      "pos_frac": 0.016622121710526315,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_54/timepoint1/ANON_213.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_54/timepoint1/ANON_214.tiff"
+    },
+    {
+      "stem": "old_NAO_54_ANON_215",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_54",
+      "corr": 0.9931109781709956,
+      "n_red": 2915,
+      "pos_frac": 0.017962582236842106,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_54/timepoint1/ANON_215.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_54/timepoint1/ANON_216.tiff"
+    },
+    {
+      "stem": "old_NAO_55_ANON_217",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_55",
+      "corr": 0.9946719927318585,
+      "n_red": 2641,
+      "pos_frac": 0.016229440789473686,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_55/timepoint1/ANON_217.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_55/timepoint1/ANON_218.tiff"
+    },
+    {
+      "stem": "old_NAO_55_ANON_219",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_55",
+      "corr": 0.9942193300953944,
+      "n_red": 2884,
+      "pos_frac": 0.017752878289473684,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_55/timepoint1/ANON_219.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_55/timepoint1/ANON_220.tiff"
+    },
+    {
+      "stem": "old_NAO_56_ANON_221",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_56",
+      "corr": 0.9923965632552435,
+      "n_red": 3294,
+      "pos_frac": 0.020316611842105262,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_56/timepoint1/ANON_221.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_56/timepoint1/ANON_222.tiff"
+    },
+    {
+      "stem": "old_NAO_56_ANON_223",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_56",
+      "corr": 0.9935033829941539,
+      "n_red": 3153,
+      "pos_frac": 0.01944284539473684,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_56/timepoint1/ANON_223.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_56/timepoint1/ANON_224.tiff"
+    },
+    {
+      "stem": "old_NAO_57_ANON_225",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_57",
+      "corr": 0.9947473672181486,
+      "n_red": 2820,
+      "pos_frac": 0.01737047697368421,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_57/timepoint1/ANON_225.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_57/timepoint1/ANON_226.tiff"
+    },
+    {
+      "stem": "ANON_227",
+      "ok": false,
+      "reason": "corr=0.5631",
+      "n_red": 2988
+    },
+    {
+      "stem": "old_NAO_58_ANON_229",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_58",
+      "corr": 0.9957841058589407,
+      "n_red": 2078,
+      "pos_frac": 0.01276110197368421,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_58/timepoint1/ANON_229.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_58/timepoint1/ANON_230.tiff"
+    },
+    {
+      "stem": "old_NAO_58_ANON_231",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_58",
+      "corr": 0.9929006244012502,
+      "n_red": 3331,
+      "pos_frac": 0.020522203947368423,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_58/timepoint1/ANON_231.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_58/timepoint1/ANON_232.tiff"
+    },
+    {
+      "stem": "ANON_233",
+      "ok": false,
+      "reason": "corr=0.1125",
+      "n_red": 2605
+    },
+    {
+      "stem": "ANON_235",
+      "ok": false,
+      "reason": "corr=0.4754",
+      "n_red": 3410
+    },
+    {
+      "stem": "ANON_21",
+      "ok": false,
+      "reason": "corr=0.3574",
+      "n_red": 3875
+    },
+    {
+      "stem": "old_NAO_6_ANON_23",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_6",
+      "corr": 0.993123291730591,
+      "n_red": 3254,
+      "pos_frac": 0.020069901315789472,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_6/timepoint1/ANON_23.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_6/timepoint1/ANON_24.tiff"
+    },
+    {
+      "stem": "ANON_237",
+      "ok": false,
+      "reason": "corr=0.4791",
+      "n_red": 2407
+    },
+    {
+      "stem": "old_NAO_60_ANON_239",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_60",
+      "corr": 0.9944106952848637,
+      "n_red": 2801,
+      "pos_frac": 0.01723889802631579,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_60/timepoint1/ANON_239.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_60/timepoint1/ANON_240.tiff"
+    },
+    {
+      "stem": "old_NAO_61_ANON_241",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_61",
+      "corr": 0.993882462325669,
+      "n_red": 3089,
+      "pos_frac": 0.019006990131578947,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_61/timepoint1/ANON_241.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_61/timepoint1/ANON_242.tiff"
+    },
+    {
+      "stem": "ANON_243",
+      "ok": false,
+      "reason": "corr=0.5187",
+      "n_red": 3726
+    },
+    {
+      "stem": "old_NAO_62_ANON_245",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_62",
+      "corr": 0.9938013560777509,
+      "n_red": 2974,
+      "pos_frac": 0.018250411184210526,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_62/timepoint1/ANON_245.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_62/timepoint1/ANON_246.tiff"
+    },
+    {
+      "stem": "old_NAO_62_ANON_247",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_62",
+      "corr": 0.9901266493828247,
+      "n_red": 3685,
+      "pos_frac": 0.02270970394736842,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_62/timepoint1/ANON_247.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_62/timepoint1/ANON_248.tiff"
+    },
+    {
+      "stem": "ANON_249",
+      "ok": false,
+      "reason": "corr=0.3661",
+      "n_red": 2753
+    },
+    {
+      "stem": "ANON_251",
+      "ok": false,
+      "reason": "corr=0.4120",
+      "n_red": 3587
+    },
+    {
+      "stem": "old_NAO_64_ANON_253",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_64",
+      "corr": 0.9932642487579906,
+      "n_red": 3863,
+      "pos_frac": 0.023826069078947368,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_64/timepoint1/ANON_253.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_64/timepoint1/ANON_254.tiff"
+    },
+    {
+      "stem": "old_NAO_64_ANON_255",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_64",
+      "corr": 0.9935770568998329,
+      "n_red": 3552,
+      "pos_frac": 0.021872944078947368,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_64/timepoint1/ANON_255.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_64/timepoint1/ANON_256.tiff"
+    },
+    {
+      "stem": "old_NAO_65_ANON_257",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_65",
+      "corr": 0.993694440727552,
+      "n_red": 3180,
+      "pos_frac": 0.019617598684210525,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_65/timepoint1/ANON_257.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_65/timepoint1/ANON_258.tiff"
+    },
+    {
+      "stem": "old_NAO_65_ANON_259",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_65",
+      "corr": 0.992706872075685,
+      "n_red": 3305,
+      "pos_frac": 0.020384457236842107,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_65/timepoint1/ANON_259.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_65/timepoint1/ANON_260.tiff"
+    },
+    {
+      "stem": "ANON_261",
+      "ok": false,
+      "reason": "corr=0.9698",
+      "n_red": 2439
+    },
+    {
+      "stem": "old_NAO_66_ANON_263",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_66",
+      "corr": 0.9932268265611162,
+      "n_red": 2441,
+      "pos_frac": 0.015002055921052632,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_66/timepoint1/ANON_263.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_66/timepoint1/ANON_264.tiff"
+    },
+    {
+      "stem": "old_NAO_67_ANON_265",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_67",
+      "corr": 0.996094424873553,
+      "n_red": 2235,
+      "pos_frac": 0.013727384868421053,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_67/timepoint1/ANON_265.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_67/timepoint1/ANON_266.tiff"
+    },
+    {
+      "stem": "old_NAO_67_ANON_267",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_67",
+      "corr": 0.9941018200634771,
+      "n_red": 2595,
+      "pos_frac": 0.015970394736842104,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_67/timepoint1/ANON_267.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_67/timepoint1/ANON_268.tiff"
+    },
+    {
+      "stem": "old_NAO_68_ANON_269",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_68",
+      "corr": 0.992896013284422,
+      "n_red": 3226,
+      "pos_frac": 0.018784950657894737,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_68/timepoint1/ANON_269.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_68/timepoint1/ANON_270.tiff"
+    },
+    {
+      "stem": "old_NAO_68_ANON_271",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_68",
+      "corr": 0.9930443944122627,
+      "n_red": 2990,
+      "pos_frac": 0.018369654605263158,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_68/timepoint1/ANON_271.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_68/timepoint1/ANON_272.tiff"
+    },
+    {
+      "stem": "old_NAO_69_ANON_273",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_69",
+      "corr": 0.9930534064705593,
+      "n_red": 2973,
+      "pos_frac": 0.01829358552631579,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_69/timepoint1/ANON_273.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_69/timepoint1/ANON_274.tiff"
+    },
+    {
+      "stem": "old_NAO_69_ANON_275",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_69",
+      "corr": 0.9927943669759436,
+      "n_red": 3258,
+      "pos_frac": 0.020043174342105265,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_69/timepoint1/ANON_275.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_69/timepoint1/ANON_276.tiff"
+    },
+    {
+      "stem": "old_NAO_7_ANON_25",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_7",
+      "corr": 0.9939297491307411,
+      "n_red": 2624,
+      "pos_frac": 0.016147203947368422,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_7/timepoint1/ANON_25.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_7/timepoint1/ANON_26.tiff"
+    },
+    {
+      "stem": "old_NAO_7_ANON_27",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_7",
+      "corr": 0.9942417576294255,
+      "n_red": 2605,
+      "pos_frac": 0.015986842105263157,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_7/timepoint1/ANON_27.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_7/timepoint1/ANON_28.tiff"
+    },
+    {
+      "stem": "old_NAO_70_ANON_277",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_70",
+      "corr": 0.9941682471286134,
+      "n_red": 2846,
+      "pos_frac": 0.017520559210526317,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_70/timepoint1/ANON_277.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_70/timepoint1/ANON_278.tiff"
+    },
+    {
+      "stem": "ANON_279",
+      "ok": false,
+      "reason": "corr=0.5208",
+      "n_red": 3219
+    },
+    {
+      "stem": "old_NAO_71_ANON_281",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_71",
+      "corr": 0.9930116766870092,
+      "n_red": 3168,
+      "pos_frac": 0.01943667763157895,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_71/timepoint1/ANON_281.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_71/timepoint1/ANON_282.tiff"
+    },
+    {
+      "stem": "old_NAO_71_ANON_283",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_71",
+      "corr": 0.9895208835670405,
+      "n_red": 5068,
+      "pos_frac": 0.030129523026315788,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_71/timepoint1/ANON_283.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_71/timepoint1/ANON_284.tiff"
+    },
+    {
+      "stem": "old_NAO_72_ANON_285",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_72",
+      "corr": 0.9943586556337461,
+      "n_red": 2659,
+      "pos_frac": 0.016328125,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_72/timepoint1/ANON_285.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_72/timepoint1/ANON_286.tiff"
+    },
+    {
+      "stem": "old_NAO_72_ANON_287",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_72",
+      "corr": 0.9941908787281413,
+      "n_red": 2809,
+      "pos_frac": 0.017236842105263158,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_72/timepoint1/ANON_287.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_72/timepoint1/ANON_288.tiff"
+    },
+    {
+      "stem": "old_NAO_73_ANON_289",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_73",
+      "corr": 0.9942834734808043,
+      "n_red": 2550,
+      "pos_frac": 0.015668174342105264,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_73/timepoint1/ANON_289.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_73/timepoint1/ANON_290.tiff"
+    },
+    {
+      "stem": "old_NAO_73_ANON_291",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_73",
+      "corr": 0.9941018907591471,
+      "n_red": 2756,
+      "pos_frac": 0.01693873355263158,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_73/timepoint1/ANON_291.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_73/timepoint1/ANON_292.tiff"
+    },
+    {
+      "stem": "old_NAO_73_ANON_293",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_73",
+      "corr": 0.9937404010405779,
+      "n_red": 2669,
+      "pos_frac": 0.016363075657894736,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_73/timepoint1/ANON_293.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_73/timepoint1/ANON_294.tiff"
+    },
+    {
+      "stem": "old_NAO_74_ANON_295",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_74",
+      "corr": 0.9925728846688131,
+      "n_red": 3625,
+      "pos_frac": 0.021112253289473686,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_74/timepoint1/ANON_295.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_74/timepoint1/ANON_296.tiff"
+    },
+    {
+      "stem": "old_NAO_74_ANON_297",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_74",
+      "corr": 0.9937923885560476,
+      "n_red": 3353,
+      "pos_frac": 0.020655838815789473,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_74/timepoint1/ANON_297.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_74/timepoint1/ANON_298.tiff"
+    },
+    {
+      "stem": "old_NAO_75_ANON_299",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_75",
+      "corr": 0.9945839723941113,
+      "n_red": 2389,
+      "pos_frac": 0.014298930921052631,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_75/timepoint1/ANON_299.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_75/timepoint1/ANON_300.tiff"
+    },
+    {
+      "stem": "old_NAO_75_ANON_301",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_75",
+      "corr": 0.9948721264335767,
+      "n_red": 2660,
+      "pos_frac": 0.016387746710526317,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_75/timepoint1/ANON_301.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_75/timepoint1/ANON_302.tiff"
+    },
+    {
+      "stem": "ANON_303",
+      "ok": false,
+      "reason": "corr=0.2494",
+      "n_red": 2516
+    },
+    {
+      "stem": "old_NAO_76_ANON_305",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_76",
+      "corr": 0.9926075354726906,
+      "n_red": 3090,
+      "pos_frac": 0.019002878289473685,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_76/timepoint1/ANON_305.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_76/timepoint1/ANON_306.tiff"
+    },
+    {
+      "stem": "old_NAO_77_ANON_307",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_77",
+      "corr": 0.9947326156894543,
+      "n_red": 2769,
+      "pos_frac": 0.01700657894736842,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_77/timepoint1/ANON_307.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_77/timepoint1/ANON_308.tiff"
+    },
+    {
+      "stem": "old_NAO_77_ANON_309",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_77",
+      "corr": 0.9959161824629016,
+      "n_red": 2608,
+      "pos_frac": 0.01607113486842105,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_77/timepoint1/ANON_309.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_77/timepoint1/ANON_310.tiff"
+    },
+    {
+      "stem": "old_NAO_78_ANON_311",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_78",
+      "corr": 0.9937027818142439,
+      "n_red": 2700,
+      "pos_frac": 0.016585115131578947,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_78/timepoint1/ANON_311.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_78/timepoint1/ANON_312.tiff"
+    },
+    {
+      "stem": "ANON_313",
+      "ok": false,
+      "reason": "corr=0.3369",
+      "n_red": 2847
+    },
+    {
+      "stem": "old_NAO_79_ANON_315",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_79",
+      "corr": 0.9931542887541895,
+      "n_red": 3077,
+      "pos_frac": 0.018953536184210525,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_79/timepoint1/ANON_315.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_79/timepoint1/ANON_316.tiff"
+    },
+    {
+      "stem": "ANON_317",
+      "ok": false,
+      "reason": "corr=0.5188",
+      "n_red": 2604
+    },
+    {
+      "stem": "old_NAO_8_ANON_29",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_8",
+      "corr": 0.9939609642930322,
+      "n_red": 2882,
+      "pos_frac": 0.01773026315789474,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_8/timepoint1/ANON_29.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_8/timepoint1/ANON_30.tiff"
+    },
+    {
+      "stem": "old_NAO_8_ANON_31",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_8",
+      "corr": 0.9932894712907039,
+      "n_red": 2761,
+      "pos_frac": 0.016946957236842104,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_8/timepoint1/ANON_31.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_8/timepoint1/ANON_32.tiff"
+    },
+    {
+      "stem": "old_NAO_80_ANON_319",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_80",
+      "corr": 0.9947395378317169,
+      "n_red": 2920,
+      "pos_frac": 0.017991365131578948,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_80/timepoint1/ANON_319.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_80/timepoint1/ANON_320.tiff"
+    },
+    {
+      "stem": "old_NAO_80_ANON_321",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_80",
+      "corr": 0.9944336997746174,
+      "n_red": 2985,
+      "pos_frac": 0.01840254934210526,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_80/timepoint1/ANON_321.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_80/timepoint1/ANON_322.tiff"
+    },
+    {
+      "stem": "old_NAO_81_ANON_323",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_81",
+      "corr": 0.9927987405232623,
+      "n_red": 3759,
+      "pos_frac": 0.022633634868421054,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_81/timepoint1/ANON_323.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_81/timepoint1/ANON_324.tiff"
+    },
+    {
+      "stem": "old_NAO_81_ANON_325",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_81",
+      "corr": 0.9939302072276722,
+      "n_red": 2976,
+      "pos_frac": 0.018365542763157893,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_81/timepoint1/ANON_325.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_81/timepoint1/ANON_326.tiff"
+    },
+    {
+      "stem": "ANON_327",
+      "ok": false,
+      "reason": "corr=0.3017",
+      "n_red": 3549
+    },
+    {
+      "stem": "old_NAO_82_ANON_329",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_82",
+      "corr": 0.9906176468053656,
+      "n_red": 3984,
+      "pos_frac": 0.023180509868421052,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_82/timepoint1/ANON_329.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_82/timepoint1/ANON_330.tiff"
+    },
+    {
+      "stem": "ANON_331",
+      "ok": false,
+      "reason": "corr=0.4993",
+      "n_red": 3678
+    },
+    {
+      "stem": "ANON_333",
+      "ok": false,
+      "reason": "corr=0.4107",
+      "n_red": 3018
+    },
+    {
+      "stem": "old_NAO_84_ANON_335",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_84",
+      "corr": 0.991925228995672,
+      "n_red": 3288,
+      "pos_frac": 0.01999794407894737,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_84/timepoint1/ANON_335.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_84/timepoint1/ANON_336.tiff"
+    },
+    {
+      "stem": "old_NAO_84_ANON_337",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_84",
+      "corr": 0.9936151061385848,
+      "n_red": 3420,
+      "pos_frac": 0.021099917763157894,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_84/timepoint1/ANON_337.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_84/timepoint1/ANON_338.tiff"
+    },
+    {
+      "stem": "old_NAO_85_ANON_339",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_85",
+      "corr": 0.9930233146318432,
+      "n_red": 3194,
+      "pos_frac": 0.01962376644736842,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_85/timepoint1/ANON_339.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_85/timepoint1/ANON_340.tiff"
+    },
+    {
+      "stem": "old_NAO_85_ANON_341",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_85",
+      "corr": 0.9937772146251181,
+      "n_red": 3301,
+      "pos_frac": 0.020328947368421054,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_85/timepoint1/ANON_341.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_85/timepoint1/ANON_342.tiff"
+    },
+    {
+      "stem": "old_NAO_9_ANON_33",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_9",
+      "corr": 0.9926829307736831,
+      "n_red": 3223,
+      "pos_frac": 0.019833470394736843,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_9/timepoint1/ANON_33.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_9/timepoint1/ANON_34.tiff"
+    },
+    {
+      "stem": "old_NAO_9_ANON_35",
+      "ok": true,
+      "split": "old",
+      "subj": "NAO_9",
+      "corr": 0.9936292819549294,
+      "n_red": 3661,
+      "pos_frac": 0.022567845394736843,
+      "ann": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_9/timepoint1/ANON_35.tif",
+      "raw": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn/old/NeuAge_Old_ANONYMIZED_annotated_v1/NAO_9/timepoint1/ANON_36.tiff"
+    }
+  ]
+}

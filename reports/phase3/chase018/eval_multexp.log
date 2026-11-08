@@ -1,0 +1,70 @@
+running floor_frundles
+{
+  "name": "floor_frundles",
+  "n": 35,
+  "ok": 35,
+  "S_expert_NOT_LB": 0.19343850322231645,
+  "S1": 0.19343836719167848,
+  "MAE": {
+    "pa_deg": 1.7312333002086349,
+    "fl_mm": 2.70415668731373,
+    "mt_mm": 0.1992894827923563
+  },
+  "tex_w": 0.0,
+  "fl_sin_w": 0.0,
+  "fl_factor": 0.9
+}
+running texture_pa_tex0.5_flsin0.25
+{
+  "name": "texture_pa_tex0.5_flsin0.25",
+  "n": 35,
+  "ok": 35,
+  "S_expert_NOT_LB": 0.17177858300835125,
+  "S1": 0.17177845914576786,
+  "MAE": {
+    "pa_deg": 1.4104868672963449,
+    "fl_mm": 2.5658928634855283,
+    "mt_mm": 0.1992894827923563
+  },
+  "tex_w": 0.5,
+  "fl_sin_w": 0.25,
+  "fl_factor": 0.9
+}
+running texture_pa_tex0.5_only
+{
+  "name": "texture_pa_tex0.5_only",
+  "n": 35,
+  "ok": 35,
+  "S_expert_NOT_LB": 0.1756192477539125,
+  "S1": 0.1756191209187735,
+  "MAE": {
+    "pa_deg": 1.4104868672963449,
+    "fl_mm": 2.70415668731373,
+    "mt_mm": 0.1992894827923563
+  },
+  "tex_w": 0.5,
+  "fl_sin_w": 0.0,
+  "fl_factor": 0.9
+}
+running texture_pa_tex0.7_flsin0.25
+{
+  "name": "texture_pa_tex0.7_flsin0.25",
+  "n": 35,
+  "ok": 35,
+  "S_expert_NOT_LB": 0.17423710139988785,
+  "S1": 0.17423696705629566,
+  "MAE": {
+    "pa_deg": 1.4706189724204222,
+    "fl_mm": 2.5341349380163747,
+    "mt_mm": 0.1992894827923563
+  },
+  "tex_w": 0.7,
+  "fl_sin_w": 0.25,
+  "fl_factor": 0.9
+}
+wrote reports/phase3/chase018/multexp_variant_scores.json
+RANK (lower S better):
+  0.17178  texture_pa_tex0.5_flsin0.25  MAE_pa=1.410 fl=2.566 mt=0.199
+  0.17424  texture_pa_tex0.7_flsin0.25  MAE_pa=1.471 fl=2.534 mt=0.199
+  0.17562  texture_pa_tex0.5_only  MAE_pa=1.410 fl=2.704 mt=0.199
+  0.19344  floor_frundles  MAE_pa=1.731 fl=2.704 mt=0.199

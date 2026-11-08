@@ -1,0 +1,149 @@
+competition: umud-challenge-muscle-architecture-in-ultrasound-data
+targets:
+  columns:
+  - pa_deg
+  - fl_mm
+  - mt_mm
+  equal_weights: true
+scorer:
+  organizer: paulritsche
+  notebook: umud-score
+  version_pinned: 9
+  pull_url: https://www.kaggle.com/api/v1/kernels/pull/paulritsche/umud-score
+  notebook_source_sha256: 3873f613d55be3eee82229d661dd2c06c1d3c962ff63a1ec45b0a97b29cf061f
+  tolerances:
+    pa_deg: 6.0
+    fl_mm: 12.0
+    mt_mm: 3.0
+  composition:
+    s2_coeff: 1.0e-06
+    s3_coeff: 1.0e-09
+failure_accounting:
+  policy: include_failures_in_validation
+  near_parallel_intersection: reject_or_flag
+  missing_prediction: counts_as_failure
+  note: 'Bounding/clipping an estimator is a separate policy decision, not a theorem
+    about intersection geometry.
+
+    '
+split_rules:
+  unit: content_group
+  cross_task_exclusion: true
+  require_shared_split_for_baseline_and_candidate: true
+  subject_ids_when_unavailable: 'Document that duplicate-aware validation does not
+    establish subject independence.
+
+    '
+model_selection:
+  rule: PLACEHOLDER_fill_after_tier_b_held_out_evidence
+  primary_metric: official_S_with_pinned_scorer
+  require_paired_group_comparisons: true
+  disallow_image_bootstrap_as_independent_subjects: true
+supervision:
+  missing_label_is_not_background: true
+  sparse_fascicle_unmarked_pixels_not_auto_negatives: true
+geometry:
+  pennation_reference: physical_deep_aponeurosis_tangent
+  physical_spacing: anisotropic_diag_sx_sy
+  map_predictions_back_through_full_inverse_transform: true
+eval_tiers:
+  tier_a: component_diagnostics
+  tier_b: independent_pa_fl_mt_with_pinned_scorer
+attention_candidate:
+  config: configs/model_anatomy_query.yaml
+  default_ablation_enablement: all_attention_off
+  ablation_order:
+  - enable_image_self_attn
+  - enable_cross_attn
+  - enable_query_self_attn
+  geometry_outside_model: true
+  blocked_until_baseline_tier_b: true
+phase2_audit:
+  status: not_run
+  note: "Populate by running scripts/audits/run_phase2.sh --data-root <umud>. Does\
+    \ not invent competition scores; reports_written \u2260 phase2 passed."
+phase3_floors:
+  status: ran_2026-11-04_ssh
+  reports_dir: reports/phase3
+  scale_hunt:
+    calibration_provenance: ambrosm_per_family_mixed
+    recommended_mm_per_px: null
+    forbid_tiff_dpi_25_4: true
+    ambrosm_scale:
+      report: reports/phase3/ambrosm_scale_v2_report.json
+      notes: reports/phase3/ambrosm_scale_v2_notes.md
+      summary: reports/phase3/ambrosm_scale_v2_summary.json
+      version: v2_hflip_2026-11-04
+      n_total: 4118
+      n_measured: 2318
+      n_family_prior: 427
+      n_unknown: 1373
+      n_with_px_per_mm: 2745
+      test_coverage: 309/309
+      fasc_coverage: 1774/2761
+      apo_coverage: 662/1048
+      v1_with_px_per_mm: 1050
+      hflip_right_recovered: 1695
+      calibration_provenance: ambrosm_per_family_mixed_v2_hflip
+      next_lever: optional_Tier_b_refresh_with_v2_scale_then_seg_for_test
+      attention_still_blocked: true
+    tick_detection_legacy: 113/120_sampled_physical_unknown_superseded_by_ambrosm
+  floors:
+    median_prior:
+      tier: A_proxy_not_tier_b
+      medians:
+        pa_deg: 5.4457
+        fl_mm: 50.1633
+        mt_mm: 13.005
+    extratrees_mask_proxy:
+      tier: A_proxy_not_tier_b
+      val_proxy_mae:
+        pa_deg: 1.7557
+        fl_mm: 1.9274
+        mt_mm: 4.5924
+      note: supervised_by_mask_proxies_not_expert_labels_NOT_LB
+    geometry_head_proxy:
+      tier: A_proxy_not_tier_b
+      train_ok: 2371
+      train_fail: 5
+      test_policy: median_of_train_geometry_head_no_test_masks
+      medians:
+        pa_deg: 5.5351
+        fl_mm: 50.1994
+        mt_mm: 15.239
+      organizer_mt_policy: vertical_not_perp_to_apo
+
+  tier_b_geometry:
+    status: ran_2026-11-04_ssh
+    tier: B_proxy_scale_aware_geometry_head
+    reports:
+      metrics: reports/phase3/tier_b_geometry_metrics.json
+      notes: reports/phase3/tier_b_geometry_notes.md
+      rows: reports/phase3/tier_b_geometry_rows.csv
+      submission: reports/phase3/submission_tier_b_geometry.csv
+    val_mae_vs_geometry_head_ambrosm_NOT_expert_GT_NOT_LB:
+      pa_deg: 2.3151
+      fl_mm: 17.7553
+      mt_mm: 1.8684
+      n_train_mm: 699
+      n_val_mm: 269
+    scale_coverage_train:
+      n_stems: 2376
+      n_mm_targets: 699
+      n_geometry_ok: 2371
+      measured: 460
+      family_prior: 242
+      unknown: 1674
+    scale_coverage_val:
+      n_stems: 738
+      n_mm_targets: 269
+      measured: 177
+      family_prior: 93
+      unknown: 468
+    test_policy: extratrees_supervised_by_geometry_head_ambrosm_mm_NOT_direct_test_mask_geometry
+    test_scale_coverage: 309/309
+    official_S: null
+    official_S_reason: no_independent_expert_gt_csv_in_data_root
+    attention_still_blocked: true
+    next_lever: optional_tier_b_refresh_on_v2_scale_THEN_seg_for_test_masks
+  attention_still_blocked: true

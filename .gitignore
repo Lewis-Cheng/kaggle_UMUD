@@ -1,0 +1,88 @@
+# Local data and outputs (never commit raw ultrasound)
+data/**
+!data/.gitkeep
+submissions/**
+!submissions/.gitkeep
+raw/
+ultrasound/
+*.tif
+*.tiff
+*.dcm
+
+# Model weights / checkpoints
+*.pt
+*.pth
+*.ckpt
+*.onnx
+checkpoints/
+runs/
+wandb/
+lightning_logs/
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Kaggle secrets and local env
+.kaggle/
+kaggle.json
+.env
+.env.*
+secrets/
+*.pem
+*.key
+
+# Scorer notebook download cache (hash-checked; regenerate via scripts/pull_scorer.py)
+artifacts/scorer/
+*.ipynb_checkpoints/
+
+# Extra local envs
+.venv_tf/
+.venv*/
+
+# Heavy report artifacts
+reports/**/seg_ckpts/
+reports/**/attn_ckpts/
+reports/**/seg_preds*/
+reports/**/*.npy
+reports/**/*.npz
+reports/**/*.png
+reports/**/*.jpg
+reports/**/*.jpeg
+reports/**/*.csv
+reports/**/maps/
+reports/**/cache/
+reports/**/*.pt
+reports/**/*.pth
+reports/**/*.ckpt
+reports/**/*.h5
+reports/**/*.pkl
+reports/**/*.pickle
+
+# Bundle archives / scratch
+*.tgz
+*.tar
+*.tar.gz
+*.zip
+
+# Token/backup files
+**/access_token
+**/*.bak_*

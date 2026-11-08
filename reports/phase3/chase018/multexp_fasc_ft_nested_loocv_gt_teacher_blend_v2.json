@@ -1,0 +1,114 @@
+{
+  "asof": "2026-11-05 13:56 Asia/Hong_Kong",
+  "tag": "loocv_gt_teacher_blend_v2",
+  "protocol": "Expanded A/blend pool GT teachers; nested global-variant + majority (no FT); 35-fold LOOCV fasc FT from Frundles with frundles_mix target; nested alpha blend; apo frozen; frozen geo recipe; honest LOOCV S",
+  "leakage_notes": "GT used only for train-fold teacher selection and train-fold alpha choice. leaky_expanded_oracle uses GT teachers on all images (upper bound, not nested). Held-out GT never in that fold's FT loss.",
+  "pool_size": 25,
+  "leaky_expanded_oracle": {
+    "S": 0.10485379107306812,
+    "MAE": {
+      "pa_deg": 0.8048842446408186,
+      "fl_mm": 1.5319155143713261,
+      "mt_mm": 0.15826250681487788
+    },
+    "gate": true,
+    "beats_C": true
+  },
+  "candidates": {
+    "nested_global_variant": {
+      "S": 0.1350644380194672,
+      "MAE": {
+        "pa_deg": 0.9592491806858009,
+        "fl_mm": 2.3107677765017978,
+        "mt_mm": 0.15826250681487788
+      },
+      "gate": false,
+      "beats_C": false
+    },
+    "nested_majority_teacher": {
+      "S": 0.14558027084361627,
+      "MAE": {
+        "pa_deg": 1.092189933568233,
+        "fl_mm": 2.4234561730447246,
+        "mt_mm": 0.15826250681487788
+      },
+      "gate": false,
+      "beats_C": false
+    },
+    "pure_ft": {
+      "S": 0.13566374648455626,
+      "MAE": {
+        "pa_deg": 1.029649132965049,
+        "fl_mm": 2.1915426237116193,
+        "mt_mm": 0.15826250681487788
+      },
+      "gate": false,
+      "beats_C": false
+    },
+    "nested_blend": {
+      "S": 0.1350423079665328,
+      "MAE": {
+        "pa_deg": 0.9450980921709983,
+        "fl_mm": 2.3382735255242793,
+        "mt_mm": 0.15826250681487788
+      },
+      "gate": false,
+      "beats_C": false
+    },
+    "frundles": {
+      "S": 0.13293555901039555,
+      "MAE": {
+        "pa_deg": 0.9279384631482271,
+        "fl_mm": 2.2967497297340818,
+        "mt_mm": 0.15826250681487788
+      },
+      "gate": false,
+      "beats_C": false
+    }
+  },
+  "best_name": "frundles",
+  "best": {
+    "S": 0.13293555901039555,
+    "MAE": {
+      "pa_deg": 0.9279384631482271,
+      "fl_mm": 2.2967497297340818,
+      "mt_mm": 0.15826250681487788
+    },
+    "gate": false,
+    "beats_C": false
+  },
+  "alpha_counts": {
+    "0.0": 34,
+    "0.15": 1
+  },
+  "prior_C": 0.13195144580335014,
+  "delta_vs_C": 0.0009841132070454173,
+  "gate_0.12": false,
+  "promote": false,
+  "train_wall_min": 2.116982364654541,
+  "hyper": {
+    "epochs": 8,
+    "mix": 0.6,
+    "lr": 8e-05
+  },
+  "maps": "/home/chocheng9/kaggle_UMUD/reports/phase3/chase018/cache/maps_multexp_fasc_ft_loocv_gt_teacher_blend_v2",
+  "kaggle_submit": false,
+  "teacher_counts": {
+    "ridge_blend03": 2,
+    "blend_br_15": 3,
+    "blend_br_40": 6,
+    "frangi_like": 2,
+    "baseline": 5,
+    "belly_orient15": 2,
+    "morph_prune": 4,
+    "ridge_replace": 5,
+    "morph_connect": 1,
+    "blend_br_50": 1,
+    "corridor_dilate": 1,
+    "ridge_blend05": 1,
+    "blend_br_25": 1,
+    "belly_orient25": 1
+  },
+  "stripe_proxy_abandoned": true,
+  "v1_5fold_gt_teacher_S": 0.14469
+}

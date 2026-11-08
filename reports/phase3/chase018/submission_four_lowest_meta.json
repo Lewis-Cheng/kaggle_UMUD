@@ -1,0 +1,87 @@
+{
+  "asof": "2026-11-07 00:06:06 Asia/Hong_Kong",
+  "note": "Next 4 lowest honest MultExp recipes after excluding submitted joint_foldpure. No leaky 0.13172.",
+  "missing_maps": [],
+  "recipes": [
+    {
+      "tag": "aporel_combo_a2b",
+      "path": "/home/chocheng9/kaggle_UMUD/reports/phase3/chase018/submission_aporel_combo_a2b.csv",
+      "reported_S": 0.13240068410255748,
+      "verified_S": 0.13425788708669903,
+      "verified_mae": {
+        "pa_deg": 0.9055312665271579,
+        "fl_mm": 2.389167647212314,
+        "mt_mm": 0.15826250681487788
+      },
+      "calibration": {
+        "pa_a": 0.9195494512699431,
+        "pa_b": 1.9303164798960315,
+        "mt_a": 1.006823838143492,
+        "mt_b": 0.03576074463682354
+      },
+      "n_rows": 309,
+      "alpha": 0.25,
+      "sin_w": 0.3
+    },
+    {
+      "tag": "fl_sin_w030",
+      "path": "/home/chocheng9/kaggle_UMUD/reports/phase3/chase018/submission_fl_sin_w030.csv",
+      "reported_S": 0.13241475990880067,
+      "verified_S": 0.13241475990880067,
+      "verified_mae": {
+        "pa_deg": 0.9279384631482271,
+        "fl_mm": 2.2780008732238435,
+        "mt_mm": 0.15826250681487788
+      },
+      "calibration": {
+        "pa_a": 0.8844419400616897,
+        "pa_b": 2.188538797451286,
+        "mt_a": 1.006823838143492,
+        "mt_b": 0.03576074463682354
+      },
+      "n_rows": 309,
+      "alpha": 0.0,
+      "sin_w": 0.3
+    },
+    {
+      "tag": "pa_head_a2_b025",
+      "path": "/home/chocheng9/kaggle_UMUD/reports/phase3/chase018/submission_pa_head_a2_b025.csv",
+      "reported_S": 0.13290682825773772,
+      "verified_S": 0.13460942241513865,
+      "verified_mae": {
+        "pa_deg": 0.9055312665271579,
+        "fl_mm": 2.4018229181505992,
+        "mt_mm": 0.15826250681487788
+      },
+      "calibration": {
+        "pa_a": 0.9195494512699431,
+        "pa_b": 1.9303164798960315,
+        "mt_a": 1.006823838143492,
+        "mt_b": 0.03576074463682354
+      },
+      "n_rows": 309,
+      "alpha": 0.25,
+      "sin_w": 0.35
+    },
+    {
+      "tag": "frundles_fl_post",
+      "path": "/home/chocheng9/kaggle_UMUD/reports/phase3/chase018/submission_frundles_fl_post.csv",
+      "reported_S": 0.13293555901039555,
+      "verified_S": 0.13293555901039555,
+      "verified_mae": {
+        "pa_deg": 0.9279384631482271,
+        "fl_mm": 2.2967497297340818,
+        "mt_mm": 0.15826250681487788
+      },
+      "calibration": {
+        "pa_a": 0.8844419400616897,
+        "pa_b": 2.188538797451286,
+        "mt_a": 1.006823838143492,
+        "mt_b": 0.03576074463682354
+      },
+      "n_rows": 309,
+      "alpha": 0.0,
+      "sin_w": 0.35
+    }
+  ]
+}

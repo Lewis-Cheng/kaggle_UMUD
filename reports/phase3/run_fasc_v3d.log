@@ -1,0 +1,1 @@
+fasc_v3d train=2195 val=566 fov_meta=1774 crop_in_sample200=200 mean_gt_drop=0.2613 pos_w=200.0 dilate=3 size=512 device=cuda:1

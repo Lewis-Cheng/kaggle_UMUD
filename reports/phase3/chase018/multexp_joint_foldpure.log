@@ -1,0 +1,206 @@
+[joint] device=cuda:1 hold=0.13195144580335014 2026-11-05 17:34:55 Asia/Hong_Kong
+[joint] building A2 PA overrides...
+  PA head blend=0.15
+  PA head blend=0.25
+[joint] precomputing variant x alpha maps...
+  precompute variant=baseline           alpha=0.00 n=35
+  precompute variant=ridge_blend03      alpha=0.00 n=35
+  precompute variant=morph_connect      alpha=0.00 n=35
+  precompute variant=corridor_dilate    alpha=0.00 n=35
+  precompute variant=blend_base_morph   alpha=0.00 n=35
+  precompute variant=ridge_soft02       alpha=0.00 n=35
+  precompute variant=baseline           alpha=0.15 n=35
+  precompute variant=ridge_blend03      alpha=0.15 n=35
+  precompute variant=morph_connect      alpha=0.15 n=35
+  precompute variant=corridor_dilate    alpha=0.15 n=35
+  precompute variant=blend_base_morph   alpha=0.15 n=35
+  precompute variant=ridge_soft02       alpha=0.15 n=35
+  precompute variant=baseline           alpha=0.25 n=35
+  precompute variant=ridge_blend03      alpha=0.25 n=35
+  precompute variant=morph_connect      alpha=0.25 n=35
+  precompute variant=corridor_dilate    alpha=0.25 n=35
+  precompute variant=blend_base_morph   alpha=0.25 n=35
+  precompute variant=ridge_soft02       alpha=0.25 n=35
+[joint] n=35 images
+[joint] sanity: C-path sin0.35 a0 feature_rule...
+  C-check S=0.14418 (expect ~0.13195) MAE={'pa_deg': 1.0178573453740616, 'fl_mm': 2.5216274335840163, 'mt_mm': 0.15826250681487788}
+[joint] fixed grid LOOCV...
+  fixed sin v=baseline           fl=0.25 a=0.00 S=0.13424 PA=0.928 FL=2.344
+  fixed sin v=baseline           fl=0.28 a=0.00 S=0.13294 PA=0.928 FL=2.297
+  fixed sin v=baseline           fl=0.3 a=0.00 S=0.13241 PA=0.928 FL=2.278
+  fixed sin v=baseline           fl=0.32 a=0.00 S=0.13294 PA=0.928 FL=2.297
+  fixed sin v=baseline           fl=0.35 a=0.00 S=0.13294 PA=0.928 FL=2.297
+  fixed proto v=baseline           fl=geo70_sin30 a=0.00 S=0.13241 PA=0.928 FL=2.278
+  fixed proto v=baseline           fl=geo65_sin35 a=0.00 S=0.13294 PA=0.928 FL=2.297
+  fixed proto v=baseline           fl=deep_insert a=0.00 S=0.14899 PA=0.928 FL=2.875
+  fixed sin v=baseline           fl=0.25 a=0.15 S=0.13370 PA=0.903 FL=2.373
+  fixed sin v=baseline           fl=0.28 a=0.15 S=0.13272 PA=0.903 FL=2.338
+  fixed sin v=baseline           fl=0.3 a=0.15 S=0.13228 PA=0.903 FL=2.322
+  fixed sin v=baseline           fl=0.32 a=0.15 S=0.13272 PA=0.903 FL=2.338
+  fixed sin v=baseline           fl=0.35 a=0.15 S=0.13272 PA=0.903 FL=2.338
+  fixed proto v=baseline           fl=geo70_sin30 a=0.15 S=0.13228 PA=0.903 FL=2.322
+  fixed proto v=baseline           fl=geo65_sin35 a=0.15 S=0.13272 PA=0.903 FL=2.338
+  fixed proto v=baseline           fl=deep_insert a=0.15 S=0.14287 PA=0.903 FL=2.704
+  fixed sin v=baseline           fl=0.25 a=0.25 S=0.13445 PA=0.909 FL=2.388
+  fixed sin v=baseline           fl=0.28 a=0.25 S=0.13340 PA=0.909 FL=2.351
+  fixed sin v=baseline           fl=0.3 a=0.25 S=0.13297 PA=0.909 FL=2.335
+  fixed sin v=baseline           fl=0.32 a=0.25 S=0.13340 PA=0.909 FL=2.351
+  fixed sin v=baseline           fl=0.35 a=0.25 S=0.13340 PA=0.909 FL=2.351
+  fixed proto v=baseline           fl=geo70_sin30 a=0.25 S=0.13297 PA=0.909 FL=2.335
+  fixed proto v=baseline           fl=geo65_sin35 a=0.25 S=0.13340 PA=0.909 FL=2.351
+  fixed proto v=baseline           fl=deep_insert a=0.25 S=0.14496 PA=0.909 FL=2.767
+  fixed sin v=ridge_blend03      fl=0.25 a=0.00 S=0.13660 PA=0.977 FL=2.331
+  fixed sin v=ridge_blend03      fl=0.28 a=0.00 S=0.13683 PA=0.977 FL=2.339
+  fixed sin v=ridge_blend03      fl=0.3 a=0.00 S=0.13617 PA=0.977 FL=2.315
+  fixed sin v=ridge_blend03      fl=0.32 a=0.00 S=0.13683 PA=0.977 FL=2.339
+  fixed sin v=ridge_blend03      fl=0.35 a=0.00 S=0.13683 PA=0.977 FL=2.339
+  fixed proto v=ridge_blend03      fl=geo70_sin30 a=0.00 S=0.13617 PA=0.977 FL=2.315
+  fixed proto v=ridge_blend03      fl=geo65_sin35 a=0.00 S=0.13683 PA=0.977 FL=2.339
+  fixed proto v=ridge_blend03      fl=deep_insert a=0.00 S=0.15079 PA=0.977 FL=2.841
+  fixed sin v=ridge_blend03      fl=0.25 a=0.15 S=0.13327 PA=0.903 FL=2.358
+  fixed sin v=ridge_blend03      fl=0.28 a=0.15 S=0.13348 PA=0.903 FL=2.366
+  fixed sin v=ridge_blend03      fl=0.3 a=0.15 S=0.13281 PA=0.903 FL=2.342
+  fixed sin v=ridge_blend03      fl=0.32 a=0.15 S=0.13348 PA=0.903 FL=2.366
+  fixed sin v=ridge_blend03      fl=0.35 a=0.15 S=0.13348 PA=0.903 FL=2.366
+  fixed proto v=ridge_blend03      fl=geo70_sin30 a=0.15 S=0.13281 PA=0.903 FL=2.342
+  fixed proto v=ridge_blend03      fl=geo65_sin35 a=0.15 S=0.13348 PA=0.903 FL=2.366
+  fixed proto v=ridge_blend03      fl=deep_insert a=0.15 S=0.14576 PA=0.903 FL=2.808
+  fixed sin v=ridge_blend03      fl=0.25 a=0.25 S=0.13391 PA=0.909 FL=2.369
+  fixed sin v=ridge_blend03      fl=0.28 a=0.25 S=0.13463 PA=0.909 FL=2.395
+  fixed sin v=ridge_blend03      fl=0.3 a=0.25 S=0.13378 PA=0.909 FL=2.364
+  fixed sin v=ridge_blend03      fl=0.32 a=0.25 S=0.13463 PA=0.909 FL=2.395
+  fixed sin v=ridge_blend03      fl=0.35 a=0.25 S=0.13463 PA=0.909 FL=2.395
+  fixed proto v=ridge_blend03      fl=geo70_sin30 a=0.25 S=0.13378 PA=0.909 FL=2.364
+  fixed proto v=ridge_blend03      fl=geo65_sin35 a=0.25 S=0.13463 PA=0.909 FL=2.395
+  fixed proto v=ridge_blend03      fl=deep_insert a=0.25 S=0.14792 PA=0.909 FL=2.873
+  fixed sin v=morph_connect      fl=0.25 a=0.00 S=0.13642 PA=0.964 FL=2.349
+  fixed sin v=morph_connect      fl=0.28 a=0.00 S=0.13734 PA=0.964 FL=2.382
+  fixed sin v=morph_connect      fl=0.3 a=0.00 S=0.13579 PA=0.964 FL=2.327
+  fixed sin v=morph_connect      fl=0.32 a=0.00 S=0.13734 PA=0.964 FL=2.382
+  fixed sin v=morph_connect      fl=0.35 a=0.00 S=0.13734 PA=0.964 FL=2.382
+  fixed proto v=morph_connect      fl=geo70_sin30 a=0.00 S=0.13579 PA=0.964 FL=2.327
+  fixed proto v=morph_connect      fl=geo65_sin35 a=0.00 S=0.13734 PA=0.964 FL=2.382
+  fixed proto v=morph_connect      fl=deep_insert a=0.00 S=0.15118 PA=0.964 FL=2.881
+  fixed sin v=morph_connect      fl=0.25 a=0.15 S=0.13398 PA=0.903 FL=2.383
+  fixed sin v=morph_connect      fl=0.28 a=0.15 S=0.13296 PA=0.903 FL=2.347
+  fixed sin v=morph_connect      fl=0.3 a=0.15 S=0.13254 PA=0.903 FL=2.332
+  fixed sin v=morph_connect      fl=0.32 a=0.15 S=0.13296 PA=0.903 FL=2.347
+  fixed sin v=morph_connect      fl=0.35 a=0.15 S=0.13296 PA=0.903 FL=2.347
+  fixed proto v=morph_connect      fl=geo70_sin30 a=0.15 S=0.13254 PA=0.903 FL=2.332
+  fixed proto v=morph_connect      fl=geo65_sin35 a=0.15 S=0.13296 PA=0.903 FL=2.347
+  fixed proto v=morph_connect      fl=deep_insert a=0.15 S=0.14329 PA=0.903 FL=2.719
+  fixed sin v=morph_connect      fl=0.25 a=0.25 S=0.13473 PA=0.909 FL=2.398
+  fixed sin v=morph_connect      fl=0.28 a=0.25 S=0.13364 PA=0.909 FL=2.359
+  fixed sin v=morph_connect      fl=0.3 a=0.25 S=0.13323 PA=0.909 FL=2.344
+  fixed sin v=morph_connect      fl=0.32 a=0.25 S=0.13364 PA=0.909 FL=2.359
+  fixed sin v=morph_connect      fl=0.35 a=0.25 S=0.13364 PA=0.909 FL=2.359
+  fixed proto v=morph_connect      fl=geo70_sin30 a=0.25 S=0.13323 PA=0.909 FL=2.344
+  fixed proto v=morph_connect      fl=geo65_sin35 a=0.25 S=0.13364 PA=0.909 FL=2.359
+  fixed proto v=morph_connect      fl=deep_insert a=0.25 S=0.14537 PA=0.909 FL=2.782
+  fixed sin v=corridor_dilate    fl=0.25 a=0.00 S=0.13525 PA=0.964 FL=2.308
+  fixed sin v=corridor_dilate    fl=0.28 a=0.00 S=0.13641 PA=0.964 FL=2.350
+  fixed sin v=corridor_dilate    fl=0.3 a=0.00 S=0.13452 PA=0.964 FL=2.282
+  fixed sin v=corridor_dilate    fl=0.32 a=0.00 S=0.13641 PA=0.964 FL=2.350
+  fixed sin v=corridor_dilate    fl=0.35 a=0.00 S=0.13641 PA=0.964 FL=2.350
+  fixed proto v=corridor_dilate    fl=geo70_sin30 a=0.00 S=0.13452 PA=0.964 FL=2.282
+  fixed proto v=corridor_dilate    fl=geo65_sin35 a=0.00 S=0.13641 PA=0.964 FL=2.350
+  fixed proto v=corridor_dilate    fl=deep_insert a=0.00 S=0.15484 PA=0.964 FL=3.014
+  fixed sin v=corridor_dilate    fl=0.25 a=0.15 S=0.13314 PA=0.903 FL=2.353
+  fixed sin v=corridor_dilate    fl=0.28 a=0.15 S=0.13260 PA=0.903 FL=2.334
+  fixed sin v=corridor_dilate    fl=0.3 a=0.15 S=0.13172 PA=0.903 FL=2.302
+  fixed sin v=corridor_dilate    fl=0.32 a=0.15 S=0.13260 PA=0.903 FL=2.334
+  fixed sin v=corridor_dilate    fl=0.35 a=0.15 S=0.13260 PA=0.903 FL=2.334
+  fixed proto v=corridor_dilate    fl=geo70_sin30 a=0.15 S=0.13172 PA=0.903 FL=2.302
+  fixed proto v=corridor_dilate    fl=geo65_sin35 a=0.15 S=0.13260 PA=0.903 FL=2.334
+  fixed proto v=corridor_dilate    fl=deep_insert a=0.15 S=0.14685 PA=0.903 FL=2.847
+  fixed sin v=corridor_dilate    fl=0.25 a=0.25 S=0.13404 PA=0.909 FL=2.374
+  fixed sin v=corridor_dilate    fl=0.28 a=0.25 S=0.13375 PA=0.909 FL=2.363
+  fixed sin v=corridor_dilate    fl=0.3 a=0.25 S=0.13259 PA=0.909 FL=2.321
+  fixed sin v=corridor_dilate    fl=0.32 a=0.25 S=0.13375 PA=0.909 FL=2.363
+  fixed sin v=corridor_dilate    fl=0.35 a=0.25 S=0.13375 PA=0.909 FL=2.363
+  fixed proto v=corridor_dilate    fl=geo70_sin30 a=0.25 S=0.13259 PA=0.909 FL=2.321
+  fixed proto v=corridor_dilate    fl=geo65_sin35 a=0.25 S=0.13375 PA=0.909 FL=2.363
+  fixed proto v=corridor_dilate    fl=deep_insert a=0.25 S=0.14920 PA=0.909 FL=2.919
+  fixed sin v=blend_base_morph   fl=0.25 a=0.00 S=0.13654 PA=0.956 FL=2.371
+  fixed sin v=blend_base_morph   fl=0.28 a=0.00 S=0.13817 PA=0.956 FL=2.430
+  fixed sin v=blend_base_morph   fl=0.3 a=0.00 S=0.13634 PA=0.956 FL=2.364
+  fixed sin v=blend_base_morph   fl=0.32 a=0.00 S=0.13817 PA=0.956 FL=2.430
+  fixed sin v=blend_base_morph   fl=0.35 a=0.00 S=0.13817 PA=0.956 FL=2.430
+  fixed proto v=blend_base_morph   fl=geo70_sin30 a=0.00 S=0.13634 PA=0.956 FL=2.364
+  fixed proto v=blend_base_morph   fl=geo65_sin35 a=0.00 S=0.13817 PA=0.956 FL=2.430
+  fixed proto v=blend_base_morph   fl=deep_insert a=0.00 S=0.14868 PA=0.956 FL=2.808
+  fixed sin v=blend_base_morph   fl=0.25 a=0.15 S=0.13344 PA=0.903 FL=2.364
+  fixed sin v=blend_base_morph   fl=0.28 a=0.15 S=0.13250 PA=0.903 FL=2.330
+  fixed sin v=blend_base_morph   fl=0.3 a=0.15 S=0.13203 PA=0.903 FL=2.314
+  fixed sin v=blend_base_morph   fl=0.32 a=0.15 S=0.13250 PA=0.903 FL=2.330
+  fixed sin v=blend_base_morph   fl=0.35 a=0.15 S=0.13250 PA=0.903 FL=2.330
+  fixed proto v=blend_base_morph   fl=geo70_sin30 a=0.15 S=0.13203 PA=0.903 FL=2.314
+  fixed proto v=blend_base_morph   fl=geo65_sin35 a=0.15 S=0.13250 PA=0.903 FL=2.330
+  fixed proto v=blend_base_morph   fl=deep_insert a=0.15 S=0.14264 PA=0.903 FL=2.695
+  fixed sin v=blend_base_morph   fl=0.25 a=0.25 S=0.13419 PA=0.909 FL=2.379
+  fixed sin v=blend_base_morph   fl=0.28 a=0.25 S=0.13318 PA=0.909 FL=2.342
+  fixed sin v=blend_base_morph   fl=0.3 a=0.25 S=0.13273 PA=0.909 FL=2.326
+  fixed sin v=blend_base_morph   fl=0.32 a=0.25 S=0.13318 PA=0.909 FL=2.342
+  fixed sin v=blend_base_morph   fl=0.35 a=0.25 S=0.13318 PA=0.909 FL=2.342
+  fixed proto v=blend_base_morph   fl=geo70_sin30 a=0.25 S=0.13273 PA=0.909 FL=2.326
+  fixed proto v=blend_base_morph   fl=geo65_sin35 a=0.25 S=0.13318 PA=0.909 FL=2.342
+  fixed proto v=blend_base_morph   fl=deep_insert a=0.25 S=0.14473 PA=0.909 FL=2.758
+  fixed sin v=ridge_soft02       fl=0.25 a=0.00 S=0.13890 PA=1.034 FL=2.300
+  fixed sin v=ridge_soft02       fl=0.28 a=0.00 S=0.13787 PA=1.034 FL=2.262
+  fixed sin v=ridge_soft02       fl=0.3 a=0.00 S=0.13783 PA=1.034 FL=2.261
+  fixed sin v=ridge_soft02       fl=0.32 a=0.00 S=0.13787 PA=1.034 FL=2.262
+  fixed sin v=ridge_soft02       fl=0.35 a=0.00 S=0.13787 PA=1.034 FL=2.262
+  fixed proto v=ridge_soft02       fl=geo70_sin30 a=0.00 S=0.13783 PA=1.034 FL=2.261
+  fixed proto v=ridge_soft02       fl=geo65_sin35 a=0.00 S=0.13787 PA=1.034 FL=2.262
+  fixed proto v=ridge_soft02       fl=deep_insert a=0.00 S=0.15381 PA=1.034 FL=2.836
+  fixed sin v=ridge_soft02       fl=0.25 a=0.15 S=0.13352 PA=0.903 FL=2.367
+  fixed sin v=ridge_soft02       fl=0.28 a=0.15 S=0.13305 PA=0.903 FL=2.350
+  fixed sin v=ridge_soft02       fl=0.3 a=0.15 S=0.13247 PA=0.903 FL=2.329
+  fixed sin v=ridge_soft02       fl=0.32 a=0.15 S=0.13305 PA=0.903 FL=2.350
+  fixed sin v=ridge_soft02       fl=0.35 a=0.15 S=0.13305 PA=0.903 FL=2.350
+  fixed proto v=ridge_soft02       fl=geo70_sin30 a=0.15 S=0.13247 PA=0.903 FL=2.329
+  fixed proto v=ridge_soft02       fl=geo65_sin35 a=0.15 S=0.13305 PA=0.903 FL=2.350
+  fixed proto v=ridge_soft02       fl=deep_insert a=0.15 S=0.14344 PA=0.903 FL=2.724
+  fixed sin v=ridge_soft02       fl=0.25 a=0.25 S=0.13415 PA=0.909 FL=2.378
+  fixed sin v=ridge_soft02       fl=0.28 a=0.25 S=0.13372 PA=0.909 FL=2.362
+  fixed sin v=ridge_soft02       fl=0.3 a=0.25 S=0.13330 PA=0.909 FL=2.347
+  fixed sin v=ridge_soft02       fl=0.32 a=0.25 S=0.13372 PA=0.909 FL=2.362
+  fixed sin v=ridge_soft02       fl=0.35 a=0.25 S=0.13372 PA=0.909 FL=2.362
+  fixed proto v=ridge_soft02       fl=geo70_sin30 a=0.25 S=0.13330 PA=0.909 FL=2.347
+  fixed proto v=ridge_soft02       fl=geo65_sin35 a=0.25 S=0.13372 PA=0.909 FL=2.362
+  fixed proto v=ridge_soft02       fl=deep_insert a=0.25 S=0.14562 PA=0.909 FL=2.791
+[joint] nested pick baseline-path (24 cfgs)...
+  nested_base S=0.13751
+[joint] nested pick all-fixed (144 cfgs)...
+  nested_all S=0.13866
+[joint] feature_rule at each (sin_w, alpha)...
+  FR sin=0.25 a=0.00 S=0.14415 PA=1.029 FL=2.499
+  FR sin=0.25 a=0.15 S=0.13462 PA=0.903 FL=2.407
+  FR sin=0.25 a=0.25 S=0.13552 PA=0.909 FL=2.427
+  FR sin=0.28 a=0.00 S=0.14418 PA=1.018 FL=2.522
+  FR sin=0.28 a=0.15 S=0.13336 PA=0.903 FL=2.361
+  FR sin=0.28 a=0.25 S=0.13425 PA=0.909 FL=2.381
+  FR sin=0.30 a=0.00 S=0.14270 PA=0.990 FL=2.525
+  FR sin=0.30 a=0.15 S=0.13300 PA=0.903 FL=2.348
+  FR sin=0.30 a=0.25 S=0.13385 PA=0.909 FL=2.367
+  FR sin=0.32 a=0.00 S=0.14418 PA=1.018 FL=2.522
+  FR sin=0.32 a=0.15 S=0.13336 PA=0.903 FL=2.361
+  FR sin=0.32 a=0.25 S=0.13425 PA=0.909 FL=2.381
+  FR sin=0.35 a=0.00 S=0.14418 PA=1.018 FL=2.522
+  FR sin=0.35 a=0.15 S=0.13336 PA=0.903 FL=2.361
+  FR sin=0.35 a=0.25 S=0.13425 PA=0.909 FL=2.381
+[joint] joint feature_rule x sin_w x alpha (nested)...
+  FR-joint S=0.13449 MAE={'pa_deg': 0.9208313222823786, 'fl_mm': 2.3668009153085854, 'mt_mm': 0.15826250681487788}
+{
+  "tag": "fixed_best",
+  "S": 0.13172328136679268,
+  "mae": {
+    "pa_deg": 0.9033125123143603,
+    "fl_mm": 2.302359431977445,
+    "mt_mm": 0.15826250681487788
+  },
+  "variant": "corridor_dilate",
+  "fl": 0.3,
+  "alpha": 0.15
+}
+[joint] BEST S=0.13172 promote=True gate=False elapsed=2.7m

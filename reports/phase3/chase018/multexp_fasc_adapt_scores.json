@@ -1,0 +1,82 @@
+{
+  "asof": "2026-11-05 13:23 Asia/Hong_Kong",
+  "protocol": "honest LOOCV affine PA+MT; FL raw; frozen FL/geo recipe",
+  "frozen_recipe_kw": {
+    "fasc_thr": 0.35,
+    "apo_thr": 0.6,
+    "tex_w": 0.4,
+    "fl_factor": 0.9,
+    "fl_sin_w": 0.35,
+    "agree_thr": null,
+    "pa_mode": "hough"
+  },
+  "prior_fixed_frundles_S": 0.13293555901039555,
+  "best_honest": {
+    "name": "nested_feature_rule_fasc_adapt",
+    "S_loocv_cal_pa_mt": 0.13195144580335014,
+    "MAE_loocv": {
+      "pa_deg": 0.9124039825246483,
+      "fl_mm": 2.292390615561086,
+      "mt_mm": 0.15826250681487788
+    },
+    "delta_vs_prior": -0.0009841132070454173,
+    "gate_0.12": false,
+    "gap_to_0.12": 0.011951445803350141
+  },
+  "A_single_variant": {
+    "best": "baseline/ridge_soft02",
+    "best_S": 0.13293555901039555,
+    "note": "No single A post-filter beat Frundles baseline",
+    "tried": [
+      "belly_gate",
+      "belly_orient15/25",
+      "ridge_blend03/05",
+      "ridge_replace",
+      "morph_connect/prune",
+      "frangi_like",
+      "corridor_dilate",
+      "ridge_soft",
+      "blend_base_*"
+    ]
+  },
+  "C_nested_selectors": {
+    "trainS": {
+      "S": 0.13293555901039555,
+      "note": "always picked baseline"
+    },
+    "feature_rule": {
+      "S": 0.13195144580335014,
+      "beats_prior": true
+    },
+    "knn_k5": {
+      "S": 0.13245957007623108
+    },
+    "knn_k7": {
+      "S": 0.13230187739998794
+    },
+    "v1_leaky_discarded": {
+      "S": 0.12962987263663162,
+      "reason": "outer rule search on full LOOCV"
+    }
+  },
+  "B_selftrain": {
+    "S": 0.15212810366945256,
+    "MAE": {
+      "pa_deg": 1.023011000261142,
+      "fl_mm": 2.7975351786578933,
+      "mt_mm": 0.15826250681487788
+    },
+    "beats_prior": false,
+    "note": "25-ep Frundles\u2192MultExp teacher(morph+ridge) self-train; no MultExp GT; maps worse for MultExp geometry",
+    "artifact": "multexp_fasc_adapt_b_selftrain.json"
+  },
+  "oracle_A_pool": 0.12162027047783627,
+  "oracle_A_full_v1": 0.10669469905763038,
+  "gate_0.12": false,
+  "promote": true,
+  "promoted_name": "nested_feature_rule_fasc_adapt",
+  "kaggle_submit": false,
+  "lab_fasc_ckpt_swap": false,
+  "diagnosis": "Honest MultExp fasc adapt floor moved 0.13294 \u2192 0.13195 via nested feature-rule over A post-filters (mostly baseline vs blend_base_morph). Gate 0.12 still fails (gap 0.01195). Single A morph/ridge never helped; B self-train to those teachers hurt (0.152). Pool oracle ~0.122 / full-A oracle ~0.107 show limited post-filter headroom \u2014 clearing 0.12 needs fasc maps that change FL geometry beyond Frundles+morph (e.g. MultExp-aware GT-guided LOOCV FT or better public fasc weights), not more Frundles teacher distillation.",
+  "next_lever": "Nested-safe MultExp fasc FT that uses held-out geometry: for each LOOCV fold, fine-tune fasc U-Net on the other 34 images with a differentiable PA/FL proxy or soft FL-sin consistency vs GT (\u2264 few min/fold or 5-fold group CV), freeze apo, keep frozen recipe. Morph/self-train teachers are exhausted."
+}

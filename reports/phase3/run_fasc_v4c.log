@@ -1,0 +1,9 @@
+fasc_v4c train=2195 val=566 size=512 dilate=5 pos_w=20.0 device=cuda:2
+epoch 1/35 loss=1.6108 hard@0.35=0.0301 hard@0.5=0.0344 softTol@0.35=0.3000 softTol@0.5=0.3305
+epoch 2/35 loss=1.2573 hard@0.35=0.0399 hard@0.5=0.0472 softTol@0.35=0.3882 softTol@0.5=0.4342
+epoch 3/35 loss=1.1723 hard@0.35=0.0747 hard@0.5=0.0841 softTol@0.35=0.5642 softTol@0.5=0.5838
+epoch 4/35 loss=1.1107 hard@0.35=0.0522 hard@0.5=0.0582 softTol@0.35=0.4762 softTol@0.5=0.5089
+epoch 5/35 loss=1.0812 hard@0.35=0.0538 hard@0.5=0.0597 softTol@0.35=0.4917 softTol@0.5=0.5241
+epoch 6/35 loss=1.0429 hard@0.35=0.0655 hard@0.5=0.0741 softTol@0.35=0.5543 softTol@0.5=0.5884
+epoch 7/35 loss=1.0152 hard@0.35=0.0633 hard@0.5=0.0701 softTol@0.35=0.5431 softTol@0.5=0.5730
+epoch 8/35 loss=0.9996 hard@0.35=0.0688 hard@0.5=0.0762 softTol@0.35=0.5709 softTol@0.5=0.5980

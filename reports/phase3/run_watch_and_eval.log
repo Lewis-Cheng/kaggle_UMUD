@@ -1,0 +1,143 @@
+== kill v3c (weak FascUNet pos_w=40 overwriting shared best) ==
+== wait for v2_recover to finish ==
+[13:23:42] v2_recover still running; tail:
+epoch 9/20 loss=0.9502 val_dice=0.2075
+epoch 10/20 loss=0.9433 val_dice=0.2478
+epoch 2/30 loss=2.1370 dice@0.35=0.0289 dice@0.5=0.0315
+[13:24:42] v2_recover still running; tail:
+epoch 11/20 loss=0.9426 val_dice=0.2282
+epoch 12/20 loss=0.9304 val_dice=0.2341
+epoch 3/30 loss=2.0129 dice@0.35=0.0229 dice@0.5=0.0244
+[13:25:42] v2_recover still running; tail:
+epoch 14/20 loss=0.9204 val_dice=0.2395
+epoch 15/20 loss=0.9134 val_dice=0.2394
+epoch 3/30 loss=2.0129 dice@0.35=0.0229 dice@0.5=0.0244
+[13:26:42] v2_recover still running; tail:
+epoch 16/20 loss=0.9106 val_dice=0.2412
+epoch 17/20 loss=0.9061 val_dice=0.2415
+epoch 4/30 loss=1.9651 dice@0.35=0.0221 dice@0.5=0.0239
+[13:27:42] v2_recover finished
+== v2_recover final ==
+fasc_v2_recover train=2195 val=566 size=384 pos_w=40.0 device=cuda:3
+epoch 1/20 loss=1.3797 val_dice=0.1274
+epoch 2/20 loss=1.1348 val_dice=0.1068
+epoch 3/20 loss=1.0600 val_dice=0.1169
+epoch 4/20 loss=1.0263 val_dice=0.1691
+epoch 5/20 loss=0.9972 val_dice=0.1686
+epoch 6/20 loss=0.9824 val_dice=0.1655
+epoch 7/20 loss=0.9700 val_dice=0.1920
+epoch 8/20 loss=0.9623 val_dice=0.2223
+epoch 9/20 loss=0.9502 val_dice=0.2075
+epoch 10/20 loss=0.9433 val_dice=0.2478
+epoch 11/20 loss=0.9426 val_dice=0.2282
+epoch 12/20 loss=0.9304 val_dice=0.2341
+epoch 13/20 loss=0.9246 val_dice=0.2381
+epoch 14/20 loss=0.9204 val_dice=0.2395
+epoch 15/20 loss=0.9134 val_dice=0.2394
+epoch 16/20 loss=0.9106 val_dice=0.2412
+epoch 17/20 loss=0.9061 val_dice=0.2415
+epoch 18/20 loss=0.9029 val_dice=0.2478
+epoch 19/20 loss=0.9003 val_dice=0.2449
+epoch 20/20 loss=0.8991 val_dice=0.2472
+best_dice=0.2478 ckpt=reports/phase3/seg_ckpts/seg_fasc_v2_recover_best.pt
+-rw-r--r-- 1 chocheng9 ds 31115215 Nov  4 13:26 reports/phase3/seg_ckpts/seg_fasc_v2_recover_best.pt
+-rw-r--r-- 1 chocheng9 ds     2225 Nov  4 13:27 reports/phase3/seg_ckpts/seg_fasc_v2_recover_train.json
+{
+  "variant": "fasc_v2_recover",
+  "best_val_dice": 0.2477997793509977,
+  "history": [
+    {
+      "epoch": 1,
+      "loss": 1.3797383445959825,
+      "val_dice": 0.12739163901741146
+    },
+    {
+      "epoch": 2,
+      "loss": 1.1348339089980493,
+      "val_dice": 0.10679281768208047
+    },
+    {
+      "epoch": 3,
+      "loss": 1.0600331943113726,
+      "val_dice": 0.11685270582269812
+    },
+    {
+== run best infer + tier_b ==
+FASC CKPT RANKING:
+  dice=0.2478 name=seg_fasc_v2_recover_best.pt variant=fasc_v2_recover arch=TinyUNet
+  dice=0.0594 name=seg_fasc_best.pt variant=fasc_v3c_safe_fov arch=FascUNet
+  dice=0.0315 name=seg_fasc_v3e_best.pt variant=fasc_v3e_nofov_hipw arch=FascUNet
+BEST reports/phase3/seg_ckpts/seg_fasc_v2_recover_best.pt
+== infer apo+fasc with BEST=reports/phase3/seg_ckpts/seg_fasc_v2_recover_best.pt dice=0.2477997793509977 ==
+apo arch=TinyUNet size=256 thr=0.5 dice=0.9688958616758283
+fasc arch=TinyUNet size=384 thr=0.5 dice=0.2477997793509977 variant=fasc_v2_recover
+inferred 50/738
+inferred 100/738
+inferred 150/738
+inferred 200/738
+inferred 250/738
+inferred 300/738
+inferred 350/738
+inferred 400/738
+inferred 450/738
+inferred 500/738
+inferred 550/738
+inferred 600/738
+inferred 650/738
+inferred 700/738
+inferred 738/738
+wrote 738 under reports/phase3/seg_preds_best
+== tier_b seg GH ==
+tier_b_seg_gh_best val_MAE_pa=3.753521607876513 fl=9.25980607232606 mt=2.964498382558961 test_ok=0/309 submission=reports/phase3/submission_tier_b_seg_gh_best.csv
+DONE_INFER_TIERB
+== snapshot metrics ==
+-rw-r--r-- 1 chocheng9 ds   1679 Nov  4 13:28 reports/phase3/tier_b_seg_gh_best_metrics.json
+-rw-r--r-- 1 chocheng9 ds    460 Nov  4 13:28 reports/phase3/tier_b_seg_gh_best_notes.md
+-rw-r--r-- 1 chocheng9 ds 123109 Nov  4 13:28 reports/phase3/tier_b_seg_gh_best_rows.csv
+{
+  "audit": "tier_b_seg_gh",
+  "scale_provenance_run": "ambrosm_v2_ui_prior",
+  "pred_mask_dir": "reports/phase3/seg_preds_best",
+  "val_metrics": {
+    "label": "MAE_predMask_GH_vs_GTMask_GH_AmbrosM_NOT_expert_NOT_LB",
+    "n_val_stems": 738,
+    "n_gt_mm": 544,
+    "n_pred_mm": 545,
+    "n_paired_mm": 544,
+    "pa_mae": 3.753521607876513,
+    "fl_mae": 9.25980607232606,
+    "mt_mae": 2.964498382558961,
+    "priors_from_gt_mm": {
+      "pa_deg": 6.491989323725299,
+      "fl_mm": 51.71328941374848,
+      "mt_mm": 21.5
+    },
+    "diagnostic_S1_vs_gt_mask_gh": 0.7951345227309701
+  },
+  "test": {
+    "n": 309,
+    "n_fail_or_unusable": 309,
+    "n_ok_mm": 0,
+    "policy": "direct_pred_masks_GeometryHead_AmbrosM_NOT_ExtraTrees",
+    "submission": "reports/phase3/submission_tier_b_seg_gh_best.csv"
+  },
+  "official_S": null,
+  "official_S_reason": "no_independent_expert_gt_csv_in_data_root",
+  "expert_score": null,
+  "extratrees_v2_compare": {
+    "extratrees_val_mae": {
+      "diagnostic_S1_vs_gh_targets": 0.5090726352583422,
+      "fl_mae": 9.857590605995789,
+      "label": "MAE_vs_GeometryHead_AmbrosM_targets_NOT_expert_GT_NOT_LB",
+      "mt_mae": 1.0031300813873358,
+      "n_train_mm": 1744,
+      "n_val_mm": 544,
+      "note_S": "diagnostic only vs GeometryHead AmbrosM targets; NOT official S / NOT leaderboard (no independent expert GT locally)",
+      "pa_mae": 2.228251968877594
+    },
+    "note": "ET supervised by GH targets; seg-GH compared to GT-mask GH \u2014 different reference, both NOT expert"
+  },
+  "n_train_stems_split": 2376,
+  "attention_still_blocked": true,
+  "note": "NOT LB. Val MAE is pred-mask GH vs GT-mask GH under AmbrosM scale."
+}WATCH_DONE

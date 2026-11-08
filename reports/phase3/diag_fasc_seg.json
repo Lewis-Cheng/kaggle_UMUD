@@ -1,0 +1,38 @@
+{
+  "train": {
+    "tag": "train",
+    "n_sampled": 120,
+    "fg_frac_mean": 0.0024939686804773048,
+    "fg_frac_p50": 0.002584980208604201,
+    "fg_frac_p10": 0.0013989410880933806,
+    "size_h_p50": 556.0,
+    "size_w_p50": 996.0,
+    "thickness_px_p50": 2.0,
+    "fov_rows_in_scale_csv": 120,
+    "implied_pos_weight": 399.9673448700311
+  },
+  "val": {
+    "tag": "val",
+    "n_sampled": 120,
+    "fg_frac_mean": 0.0020026582759651813,
+    "fg_frac_p50": 0.002008935020658172,
+    "fg_frac_p10": 0.000994462760675973,
+    "size_h_p50": 556.0,
+    "size_w_p50": 996.0,
+    "thickness_px_p50": 2.0,
+    "fov_rows_in_scale_csv": 77,
+    "implied_pos_weight": 498.3363131401187
+  },
+  "current_pred_vs_gt": {
+    "n": 120,
+    "dice_mean": 0.22372841821035253,
+    "dice_p50": 0.22539300375102456,
+    "empty_pred_frac": 0.0
+  },
+  "hypotheses": [
+    "fg_frac << 1% \u2192 extreme imbalance; need pos_weight ~1/fg or dilated soft targets",
+    "thickness few px \u2192 bilinear resize to 256/384 destroys lines; prefer FOV crop + higher res or nearest+dilate",
+    "HUD chrome outside FOV confuses model; AmbrosM fov_* crop should help",
+    "Dice-only on thin lines under-penalizes misses; use weighted BCE + soft-clDice or dilate-target Dice"
+  ]
+}

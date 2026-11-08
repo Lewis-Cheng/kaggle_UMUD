@@ -1,0 +1,164 @@
+{
+  "asof": "2026-11-05 13:29 Asia/Hong_Kong",
+  "tag": "smoke_nested_geo",
+  "protocol": "group-safe 5-fold nested MultExp fasc FT; dHash groups; Frundles fasc init; apo frozen from Frundles cache; geo-proxy target from train-fold GT PA/FL/MT + apo belly stripes; held-out maps inferred with fold weights only; honest LOOCV affine PA+MT, FL raw; frozen recipe hough_tex0.4_thr035_apo60 fl_sin_w=0.35",
+  "leakage_notes": "GT PA/FL/MT used ONLY to paint train-fold targets. Held-out image GT never enters that fold's loss or target. Final S uses honest LOOCV cal on nested maps (same as eval_promoted_hough_multexp). Risk: geo paint is a surrogate \u2014 may not match true fasc geometry; group split may still correlate similar MultExp anatomy across folds.",
+  "frozen_recipe_kw": {
+    "fasc_thr": 0.35,
+    "apo_thr": 0.6,
+    "tex_w": 0.4,
+    "fl_factor": 0.9,
+    "fl_sin_w": 0.35,
+    "agree_thr": null,
+    "pa_mode": "hough"
+  },
+  "ckpt_init": "/home/chocheng9/kaggle_UMUD/data/external/frundles_weights/fasc_resnet34_384x576_f0.pt",
+  "lab_scratch_best": false,
+  "maps": "/home/chocheng9/kaggle_UMUD/reports/phase3/chase018/cache/maps_multexp_fasc_ft_smoke_nested_geo",
+  "n_folds": 5,
+  "n_groups": 35,
+  "fold_counts": [
+    7,
+    7,
+    7,
+    7,
+    7
+  ],
+  "fold_reports": [
+    {
+      "fold": 0,
+      "n_train": 28,
+      "n_held": 7,
+      "held": [
+        "im_09_arch.tif",
+        "im_10_arch.tif",
+        "im_16_arch.tif",
+        "im_24_arch.tif",
+        "im_26_arch.tif",
+        "im_30_arch.tif",
+        "im_32_arch.tif"
+      ],
+      "epochs_ran": 2,
+      "last_loss": 0.46851789951324463,
+      "fold_min": 0.056881392002105714,
+      "ckpt": "/home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_multexp_ft_smoke_nested_geo_fold0.pt"
+    },
+    {
+      "fold": 1,
+      "n_train": 28,
+      "n_held": 7,
+      "held": [
+        "im_05_arch.tif",
+        "im_08_arch.tif",
+        "im_11_arch.tif",
+        "im_14_arch.tif",
+        "im_21_arch.tif",
+        "im_25_arch.tif",
+        "im_35_arch.tif"
+      ],
+      "epochs_ran": 2,
+      "last_loss": 0.46610580171857563,
+      "fold_min": 0.05133444865544637,
+      "ckpt": "/home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_multexp_ft_smoke_nested_geo_fold1.pt"
+    },
+    {
+      "fold": 2,
+      "n_train": 28,
+      "n_held": 7,
+      "held": [
+        "im_02_arch.tif",
+        "im_03_arch.tif",
+        "im_06_arch.tif",
+        "im_17_arch.tif",
+        "im_19_arch.tif",
+        "im_33_arch.tif",
+        "im_34_arch.tif"
+      ],
+      "epochs_ran": 2,
+      "last_loss": 0.46556719286101206,
+      "fold_min": 0.051116486390431724,
+      "ckpt": "/home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_multexp_ft_smoke_nested_geo_fold2.pt"
+    },
+    {
+      "fold": 3,
+      "n_train": 28,
+      "n_held": 7,
+      "held": [
+        "im_04_arch.tif",
+        "im_12_arch.tif",
+        "im_13_arch.tif",
+        "im_18_arch.tif",
+        "im_22_arch.tif",
+        "im_27_arch.tif",
+        "im_29_arch.tif"
+      ],
+      "epochs_ran": 2,
+      "last_loss": 0.46584653854370117,
+      "fold_min": 0.052227147420247394,
+      "ckpt": "/home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_multexp_ft_smoke_nested_geo_fold3.pt"
+    },
+    {
+      "fold": 4,
+      "n_train": 28,
+      "n_held": 7,
+      "held": [
+        "im_01_arch.tif",
+        "im_07_arch.tif",
+        "im_15_arch.tif",
+        "im_20_arch.tif",
+        "im_23_arch.tif",
+        "im_28_arch.tif",
+        "im_31_arch.tif"
+      ],
+      "epochs_ran": 2,
+      "last_loss": 0.46573077355112347,
+      "fold_min": 0.051170925299326576,
+      "ckpt": "/home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_multexp_ft_smoke_nested_geo_fold4.pt"
+    }
+  ],
+  "hyper": {
+    "epochs": 2,
+    "bs": 4,
+    "lr": 0.00015,
+    "blend": 0.55,
+    "hash_dist": 12,
+    "seed": 0,
+    "fold_time_min": 1.2,
+    "time_limit_min": 8.0
+  },
+  "train_wall_min": 0.42517834504445395,
+  "device": "cuda:0",
+  "S_nested_ft": {
+    "S_loocv_cal_pa_mt": 0.5789967919128125,
+    "MAE_loocv": {
+      "pa_deg": 1.7077116905449303,
+      "fl_mm": 16.795395641526415,
+      "mt_mm": 0.15826250681487788
+    },
+    "n": 35,
+    "n_ok": 35,
+    "gate_0.12": false,
+    "beats_0.13195": false,
+    "beats_0.13294": false
+  },
+  "S_frundles_baseline_recheck": {
+    "S_loocv_cal_pa_mt": 0.13293555901039555,
+    "MAE_loocv": {
+      "pa_deg": 0.9279384631482271,
+      "fl_mm": 2.2967497297340818,
+      "mt_mm": 0.15826250681487788
+    },
+    "n": 35,
+    "n_ok": 35,
+    "gate_0.12": false,
+    "beats_0.13195": false,
+    "beats_0.13294": false
+  },
+  "prior_C_0.13195": 0.13195144580335014,
+  "prior_fixed_0.13294": 0.13293555901039555,
+  "delta_vs_C": 0.44704534610946234,
+  "gate_0.12": false,
+  "promote": false,
+  "kaggle_submit": false,
+  "missing_fallback_frundles": []
+}

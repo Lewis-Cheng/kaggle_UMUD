@@ -1,0 +1,235 @@
+{
+  "asof": "2026-11-05 13:18 Asia/Hong_Kong",
+  "protocol": "honest LOOCV affine PA+MT; FL raw; frozen recipe; nested-safe C (fast)",
+  "frozen_recipe": {
+    "name": "hough_tex0.4_thr035_apo60_ff0.9_sin0.35_agNone",
+    "apo_thr": 0.6,
+    "fasc_thr": 0.35,
+    "min_len": 3.0,
+    "depth_at": 0.7,
+    "tex_w": 0.4,
+    "fl_sin_w": 0.35,
+    "fl_factor": 0.9,
+    "agree_thr": null,
+    "tex_lo": 0.5,
+    "tex_hi": 0.95,
+    "pa_mode": "hough"
+  },
+  "prior_best_S": 0.13293555901039555,
+  "pool": [
+    "baseline",
+    "ridge_blend03",
+    "morph_connect",
+    "corridor_dilate",
+    "blend_base_morph",
+    "ridge_soft02"
+  ],
+  "variants_ranked": [
+    {
+      "name": "baseline",
+      "S_loocv_cal_pa_mt": 0.13293555901039555,
+      "MAE_loocv": {
+        "pa_deg": 0.9279384631482271,
+        "fl_mm": 2.2967497297340818,
+        "mt_mm": 0.15826250681487788
+      },
+      "beats_0.13294": false,
+      "gate_0.12": false,
+      "gap_to_0.12": 0.012935559010395559
+    },
+    {
+      "name": "ridge_soft02",
+      "S_loocv_cal_pa_mt": 0.13293555901039555,
+      "MAE_loocv": {
+        "pa_deg": 0.9279384631482271,
+        "fl_mm": 2.2967497297340818,
+        "mt_mm": 0.15826250681487788
+      },
+      "beats_0.13294": false,
+      "gate_0.12": false,
+      "gap_to_0.12": 0.012935559010395559
+    },
+    {
+      "name": "blend_base_morph",
+      "S_loocv_cal_pa_mt": 0.13630512131368167,
+      "MAE_loocv": {
+        "pa_deg": 0.9421400535533828,
+        "fl_mm": 2.389650635482189,
+        "mt_mm": 0.15826250681487788
+      },
+      "beats_0.13294": false,
+      "gate_0.12": false,
+      "gap_to_0.12": 0.01630512131368167
+    },
+    {
+      "name": "corridor_dilate",
+      "S_loocv_cal_pa_mt": 0.1364081858936865,
+      "MAE_loocv": {
+        "pa_deg": 0.9638385345310208,
+        "fl_mm": 2.3499642159466214,
+        "mt_mm": 0.15826250681487788
+      },
+      "beats_0.13294": false,
+      "gate_0.12": false,
+      "gap_to_0.12": 0.016408185893686505
+    },
+    {
+      "name": "ridge_blend03",
+      "S_loocv_cal_pa_mt": 0.13683466511092032,
+      "MAE_loocv": {
+        "pa_deg": 0.9769540528981847,
+        "fl_mm": 2.3390860111808465,
+        "mt_mm": 0.15826250681487788
+      },
+      "beats_0.13294": false,
+      "gate_0.12": false,
+      "gap_to_0.12": 0.016834665110920327
+    },
+    {
+      "name": "morph_connect",
+      "S_loocv_cal_pa_mt": 0.13733559095669065,
+      "MAE_loocv": {
+        "pa_deg": 0.9643873989593775,
+        "fl_mm": 2.3822529199361675,
+        "mt_mm": 0.15826250681487788
+      },
+      "beats_0.13294": false,
+      "gate_0.12": false,
+      "gap_to_0.12": 0.017335590956690655
+    }
+  ],
+  "nested_trainS": {
+    "S_loocv_cal_pa_mt": 0.13293555901039555,
+    "MAE_loocv": {
+      "pa_deg": 0.9279384631482271,
+      "fl_mm": 2.2967497297340818,
+      "mt_mm": 0.15826250681487788
+    },
+    "picked_counts": {
+      "baseline": 35,
+      "ridge_blend03": 0,
+      "morph_connect": 0,
+      "corridor_dilate": 0,
+      "blend_base_morph": 0,
+      "ridge_soft02": 0
+    },
+    "beats_0.13294": false,
+    "gate_0.12": false
+  },
+  "nested_feature_rule": {
+    "S_loocv_cal_pa_mt": 0.13195144580335014,
+    "MAE_loocv": {
+      "pa_deg": 0.9124039825246483,
+      "fl_mm": 2.292390615561086,
+      "mt_mm": 0.15826250681487788
+    },
+    "picked_counts": {
+      "baseline": 16,
+      "ridge_blend03": 1,
+      "morph_connect": 0,
+      "corridor_dilate": 0,
+      "blend_base_morph": 18,
+      "ridge_soft02": 0
+    },
+    "beats_0.13294": true,
+    "gate_0.12": false,
+    "gap_to_0.12": 0.011951445803350141
+  },
+  "nested_knn": {
+    "3": {
+      "S_loocv_cal_pa_mt": 0.1457304551697223,
+      "MAE_loocv": {
+        "pa_deg": 1.0166531131276926,
+        "fl_mm": 2.5799360294331177,
+        "mt_mm": 0.15826250681487788
+      },
+      "picked_counts": {
+        "baseline": 16,
+        "ridge_blend03": 8,
+        "morph_connect": 1,
+        "corridor_dilate": 7,
+        "blend_base_morph": 3,
+        "ridge_soft02": 0
+      },
+      "beats_0.13294": false,
+      "gate_0.12": false,
+      "k": 3
+    },
+    "5": {
+      "S_loocv_cal_pa_mt": 0.13245957007623108,
+      "MAE_loocv": {
+        "pa_deg": 0.9289580205596031,
+        "fl_mm": 2.2775749441640953,
+        "mt_mm": 0.15826250681487788
+      },
+      "picked_counts": {
+        "baseline": 13,
+        "ridge_blend03": 7,
+        "morph_connect": 0,
+        "corridor_dilate": 6,
+        "blend_base_morph": 9,
+        "ridge_soft02": 0
+      },
+      "beats_0.13294": true,
+      "gate_0.12": false,
+      "k": 5
+    },
+    "7": {
+      "S_loocv_cal_pa_mt": 0.13230187739998794,
+      "MAE_loocv": {
+        "pa_deg": 0.9026123100122435,
+        "fl_mm": 2.3245897291336255,
+        "mt_mm": 0.15826250681487788
+      },
+      "picked_counts": {
+        "baseline": 15,
+        "ridge_blend03": 4,
+        "morph_connect": 0,
+        "corridor_dilate": 4,
+        "blend_base_morph": 12,
+        "ridge_soft02": 0
+      },
+      "beats_0.13294": true,
+      "gate_0.12": false,
+      "k": 7
+    }
+  },
+  "oracle_among_pool": {
+    "S_loocv_cal_pa_mt": 0.12162027047783627,
+    "MAE_loocv": {
+      "pa_deg": 0.8145480546118625,
+      "fl_mm": 2.116180626961331,
+      "mt_mm": 0.15826250681487788
+    }
+  },
+  "best_honest": {
+    "name": "nested_feature_rule",
+    "S_loocv_cal_pa_mt": 0.13195144580335014,
+    "MAE_loocv": {
+      "pa_deg": 0.9124039825246483,
+      "fl_mm": 2.292390615561086,
+      "mt_mm": 0.15826250681487788
+    },
+    "picked_counts": {
+      "baseline": 16,
+      "ridge_blend03": 1,
+      "morph_connect": 0,
+      "corridor_dilate": 0,
+      "blend_base_morph": 18,
+      "ridge_soft02": 0
+    },
+    "beats_0.13294": true,
+    "gate_0.12": false,
+    "gap_to_0.12": 0.011951445803350141
+  },
+  "gate_0.12": false,
+  "promote": true,
+  "v1_leaky_note": "v1 feature_rule S=0.12963 was LEAKY; discarded",
+  "kaggle_submit": false,
+  "diagnosis": {
+    "single_variant_ceiling": 0.13293555901039555,
+    "oracle_S": 0.12162027047783627,
+    "transfer_gap": 0.0016202704778362775,
+    "conclusion": "A post-filters never beat Frundles baseline 0.13294; nested C selectors collapse to baseline or worse. Oracle ~0.10 shows per-image headroom that does not transfer. Need MultExp-domain fasc map learning (B), not more morph."
+  }
+}

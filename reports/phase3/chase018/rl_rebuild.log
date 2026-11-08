@@ -1,0 +1,207 @@
+running floor_frundles
+{
+  "name": "floor_frundles",
+  "n": 35,
+  "ok": 35,
+  "S_expert_NOT_LB": 0.19343850322231645,
+  "S1": 0.19343836719167848,
+  "MAE": {
+    "pa_deg": 1.7312333002086349,
+    "fl_mm": 2.70415668731373,
+    "mt_mm": 0.1992894827923563
+  },
+  "tex_w": 0.0,
+  "fl_sin_w": 0.0,
+  "fl_factor": 0.9
+}
+running texture_pa_tex0.5_flsin0.25
+{
+  "name": "texture_pa_tex0.5_flsin0.25",
+  "n": 35,
+  "ok": 35,
+  "S_expert_NOT_LB": 0.17177858300835125,
+  "S1": 0.17177845914576786,
+  "MAE": {
+    "pa_deg": 1.4104868672963449,
+    "fl_mm": 2.5658928634855283,
+    "mt_mm": 0.1992894827923563
+  },
+  "tex_w": 0.5,
+  "fl_sin_w": 0.25,
+  "fl_factor": 0.9
+}
+running texture_pa_tex0.5_only
+{
+  "name": "texture_pa_tex0.5_only",
+  "n": 35,
+  "ok": 35,
+  "S_expert_NOT_LB": 0.1756192477539125,
+  "S1": 0.1756191209187735,
+  "MAE": {
+    "pa_deg": 1.4104868672963449,
+    "fl_mm": 2.70415668731373,
+    "mt_mm": 0.1992894827923563
+  },
+  "tex_w": 0.5,
+  "fl_sin_w": 0.0,
+  "fl_factor": 0.9
+}
+running texture_pa_tex0.7_flsin0.25
+{
+  "name": "texture_pa_tex0.7_flsin0.25",
+  "n": 35,
+  "ok": 35,
+  "S_expert_NOT_LB": 0.17423710139988785,
+  "S1": 0.17423696705629566,
+  "MAE": {
+    "pa_deg": 1.4706189724204222,
+    "fl_mm": 2.5341349380163747,
+    "mt_mm": 0.1992894827923563
+  },
+  "tex_w": 0.7,
+  "fl_sin_w": 0.25,
+  "fl_factor": 0.9
+}
+wrote reports/phase3/chase018/multexp_variant_scores.json
+RANK (lower S better):
+  0.17178  texture_pa_tex0.5_flsin0.25  MAE_pa=1.410 fl=2.566 mt=0.199
+  0.17424  texture_pa_tex0.7_flsin0.25  MAE_pa=1.471 fl=2.534 mt=0.199
+  0.17562  texture_pa_tex0.5_only  MAE_pa=1.410 fl=2.704 mt=0.199
+  0.19344  floor_frundles  MAE_pa=1.731 fl=2.704 mt=0.199
+running floor_frundles
+{
+  "name": "floor_frundles",
+  "n": 35,
+  "ok": 35,
+  "S_expert_NOT_LB": 0.20209069880345912,
+  "S1": 0.20209053593780277,
+  "MAE": {
+    "pa_deg": 1.8342478443016874,
+    "fl_mm": 2.8096056739881,
+    "mt_mm": 0.1992894827923563
+  },
+  "tex_w": 0.0,
+  "fl_sin_w": 0.0,
+  "fl_factor": 0.9
+}
+running texture_pa_tex0.5_flsin0.25
+{
+  "name": "texture_pa_tex0.5_flsin0.25",
+  "n": 35,
+  "ok": 35,
+  "S_expert_NOT_LB": 0.18111543314117773,
+  "S1": 0.1811152884373818,
+  "MAE": {
+    "pa_deg": 1.4769963480340493,
+    "fl_mm": 2.768999756508222,
+    "mt_mm": 0.1992894827923563
+  },
+  "tex_w": 0.5,
+  "fl_sin_w": 0.25,
+  "fl_factor": 0.9
+}
+running texture_pa_tex0.5_only
+{
+  "name": "texture_pa_tex0.5_only",
+  "n": 35,
+  "ok": 35,
+  "S_expert_NOT_LB": 0.18224337597788953,
+  "S1": 0.18224323058960068,
+  "MAE": {
+    "pa_deg": 1.4769963480340493,
+    "fl_mm": 2.8096056739881,
+    "mt_mm": 0.1992894827923563
+  },
+  "tex_w": 0.5,
+  "fl_sin_w": 0.0,
+  "fl_factor": 0.9
+}
+running texture_pa_tex0.7_flsin0.25
+{
+  "name": "texture_pa_tex0.7_flsin0.25",
+  "n": 35,
+  "ok": 35,
+  "S_expert_NOT_LB": 0.18288970960032366,
+  "S1": 0.18288956616606747,
+  "MAE": {
+    "pa_deg": 1.5095416422797865,
+    "fl_mm": 2.767783166249431,
+    "mt_mm": 0.1992894827923563
+  },
+  "tex_w": 0.7,
+  "fl_sin_w": 0.25,
+  "fl_factor": 0.9
+}
+wrote reports/phase3/chase018/scratch_multexp/multexp_scratch_fasc_scores.json
+RANK (lower S better):
+  0.18112  texture_pa_tex0.5_flsin0.25  MAE_pa=1.477 fl=2.769 mt=0.199
+  0.18224  texture_pa_tex0.5_only  MAE_pa=1.477 fl=2.810 mt=0.199
+  0.18289  texture_pa_tex0.7_flsin0.25  MAE_pa=1.510 fl=2.768 mt=0.199
+  0.20209  floor_frundles  MAE_pa=1.834 fl=2.810 mt=0.199
+wrote reports/phase3/chase018/multexp_chase_rows.csv n 35 scratch 35
+wrote reports/phase3/chase018/multexp_chase_affine.json
+{
+  "pa_deg": {
+    "a": 0.7536571714444643,
+    "b": 4.32414028451593,
+    "mae_before": 1.4104868672963449,
+    "mae_after": 1.2357152812239849,
+    "applied": true
+  },
+  "fl_mm": {
+    "a": 0.9452915501771405,
+    "b": 3.3277791396423897,
+    "mae_before": 2.5658928634855283,
+    "mae_after": 2.533857590780871,
+    "applied": true
+  },
+  "mt_mm": {
+    "a": 1.0042834580955189,
+    "b": 0.09309158392712405,
+    "mae_before": 0.1992894827923563,
+    "mae_after": 0.1575449096918829,
+    "applied": true
+  },
+  "note": "cal_pa_mt uses PA+MT only unless FL mae_after improves"
+}
+n_samples=35 scratch=35
+{
+  "ch_only_S": 0.17177858300835125,
+  "cal_pa_mt_S": 0.15743075847590762,
+  "rl_loocv_S": 0.15743075847590762,
+  "gate_pass": true,
+  "gate_rule": "loocv_S < ch_only_S",
+  "gate_baseline_s": 0.17178,
+  "delta_vs_ch": -0.014347824532443626,
+  "loocv_action_hist": {
+    "ch_only": 0,
+    "cal_pa_mt": 35,
+    "blend_ch75_v5_25": 0,
+    "blend_ch50_v5_50": 0,
+    "blend_ch75_et_25": 0,
+    "ch_fl_factor_0.85": 0,
+    "ch_fl_factor_0.95": 0,
+    "residual_or_scratch": 0
+  },
+  "MAE_ch": {
+    "PA": 1.4104868672963449,
+    "FL": 2.5658928634855283,
+    "MT": 0.19928948279235642
+  },
+  "MAE_rl_loocv": {
+    "PA": 1.2357152812239849,
+    "FL": 2.5658928634855283,
+    "MT": 0.15754490969188295
+  },
+  "action_baselines_S": {
+    "ch_only": 0.17177858300835125,
+    "cal_pa_mt": 0.15743075847590762,
+    "blend_ch75_v5_25": 0.5538052961378677,
+    "blend_ch50_v5_50": 1.0426273830028798,
+    "blend_ch75_et_25": 0.5607589329875415,
+    "ch_fl_factor_0.85": 0.21191805284564802,
+    "ch_fl_factor_0.95": 0.20878658914293285,
+    "residual_or_scratch": 0.17445327834297603
+  }
+}
+GATE PASS: LOOCV beat ch_only / texture_pa MultExp S.

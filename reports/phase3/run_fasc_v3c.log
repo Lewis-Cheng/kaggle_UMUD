@@ -1,0 +1,10 @@
+== train fasc v3c ==
+fasc_v3c train=2195 val=566 fov_map=1774 crop_in_sample200=0 pos_w=40.0 size=512 device=cuda:2
+epoch 1/25 loss=1.6065 dice@0.35=0.0239 dice@0.5=0.0267
+epoch 2/25 loss=1.4586 dice@0.35=0.0327 dice@0.5=0.0368
+epoch 3/25 loss=1.3960 dice@0.35=0.0382 dice@0.5=0.0421
+epoch 4/25 loss=1.3710 dice@0.35=0.0394 dice@0.5=0.0442
+epoch 5/25 loss=1.3399 dice@0.35=0.0404 dice@0.5=0.0472
+epoch 6/25 loss=1.3142 dice@0.35=0.0478 dice@0.5=0.0552
+epoch 7/25 loss=1.2914 dice@0.35=0.0501 dice@0.5=0.0594
+Terminated

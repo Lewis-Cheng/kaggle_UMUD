@@ -1,0 +1,44 @@
+banked im_01_arch.tif nvar=25
+banked im_02_arch.tif nvar=25
+banked im_03_arch.tif nvar=25
+banked im_04_arch.tif nvar=25
+banked im_05_arch.tif nvar=25
+banked im_06_arch.tif nvar=25
+banked im_07_arch.tif nvar=25
+banked im_08_arch.tif nvar=25
+banked im_09_arch.tif nvar=25
+banked im_10_arch.tif nvar=25
+banked im_11_arch.tif nvar=25
+banked im_12_arch.tif nvar=25
+banked im_13_arch.tif nvar=25
+banked im_14_arch.tif nvar=25
+banked im_15_arch.tif nvar=25
+banked im_16_arch.tif nvar=25
+banked im_17_arch.tif nvar=25
+banked im_18_arch.tif nvar=25
+banked im_19_arch.tif nvar=25
+banked im_20_arch.tif nvar=25
+banked im_21_arch.tif nvar=25
+banked im_22_arch.tif nvar=25
+banked im_23_arch.tif nvar=25
+banked im_24_arch.tif nvar=25
+banked im_25_arch.tif nvar=25
+banked im_26_arch.tif nvar=25
+banked im_27_arch.tif nvar=25
+banked im_28_arch.tif nvar=25
+banked im_29_arch.tif nvar=25
+banked im_30_arch.tif nvar=25
+banked im_31_arch.tif nvar=25
+banked im_32_arch.tif nvar=25
+banked im_33_arch.tif nvar=25
+banked im_34_arch.tif nvar=25
+banked im_35_arch.tif nvar=25
+LEAKY {'name': 'leaky_oracle', 'S': 0.10485379107306812, 'MAE': {'pa_deg': 0.8048842446408186, 'fl_mm': 1.5319155143713261, 'mt_mm': 0.15826250681487788}, 'gate': True, 'beats_C': True, 'pick_counts': {'ridge_blend03': 2, 'blend_br_15': 3, 'blend_br_40': 6, 'frangi_like': 2, 'baseline': 5, 'belly_orient15': 2, 'morph_prune': 4, 'ridge_replace': 5, 'morph_connect': 1, 'blend_br_50': 1, 'corridor_dilate': 1, 'ridge_blend05': 1, 'blend_br_25': 1, 'belly_orient25': 1}}
+TRAINS {'name': 'nested_trainS', 'S': 0.1350644380194672, 'MAE': {'pa_deg': 0.9592491806858009, 'fl_mm': 2.3107677765017978, 'mt_mm': 0.15826250681487788}, 'gate': False, 'beats_C': False, 'pick_counts': {'blend_bm_15': 33, 'baseline': 1, 'blend_bc_15': 1}}
+KNN3 0.17453363056843307 False
+KNN5 0.1594605338342988 False
+KNN7 0.15777021470516114 False
+KNN9 0.15602791193555807 False
+KNN11 0.16618905504984324 False
+FEATURE_RULE {'name': 'nested_feature_rule_expanded', 'S': 0.14059327558360982, 'MAE': {'pa_deg': 0.9999082960171807, 'fl_mm': 2.4284876064217147, 'mt_mm': 0.15826250681487788}, 'gate': False, 'beats_C': False, 'pick_counts': {'baseline': 27, 'blend_br_40': 8}}
+EXPANDED_SEL_RESULT S=0.13506 name=nested_trainS leaky=0.10485 vs_C=0.13195 gate=False promote=False

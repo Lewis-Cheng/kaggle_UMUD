@@ -1,0 +1,93 @@
+[expdrawn] start 2026-11-05 16:47:29 UTC+08:00
+[expdrawn] extracting overlays …
+[expdrawn] extract {'n_ok': 199, 'n_fail': 50, 'n_low_red': 0, 'min_corr': 0.97, 'dilate_r': 1, 'out_img': '/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn_images', 'out_mask': '/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/expdrawn_masks'}
+[expdrawn] MultExp hashes n=35 HELD OUT
+[expdrawn] usable ExpDrawn after MultExp filter: 199
+[expdrawn] +LabTrain mix keep=296 (cap=309)
+[expdrawn] train=421 val=74 groups=494 src={'expdrawn': 199, 'labtrain': 296}
+[expdrawn] init=frundles_state encoder=resnet34 size=(384, 576)
+epoch 1/10 loss=0.4890 bce=0.340 dice=0.703 orient=0.413 val_dice=0.3085
+saved /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_expdrawn_frundles_best.pt best_dice 0.3084566846489906
+epoch 2/10 loss=0.4124 bce=0.214 dice=0.703 orient=0.262 val_dice=0.3176
+saved /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_expdrawn_frundles_best.pt best_dice 0.31756159514188764
+epoch 3/10 loss=0.3805 bce=0.158 dice=0.713 orient=0.175 val_dice=0.3313
+saved /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_expdrawn_frundles_best.pt best_dice 0.3313206359744072
+epoch 4/10 loss=0.3668 bce=0.146 dice=0.697 orient=0.154 val_dice=0.3472
+saved /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_expdrawn_frundles_best.pt best_dice 0.3471580669283867
+epoch 5/10 loss=0.3628 bce=0.146 dice=0.687 orient=0.148 val_dice=0.3580
+saved /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_expdrawn_frundles_best.pt best_dice 0.3580076813697815
+epoch 6/10 loss=0.3531 bce=0.136 dice=0.677 orient=0.142 val_dice=0.3675
+saved /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_expdrawn_frundles_best.pt best_dice 0.36748083829879763
+epoch 7/10 loss=0.3458 bce=0.134 dice=0.663 orient=0.139 val_dice=0.3738
+saved /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_expdrawn_frundles_best.pt best_dice 0.3738336950540543
+epoch 8/10 loss=0.3419 bce=0.129 dice=0.661 orient=0.132 val_dice=0.3760
+saved /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_expdrawn_frundles_best.pt best_dice 0.3759626030921936
+epoch 9/10 loss=0.3363 bce=0.126 dice=0.651 orient=0.128 val_dice=0.3790
+saved /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_expdrawn_frundles_best.pt best_dice 0.3790217101573944
+epoch 10/10 loss=0.3347 bce=0.124 dice=0.649 orient=0.129 val_dice=0.3785
+[expdrawn] dump MultExp maps -> /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/cache/maps_multexp_expdrawn
+[expdrawn] dumped 35
+[expdrawn] eval raw ExpDrawn-FT fasc + Frundles apo
+  thr=0.25 S=0.14466 PA=1.066 FL=2.443 MT=0.158
+  thr=0.30 S=0.14917 PA=1.071 FL=2.594 MT=0.158
+  thr=0.35 S=0.14370 PA=1.026 FL=2.488 MT=0.158
+  thr=0.40 S=0.14861 PA=1.064 FL=2.589 MT=0.158
+  thr=0.45 S=0.14919 PA=1.075 FL=2.588 MT=0.158
+[expdrawn] blend alpha=0.15 n=35
+  thr=0.25 S=0.14482 PA=1.049 FL=2.482 MT=0.158
+  thr=0.30 S=0.14384 PA=1.034 FL=2.478 MT=0.158
+  thr=0.35 S=0.14320 PA=1.028 FL=2.466 MT=0.158
+  thr=0.40 S=0.14065 PA=1.019 FL=2.392 MT=0.158
+  thr=0.45 S=0.14837 PA=1.054 FL=2.601 MT=0.158
+[expdrawn] blend alpha=0.25 n=35
+  thr=0.25 S=0.14066 PA=1.027 FL=2.376 MT=0.158
+  thr=0.30 S=0.14045 PA=0.992 FL=2.440 MT=0.158
+  thr=0.35 S=0.14788 PA=1.110 FL=2.470 MT=0.158
+  thr=0.40 S=0.15042 PA=1.111 FL=2.561 MT=0.158
+  thr=0.45 S=0.14577 PA=1.035 FL=2.545 MT=0.158
+[expdrawn] blend alpha=0.40 n=35
+  thr=0.25 S=0.14449 PA=1.066 FL=2.437 MT=0.158
+  thr=0.30 S=0.14550 PA=1.058 FL=2.490 MT=0.158
+  thr=0.35 S=0.14753 PA=1.071 FL=2.536 MT=0.158
+  thr=0.40 S=0.14808 PA=1.060 FL=2.578 MT=0.158
+  thr=0.45 S=0.14051 PA=0.991 FL=2.443 MT=0.158
+[expdrawn] blend alpha=0.55 n=35
+  thr=0.25 S=0.14713 PA=1.049 FL=2.566 MT=0.158
+  thr=0.30 S=0.14810 PA=1.041 FL=2.617 MT=0.158
+  thr=0.35 S=0.15099 PA=1.120 FL=2.562 MT=0.158
+  thr=0.40 S=0.14590 PA=1.072 FL=2.476 MT=0.158
+  thr=0.45 S=0.14765 PA=1.102 FL=2.479 MT=0.158
+[expdrawn] blend alpha=0.70 n=35
+  thr=0.25 S=0.14529 PA=1.070 FL=2.457 MT=0.158
+  thr=0.30 S=0.14413 PA=1.064 FL=2.427 MT=0.158
+  thr=0.35 S=0.14558 PA=1.050 FL=2.508 MT=0.158
+  thr=0.40 S=0.15189 PA=1.111 FL=2.612 MT=0.158
+  thr=0.45 S=0.14493 PA=1.038 FL=2.508 MT=0.158
+[expdrawn] ref Frundles fasc eval
+  thr=0.25 S=0.14476 PA=1.033 FL=2.512 MT=0.158
+  thr=0.30 S=0.13995 PA=0.994 FL=2.418 MT=0.158
+  thr=0.35 S=0.13294 PA=0.928 FL=2.297 MT=0.158
+  thr=0.40 S=0.13992 PA=0.996 FL=2.412 MT=0.158
+  thr=0.45 S=0.13785 PA=0.956 FL=2.418 MT=0.158
+{
+  "champ": {
+    "tag": "blend_a0.25",
+    "S": 0.14044712448014207,
+    "detail": {
+      "thr": 0.3,
+      "S": 0.14044712448014207,
+      "mae_pa": 0.9917516463925724,
+      "mae_fl": 2.439538882598102,
+      "mae_mt": 0.15826250681487788,
+      "n": 35,
+      "recipe": "hough_tex0.4_thr035_apo60_ff0.9_sin0.35_agNone"
+    },
+    "cache": "/home/chocheng9/kaggle_UMUD/reports/phase3/chase018/cache/maps_multexp_expdrawn_blend25"
+  },
+  "promote": false,
+  "gate": false,
+  "hold": 0.13195144580335014,
+  "usable_expdrawn": 199,
+  "val_dice": 0.3790217101573944
+}
+[expdrawn] DONE 2026-11-05 16:50:41 UTC+08:00 elapsed=192s wrote /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/multexp_expdrawn_frundles.json

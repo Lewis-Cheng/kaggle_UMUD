@@ -1,0 +1,540 @@
+[2026-11-04T15:25:17+08:00] wait v5/v5b
+[2026-11-04T15:25:17+08:00] training...
+fasc_v5 train=2195 val=566 size=512 base=48 edt_r=2.5 pos_w=35.0 cldice_w=0.5 device=cuda:3
+fasc_v5b train=2195 val=566 enc=resnet18 size=384 device=cuda:2
+[2026-11-04T15:26:17+08:00] training...
+fasc_v5 train=2195 val=566 size=512 base=48 edt_r=2.5 pos_w=35.0 cldice_w=0.5 device=cuda:3
+  saved best=0.1653
+[2026-11-04T15:27:17+08:00] training...
+fasc_v5 train=2195 val=566 size=512 base=48 edt_r=2.5 pos_w=35.0 cldice_w=0.5 device=cuda:3
+  saved best=0.1653
+[2026-11-04T15:28:17+08:00] training...
+  saved best_native=0.1673
+  saved best=0.2030
+[2026-11-04T15:29:17+08:00] training...
+  saved best_native=0.1673
+epoch 3/35 loss=2.0401 native@0.35=0.1653 native@0.5=0.2013
+[2026-11-04T15:30:18+08:00] training...
+  saved best_native=0.1673
+  saved best=0.2157
+[2026-11-04T15:31:18+08:00] training...
+  saved best_native=0.1673
+epoch 5/35 loss=1.9234 native@0.35=0.1789 native@0.5=0.2128
+[2026-11-04T15:32:18+08:00] training...
+  saved best_native=0.1970
+  saved best=0.2218
+[2026-11-04T15:33:18+08:00] training...
+  saved best_native=0.1970
+  saved best=0.2218
+[2026-11-04T15:34:18+08:00] training...
+  saved best_native=0.1970
+  saved best=0.2368
+[2026-11-04T15:35:18+08:00] training...
+  saved best_native=0.2203
+  saved best=0.2369
+[2026-11-04T15:36:18+08:00] training...
+  saved best_native=0.2203
+  saved best=0.2394
+[2026-11-04T15:37:18+08:00] training...
+  saved best_native=0.2203
+  saved best=0.2448
+[2026-11-04T15:38:19+08:00] training...
+  saved best_native=0.2347
+  saved best=0.2462
+[2026-11-04T15:39:19+08:00] training...
+  saved best_native=0.2347
+  saved best=0.2462
+[2026-11-04T15:40:19+08:00] training...
+  saved best_native=0.2347
+epoch 12/35 loss=1.7929 native@0.35=0.2185 native@0.5=0.2460
+[2026-11-04T15:41:19+08:00] training...
+  saved best_native=0.2404
+epoch 13/35 loss=1.7814 native@0.35=0.2131 native@0.5=0.2396
+[2026-11-04T15:42:19+08:00] training...
+  saved best_native=0.2404
+  saved best=0.2476
+[2026-11-04T15:43:19+08:00] training...
+  saved best_native=0.2404
+epoch 15/35 loss=1.7684 native@0.35=0.2153 native@0.5=0.2440
+[2026-11-04T15:44:19+08:00] training...
+epoch 6/40 loss=2.3680 native@0.35=0.2339 native@0.5=0.2380
+epoch 16/35 loss=1.7630 native@0.35=0.2167 native@0.5=0.2434
+[2026-11-04T15:45:20+08:00] training...
+epoch 6/40 loss=2.3680 native@0.35=0.2339 native@0.5=0.2380
+epoch 16/35 loss=1.7630 native@0.35=0.2167 native@0.5=0.2434
+[2026-11-04T15:46:20+08:00] training...
+epoch 6/40 loss=2.3680 native@0.35=0.2339 native@0.5=0.2380
+epoch 17/35 loss=1.7532 native@0.35=0.2149 native@0.5=0.2407
+[2026-11-04T15:47:20+08:00] training...
+  saved best_native=0.2554
+epoch 18/35 loss=1.7479 native@0.35=0.2188 native@0.5=0.2427
+[2026-11-04T15:48:20+08:00] training...
+  saved best_native=0.2554
+epoch 19/35 loss=1.7427 native@0.35=0.2156 native@0.5=0.2407
+[2026-11-04T15:49:20+08:00] training...
+  saved best_native=0.2554
+epoch 20/35 loss=1.7328 native@0.35=0.2213 native@0.5=0.2432
+[2026-11-04T15:50:20+08:00] training...
+  saved best_native=0.2570
+epoch 21/35 loss=1.7273 native@0.35=0.2183 native@0.5=0.2417
+[2026-11-04T15:51:20+08:00] training...
+  saved best_native=0.2570
+epoch 21/35 loss=1.7273 native@0.35=0.2183 native@0.5=0.2417
+[2026-11-04T15:52:20+08:00] training...
+  saved best_native=0.2570
+epoch 22/35 loss=1.7212 native@0.35=0.2220 native@0.5=0.2427
+[2026-11-04T15:53:21+08:00] training...
+  saved best_native=0.2634
+epoch 23/35 loss=1.7149 native@0.35=0.2194 native@0.5=0.2415
+[2026-11-04T15:54:21+08:00] training...
+  saved best_native=0.2634
+epoch 24/35 loss=1.7120 native@0.35=0.2206 native@0.5=0.2417
+[2026-11-04T15:55:21+08:00] training...
+  saved best_native=0.2634
+epoch 25/35 loss=1.7047 native@0.35=0.2196 native@0.5=0.2401
+[2026-11-04T15:56:21+08:00] training...
+  saved best_native=0.2634
+epoch 26/35 loss=1.7052 native@0.35=0.2207 native@0.5=0.2417
+[2026-11-04T15:57:21+08:00] training...
+epoch 10/40 loss=2.3222 native@0.35=0.2546 native@0.5=0.2632
+epoch 26/35 loss=1.7052 native@0.35=0.2207 native@0.5=0.2417
+[2026-11-04T15:58:21+08:00] training...
+epoch 10/40 loss=2.3222 native@0.35=0.2546 native@0.5=0.2632
+epoch 27/35 loss=1.6981 native@0.35=0.2207 native@0.5=0.2416
+[2026-11-04T15:59:21+08:00] training...
+epoch 10/40 loss=2.3222 native@0.35=0.2546 native@0.5=0.2632
+epoch 28/35 loss=1.6952 native@0.35=0.2219 native@0.5=0.2423
+[2026-11-04T16:00:21+08:00] training...
+epoch 11/40 loss=2.3178 native@0.35=0.2518 native@0.5=0.2609
+epoch 29/35 loss=1.6931 native@0.35=0.2207 native@0.5=0.2415
+[2026-11-04T16:01:22+08:00] training...
+epoch 11/40 loss=2.3178 native@0.35=0.2518 native@0.5=0.2609
+epoch 30/35 loss=1.6893 native@0.35=0.2216 native@0.5=0.2419
+[2026-11-04T16:02:22+08:00] training...
+epoch 11/40 loss=2.3178 native@0.35=0.2518 native@0.5=0.2609
+epoch 30/35 loss=1.6893 native@0.35=0.2216 native@0.5=0.2419
+[2026-11-04T16:03:22+08:00] training...
+  saved best_native=0.2704
+epoch 31/35 loss=1.6870 native@0.35=0.2216 native@0.5=0.2417
+[2026-11-04T16:04:22+08:00] training...
+  saved best_native=0.2704
+epoch 32/35 loss=1.6887 native@0.35=0.2205 native@0.5=0.2412
+[2026-11-04T16:05:22+08:00] training...
+  saved best_native=0.2704
+epoch 33/35 loss=1.6877 native@0.35=0.2202 native@0.5=0.2409
+[2026-11-04T16:06:22+08:00] training...
+  saved best_native=0.2707
+epoch 34/35 loss=1.6839 native@0.35=0.2210 native@0.5=0.2412
+[2026-11-04T16:07:22+08:00] training...
+  saved best_native=0.2707
+best_native_macro_dice=0.2476 ckpt=reports/phase3/seg_ckpts/seg_fasc_v5b_best.pt
+[2026-11-04T16:08:22+08:00] training...
+  saved best_native=0.2750
+best_native_macro_dice=0.2476 ckpt=reports/phase3/seg_ckpts/seg_fasc_v5b_best.pt
+[2026-11-04T16:09:23+08:00] training...
+  saved best_native=0.2750
+best_native_macro_dice=0.2476 ckpt=reports/phase3/seg_ckpts/seg_fasc_v5b_best.pt
+[2026-11-04T16:10:23+08:00] training...
+epoch 15/40 loss=2.2928 native@0.35=0.2660 native@0.5=0.2742
+best_native_macro_dice=0.2476 ckpt=reports/phase3/seg_ckpts/seg_fasc_v5b_best.pt
+[2026-11-04T16:11:23+08:00] training...
+  saved best_native=0.2750
+best_native_macro_dice=0.2476 ckpt=reports/phase3/seg_ckpts/seg_fasc_v5b_best.pt
+[2026-11-04T16:12:23+08:00] training...
+  saved best_native=0.2750
+best_native_macro_dice=0.2476 ckpt=reports/phase3/seg_ckpts/seg_fasc_v5b_best.pt
+[2026-11-04T16:13:23+08:00] training...
+epoch 17/40 loss=2.2839 native@0.35=0.2668 native@0.5=0.2750
+best_native_macro_dice=0.2476 ckpt=reports/phase3/seg_ckpts/seg_fasc_v5b_best.pt
+[2026-11-04T16:14:23+08:00] training...
+epoch 17/40 loss=2.2839 native@0.35=0.2668 native@0.5=0.2750
+best_native_macro_dice=0.2476 ckpt=reports/phase3/seg_ckpts/seg_fasc_v5b_best.pt
+[2026-11-04T16:15:23+08:00] training...
+  saved best_native=0.2815
+best_native_macro_dice=0.2476 ckpt=reports/phase3/seg_ckpts/seg_fasc_v5b_best.pt
+[2026-11-04T16:16:24+08:00] training...
+epoch 19/40 loss=2.2720 native@0.35=0.2759 native@0.5=0.2788
+best_native_macro_dice=0.2476 ckpt=reports/phase3/seg_ckpts/seg_fasc_v5b_best.pt
+[2026-11-04T16:17:24+08:00] training...
+epoch 19/40 loss=2.2720 native@0.35=0.2759 native@0.5=0.2788
+best_native_macro_dice=0.2476 ckpt=reports/phase3/seg_ckpts/seg_fasc_v5b_best.pt
+[2026-11-04T16:18:24+08:00] training...
+  saved best_native=0.2822
+best_native_macro_dice=0.2476 ckpt=reports/phase3/seg_ckpts/seg_fasc_v5b_best.pt
+[2026-11-04T16:19:40+08:00] wait v5 (v5b already done)
+[2026-11-04T16:19:40+08:00] training...
+epoch 20/40 loss=2.2683 native@0.35=0.2753 native@0.5=0.2822
+  saved best_native=0.2822
+[2026-11-04T16:20:40+08:00] training...
+  saved best_native=0.2822
+epoch 21/40 loss=2.2650 native@0.35=0.2712 native@0.5=0.2780
+[2026-11-04T16:21:40+08:00] training...
+epoch 22/40 loss=2.2567 native@0.35=0.2785 native@0.5=0.2841
+  saved best_native=0.2841
+[2026-11-04T16:22:41+08:00] training...
+epoch 22/40 loss=2.2567 native@0.35=0.2785 native@0.5=0.2841
+  saved best_native=0.2841
+[2026-11-04T16:23:41+08:00] training...
+  saved best_native=0.2841
+epoch 23/40 loss=2.2535 native@0.35=0.2723 native@0.5=0.2777
+[2026-11-04T16:24:41+08:00] training...
+  saved best_native=0.2841
+epoch 23/40 loss=2.2535 native@0.35=0.2723 native@0.5=0.2777
+[2026-11-04T16:25:41+08:00] training...
+epoch 23/40 loss=2.2535 native@0.35=0.2723 native@0.5=0.2777
+epoch 24/40 loss=2.2490 native@0.35=0.2737 native@0.5=0.2763
+[2026-11-04T16:26:41+08:00] training...
+epoch 23/40 loss=2.2535 native@0.35=0.2723 native@0.5=0.2777
+epoch 24/40 loss=2.2490 native@0.35=0.2737 native@0.5=0.2763
+[2026-11-04T16:27:41+08:00] training...
+epoch 24/40 loss=2.2490 native@0.35=0.2737 native@0.5=0.2763
+epoch 25/40 loss=2.2420 native@0.35=0.2766 native@0.5=0.2813
+[2026-11-04T16:28:41+08:00] training...
+epoch 26/40 loss=2.2369 native@0.35=0.2790 native@0.5=0.2846
+  saved best_native=0.2846
+[2026-11-04T16:29:41+08:00] training...
+epoch 26/40 loss=2.2369 native@0.35=0.2790 native@0.5=0.2846
+  saved best_native=0.2846
+[2026-11-04T16:30:42+08:00] training...
+  saved best_native=0.2846
+epoch 27/40 loss=2.2327 native@0.35=0.2789 native@0.5=0.2814
+[2026-11-04T16:31:42+08:00] training...
+  saved best_native=0.2846
+epoch 27/40 loss=2.2327 native@0.35=0.2789 native@0.5=0.2814
+[2026-11-04T16:32:42+08:00] training...
+epoch 27/40 loss=2.2327 native@0.35=0.2789 native@0.5=0.2814
+epoch 28/40 loss=2.2273 native@0.35=0.2799 native@0.5=0.2842
+[2026-11-04T16:33:42+08:00] training...
+epoch 28/40 loss=2.2273 native@0.35=0.2799 native@0.5=0.2842
+epoch 29/40 loss=2.2201 native@0.35=0.2786 native@0.5=0.2823
+[2026-11-04T16:34:42+08:00] training...
+epoch 28/40 loss=2.2273 native@0.35=0.2799 native@0.5=0.2842
+epoch 29/40 loss=2.2201 native@0.35=0.2786 native@0.5=0.2823
+[2026-11-04T16:35:42+08:00] training...
+epoch 29/40 loss=2.2201 native@0.35=0.2786 native@0.5=0.2823
+epoch 30/40 loss=2.2178 native@0.35=0.2795 native@0.5=0.2824
+[2026-11-04T16:36:42+08:00] training...
+epoch 29/40 loss=2.2201 native@0.35=0.2786 native@0.5=0.2823
+epoch 30/40 loss=2.2178 native@0.35=0.2795 native@0.5=0.2824
+[2026-11-04T16:37:42+08:00] training...
+epoch 30/40 loss=2.2178 native@0.35=0.2795 native@0.5=0.2824
+epoch 31/40 loss=2.2134 native@0.35=0.2782 native@0.5=0.2805
+[2026-11-04T16:38:43+08:00] training...
+epoch 30/40 loss=2.2178 native@0.35=0.2795 native@0.5=0.2824
+epoch 31/40 loss=2.2134 native@0.35=0.2782 native@0.5=0.2805
+[2026-11-04T16:39:43+08:00] training...
+epoch 31/40 loss=2.2134 native@0.35=0.2782 native@0.5=0.2805
+epoch 32/40 loss=2.2099 native@0.35=0.2801 native@0.5=0.2836
+[2026-11-04T16:40:43+08:00] training...
+epoch 32/40 loss=2.2099 native@0.35=0.2801 native@0.5=0.2836
+epoch 33/40 loss=2.2060 native@0.35=0.2798 native@0.5=0.2808
+[2026-11-04T16:41:43+08:00] training...
+epoch 32/40 loss=2.2099 native@0.35=0.2801 native@0.5=0.2836
+epoch 33/40 loss=2.2060 native@0.35=0.2798 native@0.5=0.2808
+[2026-11-04T16:42:43+08:00] training...
+epoch 33/40 loss=2.2060 native@0.35=0.2798 native@0.5=0.2808
+epoch 34/40 loss=2.2025 native@0.35=0.2807 native@0.5=0.2823
+[2026-11-04T16:43:43+08:00] training...
+epoch 33/40 loss=2.2060 native@0.35=0.2798 native@0.5=0.2808
+epoch 34/40 loss=2.2025 native@0.35=0.2807 native@0.5=0.2823
+[2026-11-04T16:44:43+08:00] training...
+epoch 34/40 loss=2.2025 native@0.35=0.2807 native@0.5=0.2823
+epoch 35/40 loss=2.1997 native@0.35=0.2795 native@0.5=0.2809
+[2026-11-04T16:45:43+08:00] training...
+epoch 34/40 loss=2.2025 native@0.35=0.2807 native@0.5=0.2823
+epoch 35/40 loss=2.1997 native@0.35=0.2795 native@0.5=0.2809
+[2026-11-04T16:46:44+08:00] training...
+epoch 35/40 loss=2.1997 native@0.35=0.2795 native@0.5=0.2809
+epoch 36/40 loss=2.1972 native@0.35=0.2804 native@0.5=0.2811
+[2026-11-04T16:47:44+08:00] training...
+epoch 36/40 loss=2.1972 native@0.35=0.2804 native@0.5=0.2811
+epoch 37/40 loss=2.1926 native@0.35=0.2803 native@0.5=0.2810
+[2026-11-04T16:48:44+08:00] training...
+epoch 36/40 loss=2.1972 native@0.35=0.2804 native@0.5=0.2811
+epoch 37/40 loss=2.1926 native@0.35=0.2803 native@0.5=0.2810
+[2026-11-04T16:49:44+08:00] training...
+epoch 37/40 loss=2.1926 native@0.35=0.2803 native@0.5=0.2810
+epoch 38/40 loss=2.1935 native@0.35=0.2799 native@0.5=0.2803
+[2026-11-04T16:50:44+08:00] training...
+epoch 37/40 loss=2.1926 native@0.35=0.2803 native@0.5=0.2810
+epoch 38/40 loss=2.1935 native@0.35=0.2799 native@0.5=0.2803
+[2026-11-04T16:51:44+08:00] training...
+epoch 38/40 loss=2.1935 native@0.35=0.2799 native@0.5=0.2803
+epoch 39/40 loss=2.1936 native@0.35=0.2798 native@0.5=0.2805
+[2026-11-04T16:52:44+08:00] trains done — postprocess
+{
+  "ckpt": "/home/chocheng9/kaggle_UMUD/reports/phase3/seg_ckpts/seg_fasc_v4b_best.pt",
+  "arch": "TinyUNet",
+  "size": 384,
+  "variant": "fasc_v4b_align_square",
+  "stored_val_dice": 0.2675978698738973,
+  "square_resize_native": {
+    "0.3": {
+      "n": 566,
+      "macro_dice": 0.24493855028440975,
+      "dice_p50": 0.24042706095468358,
+      "empty_pred_frac": 0.0,
+      "thr": 0.3,
+      "letterbox": false
+    },
+    "0.35": {
+      "n": 566,
+      "macro_dice": 0.251814162191239,
+      "dice_p50": 0.24566104247394793,
+      "empty_pred_frac": 0.0,
+      "thr": 0.35,
+      "letterbox": false
+    },
+    "0.5": {
+      "n": 566,
+      "macro_dice": 0.2675978698738973,
+      "dice_p50": 0.25828780317779804,
+      "empty_pred_frac": 0.0,
+      "thr": 0.5,
+      "letterbox": false
+    }
+  },
+  "letterbox_native": {
+    "0.3": {
+      "n": 566,
+      "macro_dice": 0.16824706167517528,
+      "dice_p50": 0.17439212313743488,
+      "empty_pred_frac": 0.0,
+      "thr": 0.3,
+      "letterbox": true
+    },
+    "0.35": {
+      "n": 566,
+      "macro_dice": 0.17467396855780548,
+      "dice_p50": 0.18164794018437028,
+      "empty_pred_frac": 0.0,
+      "thr": 0.35,
+      "letterbox": true
+    },
+    "0.5": {
+      "n": 566,
+      "macro_dice": 0.19143718073815788,
+      "dice_p50": 0.19576294375792797,
+      "empty_pred_frac": 0.0,
+      "thr": 0.5,
+      "letterbox": true
+    }
+  }
+}
+{
+  "ckpt": "/home/chocheng9/kaggle_UMUD/reports/phase3/seg_ckpts/seg_fasc_v5_best.pt",
+  "arch": "MSTinyUNet",
+  "size": 512,
+  "variant": "fasc_v5_edt_cldice_ms",
+  "stored_val_dice": 0.2846309831975224,
+  "square_resize_native": {
+    "0.3": {
+      "n": 566,
+      "macro_dice": 0.2754492777914342,
+      "dice_p50": 0.26502185670889955,
+      "empty_pred_frac": 0.0,
+      "thr": 0.3,
+      "letterbox": false
+    },
+    "0.35": {
+      "n": 566,
+      "macro_dice": 0.2789833076511844,
+      "dice_p50": 0.26902081476738127,
+      "empty_pred_frac": 0.0,
+      "thr": 0.35,
+      "letterbox": false
+    },
+    "0.5": {
+      "n": 566,
+      "macro_dice": 0.2846309831975224,
+      "dice_p50": 0.2756301438741703,
+      "empty_pred_frac": 0.0,
+      "thr": 0.5,
+      "letterbox": false
+    }
+  },
+  "letterbox_native": {
+    "0.3": {
+      "n": 566,
+      "macro_dice": 0.20172853210549613,
+      "dice_p50": 0.18842754658639221,
+      "empty_pred_frac": 0.0,
+      "thr": 0.3,
+      "letterbox": true
+    },
+    "0.35": {
+      "n": 566,
+      "macro_dice": 0.20478239596972464,
+      "dice_p50": 0.19240506336164076,
+      "empty_pred_frac": 0.0,
+      "thr": 0.35,
+      "letterbox": true
+    },
+    "0.5": {
+      "n": 566,
+      "macro_dice": 0.2108129464565545,
+      "dice_p50": 0.20113285351356916,
+      "empty_pred_frac": 0.0,
+      "thr": 0.5,
+      "letterbox": true
+    }
+  }
+}
+{
+  "ckpt": "/home/chocheng9/kaggle_UMUD/reports/phase3/seg_ckpts/seg_fasc_v5b_best.pt",
+  "arch": "TimmUNet",
+  "size": 384,
+  "variant": "fasc_v5b_timm_edt_cldice",
+  "stored_val_dice": 0.2476175080655402,
+  "square_resize_native": {
+    "0.3": {
+      "n": 566,
+      "macro_dice": 0.2609153870732654,
+      "dice_p50": 0.25466308598897824,
+      "empty_pred_frac": 0.0,
+      "thr": 0.3,
+      "letterbox": false
+    },
+    "0.35": {
+      "n": 566,
+      "macro_dice": 0.2662643313732693,
+      "dice_p50": 0.2591313830166943,
+      "empty_pred_frac": 0.0,
+      "thr": 0.35,
+      "letterbox": false
+    },
+    "0.5": {
+      "n": 566,
+      "macro_dice": 0.27381777556643655,
+      "dice_p50": 0.2652366816957242,
+      "empty_pred_frac": 0.0,
+      "thr": 0.5,
+      "letterbox": false
+    }
+  },
+  "letterbox_native": {
+    "0.3": {
+      "n": 566,
+      "macro_dice": 0.196075954290042,
+      "dice_p50": 0.18834945019228894,
+      "empty_pred_frac": 0.0,
+      "thr": 0.3,
+      "letterbox": true
+    },
+    "0.35": {
+      "n": 566,
+      "macro_dice": 0.20297271320247623,
+      "dice_p50": 0.19440761006648294,
+      "empty_pred_frac": 0.0,
+      "thr": 0.35,
+      "letterbox": true
+    },
+    "0.5": {
+      "n": 566,
+      "macro_dice": 0.2200656739870221,
+      "dice_p50": 0.20981297463952175,
+      "empty_pred_frac": 0.0,
+      "thr": 0.5,
+      "letterbox": true
+    }
+  }
+}
+{
+  "winner": {
+    "eval_path": "reports/phase3/eval_seg_fasc_v5_best_native.json",
+    "ckpt": "/home/chocheng9/kaggle_UMUD/reports/phase3/seg_ckpts/seg_fasc_v5_best.pt",
+    "variant": "fasc_v5_edt_cldice_ms",
+    "best_native_macro_dice": 0.2846309831975224,
+    "best_detail": {
+      "mode": "square_resize_native",
+      "thr": 0.5,
+      "n": 566,
+      "macro_dice": 0.2846309831975224,
+      "dice_p50": 0.2756301438741703,
+      "empty_pred_frac": 0.0,
+      "letterbox": false
+    },
+    "size": 512,
+    "arch": "MSTinyUNet"
+  },
+  "top": [
+    [
+      "fasc_v5_edt_cldice_ms",
+      0.2846309831975224
+    ],
+    [
+      "fasc_v5b_timm_edt_cldice",
+      0.27381777556643655
+    ],
+    [
+      "fasc_v4b_align_square",
+      0.2675978698738973
+    ],
+    [
+      "fasc_v2_recover",
+      0.24994737104633308
+    ],
+    [
+      "fasc_v4_letterbox_dilate",
+      0.17243936336586327
+    ],
+    [
+      "fasc_v4c_thick_soft",
+      0.08408936498991587
+    ],
+    [
+      "fasc_v3c_safe_fov",
+      0.07188745165959325
+    ]
+  ]
+}
+WINNER /home/chocheng9/kaggle_UMUD/reports/phase3/seg_ckpts/seg_fasc_v5_best.pt dice=0.2846309831975224
+apo arch=TinyUNet size=256 thr=0.5 dice=0.9688958616758283 lb=False
+fasc arch=MSTinyUNet size=512 thr=0.5 dice=0.2846309831975224 variant=fasc_v5_edt_cldice_ms lb=False
+inferred 50/1047
+inferred 100/1047
+inferred 150/1047
+inferred 200/1047
+inferred 250/1047
+inferred 300/1047
+inferred 350/1047
+inferred 400/1047
+inferred 450/1047
+inferred 500/1047
+inferred 550/1047
+inferred 600/1047
+inferred 650/1047
+inferred 700/1047
+inferred 750/1047
+inferred 800/1047
+inferred 850/1047
+inferred 900/1047
+inferred 950/1047
+inferred 1000/1047
+inferred 1047/1047
+wrote 1047 under /home/chocheng9/kaggle_UMUD/reports/phase3/seg_preds_best_fasc_v5
+tier_b_seg_gh_v5best val_MAE_pa=3.9311923418711103 fl=7.689074930639469 mt=2.964498382558961 test_ok=309/309 submission=/home/chocheng9/kaggle_UMUD/reports/phase3/submission_tier_b_seg_gh_v5best.csv
+-rw-r--r-- 1 chocheng9 ds 21438 Nov  4 16:59 /home/chocheng9/kaggle_UMUD/reports/phase3/submission_tier_b_seg_gh_v5best.csv
+-rw-r--r-- 1 chocheng9 ds  1761 Nov  4 16:59 /home/chocheng9/kaggle_UMUD/reports/phase3/tier_b_seg_gh_v5best_metrics.json
+{
+  "attention_blocked": true,
+  "fasc_val_native_macro_dice": 0.2846309831975224,
+  "fasc_variant": "fasc_v5_edt_cldice_ms",
+  "fasc_ckpt": "/home/chocheng9/kaggle_UMUD/reports/phase3/seg_ckpts/seg_fasc_v5_best.pt",
+  "seg_gh_val_mae": {
+    "pa_deg": 3.9311923418711103,
+    "fl_mm": 7.689074930639469,
+    "mt_mm": 2.964498382558961,
+    "diagnostic_s1": 0.7613736984615982
+  },
+  "official_S": null,
+  "fasc_usable_bar_0_40": false,
+  "et_still_better_pa_mt": true,
+  "reason": "Fasc still too weak and/or ExtraTrees still dominates PA/MT proxy; keep YES."
+}
+[2026-11-04T16:59:05+08:00] postprocess DONE dice=0.2846309831975224
+dice=0.2846309831975224 pa=3.9311923418711103 fl=7.689074930639469 mt=2.964498382558961
+NEED_NEXT
+[2026-11-04T16:59:05+08:00] attention still blocked — start v6 HR + v6b hrnet (sequential on cuda:3)
+started v6 chain pid=3683266
+[2026-11-04T16:59:05+08:00] DONE

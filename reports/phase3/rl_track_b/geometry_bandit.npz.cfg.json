@@ -1,0 +1,21 @@
+{
+  "cfg": {
+    "n_actions": 8,
+    "state_dim": 18,
+    "lr": 0.05,
+    "l2": 0.08,
+    "epochs": 80,
+    "seed": 0,
+    "temperature": 1.0
+  },
+  "action_names": [
+    "gh_only",
+    "blend_gh75_et25",
+    "blend_gh50_et50",
+    "blend_gh25_et75",
+    "et_only",
+    "median_prior",
+    "unable_use_prior",
+    "target_mix_et_pa_mt_gh_fl"
+  ]
+}

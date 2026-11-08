@@ -1,0 +1,49 @@
+== fasc v2 train ==
+fasc_v2 train=2195 val=566 device=cuda:1
+epoch 1/20 loss=1.4105 val_dice=0.1280
+epoch 2/20 loss=1.1536 val_dice=0.0861
+epoch 3/20 loss=1.0655 val_dice=0.1380
+epoch 4/20 loss=1.0184 val_dice=0.1860
+epoch 5/20 loss=0.9879 val_dice=0.1646
+epoch 6/20 loss=0.9681 val_dice=0.2015
+epoch 7/20 loss=0.9571 val_dice=0.2382
+epoch 8/20 loss=0.9468 val_dice=0.2416
+epoch 9/20 loss=0.9372 val_dice=0.2350
+epoch 10/20 loss=0.9334 val_dice=0.2462
+epoch 11/20 loss=0.9277 val_dice=0.2503
+epoch 12/20 loss=0.9211 val_dice=0.2349
+epoch 13/20 loss=0.9145 val_dice=0.2416
+epoch 14/20 loss=0.9113 val_dice=0.2633
+epoch 15/20 loss=0.9058 val_dice=0.2580
+epoch 16/20 loss=0.9022 val_dice=0.2555
+epoch 17/20 loss=0.8990 val_dice=0.2571
+epoch 18/20 loss=0.8967 val_dice=0.2587
+epoch 19/20 loss=0.8950 val_dice=0.2594
+epoch 20/20 loss=0.8931 val_dice=0.2600
+best_dice=0.2633 ckpt=/home/chocheng9/kaggle_UMUD/reports/phase3/seg_ckpts/seg_fasc_best.pt
+== re-infer ==
+inferred 50/1047
+inferred 100/1047
+inferred 150/1047
+inferred 200/1047
+inferred 250/1047
+inferred 300/1047
+inferred 350/1047
+inferred 400/1047
+inferred 450/1047
+inferred 500/1047
+inferred 550/1047
+inferred 600/1047
+inferred 650/1047
+inferred 700/1047
+inferred 750/1047
+inferred 800/1047
+inferred 850/1047
+inferred 900/1047
+inferred 950/1047
+inferred 1000/1047
+inferred 1047/1047
+wrote 1047 mask pairs under /home/chocheng9/kaggle_UMUD/reports/phase3/seg_preds
+== tier B seg GH refresh ==
+tier_b_seg_gh val_MAE_pa=5.078397299070353 fl=9.288721432404051 mt=6.198033090452632 test_ok=309/309 submission=/home/chocheng9/kaggle_UMUD/reports/phase3/submission_tier_b_seg_gh.csv
+DONE fasc_v2_refresh

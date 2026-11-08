@@ -1,0 +1,98 @@
+[fix] start 2026-11-05 16:34:58 UTC+08:00
+[fix] loaded dice=0.020039680569122236 n_targets=309
+[fix] dumped 35
+[fix] eval raw
+  thr=0.25 S=0.41517 PA=2.196 FL=9.921 MT=0.158
+  thr=0.30 S=0.56693 PA=2.280 FL=15.216 MT=0.158
+  thr=0.35 S=0.70430 PA=2.641 FL=19.439 MT=0.158
+  thr=0.40 S=0.49639 PA=2.148 FL=12.940 MT=0.158
+  thr=0.45 S=0.56844 PA=2.404 FL=15.023 MT=0.158
+raw {'thr': 0.25, 'S': 0.41517161028837346, 'mae_pa': 2.196153442433311, 'mae_fl': 9.92080936974224, 'mae_mt': 0.15826250681487788, 'n': 35, 'kw': {'name': 'hough_tex0.4_thr035_apo60_ff0.9_sin0.35_agNone', 'apo_thr': 0.6, 'fasc_thr': 0.25, 'min_len': 3.0, 'depth_at': 0.7, 'tex_w': 0.4, 'fl_sin_w': 0.35, 'fl_factor': 0.9, 'agree_thr': None, 'tex_lo': 0.5, 'tex_hi': 0.95, 'pa_mode': 'hough'}}
+[fix] blend a=0.25 n=35
+  thr=0.25 S=0.14126 PA=1.022 FL=2.409 MT=0.158
+  thr=0.30 S=0.13662 PA=0.952 FL=2.381 MT=0.158
+  thr=0.35 S=0.14354 PA=1.059 FL=2.417 MT=0.158
+  thr=0.40 S=0.14166 PA=1.018 FL=2.430 MT=0.158
+  thr=0.45 S=0.14608 PA=1.033 FL=2.560 MT=0.158
+  S=0.13662
+[fix] blend a=0.4 n=35
+  thr=0.25 S=0.17375 PA=1.487 FL=2.649 MT=0.158
+  thr=0.30 S=0.17376 PA=1.466 FL=2.691 MT=0.158
+  thr=0.35 S=0.15537 PA=1.199 FL=2.562 MT=0.158
+  thr=0.40 S=0.14146 PA=0.950 FL=2.560 MT=0.158
+  thr=0.45 S=0.14448 PA=1.040 FL=2.488 MT=0.158
+  S=0.14146
+[fix] blend a=0.55 n=35
+  thr=0.25 S=0.29912 PA=2.528 FL=5.079 MT=0.158
+  thr=0.30 S=0.27179 PA=2.712 FL=3.728 MT=0.158
+  thr=0.35 S=0.20399 PA=1.724 FL=3.263 MT=0.158
+  thr=0.40 S=0.17347 PA=1.454 FL=2.705 MT=0.158
+  thr=0.45 S=0.14968 PA=1.139 FL=2.478 MT=0.158
+  S=0.14968
+[fix] blend a=0.7 n=35
+  thr=0.25 S=0.70399 PA=2.410 FL=19.890 MT=0.158
+  thr=0.30 S=0.31542 PA=2.216 FL=6.291 MT=0.158
+  thr=0.35 S=0.28106 PA=2.737 FL=4.011 MT=0.158
+  thr=0.40 S=0.24983 PA=2.438 FL=3.484 MT=0.158
+  thr=0.45 S=0.20853 PA=1.759 FL=3.355 MT=0.158
+  S=0.20853
+[fix] frundles ref
+  thr=0.25 S=0.14476 PA=1.033 FL=2.512 MT=0.158
+  thr=0.30 S=0.13995 PA=0.994 FL=2.418 MT=0.158
+  thr=0.35 S=0.13294 PA=0.928 FL=2.297 MT=0.158
+  thr=0.40 S=0.13992 PA=0.996 FL=2.412 MT=0.158
+  thr=0.45 S=0.13785 PA=0.956 FL=2.418 MT=0.158
+{
+  "champ": {
+    "tag": "blend_a0.25",
+    "S": 0.1366225895658657,
+    "detail": {
+      "thr": 0.3,
+      "S": 0.1366225895658657,
+      "mae_pa": 0.9522236092931686,
+      "mae_fl": 2.380911888220046,
+      "mae_mt": 0.15826250681487788,
+      "n": 35,
+      "kw": {
+        "name": "hough_tex0.4_thr035_apo60_ff0.9_sin0.35_agNone",
+        "apo_thr": 0.6,
+        "fasc_thr": 0.3,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.4,
+        "fl_sin_w": 0.35,
+        "fl_factor": 0.9,
+        "agree_thr": null,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      }
+    },
+    "cache": "/home/chocheng9/kaggle_UMUD/reports/phase3/chase018/cache/maps_multexp_numeric_geo_blend25"
+  },
+  "promote": false,
+  "gate": false,
+  "fr": {
+    "thr": 0.35,
+    "S": 0.13293555901039555,
+    "mae_pa": 0.9279384631482271,
+    "mae_fl": 2.2967497297340818,
+    "mae_mt": 0.15826250681487788,
+    "n": 35,
+    "kw": {
+      "name": "hough_tex0.4_thr035_apo60_ff0.9_sin0.35_agNone",
+      "apo_thr": 0.6,
+      "fasc_thr": 0.35,
+      "min_len": 3.0,
+      "depth_at": 0.7,
+      "tex_w": 0.4,
+      "fl_sin_w": 0.35,
+      "fl_factor": 0.9,
+      "agree_thr": null,
+      "tex_lo": 0.5,
+      "tex_hi": 0.95,
+      "pa_mode": "hough"
+    }
+  }
+}
+[fix] wrote /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/multexp_numeric_geo_labtrain.json

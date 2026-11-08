@@ -1,0 +1,14 @@
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+easyvolcap 0.0.0 requires cuda-python; sys_platform != "darwin", which is not installed.
+easyvolcap 0.0.0 requires fast_gauss, which is not installed.
+easyvolcap 0.0.0 requires imgui-bundle, which is not installed.
+easyvolcap 0.0.0 requires PyGLM, which is not installed.
+easyvolcap 0.0.0 requires PyMCubes, which is not installed.
+easyvolcap 0.0.0 requires pyntcloud, which is not installed.
+easyvolcap 0.0.0 requires PyTurboJPEG, which is not installed.
+dust3r 0.0 requires gradio==4.44.1, but you have gradio 5.49.1 which is incompatible.
+dust3r 0.0 requires torch==2.0.1, but you have torch 2.7.1 which is incompatible.
+dust3r 0.0 requires torchvision==0.15.2, but you have torchvision 0.22.1 which is incompatible.
+jax 0.7.1 requires ml_dtypes>=0.5.0, but you have ml-dtypes 0.4.1 which is incompatible.
+jaxlib 0.7.1 requires ml_dtypes>=0.5.0, but you have ml-dtypes 0.4.1 which is incompatible.
+PIP_OK

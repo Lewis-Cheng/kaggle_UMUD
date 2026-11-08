@@ -1,0 +1,88 @@
+{
+  "ts": "2026-11-05 15:29:56 UTC+08:00",
+  "hold": 0.13195144580335014,
+  "gate": 0.12,
+  "ckpt": "/home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_labtrain_comp_ft_best.pt",
+  "best_val_dice": 0.4701130963579009,
+  "dropped_multexp_near": 24,
+  "cache": "/home/chocheng9/kaggle_UMUD/reports/phase3/chase018/cache/maps_multexp_labtrain_comp_ft",
+  "results": [
+    {
+      "thr": 0.25,
+      "S": 0.1377911253869276,
+      "MAE": {
+        "pa_deg": 0.9634315007124388,
+        "fl_mm": 2.400563543176852,
+        "mt_mm": 0.15826250681487788
+      },
+      "n": 35,
+      "gate": false,
+      "beats_hold": false
+    },
+    {
+      "thr": 0.3,
+      "S": 0.14156916043324122,
+      "MAE": {
+        "pa_deg": 1.0234002740581856,
+        "fl_mm": 2.416634991214408,
+        "mt_mm": 0.15826250681487788
+      },
+      "n": 35,
+      "gate": false,
+      "beats_hold": false
+    },
+    {
+      "thr": 0.35,
+      "S": 0.14581981791785711,
+      "MAE": {
+        "pa_deg": 1.0786871924793389,
+        "fl_mm": 2.4590845435703335,
+        "mt_mm": 0.15826250681487788
+      },
+      "n": 35,
+      "gate": false,
+      "beats_hold": false
+    },
+    {
+      "thr": 0.4,
+      "S": 0.1426492644069207,
+      "MAE": {
+        "pa_deg": 0.9721571116837919,
+        "fl_mm": 2.558005379640076,
+        "mt_mm": 0.15826250681487788
+      },
+      "n": 35,
+      "gate": false,
+      "beats_hold": false
+    },
+    {
+      "thr": 0.45,
+      "S": 0.1409701089626335,
+      "MAE": {
+        "pa_deg": 0.9639297227808781,
+        "fl_mm": 2.51400993206903,
+        "mt_mm": 0.15826250681487788
+      },
+      "n": 35,
+      "gate": false,
+      "beats_hold": false
+    }
+  ],
+  "best": {
+    "thr": 0.25,
+    "S": 0.1377911253869276,
+    "MAE": {
+      "pa_deg": 0.9634315007124388,
+      "fl_mm": 2.400563543176852,
+      "mt_mm": 0.15826250681487788
+    },
+    "n": 35,
+    "gate": false,
+    "beats_hold": false
+  },
+  "promoted": false,
+  "gate_pass": false,
+  "elapsed_s": 635.9541153907776,
+  "prior_labtrain_S": 0.13817728585553185,
+  "note": "LabTrain ImageNet fasc FT on LabTrain+competition; MultExp dHash-excluded; Frundles apo"
+}

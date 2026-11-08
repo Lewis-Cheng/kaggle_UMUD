@@ -1,0 +1,16 @@
+{
+  "attention_blocked": true,
+  "fasc_val_native_macro_dice": 0.2846309831975224,
+  "fasc_variant": "fasc_v5_edt_cldice_ms",
+  "fasc_ckpt": "reports/phase3/seg_ckpts/seg_fasc_v5_best.pt",
+  "seg_gh_val_mae": {
+    "pa_deg": 3.9311923418711103,
+    "fl_mm": 7.689074930639469,
+    "mt_mm": 2.964498382558961,
+    "diagnostic_s1": 0.7613736984615982
+  },
+  "official_S": null,
+  "fasc_usable_bar_0_40": false,
+  "et_still_better_pa_mt": true,
+  "reason": "Fasc still too weak and/or ExtraTrees still dominates PA/MT proxy; keep YES."
+}

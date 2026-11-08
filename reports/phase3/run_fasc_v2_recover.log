@@ -1,0 +1,22 @@
+fasc_v2_recover train=2195 val=566 size=384 pos_w=40.0 device=cuda:3
+epoch 1/20 loss=1.3797 val_dice=0.1274
+epoch 2/20 loss=1.1348 val_dice=0.1068
+epoch 3/20 loss=1.0600 val_dice=0.1169
+epoch 4/20 loss=1.0263 val_dice=0.1691
+epoch 5/20 loss=0.9972 val_dice=0.1686
+epoch 6/20 loss=0.9824 val_dice=0.1655
+epoch 7/20 loss=0.9700 val_dice=0.1920
+epoch 8/20 loss=0.9623 val_dice=0.2223
+epoch 9/20 loss=0.9502 val_dice=0.2075
+epoch 10/20 loss=0.9433 val_dice=0.2478
+epoch 11/20 loss=0.9426 val_dice=0.2282
+epoch 12/20 loss=0.9304 val_dice=0.2341
+epoch 13/20 loss=0.9246 val_dice=0.2381
+epoch 14/20 loss=0.9204 val_dice=0.2395
+epoch 15/20 loss=0.9134 val_dice=0.2394
+epoch 16/20 loss=0.9106 val_dice=0.2412
+epoch 17/20 loss=0.9061 val_dice=0.2415
+epoch 18/20 loss=0.9029 val_dice=0.2478
+epoch 19/20 loss=0.9003 val_dice=0.2449
+epoch 20/20 loss=0.8991 val_dice=0.2472
+best_dice=0.2478 ckpt=reports/phase3/seg_ckpts/seg_fasc_v2_recover_best.pt

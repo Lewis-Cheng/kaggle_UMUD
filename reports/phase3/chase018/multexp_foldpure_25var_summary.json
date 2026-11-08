@@ -1,0 +1,14 @@
+{
+  "best_new_S": 0.13293555901039555,
+  "best_new_name": "nested_trainS_reduced",
+  "best_learned_selector_S": 0.1332811760145091,
+  "best_learned_selector_name": "nested_softmax_bandit_v1",
+  "hold_C_S": 0.13195144580335014,
+  "hold_C_name": "nested_feature_rule_fasc_adapt",
+  "oracle_S": 0.10485379107306812,
+  "oracle_selector_gap": 0.02808176793732743,
+  "gate_0.12": false,
+  "promote": false,
+  "kaggle_submit": false,
+  "asof": "2026-11-05 14:44 Asia/Hong_Kong"
+}

@@ -1,0 +1,9 @@
+{
+  "expert_gt_found": false,
+  "official_S": null,
+  "official_S_path": null,
+  "n_hits": 0,
+  "n_false_pos": 0,
+  "candidates": [],
+  "reason": "No independent expert PA/FL/MT GT CSV found; train has masks only."
+}

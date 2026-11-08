@@ -1,0 +1,7 @@
+{
+  "lab_masks": 1854,
+  "comp_overlap_imgs": 0,
+  "comp_overlap_masks": 0,
+  "train_pid": 101025,
+  "img_dir": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/labtrain_fasc_images"
+}

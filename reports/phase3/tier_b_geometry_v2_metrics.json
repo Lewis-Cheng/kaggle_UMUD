@@ -1,0 +1,134 @@
+{
+  "ambrosm_scale_csv": "reports/phase3/ambrosm_scale_v2_rows.csv",
+  "attention_still_blocked": true,
+  "baseline": "tier_b_geometry_v2",
+  "forbid_tiff_dpi_25_4": true,
+  "geometry_head_priors_from_train_mm": {
+    "fl_mm": 52.05162894987036,
+    "mt_mm": 21.5,
+    "pa_deg": 5.690311923303982
+  },
+  "label": "GeometryHead+AmbrosM_per_image_mm_ExtraTrees_NOT_expert_GT_NOT_leaderboard",
+  "model": {
+    "max_features": 0.72,
+    "min_samples_leaf": 3,
+    "n_estimators": 160,
+    "n_train": 1744,
+    "n_val": 544,
+    "seed": 0,
+    "type": "ExtraTreesRegressor"
+  },
+  "n_sample_submission_ids": 2,
+  "n_test": 309,
+  "n_test_failures_to_median": 0,
+  "notes": [
+    "Per-image mm_per_px from AmbrosM when provenance in {measured, family_prior}.",
+    "q (mm-per-tick) remains AmbrosM UI prior \u2014 tagged via q_provenance.",
+    "Unknown scale \u2192 pixel_space; excluded from mm ExtraTrees targets.",
+    "Val MAE is ExtraTrees vs GeometryHead(mask, AmbrosM) \u2014 NOT expert PA/FL/MT.",
+    "No official S without independent GT. Attention still blocked.",
+    "Test CSV is ExtraTrees (geometry+scale supervised), not train-median stub.",
+    "If sample_submission is a short template, test IDs expand from test image stems with sample suffix.",
+    "Do not treat TIFF dpi as ultrasound spacing."
+  ],
+  "official_S": null,
+  "official_S_reason": "no_independent_expert_gt_csv_in_data_root",
+  "organizer_mt_policy": "vertical_not_perp_to_apo",
+  "rows_csv": "reports/phase3/tier_b_geometry_v2_rows.csv",
+  "run_scale_provenance": "ambrosm_per_family_mixed_v2_hflip",
+  "split_assignments": "reports/phase2/split_assignments.jsonl",
+  "submission": "reports/phase3/submission_tier_b_geometry_v2.csv",
+  "test_id_source": "test_stems_with_sample_suffix",
+  "test_policy": "extratrees_supervised_by_geometry_head_ambrosm_mm_NOT_direct_test_mask_geometry",
+  "test_scale_coverage": {
+    "family_prior": 160,
+    "measured": 149,
+    "missing": 0,
+    "unknown": 0
+  },
+  "tier": "B_proxy_scale_aware_geometry_head",
+  "train_coverage": {
+    "geometry_head_mm_targets": {
+      "fl_mm": {
+        "mean": 65.4537579618365,
+        "n": 1744,
+        "p25": 41.39429172585477,
+        "p50": 52.05162894987036,
+        "p75": 70.37286588082065
+      },
+      "mt_mm": {
+        "mean": 21.469257985930064,
+        "n": 1744,
+        "p25": 21.5,
+        "p50": 21.5,
+        "p75": 21.5
+      },
+      "pa_deg": {
+        "mean": 6.779136636739951,
+        "n": 1744,
+        "p25": 2.9948057327299518,
+        "p50": 5.690311923303982,
+        "p75": 9.05691368769172
+      }
+    },
+    "n_geometry_ok": 2371,
+    "n_mm_targets": 1744,
+    "n_stems": 2376,
+    "provenance_counts": {
+      "family_prior": 223,
+      "measured": 1525,
+      "unknown": 628
+    },
+    "scale_mode_counts": {
+      "ambrosm_mm": 1748,
+      "pixel_space_unknown_scale": 628
+    }
+  },
+  "val_coverage": {
+    "geometry_head_mm_targets": {
+      "fl_mm": {
+        "mean": 68.16669063360803,
+        "n": 544,
+        "p25": 40.691463448371316,
+        "p50": 51.71328941374848,
+        "p75": 81.33811726118154
+      },
+      "mt_mm": {
+        "mean": 21.3702824298103,
+        "n": 544,
+        "p25": 21.5,
+        "p50": 21.5,
+        "p75": 21.91853053538958
+      },
+      "pa_deg": {
+        "mean": 7.397233164498031,
+        "n": 544,
+        "p25": 3.408131566780564,
+        "p50": 6.491989323725299,
+        "p75": 9.45553796943693
+      }
+    },
+    "n_geometry_ok": 736,
+    "n_mm_targets": 544,
+    "n_stems": 738,
+    "provenance_counts": {
+      "family_prior": 84,
+      "measured": 461,
+      "unknown": 193
+    },
+    "scale_mode_counts": {
+      "ambrosm_mm": 545,
+      "pixel_space_unknown_scale": 193
+    }
+  },
+  "val_metrics": {
+    "diagnostic_S1_vs_gh_targets": 0.5090726352583422,
+    "fl_mae": 9.857590605995789,
+    "label": "MAE_vs_GeometryHead_AmbrosM_targets_NOT_expert_GT_NOT_LB",
+    "mt_mae": 1.0031300813873358,
+    "n_train_mm": 1744,
+    "n_val_mm": 544,
+    "note_S": "diagnostic only vs GeometryHead AmbrosM targets; NOT official S / NOT leaderboard (no independent expert GT locally)",
+    "pa_mae": 2.228251968877594
+  }
+}

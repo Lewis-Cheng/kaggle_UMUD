@@ -1,0 +1,42 @@
+{
+  "baseline": "extratrees_mask_proxy",
+  "fallback_priors_unused_unless_empty": {
+    "fl_mm": 14.6,
+    "mt_mm": 21.5,
+    "pa_deg": 13.0
+  },
+  "label": "NOT_Tier_B_NOT_leaderboard",
+  "mm_per_px": 0.07225,
+  "model": {
+    "max_features": 0.72,
+    "min_samples_leaf": 3,
+    "n_estimators": 160,
+    "seed": 0,
+    "type": "ExtraTreesRegressor"
+  },
+  "n_test": 309,
+  "n_test_failures_to_median": 0,
+  "n_train_apo": 843,
+  "n_train_fasc": 2190,
+  "notes": [
+    "Supervised by mask-derived proxies, not expert PA/FL/MT.",
+    "Frozen duplicate-aware split only \u2014 do not use rival (id//5)%5.",
+    "Local MAE is Tier A proxy; never promote on it alone."
+  ],
+  "scale_provenance": "unknown",
+  "submission": "/home/chocheng9/kaggle_UMUD/reports/phase3/submission_extratrees_mask_proxy.csv",
+  "tier": "A_proxy_not_tier_b",
+  "train_medians": {
+    "fl_mm": 50.163316237970605,
+    "mt_mm": 13.004999999999999,
+    "pa_deg": 5.445698064952495
+  },
+  "val_proxy_metrics": {
+    "apo_val_n": 205,
+    "fasc_val_n": 566,
+    "fl_mae_proxy": 1.927444947325822,
+    "mt_mae_proxy": 4.592364192073171,
+    "pa_mae_proxy": 1.7557117344555377,
+    "tier": "A_proxy_not_tier_b"
+  }
+}

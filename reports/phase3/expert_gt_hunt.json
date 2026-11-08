@@ -1,0 +1,250 @@
+{
+  "expert_gt_found": false,
+  "official_S": null,
+  "reason": "No independent expert PA/FL/MT ground-truth CSV in data root or repo reports. sample_submission.csv is a 2-row format template only. Train provides masks, not expert biometry labels. Official S cannot be pinned locally; Kaggle LB would be required for true S.",
+  "hits_n": 27,
+  "expert_candidates": [
+    {
+      "path": "reports/phase2/scale_audit.json",
+      "name_hit": false,
+      "has_pa_fl_mt_headers": true,
+      "size": 10612,
+      "is_sample_submission": false,
+      "is_phase3_submission": false
+    },
+    {
+      "path": "reports/phase2/inventory.json",
+      "name_hit": false,
+      "has_pa_fl_mt_headers": true,
+      "size": 7139,
+      "is_sample_submission": false,
+      "is_phase3_submission": false
+    },
+    {
+      "path": "reports/phase3/attention_gate_verdict.md",
+      "name_hit": false,
+      "has_pa_fl_mt_headers": true,
+      "size": 4674,
+      "is_sample_submission": false,
+      "is_phase3_submission": false
+    }
+  ],
+  "sample_hits": [
+    {
+      "path": "data/raw/umud/sample_submission.csv",
+      "name_hit": true,
+      "has_pa_fl_mt_headers": true,
+      "size": 104,
+      "is_sample_submission": true,
+      "is_phase3_submission": false
+    },
+    {
+      "path": "reports/phase2/scale_audit.json",
+      "name_hit": false,
+      "has_pa_fl_mt_headers": true,
+      "size": 10612,
+      "is_sample_submission": false,
+      "is_phase3_submission": false
+    },
+    {
+      "path": "reports/phase2/inventory.json",
+      "name_hit": false,
+      "has_pa_fl_mt_headers": true,
+      "size": 7139,
+      "is_sample_submission": false,
+      "is_phase3_submission": false
+    },
+    {
+      "path": "reports/phase3/submission_extratrees_mask_proxy.csv",
+      "name_hit": true,
+      "has_pa_fl_mt_headers": true,
+      "size": 20026,
+      "is_sample_submission": false,
+      "is_phase3_submission": true
+    },
+    {
+      "path": "reports/phase3/submission_tier_b_geometry_v2.csv",
+      "name_hit": true,
+      "has_pa_fl_mt_headers": true,
+      "size": 21278,
+      "is_sample_submission": false,
+      "is_phase3_submission": true
+    },
+    {
+      "path": "reports/phase3/submission_tier_b_geometry.csv",
+      "name_hit": true,
+      "has_pa_fl_mt_headers": true,
+      "size": 21441,
+      "is_sample_submission": false,
+      "is_phase3_submission": true
+    },
+    {
+      "path": "reports/phase3/submission_tier_b_seg_gh.csv",
+      "name_hit": true,
+      "has_pa_fl_mt_headers": true,
+      "size": 21485,
+      "is_sample_submission": false,
+      "is_phase3_submission": true
+    },
+    {
+      "path": "reports/phase3/expert_gt_broader2.json",
+      "name_hit": true,
+      "has_pa_fl_mt_headers": false,
+      "size": 0,
+      "is_sample_submission": false,
+      "is_phase3_submission": false
+    },
+    {
+      "path": "reports/phase3/extratrees_mask_proxy_report.json",
+      "name_hit": false,
+      "has_pa_fl_mt_headers": true,
+      "size": 1186,
+      "is_sample_submission": false,
+      "is_phase3_submission": false
+    },
+    {
+      "path": "reports/phase3/tier_b_geometry_v2_rows.csv",
+      "name_hit": false,
+      "has_pa_fl_mt_headers": true,
+      "size": 583304,
+      "is_sample_submission": false,
+      "is_phase3_submission": false
+    },
+    {
+      "path": "reports/phase3/expert_gt_hunt.json",
+      "name_hit": true,
+      "has_pa_fl_mt_headers": false,
+      "size": 6952,
+      "is_sample_submission": false,
+      "is_phase3_submission": false
+    },
+    {
+      "path": "reports/phase3/tier_b_geometry_metrics.json",
+      "name_hit": false,
+      "has_pa_fl_mt_headers": true,
+      "size": 4306,
+      "is_sample_submission": false,
+      "is_phase3_submission": false
+    },
+    {
+      "path": "reports/phase3/geometry_head_proxy_report.json",
+      "name_hit": false,
+      "has_pa_fl_mt_headers": true,
+      "size": 1302,
+      "is_sample_submission": false,
+      "is_phase3_submission": false
+    },
+    {
+      "path": "reports/phase3/tier_b_geometry_v2_metrics.json",
+      "name_hit": false,
+      "has_pa_fl_mt_headers": true,
+      "size": 4161,
+      "is_sample_submission": false,
+      "is_phase3_submission": false
+    },
+    {
+      "path": "reports/phase3/tier_b_seg_gh_metrics.json",
+      "name_hit": false,
+      "has_pa_fl_mt_headers": true,
+      "size": 1740,
+      "is_sample_submission": false,
+      "is_phase3_submission": false
+    },
+    {
+      "path": "reports/phase3/tier_b_seg_gh_rows.csv",
+      "name_hit": false,
+      "has_pa_fl_mt_headers": true,
+      "size": 112482,
+      "is_sample_submission": false,
+      "is_phase3_submission": false
+    },
+    {
+      "path": "reports/phase3/attention_gate_verdict.md",
+      "name_hit": false,
+      "has_pa_fl_mt_headers": true,
+      "size": 4674,
+      "is_sample_submission": false,
+      "is_phase3_submission": false
+    },
+    {
+      "path": "reports/phase3/submission_geometry_head_proxy.csv",
+      "name_hit": true,
+      "has_pa_fl_mt_headers": true,
+      "size": 20422,
+      "is_sample_submission": false,
+      "is_phase3_submission": true
+    },
+    {
+      "path": "reports/phase3/tier_b_geometry_rows.csv",
+      "name_hit": false,
+      "has_pa_fl_mt_headers": true,
+      "size": 577304,
+      "is_sample_submission": false,
+      "is_phase3_submission": false
+    },
+    {
+      "path": "reports/phase3/expert_gt_hunt.md",
+      "name_hit": true,
+      "has_pa_fl_mt_headers": false,
+      "size": 450,
+      "is_sample_submission": false,
+      "is_phase3_submission": false
+    },
+    {
+      "path": "reports/phase3/expert_gt_broader.json",
+      "name_hit": true,
+      "has_pa_fl_mt_headers": false,
+      "size": 1010,
+      "is_sample_submission": false,
+      "is_phase3_submission": false
+    },
+    {
+      "path": "reports/phase3/median_prior_report.json",
+      "name_hit": false,
+      "has_pa_fl_mt_headers": true,
+      "size": 583,
+      "is_sample_submission": false,
+      "is_phase3_submission": false
+    },
+    {
+      "path": "reports/phase3/submission_median_prior.csv",
+      "name_hit": true,
+      "has_pa_fl_mt_headers": true,
+      "size": 20422,
+      "is_sample_submission": false,
+      "is_phase3_submission": true
+    },
+    {
+      "path": "reports/phase3_tier_b_smoke/submission_tier_b_geometry.csv",
+      "name_hit": true,
+      "has_pa_fl_mt_headers": true,
+      "size": 20277,
+      "is_sample_submission": false,
+      "is_phase3_submission": true
+    },
+    {
+      "path": "reports/phase3_tier_b_smoke/tier_b_geometry_metrics.json",
+      "name_hit": false,
+      "has_pa_fl_mt_headers": true,
+      "size": 3972,
+      "is_sample_submission": false,
+      "is_phase3_submission": false
+    },
+    {
+      "path": "reports/phase3_tier_b_smoke/tier_b_geometry_rows.csv",
+      "name_hit": false,
+      "has_pa_fl_mt_headers": true,
+      "size": 15717,
+      "is_sample_submission": false,
+      "is_phase3_submission": false
+    },
+    {
+      "path": "data/raw/umud/sample_submission.csv",
+      "name_hit": true,
+      "has_pa_fl_mt_headers": true,
+      "size": 104,
+      "is_sample_submission": true,
+      "is_phase3_submission": false
+    }
+  ]
+}

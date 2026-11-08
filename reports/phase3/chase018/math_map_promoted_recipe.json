@@ -1,0 +1,49 @@
+{
+  "asof": "2026-11-05 13:21 Asia/Hong_Kong",
+  "name": "nested_feature_rule_fasc_adapt",
+  "S_loocv_cal_pa_mt": 0.13195144580335014,
+  "MAE_loocv": {
+    "pa_deg": 0.9124039825246483,
+    "fl_mm": 2.292390615561086,
+    "mt_mm": 0.15826250681487788
+  },
+  "kw": {
+    "fasc_thr": 0.35,
+    "apo_thr": 0.6,
+    "tex_w": 0.4,
+    "fl_factor": 0.9,
+    "fl_sin_w": 0.35,
+    "agree_thr": null,
+    "pa_mode": "hough"
+  },
+  "fasc_adapt": {
+    "type": "nested_feature_rule",
+    "pool": [
+      "baseline",
+      "ridge_blend03",
+      "morph_connect",
+      "corridor_dilate",
+      "blend_base_morph",
+      "ridge_soft02"
+    ],
+    "picked_counts": {
+      "baseline": 16,
+      "ridge_blend03": 1,
+      "morph_connect": 0,
+      "corridor_dilate": 0,
+      "blend_base_morph": 18,
+      "ridge_soft02": 0
+    },
+    "note": "Per fold: choose feature-threshold rule on train raw err; apply to held-out. Maps = Frundles + A post-filters."
+  },
+  "cache_dir": "reports/phase3/chase018/cache/maps_multexp",
+  "maps": "Frundles apo+fasc + MultExp-domain A post-filters selected fold-pure (C)",
+  "prior_fixed_recipe_S": 0.13293555901039555,
+  "prior_fixed_recipe_name": "hough_tex0.4_thr035_apo60_ff0.9_sin0.35_agNone",
+  "beats_prior_fixed": true,
+  "gate_0.12": false,
+  "gap_to_0.12": 0.011951445803350141,
+  "kaggle_submit": false,
+  "lab_fasc_ckpt": false,
+  "protocol": "honest LOOCV affine PA+MT only; FL raw; nested-safe fasc adapt selector"
+}

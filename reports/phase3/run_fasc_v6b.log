@@ -1,0 +1,42 @@
+fasc_v6b train=2195 val=566 enc=hrnet_w18 size=512 device=cuda:2
+Unexpected keys (downsamp_modules.0.1.num_batches_tracked, downsamp_modules.1.1.num_batches_tracked, downsamp_modules.2.1.num_batches_tracked, final_layer.1.num_batches_tracked, downsamp_modules.0.0.bias, downsamp_modules.0.0.weight, downsamp_modules.0.1.bias, downsamp_modules.0.1.running_mean, downsamp_modules.0.1.running_var, downsamp_modules.0.1.weight, downsamp_modules.1.0.bias, downsamp_modules.1.0.weight, downsamp_modules.1.1.bias, downsamp_modules.1.1.running_mean, downsamp_modules.1.1.running_var, downsamp_modules.1.1.weight, downsamp_modules.2.0.bias, downsamp_modules.2.0.weight, downsamp_modules.2.1.bias, downsamp_modules.2.1.running_mean, downsamp_modules.2.1.running_var, downsamp_modules.2.1.weight, final_layer.0.bias, final_layer.0.weight, final_layer.1.bias, final_layer.1.running_mean, final_layer.1.running_var, final_layer.1.weight, classifier.bias, classifier.weight) found while loading pretrained weights. This may be expected if model is being adapted.
+epoch 1/30 loss=2.3471 native@0.35=0.1251 native@0.5=0.1655
+  saved best=0.1655
+epoch 2/30 loss=2.1072 native@0.35=0.1656 native@0.5=0.1956
+  saved best=0.1956
+epoch 3/30 loss=1.9996 native@0.35=0.1998 native@0.5=0.2293
+  saved best=0.2293
+epoch 4/30 loss=1.9111 native@0.35=0.2191 native@0.5=0.2462
+  saved best=0.2462
+epoch 5/30 loss=1.8468 native@0.35=0.2350 native@0.5=0.2581
+  saved best=0.2581
+epoch 6/30 loss=1.8144 native@0.35=0.2461 native@0.5=0.2645
+  saved best=0.2645
+epoch 7/30 loss=1.7973 native@0.35=0.2334 native@0.5=0.2587
+epoch 8/30 loss=1.7843 native@0.35=0.2510 native@0.5=0.2712
+  saved best=0.2712
+epoch 9/30 loss=1.7758 native@0.35=0.2481 native@0.5=0.2686
+epoch 10/30 loss=1.7630 native@0.35=0.2482 native@0.5=0.2693
+epoch 11/30 loss=1.7535 native@0.35=0.2515 native@0.5=0.2710
+epoch 12/30 loss=1.7452 native@0.35=0.2509 native@0.5=0.2709
+epoch 13/30 loss=1.7350 native@0.35=0.2519 native@0.5=0.2697
+epoch 14/30 loss=1.7256 native@0.35=0.2545 native@0.5=0.2697
+epoch 15/30 loss=1.7138 native@0.35=0.2544 native@0.5=0.2717
+  saved best=0.2717
+epoch 16/30 loss=1.7034 native@0.35=0.2519 native@0.5=0.2700
+epoch 17/30 loss=1.6933 native@0.35=0.2549 native@0.5=0.2718
+  saved best=0.2718
+epoch 18/30 loss=1.6841 native@0.35=0.2514 native@0.5=0.2681
+epoch 19/30 loss=1.6743 native@0.35=0.2529 native@0.5=0.2689
+epoch 20/30 loss=1.6604 native@0.35=0.2546 native@0.5=0.2694
+epoch 21/30 loss=1.6520 native@0.35=0.2556 native@0.5=0.2674
+epoch 22/30 loss=1.6409 native@0.35=0.2541 native@0.5=0.2685
+epoch 23/30 loss=1.6348 native@0.35=0.2539 native@0.5=0.2664
+epoch 24/30 loss=1.6285 native@0.35=0.2542 native@0.5=0.2660
+epoch 25/30 loss=1.6223 native@0.35=0.2543 native@0.5=0.2666
+epoch 26/30 loss=1.6150 native@0.35=0.2541 native@0.5=0.2655
+epoch 27/30 loss=1.6119 native@0.35=0.2541 native@0.5=0.2651
+epoch 28/30 loss=1.6112 native@0.35=0.2537 native@0.5=0.2650
+epoch 29/30 loss=1.6062 native@0.35=0.2549 native@0.5=0.2654
+epoch 30/30 loss=1.6111 native@0.35=0.2543 native@0.5=0.2650
+best_native_macro_dice=0.2718 ckpt=reports/phase3/seg_ckpts/seg_fasc_v6b_best.pt

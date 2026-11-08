@@ -1,0 +1,23 @@
+device=cuda:0 folds=5 epochs=2 blend=0.55
+ckpt_in=/home/chocheng9/kaggle_UMUD/data/external/frundles_weights/fasc_resnet34_384x576_f0.pt
+n_items=35
+n_groups=35 fold_counts=[7, 7, 7, 7, 7]
+
+=== fold 0: train=28 held=7 names=['im_09_arch.tif', 'im_10_arch.tif', 'im_16_arch.tif', 'im_24_arch.tif', 'im_26_arch.tif', 'im_30_arch.tif', 'im_32_arch.tif'] ===
+fold 0 done ep=2 last_loss=0.46851789951324463 remaining_min=7.9
+
+=== fold 1: train=28 held=7 names=['im_05_arch.tif', 'im_08_arch.tif', 'im_11_arch.tif', 'im_14_arch.tif', 'im_21_arch.tif', 'im_25_arch.tif', 'im_35_arch.tif'] ===
+fold 1 done ep=2 last_loss=0.46610580171857563 remaining_min=7.9
+
+=== fold 2: train=28 held=7 names=['im_02_arch.tif', 'im_03_arch.tif', 'im_06_arch.tif', 'im_17_arch.tif', 'im_19_arch.tif', 'im_33_arch.tif', 'im_34_arch.tif'] ===
+fold 2 done ep=2 last_loss=0.46556719286101206 remaining_min=7.8
+
+=== fold 3: train=28 held=7 names=['im_04_arch.tif', 'im_12_arch.tif', 'im_13_arch.tif', 'im_18_arch.tif', 'im_22_arch.tif', 'im_27_arch.tif', 'im_29_arch.tif'] ===
+fold 3 done ep=2 last_loss=0.46584653854370117 remaining_min=7.7
+
+=== fold 4: train=28 held=7 names=['im_01_arch.tif', 'im_07_arch.tif', 'im_15_arch.tif', 'im_20_arch.tif', 'im_23_arch.tif', 'im_28_arch.tif', 'im_31_arch.tif'] ===
+fold 4 done ep=2 last_loss=0.46573077355112347 remaining_min=7.7
+eval frozen recipe on nested maps...
+{'S_loocv_cal_pa_mt': 0.5789967919128125, 'MAE_loocv': {'pa_deg': 1.7077116905449303, 'fl_mm': 16.795395641526415, 'mt_mm': 0.15826250681487788}, 'n': 35, 'n_ok': 35, 'gate_0.12': False, 'beats_0.13195': False, 'beats_0.13294': False}
+NOT promoted (S did not beat 0.13195)
+FT_NESTED_RESULT S=0.57900 PA=1.708 FL=16.795 MT=0.158 vs_C=0.13195 gate=False promote=False wall_min=0.4

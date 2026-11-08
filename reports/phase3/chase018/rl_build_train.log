@@ -1,0 +1,67 @@
+wrote reports/phase3/chase018/multexp_chase_rows.csv n 35 scratch 0
+wrote reports/phase3/chase018/multexp_chase_affine.json
+{
+  "pa_deg": {
+    "a": 0.7481024530785881,
+    "b": 4.449615783629242,
+    "mae_before": 1.476996348034049,
+    "mae_after": 1.2371436045777289,
+    "applied": true
+  },
+  "fl_mm": {
+    "a": 0.8982136820430905,
+    "b": 6.321027198675575,
+    "mae_before": 2.768999756508222,
+    "mae_after": 2.633168634228219,
+    "applied": true
+  },
+  "mt_mm": {
+    "a": 1.0042834580955189,
+    "b": 0.09309158392712405,
+    "mae_before": 0.1992894827923563,
+    "mae_after": 0.1575449096918829,
+    "applied": true
+  },
+  "note": "cal_pa_mt uses PA+MT only unless FL mae_after improves"
+}
+n_samples=35 scratch=0
+{
+  "ch_only_S": 0.18111543314117773,
+  "cal_pa_mt_S": 0.1631519868788588,
+  "rl_loocv_S": 0.16354629003168686,
+  "gate_pass": true,
+  "gate_rule": "loocv_S < ch_only_S",
+  "gate_baseline_s": 0.17178,
+  "delta_vs_ch": -0.01756914310949087,
+  "loocv_action_hist": {
+    "ch_only": 1,
+    "cal_pa_mt": 34,
+    "blend_ch75_v5_25": 0,
+    "blend_ch50_v5_50": 0,
+    "blend_ch75_et_25": 0,
+    "ch_fl_factor_0.85": 0,
+    "ch_fl_factor_0.95": 0,
+    "residual_or_scratch": 0
+  },
+  "MAE_ch": {
+    "PA": 1.476996348034049,
+    "FL": 2.768999756508222,
+    "MT": 0.19928948279235642
+  },
+  "MAE_rl_loocv": {
+    "PA": 1.2359146924767508,
+    "FL": 2.768999756508222,
+    "MT": 0.16170809411035936
+  },
+  "action_baselines_S": {
+    "ch_only": 0.18111543314117773,
+    "cal_pa_mt": 0.1631519868788588,
+    "blend_ch75_v5_25": 0.5499858878657409,
+    "blend_ch50_v5_50": 1.0408649796331866,
+    "blend_ch75_et_25": 0.5612088394050403,
+    "ch_fl_factor_0.85": 0.21913983496498346,
+    "ch_fl_factor_0.95": 0.21131542734651362,
+    "residual_or_scratch": 0.41125126339306683
+  }
+}
+GATE PASS: LOOCV beat ch_only / texture_pa MultExp S.

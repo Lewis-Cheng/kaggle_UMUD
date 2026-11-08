@@ -1,0 +1,9 @@
+running hough_tex03_thr032_apo60 on reports/phase3/chase018/cache/maps_multexp_scratch60_s7
+  S_loocv=0.13993 MAE pa=0.945 fl=2.515 mt=0.158
+running band_agree_v1 on reports/phase3/chase018/cache/maps_multexp_scratch60_s7
+  S_loocv=0.14782 MAE pa=1.059 fl=2.556 mt=0.162
+RANK (lower S better):
+  0.13993  hough_tex03_thr032_apo60  pa=0.945 fl=2.515 mt=0.158
+  0.14782  band_agree_v1  pa=1.059 fl=2.556 mt=0.162
+wrote reports/phase3/chase018/multexp_promoted_hough_scratch60_s7.json
+BEST hough_tex03_thr032_apo60 S=0.13993 gate_0.12=False gap=+0.01993

@@ -1,0 +1,17 @@
+{
+  "broader_hits": [
+    "/home/chocheng9/kaggle_UMUD/data/raw/umud/sample_submission.csv",
+    "/home/chocheng9/kaggle_UMUD/reports/phase3/submission_extratrees_mask_proxy.csv",
+    "/home/chocheng9/kaggle_UMUD/reports/phase3/submission_tier_b_geometry_v2.csv",
+    "/home/chocheng9/kaggle_UMUD/reports/phase3/submission_tier_b_geometry.csv",
+    "/home/chocheng9/kaggle_UMUD/reports/phase3/submission_tier_b_seg_gh.csv",
+    "/home/chocheng9/kaggle_UMUD/reports/phase3/tier_b_geometry_v2_rows.csv",
+    "/home/chocheng9/kaggle_UMUD/reports/phase3/tier_b_seg_gh_rows.csv",
+    "/home/chocheng9/kaggle_UMUD/reports/phase3/submission_geometry_head_proxy.csv",
+    "/home/chocheng9/kaggle_UMUD/reports/phase3/tier_b_geometry_rows.csv",
+    "/home/chocheng9/kaggle_UMUD/reports/phase3/submission_median_prior.csv",
+    "/home/chocheng9/kaggle_UMUD/reports/phase3_tier_b_smoke/submission_tier_b_geometry.csv",
+    "/home/chocheng9/kaggle_UMUD/reports/phase3_tier_b_smoke/tier_b_geometry_rows.csv"
+  ],
+  "n": 12
+}

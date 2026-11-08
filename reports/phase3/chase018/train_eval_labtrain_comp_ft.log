@@ -1,0 +1,127 @@
+[ft] init=/home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_labtrain_best.pt
+[ft] MultExp hashes n=35
+[ft] discovered 4615 before MultExp filter
+[ft] after MultExp dHash filter: keep=4591 drop=24
+[ft] train=3962 val=629 groups=3017
+epoch 1/15 loss=0.3305 val_dice=0.4220
+saved /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_labtrain_comp_ft_best.pt best 0.4220224652863756
+epoch 2/15 loss=0.3205 val_dice=0.4272
+saved /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_labtrain_comp_ft_best.pt best 0.4271563163286523
+epoch 3/15 loss=0.3156 val_dice=0.4308
+saved /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_labtrain_comp_ft_best.pt best 0.43081416397155087
+epoch 4/15 loss=0.3131 val_dice=0.4391
+saved /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_labtrain_comp_ft_best.pt best 0.439055037649372
+epoch 5/15 loss=0.3101 val_dice=0.4425
+saved /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_labtrain_comp_ft_best.pt best 0.44254744920549516
+epoch 6/15 loss=0.3060 val_dice=0.4400
+epoch 7/15 loss=0.3035 val_dice=0.4503
+saved /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_labtrain_comp_ft_best.pt best 0.4503308066838904
+epoch 8/15 loss=0.3006 val_dice=0.4555
+saved /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_labtrain_comp_ft_best.pt best 0.4554617167273654
+epoch 9/15 loss=0.2972 val_dice=0.4552
+epoch 10/15 loss=0.2946 val_dice=0.4625
+saved /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_labtrain_comp_ft_best.pt best 0.462457786255245
+epoch 11/15 loss=0.2915 val_dice=0.4639
+saved /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_labtrain_comp_ft_best.pt best 0.46385582564752315
+epoch 12/15 loss=0.2893 val_dice=0.4656
+saved /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_labtrain_comp_ft_best.pt best 0.46559373185604436
+epoch 13/15 loss=0.2878 val_dice=0.4683
+saved /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_labtrain_comp_ft_best.pt best 0.4683236287364477
+epoch 14/15 loss=0.2867 val_dice=0.4691
+saved /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_labtrain_comp_ft_best.pt best 0.4690733808505384
+epoch 15/15 loss=0.2863 val_dice=0.4701
+saved /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_labtrain_comp_ft_best.pt best 0.4701130963579009
+[dump] wrote 35 maps -> /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/cache/maps_multexp_labtrain_comp_ft
+[eval] thr=0.25 S=0.13779 MAE={'pa_deg': 0.9634315007124388, 'fl_mm': 2.400563543176852, 'mt_mm': 0.15826250681487788}
+[eval] thr=0.3 S=0.14157 MAE={'pa_deg': 1.0234002740581856, 'fl_mm': 2.416634991214408, 'mt_mm': 0.15826250681487788}
+[eval] thr=0.35 S=0.14582 MAE={'pa_deg': 1.0786871924793389, 'fl_mm': 2.4590845435703335, 'mt_mm': 0.15826250681487788}
+[eval] thr=0.4 S=0.14265 MAE={'pa_deg': 0.9721571116837919, 'fl_mm': 2.558005379640076, 'mt_mm': 0.15826250681487788}
+[eval] thr=0.45 S=0.14097 MAE={'pa_deg': 0.9639297227808781, 'fl_mm': 2.51400993206903, 'mt_mm': 0.15826250681487788}
+{
+  "ts": "2026-11-05 15:29:56 UTC+08:00",
+  "hold": 0.13195144580335014,
+  "gate": 0.12,
+  "ckpt": "/home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_labtrain_comp_ft_best.pt",
+  "best_val_dice": 0.4701130963579009,
+  "dropped_multexp_near": 24,
+  "cache": "/home/chocheng9/kaggle_UMUD/reports/phase3/chase018/cache/maps_multexp_labtrain_comp_ft",
+  "results": [
+    {
+      "thr": 0.25,
+      "S": 0.1377911253869276,
+      "MAE": {
+        "pa_deg": 0.9634315007124388,
+        "fl_mm": 2.400563543176852,
+        "mt_mm": 0.15826250681487788
+      },
+      "n": 35,
+      "gate": false,
+      "beats_hold": false
+    },
+    {
+      "thr": 0.3,
+      "S": 0.14156916043324122,
+      "MAE": {
+        "pa_deg": 1.0234002740581856,
+        "fl_mm": 2.416634991214408,
+        "mt_mm": 0.15826250681487788
+      },
+      "n": 35,
+      "gate": false,
+      "beats_hold": false
+    },
+    {
+      "thr": 0.35,
+      "S": 0.14581981791785711,
+      "MAE": {
+        "pa_deg": 1.0786871924793389,
+        "fl_mm": 2.4590845435703335,
+        "mt_mm": 0.15826250681487788
+      },
+      "n": 35,
+      "gate": false,
+      "beats_hold": false
+    },
+    {
+      "thr": 0.4,
+      "S": 0.1426492644069207,
+      "MAE": {
+        "pa_deg": 0.9721571116837919,
+        "fl_mm": 2.558005379640076,
+        "mt_mm": 0.15826250681487788
+      },
+      "n": 35,
+      "gate": false,
+      "beats_hold": false
+    },
+    {
+      "thr": 0.45,
+      "S": 0.1409701089626335,
+      "MAE": {
+        "pa_deg": 0.9639297227808781,
+        "fl_mm": 2.51400993206903,
+        "mt_mm": 0.15826250681487788
+      },
+      "n": 35,
+      "gate": false,
+      "beats_hold": false
+    }
+  ],
+  "best": {
+    "thr": 0.25,
+    "S": 0.1377911253869276,
+    "MAE": {
+      "pa_deg": 0.9634315007124388,
+      "fl_mm": 2.400563543176852,
+      "mt_mm": 0.15826250681487788
+    },
+    "n": 35,
+    "gate": false,
+    "beats_hold": false
+  },
+  "promoted": false,
+  "gate_pass": false,
+  "elapsed_s": 635.9541153907776,
+  "prior_labtrain_S": 0.13817728585553185,
+  "note": "LabTrain ImageNet fasc FT on LabTrain+competition; MultExp dHash-excluded; Frundles apo"
+}

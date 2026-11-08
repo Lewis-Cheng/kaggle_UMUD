@@ -1,0 +1,87 @@
+pairs=2761
+loading images into RAM …
+groups=1513 train=2263 val=498
+prep val tensors …
+{"epoch": 0, "train_loss": 1.5496171214056353, "val_hard_dice": 0.07886709857299123, "best": 0.07886709857299123} (33s)
+saved /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_scratch60_s7_best.pt val_hard_dice 0.07886709857299123
+{"epoch": 1, "train_loss": 1.2483322463982494, "val_hard_dice": 0.2247448131501914, "best": 0.2247448131501914} (31s)
+saved /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_scratch60_s7_best.pt val_hard_dice 0.2247448131501914
+{"epoch": 2, "train_loss": 1.0800643127860752, "val_hard_dice": 0.24733539678186298, "best": 0.24733539678186298} (31s)
+saved /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_scratch60_s7_best.pt val_hard_dice 0.24733539678186298
+{"epoch": 3, "train_loss": 0.945701390927565, "val_hard_dice": 0.31892983832332983, "best": 0.31892983832332983} (31s)
+saved /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_scratch60_s7_best.pt val_hard_dice 0.31892983832332983
+{"epoch": 4, "train_loss": 0.8544414212517705, "val_hard_dice": 0.32441898647800504, "best": 0.32441898647800504} (30s)
+saved /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_scratch60_s7_best.pt val_hard_dice 0.32441898647800504
+{"epoch": 5, "train_loss": 0.8155239120865545, "val_hard_dice": 0.3418245041017312, "best": 0.3418245041017312} (31s)
+saved /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_scratch60_s7_best.pt val_hard_dice 0.3418245041017312
+{"epoch": 6, "train_loss": 0.7951513349164462, "val_hard_dice": 0.3535676706866567, "best": 0.3535676706866567} (31s)
+saved /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_scratch60_s7_best.pt val_hard_dice 0.3535676706866567
+{"epoch": 7, "train_loss": 0.7813196237205614, "val_hard_dice": 0.3587035602594475, "best": 0.3587035602594475} (31s)
+saved /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_scratch60_s7_best.pt val_hard_dice 0.3587035602594475
+{"epoch": 8, "train_loss": 0.7730060870765795, "val_hard_dice": 0.365192215006993, "best": 0.365192215006993} (31s)
+saved /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_scratch60_s7_best.pt val_hard_dice 0.365192215006993
+{"epoch": 9, "train_loss": 0.7691728857392115, "val_hard_dice": 0.3620419382634545, "best": 0.365192215006993} (31s)
+{"epoch": 10, "train_loss": 0.7619242704083734, "val_hard_dice": 0.35580986127795944, "best": 0.365192215006993} (31s)
+{"epoch": 11, "train_loss": 0.7556758011486513, "val_hard_dice": 0.36749541544052494, "best": 0.36749541544052494} (30s)
+saved /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_scratch60_s7_best.pt val_hard_dice 0.36749541544052494
+{"epoch": 12, "train_loss": 0.7528234995003288, "val_hard_dice": 0.3753245870870759, "best": 0.3753245870870759} (30s)
+saved /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_scratch60_s7_best.pt val_hard_dice 0.3753245870870759
+{"epoch": 13, "train_loss": 0.7568884783602775, "val_hard_dice": 0.37023161282860134, "best": 0.3753245870870759} (31s)
+{"epoch": 14, "train_loss": 0.7467703449387922, "val_hard_dice": 0.349957244328586, "best": 0.3753245870870759} (30s)
+{"epoch": 15, "train_loss": 0.7437833175591543, "val_hard_dice": 0.3753681116434465, "best": 0.3753681116434465} (30s)
+saved /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_scratch60_s7_best.pt val_hard_dice 0.3753681116434465
+{"epoch": 16, "train_loss": 0.7419677116769425, "val_hard_dice": 0.37495219631187887, "best": 0.3753681116434465} (31s)
+{"epoch": 17, "train_loss": 0.7399878605460444, "val_hard_dice": 0.3801079615352144, "best": 0.3801079615352144} (31s)
+saved /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_scratch60_s7_best.pt val_hard_dice 0.3801079615352144
+{"epoch": 18, "train_loss": 0.7355208010115521, "val_hard_dice": 0.37053635551867237, "best": 0.3801079615352144} (32s)
+{"epoch": 19, "train_loss": 0.7347727485582338, "val_hard_dice": 0.374451149163518, "best": 0.3801079615352144} (31s)
+{"epoch": 20, "train_loss": 0.7323167757362339, "val_hard_dice": 0.3823011645590924, "best": 0.3823011645590924} (30s)
+saved /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_scratch60_s7_best.pt val_hard_dice 0.3823011645590924
+{"epoch": 21, "train_loss": 0.7313204164623369, "val_hard_dice": 0.388473698622491, "best": 0.388473698622491} (30s)
+saved /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_scratch60_s7_best.pt val_hard_dice 0.388473698622491
+{"epoch": 22, "train_loss": 0.7270700157956874, "val_hard_dice": 0.3829608337886362, "best": 0.388473698622491} (30s)
+{"epoch": 23, "train_loss": 0.7234374861767952, "val_hard_dice": 0.38894082575916766, "best": 0.38894082575916766} (31s)
+saved /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_scratch60_s7_best.pt val_hard_dice 0.38894082575916766
+{"epoch": 24, "train_loss": 0.7227423205866036, "val_hard_dice": 0.3898023801994132, "best": 0.3898023801994132} (30s)
+saved /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_scratch60_s7_best.pt val_hard_dice 0.3898023801994132
+{"epoch": 25, "train_loss": 0.7176815087490893, "val_hard_dice": 0.38388596065192815, "best": 0.3898023801994132} (31s)
+{"epoch": 26, "train_loss": 0.7167780126662965, "val_hard_dice": 0.38903238055816136, "best": 0.3898023801994132} (31s)
+{"epoch": 27, "train_loss": 0.7172865578046081, "val_hard_dice": 0.38704420497498837, "best": 0.3898023801994132} (30s)
+{"epoch": 28, "train_loss": 0.7129825820736851, "val_hard_dice": 0.3925130491455396, "best": 0.3925130491455396} (31s)
+saved /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_scratch60_s7_best.pt val_hard_dice 0.3925130491455396
+{"epoch": 29, "train_loss": 0.7108174063635211, "val_hard_dice": 0.391070877392608, "best": 0.3925130491455396} (31s)
+{"epoch": 30, "train_loss": 0.7120467261642429, "val_hard_dice": 0.3912277159142686, "best": 0.3925130491455396} (30s)
+{"epoch": 31, "train_loss": 0.708052970416157, "val_hard_dice": 0.3955834273353638, "best": 0.3955834273353638} (30s)
+saved /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_scratch60_s7_best.pt val_hard_dice 0.3955834273353638
+{"epoch": 32, "train_loss": 0.7052643800035436, "val_hard_dice": 0.3938986278442015, "best": 0.3955834273353638} (30s)
+{"epoch": 33, "train_loss": 0.7020341832164332, "val_hard_dice": 0.3991327336035579, "best": 0.3991327336035579} (31s)
+saved /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_scratch60_s7_best.pt val_hard_dice 0.3991327336035579
+{"epoch": 34, "train_loss": 0.700560507833535, "val_hard_dice": 0.39324413670832853, "best": 0.3991327336035579} (31s)
+{"epoch": 35, "train_loss": 0.696226605709563, "val_hard_dice": 0.3886570087278703, "best": 0.3991327336035579} (30s)
+{"epoch": 36, "train_loss": 0.6947423906613749, "val_hard_dice": 0.39668589698741713, "best": 0.3991327336035579} (31s)
+{"epoch": 37, "train_loss": 0.6940861274587348, "val_hard_dice": 0.400546451858488, "best": 0.400546451858488} (31s)
+saved /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_scratch60_s7_best.pt val_hard_dice 0.400546451858488
+{"epoch": 38, "train_loss": 0.6915301524155529, "val_hard_dice": 0.39824057561925136, "best": 0.400546451858488} (31s)
+{"epoch": 39, "train_loss": 0.6914374236519455, "val_hard_dice": 0.39470702493525894, "best": 0.400546451858488} (31s)
+{"epoch": 40, "train_loss": 0.6867372526767406, "val_hard_dice": 0.39812066160651094, "best": 0.400546451858488} (31s)
+{"epoch": 41, "train_loss": 0.6851869589048074, "val_hard_dice": 0.4002445687850316, "best": 0.400546451858488} (31s)
+{"epoch": 42, "train_loss": 0.6829235674218929, "val_hard_dice": 0.3986909853287011, "best": 0.400546451858488} (31s)
+{"epoch": 43, "train_loss": 0.6783507227474916, "val_hard_dice": 0.39994782499639864, "best": 0.400546451858488} (31s)
+{"epoch": 44, "train_loss": 0.6785498747588895, "val_hard_dice": 0.4018791344869568, "best": 0.4018791344869568} (30s)
+saved /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_scratch60_s7_best.pt val_hard_dice 0.4018791344869568
+{"epoch": 45, "train_loss": 0.676130031017547, "val_hard_dice": 0.3989070830754487, "best": 0.4018791344869568} (30s)
+{"epoch": 46, "train_loss": 0.6745563477066392, "val_hard_dice": 0.3991377379700362, "best": 0.4018791344869568} (31s)
+{"epoch": 47, "train_loss": 0.6758265844050874, "val_hard_dice": 0.3992633228021932, "best": 0.4018791344869568} (30s)
+{"epoch": 48, "train_loss": 0.6726439208426374, "val_hard_dice": 0.3988148026677021, "best": 0.4018791344869568} (30s)
+{"epoch": 49, "train_loss": 0.6710262118924594, "val_hard_dice": 0.39920631649503746, "best": 0.4018791344869568} (31s)
+{"epoch": 50, "train_loss": 0.6694502056913173, "val_hard_dice": 0.3993024290445818, "best": 0.4018791344869568} (31s)
+{"epoch": 51, "train_loss": 0.6689794395409577, "val_hard_dice": 0.39958311066809427, "best": 0.4018791344869568} (31s)
+{"epoch": 52, "train_loss": 0.6671923591312787, "val_hard_dice": 0.39948413048283643, "best": 0.4018791344869568} (29s)
+{"epoch": 53, "train_loss": 0.6667229797400481, "val_hard_dice": 0.3999840330227791, "best": 0.4018791344869568} (30s)
+{"epoch": 54, "train_loss": 0.6643862396690017, "val_hard_dice": 0.39991870558405496, "best": 0.4018791344869568} (30s)
+{"epoch": 55, "train_loss": 0.6647441750722574, "val_hard_dice": 0.4000843354616778, "best": 0.4018791344869568} (30s)
+{"epoch": 56, "train_loss": 0.6654064921622581, "val_hard_dice": 0.4002674170526635, "best": 0.4018791344869568} (30s)
+{"epoch": 57, "train_loss": 0.6640472010517797, "val_hard_dice": 0.4001747266236079, "best": 0.4018791344869568} (31s)
+{"epoch": 58, "train_loss": 0.662531131336875, "val_hard_dice": 0.40007107767714073, "best": 0.4018791344869568} (30s)
+{"epoch": 59, "train_loss": 0.6629879941754308, "val_hard_dice": 0.40004760385995886, "best": 0.4018791344869568} (30s)
+done in 1841s best=0.4019

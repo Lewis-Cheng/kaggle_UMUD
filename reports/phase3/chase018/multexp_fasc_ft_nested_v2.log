@@ -1,0 +1,26 @@
+n=35 pool=25 device=cuda:0
+building variant bank + cached costs...
+bank done in 1.9m counts={'ridge_blend03': 2, 'blend_br_15': 3, 'blend_br_40': 6, 'frangi_like': 2, 'baseline': 5, 'belly_orient15': 2, 'morph_prune': 4, 'ridge_replace': 5, 'morph_connect': 1, 'blend_br_50': 1, 'corridor_dilate': 1, 'ridge_blend05': 1, 'blend_br_25': 1, 'belly_orient25': 1}
+LEAKY_EXPANDED_ORACLE {'S': 0.10485379107306812, 'MAE': {'pa_deg': 0.8048842446408186, 'fl_mm': 1.5319155143713261, 'mt_mm': 0.15826250681487788}, 'gate': True, 'beats_C': True}
+NESTED_GLOBAL_VARIANT {'S': 0.1350644380194672, 'MAE': {'pa_deg': 0.9592491806858009, 'fl_mm': 2.3107677765017978, 'mt_mm': 0.15826250681487788}, 'gate': False, 'beats_C': False}
+NESTED_MAJORITY_TEACHER {'S': 0.14558027084361627, 'MAE': {'pa_deg': 1.092189933568233, 'fl_mm': 2.4234561730447246, 'mt_mm': 0.15826250681487788}, 'gate': False, 'beats_C': False}
+LOOCV FT starting...
+fold 1/35 t=0.1m
+fold 5/35 t=0.2m
+fold 10/35 t=0.5m
+fold 15/35 t=0.7m
+fold 20/35 t=0.9m
+fold 25/35 t=1.1m
+fold 30/35 t=1.3m
+fold 35/35 t=1.6m
+PURE_FT {'S': 0.13566374648455626, 'MAE': {'pa_deg': 1.029649132965049, 'fl_mm': 2.1915426237116193, 'mt_mm': 0.15826250681487788}, 'gate': False, 'beats_C': False}
+nested blend alphas...
+  alpha=0.0 mean_cost=0.3593
+  alpha=0.15 mean_cost=0.3671
+  alpha=0.25 mean_cost=0.3966
+  alpha=0.4 mean_cost=0.3835
+  alpha=0.55 mean_cost=0.3779
+  alpha=0.7 mean_cost=0.3858
+  alpha=1.0 mean_cost=0.3806
+NESTED_BLEND {'S': 0.1350423079665328, 'MAE': {'pa_deg': 0.9450980921709983, 'fl_mm': 2.3382735255242793, 'mt_mm': 0.15826250681487788}, 'gate': False, 'beats_C': False} alpha_counts {0.0: 34, 0.15: 1}
+FT_NESTED_V2_RESULT best=frundles S=0.13294 PA=0.928 FL=2.297 leaky=0.10485 vs_C=0.13195 gate=False promote=False

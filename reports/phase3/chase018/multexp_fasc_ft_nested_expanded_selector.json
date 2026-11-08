@@ -1,0 +1,189 @@
+{
+  "asof": "2026-11-05 14:00 Asia/Hong_Kong",
+  "tag": "nested_expanded_pool_selector",
+  "protocol": "nested LOOCV selectors over expanded 25-variant A/blend pool; no U-Net FT; apo frozen; frozen recipe; honest LOOCV S",
+  "pool_size": 25,
+  "results": {
+    "leaky_oracle": {
+      "name": "leaky_oracle",
+      "S": 0.10485379107306812,
+      "MAE": {
+        "pa_deg": 0.8048842446408186,
+        "fl_mm": 1.5319155143713261,
+        "mt_mm": 0.15826250681487788
+      },
+      "gate": true,
+      "beats_C": true,
+      "pick_counts": {
+        "ridge_blend03": 2,
+        "blend_br_15": 3,
+        "blend_br_40": 6,
+        "frangi_like": 2,
+        "baseline": 5,
+        "belly_orient15": 2,
+        "morph_prune": 4,
+        "ridge_replace": 5,
+        "morph_connect": 1,
+        "blend_br_50": 1,
+        "corridor_dilate": 1,
+        "ridge_blend05": 1,
+        "blend_br_25": 1,
+        "belly_orient25": 1
+      }
+    },
+    "nested_trainS": {
+      "name": "nested_trainS",
+      "S": 0.1350644380194672,
+      "MAE": {
+        "pa_deg": 0.9592491806858009,
+        "fl_mm": 2.3107677765017978,
+        "mt_mm": 0.15826250681487788
+      },
+      "gate": false,
+      "beats_C": false,
+      "pick_counts": {
+        "blend_bm_15": 33,
+        "baseline": 1,
+        "blend_bc_15": 1
+      }
+    },
+    "knn_k3": {
+      "name": "nested_knn_k3",
+      "S": 0.17453363056843307,
+      "MAE": {
+        "pa_deg": 1.226163182478271,
+        "fl_mm": 3.197830563296286,
+        "mt_mm": 0.15826250681487788
+      },
+      "gate": false,
+      "beats_C": false,
+      "pick_counts": {
+        "blend_br_40": 10,
+        "ridge_replace": 6,
+        "morph_prune": 7,
+        "belly_orient25": 2,
+        "morph_connect": 1,
+        "blend_br_15": 1,
+        "baseline": 4,
+        "frangi_like": 2,
+        "corridor_dilate": 1,
+        "blend_br_25": 1
+      }
+    },
+    "knn_k5": {
+      "name": "nested_knn_k5",
+      "S": 0.1594605338342988,
+      "MAE": {
+        "pa_deg": 1.1985541013032197,
+        "fl_mm": 2.7104169161360554,
+        "mt_mm": 0.15826250681487788
+      },
+      "gate": false,
+      "beats_C": false,
+      "pick_counts": {
+        "blend_br_40": 12,
+        "ridge_replace": 5,
+        "morph_prune": 7,
+        "morph_connect": 1,
+        "baseline": 5,
+        "belly_orient25": 1,
+        "frangi_like": 2,
+        "corridor_dilate": 1,
+        "blend_br_25": 1
+      }
+    },
+    "knn_k7": {
+      "name": "nested_knn_k7",
+      "S": 0.15777021470516114,
+      "MAE": {
+        "pa_deg": 1.2472226106641513,
+        "fl_mm": 2.5522281992535176,
+        "mt_mm": 0.15826250681487788
+      },
+      "gate": false,
+      "beats_C": false,
+      "pick_counts": {
+        "blend_br_40": 10,
+        "frangi_like": 2,
+        "ridge_replace": 5,
+        "morph_prune": 12,
+        "morph_connect": 1,
+        "baseline": 5
+      }
+    },
+    "knn_k9": {
+      "name": "nested_knn_k9",
+      "S": 0.15602791193555807,
+      "MAE": {
+        "pa_deg": 1.2244343808832892,
+        "fl_mm": 2.5350818625717966,
+        "mt_mm": 0.15826250681487788
+      },
+      "gate": false,
+      "beats_C": false,
+      "pick_counts": {
+        "blend_br_40": 8,
+        "ridge_replace": 5,
+        "ridge_blend03": 3,
+        "morph_prune": 13,
+        "baseline": 5,
+        "frangi_like": 1
+      }
+    },
+    "knn_k11": {
+      "name": "nested_knn_k11",
+      "S": 0.16618905504984324,
+      "MAE": {
+        "pa_deg": 1.2320114694976703,
+        "fl_mm": 2.8857281902321765,
+        "mt_mm": 0.15826250681487788
+      },
+      "gate": false,
+      "beats_C": false,
+      "pick_counts": {
+        "blend_br_40": 11,
+        "ridge_replace": 8,
+        "ridge_blend03": 2,
+        "morph_prune": 11,
+        "baseline": 3
+      }
+    },
+    "nested_feature_rule_expanded": {
+      "name": "nested_feature_rule_expanded",
+      "S": 0.14059327558360982,
+      "MAE": {
+        "pa_deg": 0.9999082960171807,
+        "fl_mm": 2.4284876064217147,
+        "mt_mm": 0.15826250681487788
+      },
+      "gate": false,
+      "beats_C": false,
+      "pick_counts": {
+        "baseline": 27,
+        "blend_br_40": 8
+      }
+    }
+  },
+  "best_nested": {
+    "name": "nested_trainS",
+    "S": 0.1350644380194672,
+    "MAE": {
+      "pa_deg": 0.9592491806858009,
+      "fl_mm": 2.3107677765017978,
+      "mt_mm": 0.15826250681487788
+    },
+    "gate": false,
+    "beats_C": false,
+    "pick_counts": {
+      "blend_bm_15": 33,
+      "baseline": 1,
+      "blend_bc_15": 1
+    }
+  },
+  "prior_C": 0.13195144580335014,
+  "delta_vs_C": 0.00311299221611705,
+  "gate_0.12": false,
+  "promote": false,
+  "kaggle_submit": false,
+  "note": "Follow-up to failed geo-paint/FT distill; tests whether expanded pool + prior C-style nested selector clears 0.13195"
+}

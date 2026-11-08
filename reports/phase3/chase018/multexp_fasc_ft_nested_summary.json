@@ -1,0 +1,53 @@
+{
+  "asof": "2026-11-05 14:02 Asia/Hong_Kong",
+  "goal": "nested MultExp fasc FT geo proxy to push S below 0.12",
+  "prior_C": 0.13195144580335014,
+  "gate": 0.12,
+  "promoted_recipe_unchanged": true,
+  "promoted_S": 0.13195144580335014,
+  "experiments": {
+    "stripe_orient_geo_paint_targets": {
+      "stripe055_target_S": 0.28551,
+      "stripe020_target_S": 0.13942,
+      "orient_rw_target_S": 0.14081,
+      "frundles_target_S": 0.13294,
+      "smoke_5fold_ft_S": 0.5789967919128125,
+      "abandoned": true,
+      "reason": "targets themselves worse than Frundles; FT collapsed FL"
+    },
+    "gt_teacher_5fold_ft_v1": {
+      "S": 0.14469,
+      "MAE": {
+        "pa_deg": 1.051,
+        "fl_mm": 2.475,
+        "mt_mm": 0.158
+      },
+      "leaky_teacher_oracle_small_pool": 0.12175,
+      "promote": false
+    },
+    "loocv_gt_teacher_blend_v2": {
+      "leaky_expanded_oracle_25var": 0.10485379107306812,
+      "leaky_gate_pass": true,
+      "nested_global_variant_S": 0.1350644380194672,
+      "nested_majority_S": 0.14558027084361627,
+      "pure_loocv_ft_S": 0.13566374648455626,
+      "nested_blend_S": 0.1350423079665328,
+      "best_among_v2": "frundles 0.13294",
+      "promote": false,
+      "train_wall_min_ft": 1.6,
+      "gpu": "cuda:0"
+    },
+    "expanded_pool_nested_selectors": {
+      "trainS_S": 0.1350644380194672,
+      "feature_rule_S": 0.14059327558360982,
+      "knn_best_S": 0.15602791193555807,
+      "promote": false
+    }
+  },
+  "best_honest_nested_S": 0.13195144580335014,
+  "best_honest_name": "nested_feature_rule_fasc_adapt",
+  "gate_0.12": false,
+  "kaggle_submit": false,
+  "diagnosis": "Differentiable/stripe PA/FL geo-paint proxy is a bad MultExp teacher (target S 0.14-0.29). GT-selected A/blend teachers have leaky oracle S=0.1049 (clears 0.12) but U-Net distill (5-fold and 35-fold LOOCV) and nested selectors on the expanded pool all land 0.135-0.145, worse than prior C 0.13195. Transferable per-image variant choice is the bottleneck, not more Frundles FT.",
+  "next_lever": "Build a stronger fold-pure variant predictor (richer features / small calibrated classifier) aimed at the expanded 25-variant GT labels (leaky ceiling 0.105), or generate fasc maps outside the Frundles+A family (e.g. MultExp-paired public labels / geometry-aware inference that does not rely on U-Net FT). Do not repeat stripe paint or morph-teacher self-train."
+}

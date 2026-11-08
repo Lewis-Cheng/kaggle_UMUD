@@ -1,0 +1,45 @@
+{
+  "baseline": "geometry_head_proxy",
+  "delta_vs_rival_proxy_abs": {
+    "fl_mm": {
+      "mean": 5.2331727217253265e-15,
+      "n": 2371,
+      "p50": 3.552713678800501e-15
+    },
+    "mt_mm": {
+      "mean": 3.2247450117884697,
+      "n": 1015,
+      "p50": 1.025097874293154
+    },
+    "pa_deg": {
+      "mean": 2.236107661518626,
+      "n": 2371,
+      "p50": 2.2248869413488137e-13
+    }
+  },
+  "geometry_head_train_medians": {
+    "fl_mm": 50.199430387639794,
+    "mt_mm": 15.238966954547596,
+    "pa_deg": 5.535140053721487
+  },
+  "label": "mask_geometry_vs_rival_proxy_NOT_leaderboard",
+  "mm_per_px": 0.07225,
+  "n_test": 309,
+  "notes": [
+    "Better mask geometry than PCA/peak-gap for Tier A diagnostics.",
+    "Test CSV is median fallback until a seg model exists.",
+    "Near-parallel fascicle/apo intersections are rejected (fail-closed).",
+    "Do not treat TIFF dpi as spacing."
+  ],
+  "organizer_mt_policy": "vertical_not_perp_to_apo",
+  "scale_provenance": "unknown",
+  "scale_sx": 0.07225,
+  "scale_sy": 0.07225,
+  "submission": "/home/chocheng9/kaggle_UMUD/reports/phase3/submission_geometry_head_proxy.csv",
+  "test_policy": "median_of_train_geometry_head_no_test_masks",
+  "tier": "A_proxy_not_tier_b",
+  "train_fail": 5,
+  "train_ok": 2371,
+  "val_fail": 2,
+  "val_ok": 736
+}

@@ -1,0 +1,389 @@
+{
+  "audit": "residual_scale_unknown_shapes",
+  "decision": {
+    "parsers_added": [],
+    "reason_no_new_parsers": "Remaining unknown families lack AmbrosM/xiaoleilian formulas and have no documented mm-per-tick q. Tick-like edges without q remain unidentifiable (sy=q/d). Do not invent q.",
+    "families_unknown": {
+      "other_1080x1640_RGB": 645,
+      "other_500x760_RGB": 216,
+      "other_652x800_RGB": 118,
+      "other_600x800_RGB": 79,
+      "rgb_800x1200_other": 277,
+      "other_688x1234_RGB": 13,
+      "other_600x800_L": 1,
+      "other_688x1074_RGB": 1,
+      "other_556x660_RGB": 23
+    },
+    "pools_unknown": {
+      "fasc": 987,
+      "apo": 386
+    },
+    "n_unknown": 1373,
+    "n_total_rows": 4118
+  },
+  "samples": {
+    "other_1080x1640_RGB": [
+      {
+        "name": "image_0371.tif",
+        "pool": "fasc",
+        "path": "/home/chocheng9/kaggle_UMUD/data/raw/umud/fasc_imgs_v1/fasc_images_new_model_v1/image_0371.tif",
+        "shape": [
+          1080,
+          1640,
+          3
+        ],
+        "dtype": "uint8",
+        "mean": 104.48440831074977,
+        "right_col_mean": 3.9586111111111113,
+        "left_col_mean": 33.65689814814815,
+        "bottom_row_mean": 3.986661585365854
+      },
+      {
+        "name": "image_0372.tif",
+        "pool": "fasc",
+        "path": "/home/chocheng9/kaggle_UMUD/data/raw/umud/fasc_imgs_v1/fasc_images_new_model_v1/image_0372.tif",
+        "shape": [
+          1080,
+          1640,
+          3
+        ],
+        "dtype": "uint8",
+        "mean": 104.65013361939175,
+        "right_col_mean": 3.9685956790123456,
+        "left_col_mean": 33.616342592592595,
+        "bottom_row_mean": 3.987474593495935
+      },
+      {
+        "name": "image_0373.tif",
+        "pool": "fasc",
+        "path": "/home/chocheng9/kaggle_UMUD/data/raw/umud/fasc_imgs_v1/fasc_images_new_model_v1/image_0373.tif",
+        "shape": [
+          1080,
+          1640,
+          3
+        ],
+        "dtype": "uint8",
+        "mean": 104.49968834688347,
+        "right_col_mean": 3.9592592592592593,
+        "left_col_mean": 33.66041666666667,
+        "bottom_row_mean": 3.975025406504065
+      }
+    ],
+    "other_500x760_RGB": [
+      {
+        "name": "image_0752.tif",
+        "pool": "fasc",
+        "path": "/home/chocheng9/kaggle_UMUD/data/raw/umud/fasc_imgs_v1/fasc_images_new_model_v1/image_0752.tif",
+        "shape": [
+          500,
+          760,
+          3
+        ],
+        "dtype": "uint8",
+        "mean": 112.53611228070176,
+        "right_col_mean": 60.435566666666666,
+        "left_col_mean": 33.4687,
+        "bottom_row_mean": 2.716447368421053
+      },
+      {
+        "name": "image_0753.tif",
+        "pool": "fasc",
+        "path": "/home/chocheng9/kaggle_UMUD/data/raw/umud/fasc_imgs_v1/fasc_images_new_model_v1/image_0753.tif",
+        "shape": [
+          500,
+          760,
+          3
+        ],
+        "dtype": "uint8",
+        "mean": 113.7537552631579,
+        "right_col_mean": 60.6161,
+        "left_col_mean": 33.82423333333333,
+        "bottom_row_mean": 0.5589912280701754
+      },
+      {
+        "name": "image_0754.tif",
+        "pool": "fasc",
+        "path": "/home/chocheng9/kaggle_UMUD/data/raw/umud/fasc_imgs_v1/fasc_images_new_model_v1/image_0754.tif",
+        "shape": [
+          500,
+          760,
+          3
+        ],
+        "dtype": "uint8",
+        "mean": 113.77788070175438,
+        "right_col_mean": 60.6868,
+        "left_col_mean": 33.827533333333335,
+        "bottom_row_mean": 0.5589912280701754
+      }
+    ],
+    "other_652x800_RGB": [
+      {
+        "name": "image_2110.tif",
+        "pool": "fasc",
+        "path": "/home/chocheng9/kaggle_UMUD/data/raw/umud/fasc_imgs_v1/fasc_images_new_model_v1/image_2110.tif",
+        "shape": [
+          652,
+          800,
+          3
+        ],
+        "dtype": "uint8",
+        "mean": 32.26013228527607,
+        "right_col_mean": 0.17154907975460124,
+        "left_col_mean": 1.4943251533742332,
+        "bottom_row_mean": 0.0
+      },
+      {
+        "name": "image_2111.tif",
+        "pool": "fasc",
+        "path": "/home/chocheng9/kaggle_UMUD/data/raw/umud/fasc_imgs_v1/fasc_images_new_model_v1/image_2111.tif",
+        "shape": [
+          652,
+          800,
+          3
+        ],
+        "dtype": "uint8",
+        "mean": 47.067302530674844,
+        "right_col_mean": 0.15720858895705522,
+        "left_col_mean": 0.6907464212678937,
+        "bottom_row_mean": 0.0
+      },
+      {
+        "name": "image_2112.tif",
+        "pool": "fasc",
+        "path": "/home/chocheng9/kaggle_UMUD/data/raw/umud/fasc_imgs_v1/fasc_images_new_model_v1/image_2112.tif",
+        "shape": [
+          652,
+          800,
+          3
+        ],
+        "dtype": "uint8",
+        "mean": 44.085646088957056,
+        "right_col_mean": 0.13254089979550102,
+        "left_col_mean": 1.43200408997955,
+        "bottom_row_mean": 0.0
+      }
+    ],
+    "other_600x800_RGB": [
+      {
+        "name": "image_2184.tif",
+        "pool": "fasc",
+        "path": "/home/chocheng9/kaggle_UMUD/data/raw/umud/fasc_imgs_v1/fasc_images_new_model_v1/image_2184.tif",
+        "shape": [
+          600,
+          800,
+          3
+        ],
+        "dtype": "uint8",
+        "mean": 22.504415277777778,
+        "right_col_mean": 4.30725,
+        "left_col_mean": 16.039083333333334,
+        "bottom_row_mean": 0.0
+      },
+      {
+        "name": "image_2185.tif",
+        "pool": "fasc",
+        "path": "/home/chocheng9/kaggle_UMUD/data/raw/umud/fasc_imgs_v1/fasc_images_new_model_v1/image_2185.tif",
+        "shape": [
+          600,
+          800,
+          3
+        ],
+        "dtype": "uint8",
+        "mean": 27.948709027777777,
+        "right_col_mean": 4.309333333333333,
+        "left_col_mean": 16.039083333333334,
+        "bottom_row_mean": 0.0
+      },
+      {
+        "name": "image_2188.tif",
+        "pool": "fasc",
+        "path": "/home/chocheng9/kaggle_UMUD/data/raw/umud/fasc_imgs_v1/fasc_images_new_model_v1/image_2188.tif",
+        "shape": [
+          600,
+          800,
+          3
+        ],
+        "dtype": "uint8",
+        "mean": 25.101575,
+        "right_col_mean": 4.32425,
+        "left_col_mean": 16.039083333333334,
+        "bottom_row_mean": 0.0
+      }
+    ],
+    "rgb_800x1200_other": [
+      {
+        "name": "image_2295.tif",
+        "pool": "fasc",
+        "path": "/home/chocheng9/kaggle_UMUD/data/raw/umud/fasc_imgs_v1/fasc_images_new_model_v1/image_2295.tif",
+        "shape": [
+          800,
+          1200,
+          3
+        ],
+        "dtype": "uint8",
+        "mean": 33.09909270833333,
+        "right_col_mean": 0.082625,
+        "left_col_mean": 0.8063125,
+        "bottom_row_mean": 0.0
+      },
+      {
+        "name": "image_2296.tif",
+        "pool": "fasc",
+        "path": "/home/chocheng9/kaggle_UMUD/data/raw/umud/fasc_imgs_v1/fasc_images_new_model_v1/image_2296.tif",
+        "shape": [
+          800,
+          1200,
+          3
+        ],
+        "dtype": "uint8",
+        "mean": 25.83689548611111,
+        "right_col_mean": 0.3965,
+        "left_col_mean": 9.469708333333333,
+        "bottom_row_mean": 0.0
+      },
+      {
+        "name": "image_2307.tif",
+        "pool": "fasc",
+        "path": "/home/chocheng9/kaggle_UMUD/data/raw/umud/fasc_imgs_v1/fasc_images_new_model_v1/image_2307.tif",
+        "shape": [
+          800,
+          1200,
+          3
+        ],
+        "dtype": "uint8",
+        "mean": 18.426084375,
+        "right_col_mean": 0.0,
+        "left_col_mean": 8.546416666666667,
+        "bottom_row_mean": 0.0
+      }
+    ],
+    "other_688x1234_RGB": [
+      {
+        "name": "image_0429.tif",
+        "pool": "apo",
+        "path": "/home/chocheng9/kaggle_UMUD/data/raw/umud/apo_imgs_v1/apo_images_new_model_v1/image_0429.tif",
+        "shape": [
+          688,
+          1234,
+          3
+        ],
+        "dtype": "uint8",
+        "mean": 60.63458548490445,
+        "right_col_mean": 65.72710755813954,
+        "left_col_mean": 56.625,
+        "bottom_row_mean": 61.06655186385738
+      },
+      {
+        "name": "image_0430.tif",
+        "pool": "apo",
+        "path": "/home/chocheng9/kaggle_UMUD/data/raw/umud/apo_imgs_v1/apo_images_new_model_v1/image_0430.tif",
+        "shape": [
+          688,
+          1234,
+          3
+        ],
+        "dtype": "uint8",
+        "mean": 62.88881716985162,
+        "right_col_mean": 65.72710755813954,
+        "left_col_mean": 56.62931201550388,
+        "bottom_row_mean": 64.47639789303079
+      },
+      {
+        "name": "image_0431.tif",
+        "pool": "apo",
+        "path": "/home/chocheng9/kaggle_UMUD/data/raw/umud/apo_imgs_v1/apo_images_new_model_v1/image_0431.tif",
+        "shape": [
+          688,
+          1234,
+          3
+        ],
+        "dtype": "uint8",
+        "mean": 70.4727979376327,
+        "right_col_mean": 65.72710755813954,
+        "left_col_mean": 56.62538759689922,
+        "bottom_row_mean": 82.27826175040519
+      }
+    ],
+    "other_600x800_L": [
+      {
+        "name": "image_0443.tif",
+        "pool": "apo",
+        "path": "/home/chocheng9/kaggle_UMUD/data/raw/umud/apo_imgs_v1/apo_images_new_model_v1/image_0443.tif",
+        "shape": [
+          600,
+          800
+        ],
+        "dtype": "uint8",
+        "mean": 19.251789583333334,
+        "right_col_mean": 0.00125,
+        "left_col_mean": 19.532333333333334,
+        "bottom_row_mean": 0.0
+      }
+    ],
+    "other_688x1074_RGB": [
+      {
+        "name": "image_0997.tif",
+        "pool": "apo",
+        "path": "/home/chocheng9/kaggle_UMUD/data/raw/umud/apo_imgs_v1/apo_images_new_model_v1/image_0997.tif",
+        "shape": [
+          688,
+          1074,
+          3
+        ],
+        "dtype": "uint8",
+        "mean": 29.151891339338558,
+        "right_col_mean": 49.202446705426354,
+        "left_col_mean": 39.81533430232558,
+        "bottom_row_mean": 37.78844661700807
+      }
+    ],
+    "other_556x660_RGB": [
+      {
+        "name": "image_1025.tif",
+        "pool": "apo",
+        "path": "/home/chocheng9/kaggle_UMUD/data/raw/umud/apo_imgs_v1/apo_images_new_model_v1/image_1025.tif",
+        "shape": [
+          556,
+          660,
+          3
+        ],
+        "dtype": "uint8",
+        "mean": 52.279994186469004,
+        "right_col_mean": 68.32470023980815,
+        "left_col_mean": 54.11702637889688,
+        "bottom_row_mean": 64.99141414141414
+      },
+      {
+        "name": "image_1026.tif",
+        "pool": "apo",
+        "path": "/home/chocheng9/kaggle_UMUD/data/raw/umud/apo_imgs_v1/apo_images_new_model_v1/image_1026.tif",
+        "shape": [
+          556,
+          660,
+          3
+        ],
+        "dtype": "uint8",
+        "mean": 51.8104643557881,
+        "right_col_mean": 64.35923261390887,
+        "left_col_mean": 54.11702637889688,
+        "bottom_row_mean": 57.96212121212121
+      },
+      {
+        "name": "image_1027.tif",
+        "pool": "apo",
+        "path": "/home/chocheng9/kaggle_UMUD/data/raw/umud/apo_imgs_v1/apo_images_new_model_v1/image_1027.tif",
+        "shape": [
+          556,
+          660,
+          3
+        ],
+        "dtype": "uint8",
+        "mean": 54.35465445825158,
+        "right_col_mean": 64.35923261390887,
+        "left_col_mean": 54.11702637889688,
+        "bottom_row_mean": 56.66919191919192
+      }
+    ]
+  },
+  "attention_note": "residual unknowns do not block test (309/309 covered); they shrink train mm supervision"
+}

@@ -1,0 +1,3 @@
+usage: hunt_expert_gt.py [-h] --data-root DATA_ROOT --repo-root REPO_ROOT
+                         --out-json OUT_JSON --out-md OUT_MD
+hunt_expert_gt.py: error: the following arguments are required: --data-root, --repo-root, --out-json, --out-md

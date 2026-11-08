@@ -1,0 +1,196 @@
+[2026-11-04T15:05:43+08:00] postprocess resume (skip failing evals)
+{
+  "ckpt": "/home/chocheng9/kaggle_UMUD/reports/phase3/seg_ckpts/seg_fasc_v4c_best.pt",
+  "arch": "TinyUNet",
+  "size": 512,
+  "variant": "fasc_v4c_thick_soft",
+  "stored_val_dice": 0.08408936498991587,
+  "square_resize_native": {
+    "0.3": {
+      "n": 566,
+      "macro_dice": 0.07128764549807963,
+      "dice_p50": 0.07316062400513376,
+      "empty_pred_frac": 0.0,
+      "thr": 0.3,
+      "letterbox": false
+    },
+    "0.35": {
+      "n": 566,
+      "macro_dice": 0.07466492024345119,
+      "dice_p50": 0.0766500393496457,
+      "empty_pred_frac": 0.0,
+      "thr": 0.35,
+      "letterbox": false
+    },
+    "0.5": {
+      "n": 566,
+      "macro_dice": 0.08408936498991587,
+      "dice_p50": 0.08584805773657174,
+      "empty_pred_frac": 0.0,
+      "thr": 0.5,
+      "letterbox": false
+    }
+  },
+  "letterbox_native": {
+    "0.3": {
+      "n": 566,
+      "macro_dice": 0.04494193364834703,
+      "dice_p50": 0.04310850858107736,
+      "empty_pred_frac": 0.0,
+      "thr": 0.3,
+      "letterbox": true
+    },
+    "0.35": {
+      "n": 566,
+      "macro_dice": 0.04686159096771972,
+      "dice_p50": 0.04443131583459117,
+      "empty_pred_frac": 0.0,
+      "thr": 0.35,
+      "letterbox": true
+    },
+    "0.5": {
+      "n": 566,
+      "macro_dice": 0.052498420472946346,
+      "dice_p50": 0.048201659142194875,
+      "empty_pred_frac": 0.0,
+      "thr": 0.5,
+      "letterbox": true
+    }
+  }
+}
+{
+  "baseline_prior_best": 0.2633,
+  "ranked": [
+    {
+      "eval_path": "reports/phase3/eval_seg_fasc_v4b_best_native.json",
+      "ckpt": "/home/chocheng9/kaggle_UMUD/reports/phase3/seg_ckpts/seg_fasc_v4b_best.pt",
+      "variant": "fasc_v4b_align_square",
+      "stored_val_dice": 0.2675978698738973,
+      "best_native_macro_dice": 0.2675978698738973,
+      "best_detail": {
+        "mode": "square_resize_native",
+        "thr": 0.5,
+        "n": 566,
+        "macro_dice": 0.2675978698738973,
+        "dice_p50": 0.25828780317779804,
+        "empty_pred_frac": 0.0,
+        "letterbox": false
+      },
+      "size": 384,
+      "arch": "TinyUNet"
+    },
+    {
+      "eval_path": "reports/phase3/eval_seg_fasc_v2_recover_best_native.json",
+      "ckpt": "/home/chocheng9/kaggle_UMUD/reports/phase3/seg_ckpts/seg_fasc_v2_recover_best.pt",
+      "variant": "fasc_v2_recover",
+      "stored_val_dice": 0.2477997793509977,
+      "best_native_macro_dice": 0.24994737104633308,
+      "best_detail": {
+        "mode": "square_resize_native",
+        "thr": 0.5,
+        "n": 566,
+        "macro_dice": 0.24994737104633308,
+        "dice_p50": 0.24307362626334963,
+        "empty_pred_frac": 0.0,
+        "letterbox": false
+      },
+      "size": 384,
+      "arch": "TinyUNet"
+    },
+    {
+      "eval_path": "reports/phase3/eval_seg_fasc_v4_best_native.json",
+      "ckpt": "/home/chocheng9/kaggle_UMUD/reports/phase3/seg_ckpts/seg_fasc_v4_best.pt",
+      "variant": "fasc_v4_letterbox_dilate",
+      "stored_val_dice": 0.15478047351010132,
+      "best_native_macro_dice": 0.17243936336586327,
+      "best_detail": {
+        "mode": "square_resize_native",
+        "thr": 0.5,
+        "n": 566,
+        "macro_dice": 0.17243936336586327,
+        "dice_p50": 0.17635316265463108,
+        "empty_pred_frac": 0.0,
+        "letterbox": false
+      },
+      "size": 512,
+      "arch": "TinyUNet"
+    },
+    {
+      "eval_path": "reports/phase3/eval_seg_fasc_v4c_best_native.json",
+      "ckpt": "/home/chocheng9/kaggle_UMUD/reports/phase3/seg_ckpts/seg_fasc_v4c_best.pt",
+      "variant": "fasc_v4c_thick_soft",
+      "stored_val_dice": 0.08408936498991587,
+      "best_native_macro_dice": 0.08408936498991587,
+      "best_detail": {
+        "mode": "square_resize_native",
+        "thr": 0.5,
+        "n": 566,
+        "macro_dice": 0.08408936498991587,
+        "dice_p50": 0.08584805773657174,
+        "empty_pred_frac": 0.0,
+        "letterbox": false
+      },
+      "size": 512,
+      "arch": "TinyUNet"
+    },
+    {
+      "eval_path": "reports/phase3/eval_seg_fasc_best_native.json",
+      "ckpt": "/home/chocheng9/kaggle_UMUD/reports/phase3/seg_ckpts/seg_fasc_best.pt",
+      "variant": "fasc_v3c_safe_fov",
+      "stored_val_dice": 0.05937294974156782,
+      "best_native_macro_dice": 0.07188745165959325,
+      "best_detail": {
+        "mode": "square_resize_native",
+        "thr": 0.5,
+        "n": 566,
+        "macro_dice": 0.07188745165959325,
+        "dice_p50": 0.06985880210843404,
+        "empty_pred_frac": 0.0,
+        "letterbox": false
+      },
+      "size": 512,
+      "arch": "FascUNet"
+    }
+  ],
+  "winner": {
+    "eval_path": "reports/phase3/eval_seg_fasc_v4b_best_native.json",
+    "ckpt": "/home/chocheng9/kaggle_UMUD/reports/phase3/seg_ckpts/seg_fasc_v4b_best.pt",
+    "variant": "fasc_v4b_align_square",
+    "stored_val_dice": 0.2675978698738973,
+    "best_native_macro_dice": 0.2675978698738973,
+    "best_detail": {
+      "mode": "square_resize_native",
+      "thr": 0.5,
+      "n": 566,
+      "macro_dice": 0.2675978698738973,
+      "dice_p50": 0.25828780317779804,
+      "empty_pred_frac": 0.0,
+      "letterbox": false
+    },
+    "size": 384,
+    "arch": "TinyUNet"
+  }
+}
+WINNER_CKPT=/home/chocheng9/kaggle_UMUD/reports/phase3/seg_ckpts/seg_fasc_v4b_best.pt
+WINNER_DICE=0.267598
+Selected /home/chocheng9/kaggle_UMUD/reports/phase3/seg_ckpts/seg_fasc_v4b_best.pt dice=0.2675978698738973
+apo arch=TinyUNet size=256 thr=0.5 dice=0.9688958616758283 lb=False
+fasc arch=TinyUNet size=384 thr=0.5 dice=0.2675978698738973 variant=fasc_v4b_align_square lb=False
+inferred 50/738
+inferred 100/738
+inferred 150/738
+inferred 200/738
+inferred 250/738
+inferred 300/738
+inferred 350/738
+inferred 400/738
+inferred 450/738
+inferred 500/738
+inferred 550/738
+inferred 600/738
+inferred 650/738
+inferred 700/738
+inferred 738/738
+wrote 738 under /home/chocheng9/kaggle_UMUD/reports/phase3/seg_preds_best_fasc
+tier_b_seg_gh_v4best val_MAE_pa=3.7908248230487063 fl=8.478528716216578 mt=2.964498382558961 test_ok=0/309 submission=/home/chocheng9/kaggle_UMUD/reports/phase3/submission_tier_b_seg_gh_v4best.csv
+[2026-11-04T15:08:51+08:00] postprocess DONE

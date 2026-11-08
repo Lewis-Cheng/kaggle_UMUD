@@ -1,0 +1,100 @@
+{
+  "asof": "2026-11-05 17:37:37 Asia/Hong_Kong",
+  "protocol": "honest nested only for promote; fixed/FR-grid-best are posthoc",
+  "hold_C_reported": 0.13195144580335014,
+  "hold_C_note": "original 0.13195 from adapt_multexp_fasc selected (fkey,v_lo,v_hi) by OUTER S \u2014 leaky; honest FR at same recipe is C_sanity ~0.144",
+  "C_honest_FR_sin035_a0": {
+    "S": 0.14417766916760597,
+    "MAE": {
+      "pa_deg": 1.0178573453740616,
+      "fl_mm": 2.5216274335840163,
+      "mt_mm": 0.15826250681487788
+    },
+    "pick_counts": {
+      "corridor_dilate": 6,
+      "blend_base_morph": 1,
+      "ridge_blend03": 13,
+      "baseline": 14,
+      "ridge_soft02": 1
+    },
+    "nested": "per_fold_feature_rule",
+    "sin_w": 0.35,
+    "alpha": 0.0
+  },
+  "posthoc_fixed_best": {
+    "kind": "sin",
+    "variant": "corridor_dilate",
+    "fl": 0.3,
+    "alpha": 0.15,
+    "S": 0.13172328136679268,
+    "mae": {
+      "pa_deg": 0.9033125123143603,
+      "fl_mm": 2.302359431977445,
+      "mt_mm": 0.15826250681487788
+    }
+  },
+  "honest": {
+    "nested_base_path": {
+      "S": 0.13751181547892002,
+      "MAE": {
+        "pa_deg": 0.9350564957851906,
+        "fl_mm": 2.447258619808447,
+        "mt_mm": 0.15826250681487788
+      },
+      "pick_counts": {
+        "('sin', 'baseline', 0.3, 0.15)": 21,
+        "('sin', 'baseline', 0.3, 0.0)": 12,
+        "('sin', 'baseline', 0.28, 0.0)": 1,
+        "('sin', 'baseline', 0.28, 0.15)": 1
+      },
+      "nested": "per_fold_train_pick_fixed_config",
+      "proxy": "trainS"
+    },
+    "nested_all_fixed": {
+      "S": 0.1386628784830943,
+      "MAE": {
+        "pa_deg": 0.9317022407969324,
+        "fl_mm": 2.4954052327795857,
+        "mt_mm": 0.15826250681487788
+      },
+      "pick_counts": {
+        "('sin', 'corridor_dilate', 0.3, 0.15)": 32,
+        "('sin', 'corridor_dilate', 0.3, 0.0)": 1,
+        "('sin', 'ridge_blend03', 0.3, 0.15)": 1,
+        "('sin', 'blend_base_morph', 0.3, 0.15)": 1
+      },
+      "nested": "per_fold_train_pick_fixed_config",
+      "proxy": "trainS"
+    },
+    "feature_rule_joint": {
+      "S": 0.1344865957876554,
+      "MAE": {
+        "pa_deg": 0.9208313222823786,
+        "fl_mm": 2.3668009153085854,
+        "mt_mm": 0.15826250681487788
+      },
+      "pick_counts": {
+        "morph_connect|sin0.30|a0.25|fasc_mass": 6,
+        "ridge_blend03|sin0.30|a0.15|fasc_mass": 6,
+        "morph_connect|sin0.30|a0.15|fasc_mass": 9,
+        "baseline|sin0.30|a0.15|fasc_mass": 1,
+        "corridor_dilate|sin0.30|a0.15|fasc_mass": 1,
+        "ridge_blend03|sin0.30|a0.25|fasc_mass": 11,
+        "ridge_soft02|sin0.30|a0.15|fasc_mass": 1
+      },
+      "nested": "per_fold_joint_feature_rule_sin_pa"
+    }
+  },
+  "best_honest_nested_S": 0.1344865957876554,
+  "best_honest_tag": "fr_joint",
+  "best_honest_mae": {
+    "pa_deg": 0.9208313222823786,
+    "fl_mm": 2.3668009153085854,
+    "mt_mm": 0.15826250681487788
+  },
+  "promote": false,
+  "gate_0.12": false,
+  "kaggle_submit": false,
+  "elapsed_min": 2.7072780251502992,
+  "grid_winner_honest": "feature_rule_joint"
+}

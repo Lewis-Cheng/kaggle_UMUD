@@ -1,0 +1,105 @@
+blend tag=labtrain a=0.0 thr=0.25 S=0.14476
+blend tag=labtrain a=0.0 thr=0.3 S=0.13995
+blend tag=labtrain a=0.0 thr=0.35 S=0.13294
+blend tag=labtrain a=0.0 thr=0.4 S=0.13992
+blend tag=labtrain a=0.0 thr=0.45 S=0.13785
+blend tag=labtrain a=0.15 thr=0.25 S=0.13510
+blend tag=labtrain a=0.15 thr=0.3 S=0.14236
+blend tag=labtrain a=0.15 thr=0.35 S=0.14229
+blend tag=labtrain a=0.15 thr=0.4 S=0.14458
+blend tag=labtrain a=0.15 thr=0.45 S=0.15363
+blend tag=labtrain a=0.25 thr=0.25 S=0.14452
+blend tag=labtrain a=0.25 thr=0.3 S=0.14017
+blend tag=labtrain a=0.25 thr=0.35 S=0.13556
+blend tag=labtrain a=0.25 thr=0.4 S=0.14241
+blend tag=labtrain a=0.25 thr=0.45 S=0.14448
+blend tag=labtrain a=0.35 thr=0.25 S=0.14225
+blend tag=labtrain a=0.35 thr=0.3 S=0.14658
+blend tag=labtrain a=0.35 thr=0.35 S=0.14806
+blend tag=labtrain a=0.35 thr=0.4 S=0.14319
+blend tag=labtrain a=0.35 thr=0.45 S=0.14288
+blend tag=labtrain a=0.5 thr=0.25 S=0.14585
+blend tag=labtrain a=0.5 thr=0.3 S=0.13915
+blend tag=labtrain a=0.5 thr=0.35 S=0.15101
+blend tag=labtrain a=0.5 thr=0.4 S=0.14238
+blend tag=labtrain a=0.5 thr=0.45 S=0.14189
+blend tag=labtrain a=0.65 thr=0.25 S=0.15157
+blend tag=labtrain a=0.65 thr=0.3 S=0.14479
+blend tag=labtrain a=0.65 thr=0.35 S=0.14433
+blend tag=labtrain a=0.65 thr=0.4 S=0.13320
+blend tag=labtrain a=0.65 thr=0.45 S=0.14178
+blend tag=labtrain a=0.75 thr=0.25 S=0.14128
+blend tag=labtrain a=0.75 thr=0.3 S=0.14383
+blend tag=labtrain a=0.75 thr=0.35 S=0.14163
+blend tag=labtrain a=0.75 thr=0.4 S=0.14096
+blend tag=labtrain a=0.75 thr=0.45 S=0.13970
+blend tag=labtrain a=0.85 thr=0.25 S=0.14380
+blend tag=labtrain a=0.85 thr=0.3 S=0.13316
+blend tag=labtrain a=0.85 thr=0.35 S=0.13818
+blend tag=labtrain a=0.85 thr=0.4 S=0.13650
+blend tag=labtrain a=0.85 thr=0.45 S=0.14453
+blend tag=labtrain a=1.0 thr=0.25 S=0.13818
+blend tag=labtrain a=1.0 thr=0.3 S=0.14064
+blend tag=labtrain a=1.0 thr=0.35 S=0.13894
+blend tag=labtrain a=1.0 thr=0.4 S=0.14310
+blend tag=labtrain a=1.0 thr=0.45 S=0.14054
+blend tag=labtrain_comp_ft a=0.0 thr=0.25 S=0.14476
+blend tag=labtrain_comp_ft a=0.0 thr=0.3 S=0.13995
+blend tag=labtrain_comp_ft a=0.0 thr=0.35 S=0.13294
+blend tag=labtrain_comp_ft a=0.0 thr=0.4 S=0.13992
+blend tag=labtrain_comp_ft a=0.0 thr=0.45 S=0.13785
+blend tag=labtrain_comp_ft a=0.15 thr=0.25 S=0.14869
+blend tag=labtrain_comp_ft a=0.15 thr=0.3 S=0.13956
+blend tag=labtrain_comp_ft a=0.15 thr=0.35 S=0.14152
+blend tag=labtrain_comp_ft a=0.15 thr=0.4 S=0.13765
+blend tag=labtrain_comp_ft a=0.15 thr=0.45 S=0.14642
+blend tag=labtrain_comp_ft a=0.25 thr=0.25 S=0.14611
+blend tag=labtrain_comp_ft a=0.25 thr=0.3 S=0.14511
+blend tag=labtrain_comp_ft a=0.25 thr=0.35 S=0.14529
+blend tag=labtrain_comp_ft a=0.25 thr=0.4 S=0.14766
+blend tag=labtrain_comp_ft a=0.25 thr=0.45 S=0.15386
+blend tag=labtrain_comp_ft a=0.35 thr=0.25 S=0.14320
+blend tag=labtrain_comp_ft a=0.35 thr=0.3 S=0.14450
+blend tag=labtrain_comp_ft a=0.35 thr=0.35 S=0.15061
+blend tag=labtrain_comp_ft a=0.35 thr=0.4 S=0.14390
+blend tag=labtrain_comp_ft a=0.35 thr=0.45 S=0.14699
+blend tag=labtrain_comp_ft a=0.5 thr=0.25 S=0.14467
+blend tag=labtrain_comp_ft a=0.5 thr=0.3 S=0.14694
+blend tag=labtrain_comp_ft a=0.5 thr=0.35 S=0.14422
+blend tag=labtrain_comp_ft a=0.5 thr=0.4 S=0.15169
+blend tag=labtrain_comp_ft a=0.5 thr=0.45 S=0.14963
+blend tag=labtrain_comp_ft a=0.65 thr=0.25 S=0.15054
+blend tag=labtrain_comp_ft a=0.65 thr=0.3 S=0.15257
+blend tag=labtrain_comp_ft a=0.65 thr=0.35 S=0.14378
+blend tag=labtrain_comp_ft a=0.65 thr=0.4 S=0.14208
+blend tag=labtrain_comp_ft a=0.65 thr=0.45 S=0.14046
+blend tag=labtrain_comp_ft a=0.75 thr=0.25 S=0.14491
+blend tag=labtrain_comp_ft a=0.75 thr=0.3 S=0.14283
+blend tag=labtrain_comp_ft a=0.75 thr=0.35 S=0.14460
+blend tag=labtrain_comp_ft a=0.75 thr=0.4 S=0.14067
+blend tag=labtrain_comp_ft a=0.75 thr=0.45 S=0.13720
+blend tag=labtrain_comp_ft a=0.85 thr=0.25 S=0.14747
+blend tag=labtrain_comp_ft a=0.85 thr=0.3 S=0.13880
+blend tag=labtrain_comp_ft a=0.85 thr=0.35 S=0.14154
+blend tag=labtrain_comp_ft a=0.85 thr=0.4 S=0.13895
+blend tag=labtrain_comp_ft a=0.85 thr=0.45 S=0.13980
+blend tag=labtrain_comp_ft a=1.0 thr=0.25 S=0.13779
+blend tag=labtrain_comp_ft a=1.0 thr=0.3 S=0.14157
+blend tag=labtrain_comp_ft a=1.0 thr=0.35 S=0.14582
+blend tag=labtrain_comp_ft a=1.0 thr=0.4 S=0.14265
+blend tag=labtrain_comp_ft a=1.0 thr=0.45 S=0.14097
+OVERALL {
+  "tag": "labtrain",
+  "alpha_b": 0.0,
+  "thr": 0.35,
+  "S": 0.13293555901039555,
+  "MAE": {
+    "pa_deg": 0.9279384631482271,
+    "fl_mm": 2.2967497297340818,
+    "mt_mm": 0.15826250681487788
+  },
+  "n": 35,
+  "gate": false,
+  "beats_hold": false
+}
+promoted False gate False

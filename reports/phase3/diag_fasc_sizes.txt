@@ -1,0 +1,8 @@
+fasc dirs [PosixPath('/home/chocheng9/kaggle_UMUD/data/raw/umud/fasc_masks_v1'), PosixPath('/home/chocheng9/kaggle_UMUD/data/raw/umud/fasc_imgs_v1'), PosixPath('/home/chocheng9/kaggle_UMUD/data/raw/umud/fasc_masks_v1/fasc_masks_new_model_v1'), PosixPath('/home/chocheng9/kaggle_UMUD/data/raw/umud/fasc_imgs_v1/fasc_images_new_model_v1')]
+n_imgs 2761 n_masks 2761 n_scale_fasc 2761
+actual sizes [((800, 1200), 54), ((1080, 1640), 15), ((500, 760), 7), ((600, 800), 2), ((652, 800), 1), ((512, 512), 1)]
+csv_size_mismatch_in_sample 0 / 80
+fov_fit_raw 55 mean_gt_drop 0.23661865340768826
+fov_fit_scaled 55 mean_gt_drop 0.23661865340768826
+gt_drop_scaled p50 0.2276119402985075
+gt_drop_raw p50 0.2276119402985075

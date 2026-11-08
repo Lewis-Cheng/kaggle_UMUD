@@ -1,0 +1,89 @@
+running band_agree_v1 on reports/phase3/chase018/cache/maps_multexp
+  S_loocv=0.14883 MAE pa=1.123 fl=2.466 mt=0.162
+running hough_tex03_thr032_apo60 on reports/phase3/chase018/cache/maps_multexp
+  S_loocv=0.13851 MAE pa=1.023 fl=2.308 mt=0.158
+running hough_tex0.2_thr028_apo55 on reports/phase3/chase018/cache/maps_multexp
+  S_loocv=0.13825 MAE pa=1.021 fl=2.287 mt=0.162
+running hough_tex0.3_thr028_apo55 on reports/phase3/chase018/cache/maps_multexp
+  S_loocv=0.13792 MAE pa=1.011 fl=2.295 mt=0.162
+running hough_tex0.4_thr028_apo55 on reports/phase3/chase018/cache/maps_multexp
+  S_loocv=0.13862 MAE pa=1.016 fl=2.312 mt=0.162
+running hough_tex0.2_thr028_apo60 on reports/phase3/chase018/cache/maps_multexp
+  S_loocv=0.13769 MAE pa=1.014 fl=2.296 mt=0.158
+running hough_tex0.3_thr028_apo60 on reports/phase3/chase018/cache/maps_multexp
+  S_loocv=0.13727 MAE pa=1.004 fl=2.301 mt=0.158
+running hough_tex0.4_thr028_apo60 on reports/phase3/chase018/cache/maps_multexp
+  S_loocv=0.13783 MAE pa=1.007 fl=2.315 mt=0.158
+running hough_tex0.2_thr028_apo65 on reports/phase3/chase018/cache/maps_multexp
+  S_loocv=0.13923 MAE pa=1.014 fl=2.313 mt=0.168
+running hough_tex0.3_thr028_apo65 on reports/phase3/chase018/cache/maps_multexp
+  S_loocv=0.13913 MAE pa=1.006 fl=2.326 mt=0.168
+running hough_tex0.4_thr028_apo65 on reports/phase3/chase018/cache/maps_multexp
+  S_loocv=0.13975 MAE pa=1.011 fl=2.338 mt=0.168
+running hough_tex0.2_thr030_apo55 on reports/phase3/chase018/cache/maps_multexp
+  S_loocv=0.13962 MAE pa=1.035 fl=2.309 mt=0.162
+running hough_tex0.3_thr030_apo55 on reports/phase3/chase018/cache/maps_multexp
+  S_loocv=0.13742 MAE pa=1.017 fl=2.266 mt=0.162
+running hough_tex0.4_thr030_apo55 on reports/phase3/chase018/cache/maps_multexp
+  S_loocv=0.13690 MAE pa=1.005 fl=2.271 mt=0.162
+running hough_tex0.2_thr030_apo60 on reports/phase3/chase018/cache/maps_multexp
+  S_loocv=0.13896 MAE pa=1.030 fl=2.310 mt=0.158
+running hough_tex0.3_thr030_apo60 on reports/phase3/chase018/cache/maps_multexp
+  S_loocv=0.13660 MAE pa=1.009 fl=2.266 mt=0.158
+running hough_tex0.4_thr030_apo60 on reports/phase3/chase018/cache/maps_multexp
+  S_loocv=0.13591 MAE pa=0.994 fl=2.272 mt=0.158
+running hough_tex0.2_thr030_apo65 on reports/phase3/chase018/cache/maps_multexp
+  S_loocv=0.14025 MAE pa=1.033 fl=2.312 mt=0.168
+running hough_tex0.3_thr030_apo65 on reports/phase3/chase018/cache/maps_multexp
+  S_loocv=0.13823 MAE pa=1.014 fl=2.278 mt=0.168
+running hough_tex0.4_thr030_apo65 on reports/phase3/chase018/cache/maps_multexp
+  S_loocv=0.13771 MAE pa=1.001 fl=2.285 mt=0.168
+running hough_tex0.2_thr032_apo55 on reports/phase3/chase018/cache/maps_multexp
+  S_loocv=0.14270 MAE pa=1.074 fl=2.343 mt=0.162
+running hough_tex0.3_thr032_apo55 on reports/phase3/chase018/cache/maps_multexp
+  S_loocv=0.13929 MAE pa=1.034 fl=2.298 mt=0.162
+running hough_tex0.4_thr032_apo55 on reports/phase3/chase018/cache/maps_multexp
+  S_loocv=0.13799 MAE pa=1.015 fl=2.290 mt=0.162
+running hough_tex0.2_thr032_apo60 on reports/phase3/chase018/cache/maps_multexp
+  S_loocv=0.14160 MAE pa=1.056 fl=2.352 mt=0.158
+running hough_tex0.4_thr032_apo60 on reports/phase3/chase018/cache/maps_multexp
+  S_loocv=0.13714 MAE pa=1.003 fl=2.297 mt=0.158
+running hough_tex0.2_thr032_apo65 on reports/phase3/chase018/cache/maps_multexp
+  S_loocv=0.14307 MAE pa=1.061 fl=2.359 mt=0.168
+running hough_tex0.3_thr032_apo65 on reports/phase3/chase018/cache/maps_multexp
+  S_loocv=0.14023 MAE pa=1.028 fl=2.322 mt=0.168
+running hough_tex0.4_thr032_apo65 on reports/phase3/chase018/cache/maps_multexp
+  S_loocv=0.13903 MAE pa=1.010 fl=2.315 mt=0.168
+running hough_tex0.2_thr035_apo55 on reports/phase3/chase018/cache/maps_multexp
+  S_loocv=0.13752 MAE pa=0.959 fl=2.386 mt=0.162
+running hough_tex0.3_thr035_apo55 on reports/phase3/chase018/cache/maps_multexp
+  S_loocv=0.13597 MAE pa=0.944 fl=2.359 mt=0.162
+running hough_tex0.4_thr035_apo55 on reports/phase3/chase018/cache/maps_multexp
+  S_loocv=0.13556 MAE pa=0.941 fl=2.352 mt=0.162
+running hough_tex0.2_thr035_apo60 on reports/phase3/chase018/cache/maps_multexp
+  S_loocv=0.13630 MAE pa=0.943 fl=2.388 mt=0.158
+running hough_tex0.3_thr035_apo60 on reports/phase3/chase018/cache/maps_multexp
+  S_loocv=0.13422 MAE pa=0.920 fl=2.360 mt=0.158
+running hough_tex0.4_thr035_apo60 on reports/phase3/chase018/cache/maps_multexp
+  S_loocv=0.13444 MAE pa=0.928 fl=2.351 mt=0.158
+running hough_tex0.2_thr035_apo65 on reports/phase3/chase018/cache/maps_multexp
+  S_loocv=0.13754 MAE pa=0.943 fl=2.395 mt=0.168
+running hough_tex0.3_thr035_apo65 on reports/phase3/chase018/cache/maps_multexp
+  S_loocv=0.13556 MAE pa=0.922 fl=2.365 mt=0.168
+running hough_tex0.4_thr035_apo65 on reports/phase3/chase018/cache/maps_multexp
+  S_loocv=0.13593 MAE pa=0.932 fl=2.359 mt=0.168
+RANK (lower S better):
+  0.13422  hough_tex0.3_thr035_apo60  pa=0.920 fl=2.360 mt=0.158
+  0.13444  hough_tex0.4_thr035_apo60  pa=0.928 fl=2.351 mt=0.158
+  0.13556  hough_tex0.3_thr035_apo65  pa=0.922 fl=2.365 mt=0.168
+  0.13556  hough_tex0.4_thr035_apo55  pa=0.941 fl=2.352 mt=0.162
+  0.13591  hough_tex0.4_thr030_apo60  pa=0.994 fl=2.272 mt=0.158
+  0.13593  hough_tex0.4_thr035_apo65  pa=0.932 fl=2.359 mt=0.168
+  0.13597  hough_tex0.3_thr035_apo55  pa=0.944 fl=2.359 mt=0.162
+  0.13630  hough_tex0.2_thr035_apo60  pa=0.943 fl=2.388 mt=0.158
+  0.13660  hough_tex0.3_thr030_apo60  pa=1.009 fl=2.266 mt=0.158
+  0.13690  hough_tex0.4_thr030_apo55  pa=1.005 fl=2.271 mt=0.162
+  0.13714  hough_tex0.4_thr032_apo60  pa=1.003 fl=2.297 mt=0.158
+  0.13727  hough_tex0.3_thr028_apo60  pa=1.004 fl=2.301 mt=0.158
+wrote reports/phase3/chase018/multexp_fl_postprocess_grid.json
+BEST hough_tex0.3_thr035_apo60 S=0.13422 gate_0.12=False gap=+0.01422

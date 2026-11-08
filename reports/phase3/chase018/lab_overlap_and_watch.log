@@ -1,0 +1,13 @@
+lab_masks 1854 comp_imgs 2761 comp_masks 2761
+overlap lab_masks&comp_imgs 0
+overlap lab_masks&comp_masks 0
+sample lab ['fasc0_0_4626.tif', 'fasc0_0_4853.tif', 'fasc0_0_630.tif', 'fasc0_0_9141.tif', 'fasc0_0_9470.tif', 'fasc100_0_1744.tif', 'fasc100_0_570.tif', 'fasc100_0_8058.tif']
+waiting for fasc_images.zip ...
+  t=0s size=74.7MB / 367.5MB
+  t=60s size=96.4MB / 367.5MB
+  t=120s size=198.7MB / 367.5MB
+  t=180s size=315.1MB / 367.5MB
+READY /home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/fasc_images.zip 367494790
+images 1854
+LAUNCH ['/home/chocheng9/kaggle_UMUD/.venv/bin/python', '-u', '/home/chocheng9/kaggle_UMUD/scripts/chase018/train_eval_labtrain_fasc.py', '--img-dir', '/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/labtrain_fasc_images', '--mask-dir', '/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/labtrain_fasc_masks', '--epochs', '25', '--batch', '8', '--device', 'cuda:0']
+PID 101025

@@ -1,0 +1,244 @@
+{
+  "audit": "phase2_duplicate_split",
+  "data_root": "/home/chocheng9/kaggle_UMUD/data/raw/umud",
+  "duplicate_hash_examples": [
+    {
+      "hash": "3fbcdd86405737c4df358c533113f6cdeaa23199658ed59960ab3615eed63894",
+      "members": [
+        "aponeurosis:image_0691",
+        "aponeurosis:image_0906"
+      ],
+      "n_members": 2
+    },
+    {
+      "hash": "adb6468546dbf1ee7be4f8e64d635f93cb64a98aab4249ee63c161379e6bf5ed",
+      "members": [
+        "aponeurosis:image_0693",
+        "aponeurosis:image_0907"
+      ],
+      "n_members": 2
+    },
+    {
+      "hash": "6fc2a5a0d90cbb58a0a3681b09b460a9a8b0d4b73efa72662478a52277691974",
+      "members": [
+        "aponeurosis:image_0694",
+        "aponeurosis:image_0909"
+      ],
+      "n_members": 2
+    },
+    {
+      "hash": "73ae111297d26e2e52bc2744929d9e9ad63bd19497850e725a3a64258c977240",
+      "members": [
+        "aponeurosis:image_0695",
+        "aponeurosis:image_0910"
+      ],
+      "n_members": 2
+    },
+    {
+      "hash": "d9ecbd67cca112bf550db43a63ed60e4813ee543d8d48748b92e6e30654cee7d",
+      "members": [
+        "aponeurosis:image_0697",
+        "aponeurosis:image_0911"
+      ],
+      "n_members": 2
+    },
+    {
+      "hash": "3ef0bca72e47c695e9a3fd0ab91fcc9a6c6e5be5a753a407de3f172fd64cde60",
+      "members": [
+        "aponeurosis:image_0698",
+        "aponeurosis:image_0912"
+      ],
+      "n_members": 2
+    },
+    {
+      "hash": "9caf8e4e2ec27e99edbf7ecd26016ecf57dddf7a9caaa8ad8dc4b37ed6b0fd7e",
+      "members": [
+        "aponeurosis:image_0699",
+        "aponeurosis:image_0913"
+      ],
+      "n_members": 2
+    },
+    {
+      "hash": "171002a6d3ac63ac6a8e1d912d8eaea978423a9893e621b07891467331c6d037",
+      "members": [
+        "aponeurosis:image_0700",
+        "aponeurosis:image_0914"
+      ],
+      "n_members": 2
+    },
+    {
+      "hash": "419f2553202a6dd59021a1538ba499e7478d8e6c315ee68685b5f052be5aa44f",
+      "members": [
+        "aponeurosis:image_0701",
+        "aponeurosis:image_0915"
+      ],
+      "n_members": 2
+    },
+    {
+      "hash": "3e293a5d505b10870e264e07170ac30d8c96b7971cad7bf96ff66b0000baaffa",
+      "members": [
+        "aponeurosis:image_0702",
+        "aponeurosis:image_0916"
+      ],
+      "n_members": 2
+    },
+    {
+      "hash": "26d7587d3fc1ccc907cbf63552098f57d4c34d25caae5b127d611b3ea69840a2",
+      "members": [
+        "aponeurosis:image_0703",
+        "aponeurosis:image_0917"
+      ],
+      "n_members": 2
+    },
+    {
+      "hash": "2e26f87c0b444f889f87721a7924afd605552a3bdd837f6d850d386b417c9b05",
+      "members": [
+        "aponeurosis:image_0704",
+        "aponeurosis:image_0918"
+      ],
+      "n_members": 2
+    },
+    {
+      "hash": "9f9f1ea777376a5c06e273dc1dbfcd53baa839604ef41f85640521912fde4a28",
+      "members": [
+        "aponeurosis:image_0705",
+        "aponeurosis:image_0919"
+      ],
+      "n_members": 2
+    },
+    {
+      "hash": "d2ba6115645623a834d86e217feb9091bb0ee9f6e6d6e181a7cef214320c6ef1",
+      "members": [
+        "aponeurosis:image_0706",
+        "aponeurosis:image_0920"
+      ],
+      "n_members": 2
+    },
+    {
+      "hash": "a74e124380bbb5a5b375a4efbc58aa364f9e23a5474c614011babff203fcb963",
+      "members": [
+        "aponeurosis:image_0707",
+        "aponeurosis:image_0921"
+      ],
+      "n_members": 2
+    },
+    {
+      "hash": "e3e561c3f95d1c9722987c65516ef1053c1babd4dde20cd89b4b926173ce8cdd",
+      "members": [
+        "aponeurosis:image_0708",
+        "aponeurosis:image_0922"
+      ],
+      "n_members": 2
+    },
+    {
+      "hash": "05fe6690d521b1a43f8255c2d9555b42044a0c401bf0da7cbf06b8534c1efd42",
+      "members": [
+        "aponeurosis:image_0709",
+        "aponeurosis:image_0923"
+      ],
+      "n_members": 2
+    },
+    {
+      "hash": "b7f268f1517c7a10d38410ec2f92506d2c1b93fb92624cce57aa599da81ab9ce",
+      "members": [
+        "aponeurosis:image_0710",
+        "aponeurosis:image_0924"
+      ],
+      "n_members": 2
+    },
+    {
+      "hash": "ef8b15786d8e7b3cf1f2d3afe2c1d93b76e2746ba298f23cc7c113aca97b56c3",
+      "members": [
+        "aponeurosis:image_0711",
+        "aponeurosis:image_0925"
+      ],
+      "n_members": 2
+    },
+    {
+      "hash": "ac7aaca64dcd9385b8a3ff747f87f6f4e49cee2e86bf2042d19552adb7ca9a18",
+      "members": [
+        "fascicle:image_0000",
+        "fascicle:image_1097"
+      ],
+      "n_members": 2
+    }
+  ],
+  "hash_method": "sha256_exact_file",
+  "n_apo": 1048,
+  "n_duplicate_file_hashes": 689,
+  "n_fasc": 2761,
+  "n_rival_val_rows_block5": 765,
+  "n_rows": 3809,
+  "n_rows_with_numeric_id": 3809,
+  "n_train_content_groups": 2496,
+  "n_train_rows": 3038,
+  "n_unique_content_groups": 3120,
+  "n_val_content_groups": 624,
+  "n_val_rows": 771,
+  "notes": [
+    "Our split uses assign_duplicate_aware_split on exact SHA-256 content groups.",
+    "Rival leak count = content groups that block-of-5 would place in BOTH train and val.",
+    "Subject independence is NOT established by content-hash groups alone.",
+    "No competition scores are computed or claimed here."
+  ],
+  "our_split_gate_pass": true,
+  "our_split_shared_groups_train_val": [],
+  "pass_criterion": "0 shared content-groups train\u2194val",
+  "rival_leak_content_group_count": 130,
+  "rival_leak_content_groups_sample": [
+    "cg_0334c80a27eca6206a3787ce94f7313fb53fef2c41fa50e8601b1c737bf92218",
+    "cg_0363f628fadb178e0a70721f1735a0d0d1bcb910cc4a73734e1c13d22ad670fc",
+    "cg_0386b8fda9f9ce51aa58713d7da1dfc39888f3001deeb4dfec6d5fe16c853d57",
+    "cg_0453dfc4364015b295ba371c0dcad3de59765351e7cc886e11dfeba06cdea098",
+    "cg_05cd64fc6a35933ecdb2796595e71dc56788790a0257f5043be25387d26d21d2",
+    "cg_076eed8f706b2ecb570affde313d9e5161313df5e73f72c635ad10acaabef183",
+    "cg_078702b99522d132eb6a9fedca213731d8f1b17ba007d57843025a3a1185a9c0",
+    "cg_0b18cda02d358ce80b94f5a7f7ee5e5a756a6444e83a9af4a77f88d05624b7e8",
+    "cg_0c7151f46e63226e5a60897cd298a3e26ffd194d2756ee8f105a6ea0bb598050",
+    "cg_168931a08db908431b65f38237184d9d4b40b4127b15f70e64caca3b28b42fd6",
+    "cg_171002a6d3ac63ac6a8e1d912d8eaea978423a9893e621b07891467331c6d037",
+    "cg_1754003877ffcb56a7580736bd0a85adaf2ba3071772178bd841d91e4fb17178",
+    "cg_18bea1d39ea43c0e08c372cc012b0cf788f8803234adcfdbad580f3382be7740",
+    "cg_19a85004fb08a4189ae61fbbd2ca30aea0afa01f6be6c13b3fdde4d2a0c70a0b",
+    "cg_1aa6a3263d86671640e70b2f10b7002a96024c94ad9eda9cb33225cbe3dd6a78",
+    "cg_1ac8578d4e828b1c92408133e87d153c3af277106045bbe80f333d80257f45d0",
+    "cg_1c402047ecaf08629900e8d1c652d0e6cbb60e75f234bbbbe019401b3ca4f563",
+    "cg_1d8223dfc1fc3e4b9b3611e849cd63a70a312218b40aa1dba525053098bc55a1",
+    "cg_1df6e6f08e7717cf339894b0a672e1cf38540d705dbce4fa360f2358a604d9da",
+    "cg_21f605172624c899f475d5aeead19a94b5eadd5cfdfffc5eb77337ee21258814",
+    "cg_233b5bcfc8c50d48e2562812294b2b1a9da994fab91d661fa5118ed475aa2e35",
+    "cg_24510f48865979593f4c17ee789c474f7b67abb09c37fb266a29f560f534c364",
+    "cg_26d7587d3fc1ccc907cbf63552098f57d4c34d25caae5b127d611b3ea69840a2",
+    "cg_2969024aff32863dd0c13b255e83bc6c183dec04d8aabd75d09a32fba256f3a2",
+    "cg_2cda8e285a7816c85b2f8f23b1cde8a1d5dfb4e685bf685dd27d69cb6318ec6a",
+    "cg_2e26f87c0b444f889f87721a7924afd605552a3bdd837f6d850d386b417c9b05",
+    "cg_3002cf53f18e9aefc079201c2c30c8dacd59453b0429b6f15829980f86e85037",
+    "cg_318d61a8ae7a286cdccc72999b7da0972120b843a770fdc3724d049b6c9401fa",
+    "cg_332f716f5511da9dd5020cdfceebf49448e924d29f629d1be90a82e85284650a",
+    "cg_343dc2b5e205764e7528102cd53786118c3776f811d951d943b35dc95d74df2b",
+    "cg_348703e64afbc9f38062162fdb9cd7525c2c37e1f7aaf8164931780344fcafbc",
+    "cg_36ead372b9023cd8355447e3c3e4d584a9735e21201abc8ba1b1ffa97def9646",
+    "cg_370047a1265ad0afda6b16d52675ef20a2c28da2fea7d122cb7a5e151551f9d8",
+    "cg_374ea904cce96c2acabe87ff8eca7dc4aa195b9f615a7f43f0dc0648edfb85a9",
+    "cg_389a6099e412f3772f24566ae96e8e8cfa4c4eb7e8141dc7e8cfe09efcab4eb6",
+    "cg_3ae1359ebce0f57f671cd7ed65ba4dd93a310c590aa023528cfd1493508c6969",
+    "cg_3b37d64920ed7adbf621f5a576b2775e647574844a974528aa29afe8a8832e4c",
+    "cg_3b7bed6e1eb54b7137c574f98010d0b09e9afc98335f2506770a3fd983a81472",
+    "cg_3b93cd8e8d57f36eb34f621c23808456194ffc51256c4a5acd04c0b0a6edc825",
+    "cg_3e293a5d505b10870e264e07170ac30d8c96b7971cad7bf96ff66b0000baaffa",
+    "cg_40b68b032a079a62858609c57cd146f3f34d7f23d984dfcc9adb8ececdc15282",
+    "cg_419f2553202a6dd59021a1538ba499e7478d8e6c315ee68685b5f052be5aa44f",
+    "cg_463215aeb1a865526e313cdbef5cc8dc5048d3972399db03ea9f233f35fb9d89",
+    "cg_4684e0a836291d2de187d68e51932a7137ca07baf0bde525a86d5be341d4fce6",
+    "cg_482f52cdcb2d37557466e9977e1e57b2b4bfd75c3406ba771c27faf1099a5882",
+    "cg_4979756e38db5c6b813c58f0e8d6f674538e67c65bdfc119896d6974daf92610",
+    "cg_4d3b4b7b27a96c67854d40397ac4d3517ef2454ab910e3a0135c650e6572aaab",
+    "cg_4f3e05cb42ad8fd3e4395c90113e85ce96b3ca79023acbe37c34b1bf0cb798dc",
+    "cg_510a2104e098d4e0519adb0341f347fee667c3dcb94eb2064acc709026cc8637",
+    "cg_53c264191cc7549e06b188fea95dc522e14b682b5569b7e45cb17599ccd604e8"
+  ],
+  "rival_split_rule": "(numeric_id // 5) % 5 == 0",
+  "seed": 0,
+  "timestamp_utc": "2026-11-04T02:26:31+00:00",
+  "val_fraction": 0.2
+}

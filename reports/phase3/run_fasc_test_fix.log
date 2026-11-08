@@ -1,0 +1,28 @@
+[2026-11-04T15:14:49+08:00] re-infer with test_imgs fix
+apo arch=TinyUNet size=256 thr=0.5 dice=0.9688958616758283 lb=False
+fasc arch=TinyUNet size=384 thr=0.5 dice=0.2675978698738973 variant=fasc_v4b_align_square lb=False
+inferred 50/1047
+inferred 100/1047
+inferred 150/1047
+inferred 200/1047
+inferred 250/1047
+inferred 300/1047
+inferred 350/1047
+inferred 400/1047
+inferred 450/1047
+inferred 500/1047
+inferred 550/1047
+inferred 600/1047
+inferred 650/1047
+inferred 700/1047
+inferred 750/1047
+inferred 800/1047
+inferred 850/1047
+inferred 900/1047
+inferred 950/1047
+inferred 1000/1047
+inferred 1047/1047
+wrote 1047 under /home/chocheng9/kaggle_UMUD/reports/phase3/seg_preds_best_fasc
+test apo=309 fasc=309
+tier_b_seg_gh_v4best val_MAE_pa=3.7908248230487063 fl=8.478528716216578 mt=2.964498382558961 test_ok=309/309 submission=/home/chocheng9/kaggle_UMUD/reports/phase3/submission_tier_b_seg_gh_v4best.csv
+[2026-11-04T15:16:18+08:00] DONE test fix

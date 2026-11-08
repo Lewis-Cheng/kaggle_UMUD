@@ -1,0 +1,13 @@
+Organizer (Paul Ritsche): vertical scale bars determine pix/cm (image depth). Aspect preserved; test cropped not anisotropically resized. Some train images have NO scale bar (DL_Track mix) — no valid distance; use pixel-space or estimate when bars exist. Thickness measured vertical, not perp to apo.
+
+xiaoleilian UMUD Hardcore EDA §5 ports AmbrosM per-family tick parsers covering all 309 test images → px_per_cm / px_per_mm + FOV bbox. Host: bottom ticks often 1 cm; left/right often 5 or 10 mm. TGC dashed line ignorable. Do NOT use TIFF dpi, global PIXEL_TO_MM=0.15, or calibrate from 2 anchors alone for PNG/Lumify.
+
+AmbrosM family notes (test):
+- png (Lumify): left-column ticks → px_per_cm from major/minor; FOV ~28.5 mm wide
+- 800x1200 right ticks: 2 ticks/cm typically; FOV ~57.5 mm
+- 800x1200 left: fixed (783-42)/5
+- 644x1088: 630.5/5
+- h512/513 bottom: (442-53)/5
+- h853 gray bottom: (934-100)/5 or (879-44)/5
+
+Rival ExtraTrees used global 0.07225 mm/px as placeholder — provenance unknown until per-image AmbrosM scale applied.

@@ -1,0 +1,6 @@
+{
+  "n": 35,
+  "h5": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/labtrain_DLTrack_models/DLTrack_models/model-fasc-VGG16-BCE-512.h5",
+  "tf": "2.17.1",
+  "mode": "cpu"
+}

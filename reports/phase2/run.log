@@ -1,0 +1,13 @@
+== Phase 2 inventory ==
+Wrote /home/chocheng9/kaggle_UMUD/reports/phase2/inventory.json
+counts: {'apo_imgs': 1048, 'apo_masks': 1048, 'fasc_imgs': 2761, 'fasc_masks': 2761, 'test_imgs': 309} | apo overlap: 1048 | fasc overlap: 2761
+== Phase 2 scale audit (PROXY only) ==
+Wrote /home/chocheng9/kaggle_UMUD/reports/phase2/scale_audit.json
+calibration_provenance=known recommended_scale=25.4 fasc_used=198 apo_used=200
+== Phase 2 duplicate-aware split ==
+Wrote /home/chocheng9/kaggle_UMUD/reports/phase2/duplicate_split.json
+Wrote /home/chocheng9/kaggle_UMUD/reports/phase2/split_assignments.jsonl
+gate_pass=True our_overlap=0 rival_leaks=130 groups=3120 dup_hashes=689
+== Freeze phase2_audit into protocol.yaml ==
+Updated /home/chocheng9/kaggle_UMUD/configs/protocol.yaml phase2_audit block
+Phase 2 audit scripts finished. Review JSON under /home/chocheng9/kaggle_UMUD/reports/phase2 — do not treat as passed.

@@ -1,0 +1,88 @@
+{
+  "ts": "2026-11-05 15:16:18 UTC+08:00",
+  "hold": 0.13195144580335014,
+  "gate": 0.12,
+  "ckpt": "/home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_labtrain_best.pt",
+  "best_val_dice": 0.5027497664411017,
+  "train_img": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/labtrain_fasc_images",
+  "train_mask": "/home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/labtrain_fasc_masks",
+  "cache": "/home/chocheng9/kaggle_UMUD/reports/phase3/chase018/cache/maps_multexp_labtrain_fasc",
+  "results": [
+    {
+      "thr": 0.25,
+      "S": 0.13817728585553185,
+      "MAE": {
+        "pa_deg": 0.9976212891891224,
+        "fl_mm": 2.346085688280375,
+        "mt_mm": 0.15826250681487788
+      },
+      "n": 35,
+      "gate": false,
+      "beats_hold": false
+    },
+    {
+      "thr": 0.3,
+      "S": 0.14063641067332414,
+      "MAE": {
+        "pa_deg": 1.0034601862347536,
+        "fl_mm": 2.4229365765065927,
+        "mt_mm": 0.15826250681487788
+      },
+      "n": 35,
+      "gate": false,
+      "beats_hold": false
+    },
+    {
+      "thr": 0.35,
+      "S": 0.13894049284835946,
+      "MAE": {
+        "pa_deg": 1.0534733255987188,
+        "fl_mm": 2.261857221340582,
+        "mt_mm": 0.15826250681487788
+      },
+      "n": 35,
+      "gate": false,
+      "beats_hold": false
+    },
+    {
+      "thr": 0.4,
+      "S": 0.14310110195544845,
+      "MAE": {
+        "pa_deg": 1.0967991194869586,
+        "fl_mm": 2.3249874310247725,
+        "mt_mm": 0.15826250681487788
+      },
+      "n": 35,
+      "gate": false,
+      "beats_hold": false
+    },
+    {
+      "thr": 0.45,
+      "S": 0.14054173015735877,
+      "MAE": {
+        "pa_deg": 1.02647014587696,
+        "fl_mm": 2.373508137935566,
+        "mt_mm": 0.15826250681487788
+      },
+      "n": 35,
+      "gate": false,
+      "beats_hold": false
+    }
+  ],
+  "best": {
+    "thr": 0.25,
+    "S": 0.13817728585553185,
+    "MAE": {
+      "pa_deg": 0.9976212891891224,
+      "fl_mm": 2.346085688280375,
+      "mt_mm": 0.15826250681487788
+    },
+    "n": 35,
+    "gate": false,
+    "beats_hold": false
+  },
+  "promoted": false,
+  "gate_pass": false,
+  "elapsed_s": 363.32709097862244,
+  "note": "ImageNet-init LabTrain fasc + Frundles apo; MultExp never in train"
+}

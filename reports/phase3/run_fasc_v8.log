@@ -1,0 +1,51 @@
+fasc_v8 train=2195 val=566 enc=resnet34 size=448 edt_r=3.5 cldice_w=1.0 amp=True bs=16 device=cuda:2
+epoch 1/35 loss=2.3440 native@0.35=0.0953 native@0.5=0.1390
+  saved best_native=0.1390
+epoch 2/35 loss=2.1852 native@0.35=0.1585 native@0.5=0.1976
+  saved best_native=0.1976
+epoch 3/35 loss=2.1064 native@0.35=0.1722 native@0.5=0.2026
+  saved best_native=0.2026
+epoch 4/35 loss=2.0528 native@0.35=0.1962 native@0.5=0.2238
+  saved best_native=0.2238
+epoch 5/35 loss=2.0099 native@0.35=0.2063 native@0.5=0.2316
+  saved best_native=0.2316
+epoch 6/35 loss=1.9712 native@0.35=0.2176 native@0.5=0.2395
+  saved best_native=0.2395
+epoch 7/35 loss=1.9349 native@0.35=0.2190 native@0.5=0.2409
+  saved best_native=0.2409
+epoch 8/35 loss=1.9005 native@0.35=0.2217 native@0.5=0.2433
+  saved best_native=0.2433
+epoch 9/35 loss=1.8645 native@0.35=0.2159 native@0.5=0.2365
+epoch 10/35 loss=1.8341 native@0.35=0.2236 native@0.5=0.2424
+epoch 11/35 loss=1.8072 native@0.35=0.2446 native@0.5=0.2608
+  saved best_native=0.2608
+epoch 12/35 loss=1.7853 native@0.35=0.2504 native@0.5=0.2597
+epoch 13/35 loss=1.7678 native@0.35=0.2531 native@0.5=0.2683
+  saved best_native=0.2683
+epoch 14/35 loss=1.7526 native@0.35=0.2598 native@0.5=0.2683
+epoch 15/35 loss=1.7391 native@0.35=0.2610 native@0.5=0.2712
+  saved best_native=0.2712
+epoch 16/35 loss=1.7264 native@0.35=0.2627 native@0.5=0.2714
+  saved best_native=0.2714
+epoch 17/35 loss=1.7139 native@0.35=0.2649 native@0.5=0.2725
+  saved best_native=0.2725
+epoch 18/35 loss=1.7027 native@0.35=0.2644 native@0.5=0.2680
+epoch 19/35 loss=1.6919 native@0.35=0.2651 native@0.5=0.2730
+  saved best_native=0.2730
+epoch 20/35 loss=1.6857 native@0.35=0.2654 native@0.5=0.2729
+epoch 21/35 loss=1.6726 native@0.35=0.2680 native@0.5=0.2698
+epoch 22/35 loss=1.6645 native@0.35=0.2685 native@0.5=0.2705
+epoch 23/35 loss=1.6544 native@0.35=0.2649 native@0.5=0.2687
+epoch 24/35 loss=1.6471 native@0.35=0.2653 native@0.5=0.2677
+epoch 25/35 loss=1.6412 native@0.35=0.2657 native@0.5=0.2672
+epoch 26/35 loss=1.6348 native@0.35=0.2649 native@0.5=0.2659
+epoch 27/35 loss=1.6268 native@0.35=0.2647 native@0.5=0.2652
+epoch 28/35 loss=1.6247 native@0.35=0.2658 native@0.5=0.2629
+epoch 29/35 loss=1.6204 native@0.35=0.2646 native@0.5=0.2617
+epoch 30/35 loss=1.6176 native@0.35=0.2644 native@0.5=0.2636
+epoch 31/35 loss=1.6214 native@0.35=0.2641 native@0.5=0.2617
+epoch 32/35 loss=1.6143 native@0.35=0.2644 native@0.5=0.2600
+epoch 33/35 loss=1.6140 native@0.35=0.2643 native@0.5=0.2614
+epoch 34/35 loss=1.6125 native@0.35=0.2645 native@0.5=0.2612
+epoch 35/35 loss=1.6139 native@0.35=0.2646 native@0.5=0.2604
+best_native_macro_dice=0.2730 ckpt=/home/chocheng9/kaggle_UMUD/reports/phase3/seg_ckpts/seg_fasc_v8_best.pt

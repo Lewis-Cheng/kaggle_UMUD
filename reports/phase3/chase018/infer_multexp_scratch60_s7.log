@@ -1,0 +1,11 @@
+[infer_multexp_maps] device=cuda:0 n=35 cache=reports/phase3/chase018/cache/maps_multexp_scratch60_s7
+[infer_multexp_maps] fasc override reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_scratch60_s7_best.pt
+  wrote 1 im_01_arch.tif apo=(384, 576) fasc=(384, 576)
+  wrote 5 im_05_arch.tif apo=(384, 576) fasc=(384, 576)
+  wrote 10 im_10_arch.tif apo=(384, 576) fasc=(384, 576)
+  wrote 15 im_15_arch.tif apo=(384, 576) fasc=(384, 576)
+  wrote 20 im_20_arch.tif apo=(384, 576) fasc=(384, 576)
+  wrote 25 im_25_arch.tif apo=(384, 576) fasc=(384, 576)
+  wrote 30 im_30_arch.tif apo=(384, 576) fasc=(384, 576)
+  wrote 35 im_35_arch.tif apo=(384, 576) fasc=(384, 576)
+[infer_multexp_maps] DONE wrote=35 skipped_existing=0 cache_count=35

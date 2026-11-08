@@ -1,0 +1,33 @@
+device=cuda:0 epochs=25
+loaded frundles fasc size=(384, 576)
+n_images=35
+ep 1/25 loss=0.1948 t=0.0m
+ep 2/25 loss=0.1896 t=0.1m
+ep 3/25 loss=0.1746 t=0.1m
+ep 4/25 loss=0.1731 t=0.1m
+ep 5/25 loss=0.1701 t=0.2m
+ep 6/25 loss=0.1668 t=0.2m
+ep 7/25 loss=0.1644 t=0.2m
+ep 8/25 loss=0.1657 t=0.3m
+ep 9/25 loss=0.1614 t=0.3m
+ep 10/25 loss=0.1617 t=0.3m
+ep 11/25 loss=0.1621 t=0.4m
+ep 12/25 loss=0.1590 t=0.4m
+ep 13/25 loss=0.1579 t=0.4m
+ep 14/25 loss=0.1599 t=0.5m
+ep 15/25 loss=0.1563 t=0.5m
+ep 16/25 loss=0.1573 t=0.5m
+ep 17/25 loss=0.1540 t=0.6m
+ep 18/25 loss=0.1543 t=0.6m
+ep 19/25 loss=0.1549 t=0.6m
+ep 20/25 loss=0.1527 t=0.7m
+ep 21/25 loss=0.1528 t=0.7m
+ep 22/25 loss=0.1518 t=0.7m
+ep 23/25 loss=0.1538 t=0.8m
+ep 24/25 loss=0.1544 t=0.8m
+ep 25/25 loss=0.1537 t=0.8m
+dumping maps...
+eval frozen recipe...
+{'S_loocv_cal_pa_mt': 0.15212810366945256, 'MAE_loocv': {'pa_deg': 1.023011000261142, 'fl_mm': 2.7975351786578933, 'mt_mm': 0.15826250681487788}, 'gate_0.12': False, 'beats_0.13294': False, 'beats_0.13195': False, 'n': 35}
+wrote /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/multexp_fasc_adapt_b_selftrain.json
+B_RESULT S=0.15213 vs C=0.13195 vs fixed=0.13294 gate=False

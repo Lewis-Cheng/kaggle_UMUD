@@ -1,0 +1,60 @@
+[resume] device=cuda:1 cache_exists=True ckpt=True
+[A] raw thr=0.3 S=0.36527 PA=1.148 FL=10.221
+[A] raw thr=0.35 S=0.24761 PA=1.150 FL=5.981
+[A] raw thr=0.4 S=0.21171 PA=1.211 FL=4.566
+[A] blend a=0.15 S=0.14388 PA=1.020 FL=2.507
+[A] blend a=0.25 S=0.14928 PA=1.044 FL=2.652
+[A] blend a=0.40 S=0.16266 PA=1.120 FL=2.983
+[A] Frundles ref S=0.13735 PA=0.928
+[A] PA-head blend S=0.15034 PA=0.922
+[A] BEST S=0.14388 tag=blend_a0.15 pa_improved=False
+[B] FL geometry on Frundles maps 2026-11-05 17:11:18 Asia/Hong_Kong
+[B] baseline S=0.13735
+[B] fixed deep_insert S=0.14899 FL=2.875
+[B] fixed tip_extrapolate S=0.29036 FL=7.964
+[B] fixed cond_sin_gate S=0.15727 FL=3.173
+[B] fixed mt_pa_cap S=0.14612 FL=2.771
+[B] fixed mt_pa_cap_blend S=0.13724 FL=2.452
+[B] fixed deep_snap_sinfb S=0.15531 FL=3.102
+[B] fixed deep_snap_sinfb_blend S=0.13938 FL=2.529
+[B] fixed sin_w0.45 S=0.14072 FL=2.577
+[B] fixed sin_w0.55 S=0.15049 FL=2.929
+[B] fixed sin_w0.65 S=0.16311 FL=3.383
+[B] fixed sin_pa_only S=0.21667 FL=5.311
+[B] fixed geo70_sin30 S=0.13717 FL=2.449
+[B] foldpure S=0.14777 picks={'fl_mt_pa_cap_blend': 18, 'fl_geo70_sin30': 10, 'fl_baseline': 7}
+[B] BEST S=0.13717 proto=geo70_sin30
+{
+  "asof": "2026-11-05 17:11:21 Asia/Hong_Kong",
+  "A_S": 0.14387982841031322,
+  "B_S": 0.1371716713807491,
+  "combo_S": null,
+  "champ_S": 0.1371716713807491,
+  "hold": 0.13195144580335014,
+  "gate_0.12": false,
+  "promote": false,
+  "kaggle_submit": false,
+  "A_best": {
+    "tag": "blend_a0.15",
+    "thr": 0.35,
+    "S": 0.14387982841031322,
+    "mae": {
+      "pa_deg": 1.0199071332367116,
+      "fl_mm": 2.506805459530449,
+      "mt_mm": 0.15826250681487788
+    },
+    "cache": "/home/chocheng9/kaggle_UMUD/reports/phase3/chase018/cache/maps_multexp_aporelpa_blend15"
+  },
+  "B_best": {
+    "protocol": "geo70_sin30",
+    "S": 0.1371716713807491,
+    "mae": {
+      "pa_deg": 0.9279384631482271,
+      "fl_mm": 2.449249555731132,
+      "mt_mm": 0.15826250681487788
+    }
+  },
+  "combo_best": null,
+  "pa_improved": false,
+  "elapsed_min": 0.6583348274230957
+}

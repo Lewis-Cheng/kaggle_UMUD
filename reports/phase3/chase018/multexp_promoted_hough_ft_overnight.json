@@ -1,0 +1,153 @@
+{
+  "asof": "2026-11-05 12:09 Asia/Hong_Kong",
+  "cache_dir": "reports/phase3/chase018/cache/maps_multexp_ft_overnight",
+  "tag": "ft_overnight",
+  "n_variants": 2,
+  "best": {
+    "name": "band_agree_v1",
+    "n": 35,
+    "ok": 35,
+    "S_loocv_cal_pa_mt": 0.15244084296760857,
+    "S1_loocv": 0.15244072341280293,
+    "S_raw": 0.16257922331395416,
+    "MAE_loocv": {
+      "pa_deg": 1.1043372133753986,
+      "fl_mm": 2.6320317014343737,
+      "mt_mm": 0.16178997866893355
+    },
+    "kw": {
+      "apo_thr": 0.55,
+      "fasc_thr": 0.35,
+      "min_len": 3.0,
+      "depth_at": 0.7,
+      "tex_w": 0.6,
+      "fl_sin_w": 0.25,
+      "fl_factor": 0.9,
+      "agree_thr": 15.0,
+      "tex_lo": 0.5,
+      "tex_hi": 0.95,
+      "pa_mode": "geo"
+    },
+    "gate_0.12": false,
+    "gap_to_0.12": 0.032440842967608574
+  },
+  "gate_0.12": false,
+  "prior_promoted_floor": 0.1376082508388217,
+  "kaggle_submit": false,
+  "results_ranked": [
+    {
+      "name": "band_agree_v1",
+      "n": 35,
+      "ok": 35,
+      "S_loocv_cal_pa_mt": 0.15244084296760857,
+      "S1_loocv": 0.15244072341280293,
+      "S_raw": 0.16257922331395416,
+      "MAE_loocv": {
+        "pa_deg": 1.1043372133753986,
+        "fl_mm": 2.6320317014343737,
+        "mt_mm": 0.16178997866893355
+      },
+      "kw": {
+        "apo_thr": 0.55,
+        "fasc_thr": 0.35,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.6,
+        "fl_sin_w": 0.25,
+        "fl_factor": 0.9,
+        "agree_thr": 15.0,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "geo"
+      },
+      "gate_0.12": false,
+      "gap_to_0.12": 0.032440842967608574
+    },
+    {
+      "name": "hough_tex03_thr032_apo60",
+      "n": 35,
+      "ok": 35,
+      "S_loocv_cal_pa_mt": 0.15557982424357303,
+      "S1_loocv": 0.15557968379255058,
+      "S_raw": 0.15966308350846162,
+      "MAE_loocv": {
+        "pa_deg": 1.13121521096027,
+        "fl_mm": 2.705388167351769,
+        "mt_mm": 0.15826250681487788
+      },
+      "kw": {
+        "apo_thr": 0.6,
+        "fasc_thr": 0.32,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.3,
+        "fl_sin_w": 0.25,
+        "fl_factor": 0.9,
+        "agree_thr": 15.0,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      },
+      "gate_0.12": false,
+      "gap_to_0.12": 0.03557982424357303
+    }
+  ],
+  "all_results": [
+    {
+      "name": "hough_tex03_thr032_apo60",
+      "n": 35,
+      "ok": 35,
+      "S_loocv_cal_pa_mt": 0.15557982424357303,
+      "S1_loocv": 0.15557968379255058,
+      "S_raw": 0.15966308350846162,
+      "MAE_loocv": {
+        "pa_deg": 1.13121521096027,
+        "fl_mm": 2.705388167351769,
+        "mt_mm": 0.15826250681487788
+      },
+      "kw": {
+        "apo_thr": 0.6,
+        "fasc_thr": 0.32,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.3,
+        "fl_sin_w": 0.25,
+        "fl_factor": 0.9,
+        "agree_thr": 15.0,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      },
+      "gate_0.12": false,
+      "gap_to_0.12": 0.03557982424357303
+    },
+    {
+      "name": "band_agree_v1",
+      "n": 35,
+      "ok": 35,
+      "S_loocv_cal_pa_mt": 0.15244084296760857,
+      "S1_loocv": 0.15244072341280293,
+      "S_raw": 0.16257922331395416,
+      "MAE_loocv": {
+        "pa_deg": 1.1043372133753986,
+        "fl_mm": 2.6320317014343737,
+        "mt_mm": 0.16178997866893355
+      },
+      "kw": {
+        "apo_thr": 0.55,
+        "fasc_thr": 0.35,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.6,
+        "fl_sin_w": 0.25,
+        "fl_factor": 0.9,
+        "agree_thr": 15.0,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "geo"
+      },
+      "gate_0.12": false,
+      "gap_to_0.12": 0.032440842967608574
+    }
+  ]
+}

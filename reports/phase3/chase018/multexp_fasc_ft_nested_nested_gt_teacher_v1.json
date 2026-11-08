@@ -1,0 +1,328 @@
+{
+  "asof": "2026-11-05 13:37 Asia/Hong_Kong",
+  "tag": "nested_gt_teacher_v1",
+  "protocol": "group-safe 5-fold nested fasc FT; Frundles init; apo frozen; GT-selected A-variant teachers on train folds only (raw PA/6+FL/12); frundles_mix=0.4 in target; honest LOOCV under frozen recipe",
+  "leakage_notes": "GT used only to pick train-fold teachers among A post-filters. Held-out GT never in that fold's loss. leaky_teacher_oracle scores all-image GT teachers (diagnostic upper bound, not nested). Teacher pool limited to Frundles A variants \u2014 cannot beat A-oracle ~0.12 ceiling without new map generators.",
+  "teacher_pool": [
+    "baseline",
+    "morph_connect",
+    "ridge_blend03",
+    "corridor_dilate",
+    "belly_gate",
+    "blend_base_morph",
+    "blend_base_morph25",
+    "blend_base_morph75"
+  ],
+  "teacher_counts": {
+    "ridge_blend03": 10,
+    "blend_base_morph25": 2,
+    "morph_connect": 2,
+    "baseline": 15,
+    "blend_base_morph": 1,
+    "corridor_dilate": 5
+  },
+  "teacher_meta": {
+    "im_01_arch.tif": {
+      "variant": "ridge_blend03",
+      "raw_cost": 0.38657899788566574
+    },
+    "im_02_arch.tif": {
+      "variant": "blend_base_morph25",
+      "raw_cost": 0.5461394132973298
+    },
+    "im_03_arch.tif": {
+      "variant": "ridge_blend03",
+      "raw_cost": 0.15890345626828348
+    },
+    "im_04_arch.tif": {
+      "variant": "morph_connect",
+      "raw_cost": 0.34276403302503056
+    },
+    "im_05_arch.tif": {
+      "variant": "baseline",
+      "raw_cost": 0.49486521448847043
+    },
+    "im_06_arch.tif": {
+      "variant": "baseline",
+      "raw_cost": 0.2874569284929264
+    },
+    "im_07_arch.tif": {
+      "variant": "baseline",
+      "raw_cost": 0.7711695587350545
+    },
+    "im_08_arch.tif": {
+      "variant": "ridge_blend03",
+      "raw_cost": 0.2671880413618683
+    },
+    "im_09_arch.tif": {
+      "variant": "baseline",
+      "raw_cost": 0.26092132779007543
+    },
+    "im_10_arch.tif": {
+      "variant": "baseline",
+      "raw_cost": 0.25144190724441867
+    },
+    "im_11_arch.tif": {
+      "variant": "baseline",
+      "raw_cost": 0.03709368441114691
+    },
+    "im_12_arch.tif": {
+      "variant": "baseline",
+      "raw_cost": 0.9911460823874844
+    },
+    "im_13_arch.tif": {
+      "variant": "blend_base_morph",
+      "raw_cost": 0.3931481695334531
+    },
+    "im_14_arch.tif": {
+      "variant": "baseline",
+      "raw_cost": 0.30592337017080473
+    },
+    "im_15_arch.tif": {
+      "variant": "baseline",
+      "raw_cost": 0.3522189452158339
+    },
+    "im_16_arch.tif": {
+      "variant": "morph_connect",
+      "raw_cost": 0.08337309699718413
+    },
+    "im_17_arch.tif": {
+      "variant": "baseline",
+      "raw_cost": 0.19149397646651717
+    },
+    "im_18_arch.tif": {
+      "variant": "corridor_dilate",
+      "raw_cost": 0.15480263810091502
+    },
+    "im_19_arch.tif": {
+      "variant": "corridor_dilate",
+      "raw_cost": 0.08433960676984972
+    },
+    "im_20_arch.tif": {
+      "variant": "ridge_blend03",
+      "raw_cost": 0.4265398556529826
+    },
+    "im_21_arch.tif": {
+      "variant": "baseline",
+      "raw_cost": 0.28704696507426747
+    },
+    "im_22_arch.tif": {
+      "variant": "ridge_blend03",
+      "raw_cost": 0.3444153008616005
+    },
+    "im_23_arch.tif": {
+      "variant": "baseline",
+      "raw_cost": 0.15820693694794308
+    },
+    "im_24_arch.tif": {
+      "variant": "ridge_blend03",
+      "raw_cost": 0.46400583766311365
+    },
+    "im_25_arch.tif": {
+      "variant": "baseline",
+      "raw_cost": 0.4042290807595812
+    },
+    "im_26_arch.tif": {
+      "variant": "ridge_blend03",
+      "raw_cost": 0.043121808598130563
+    },
+    "im_27_arch.tif": {
+      "variant": "ridge_blend03",
+      "raw_cost": 0.04725608789099252
+    },
+    "im_28_arch.tif": {
+      "variant": "corridor_dilate",
+      "raw_cost": 0.1772181670789245
+    },
+    "im_29_arch.tif": {
+      "variant": "ridge_blend03",
+      "raw_cost": 1.1220075698346381
+    },
+    "im_30_arch.tif": {
+      "variant": "corridor_dilate",
+      "raw_cost": 0.3951484631393273
+    },
+    "im_31_arch.tif": {
+      "variant": "baseline",
+      "raw_cost": 0.14945764869543599
+    },
+    "im_32_arch.tif": {
+      "variant": "baseline",
+      "raw_cost": 0.20381264171301675
+    },
+    "im_33_arch.tif": {
+      "variant": "corridor_dilate",
+      "raw_cost": 0.14268311872525619
+    },
+    "im_34_arch.tif": {
+      "variant": "ridge_blend03",
+      "raw_cost": 0.13797479907593532
+    },
+    "im_35_arch.tif": {
+      "variant": "blend_base_morph25",
+      "raw_cost": 0.3047503011567508
+    }
+  },
+  "leaky_teacher_oracle": {
+    "S_loocv_cal_pa_mt": 0.1217512556034344,
+    "MAE_loocv": {
+      "pa_deg": 0.8062855162641528,
+      "fl_mm": 2.137421022676268,
+      "mt_mm": 0.15826250681487788
+    },
+    "n": 35,
+    "n_ok": 35,
+    "gate_0.12": false,
+    "beats_0.13195": true
+  },
+  "frozen_recipe_kw": {
+    "fasc_thr": 0.35,
+    "apo_thr": 0.6,
+    "tex_w": 0.4,
+    "fl_factor": 0.9,
+    "fl_sin_w": 0.35,
+    "agree_thr": null,
+    "pa_mode": "hough"
+  },
+  "ckpt_init": "/home/chocheng9/kaggle_UMUD/data/external/frundles_weights/fasc_resnet34_384x576_f0.pt",
+  "lab_scratch_best": false,
+  "maps": "/home/chocheng9/kaggle_UMUD/reports/phase3/chase018/cache/maps_multexp_fasc_ft_nested_gt_teacher_v1",
+  "n_folds": 5,
+  "fold_counts": [
+    7,
+    7,
+    7,
+    7,
+    7
+  ],
+  "fold_reports": [
+    {
+      "fold": 0,
+      "n_train": 28,
+      "n_held": 7,
+      "held": [
+        "im_09_arch.tif",
+        "im_10_arch.tif",
+        "im_16_arch.tif",
+        "im_24_arch.tif",
+        "im_26_arch.tif",
+        "im_30_arch.tif",
+        "im_32_arch.tif"
+      ],
+      "epochs_ran": 15,
+      "last_loss": 0.10424359887838364,
+      "fold_min": 0.08310709396998088
+    },
+    {
+      "fold": 1,
+      "n_train": 28,
+      "n_held": 7,
+      "held": [
+        "im_05_arch.tif",
+        "im_08_arch.tif",
+        "im_11_arch.tif",
+        "im_14_arch.tif",
+        "im_21_arch.tif",
+        "im_25_arch.tif",
+        "im_35_arch.tif"
+      ],
+      "epochs_ran": 15,
+      "last_loss": 0.10419543726103646,
+      "fold_min": 0.07704280217488607
+    },
+    {
+      "fold": 2,
+      "n_train": 28,
+      "n_held": 7,
+      "held": [
+        "im_02_arch.tif",
+        "im_03_arch.tif",
+        "im_06_arch.tif",
+        "im_17_arch.tif",
+        "im_19_arch.tif",
+        "im_33_arch.tif",
+        "im_34_arch.tif"
+      ],
+      "epochs_ran": 15,
+      "last_loss": 0.10142259725502559,
+      "fold_min": 0.07474863529205322
+    },
+    {
+      "fold": 3,
+      "n_train": 28,
+      "n_held": 7,
+      "held": [
+        "im_04_arch.tif",
+        "im_12_arch.tif",
+        "im_13_arch.tif",
+        "im_18_arch.tif",
+        "im_22_arch.tif",
+        "im_27_arch.tif",
+        "im_29_arch.tif"
+      ],
+      "epochs_ran": 15,
+      "last_loss": 0.10250931339604515,
+      "fold_min": 0.07422760725021363
+    },
+    {
+      "fold": 4,
+      "n_train": 28,
+      "n_held": 7,
+      "held": [
+        "im_01_arch.tif",
+        "im_07_arch.tif",
+        "im_15_arch.tif",
+        "im_20_arch.tif",
+        "im_23_arch.tif",
+        "im_28_arch.tif",
+        "im_31_arch.tif"
+      ],
+      "epochs_ran": 15,
+      "last_loss": 0.10105699300765991,
+      "fold_min": 0.076083505153656
+    }
+  ],
+  "hyper": {
+    "epochs": 15,
+    "bs": 4,
+    "lr": 0.0001,
+    "frundles_mix": 0.4,
+    "seed": 0
+  },
+  "train_wall_min": 0.5533115903536479,
+  "device": "cuda:0",
+  "S_nested_ft": {
+    "S_loocv_cal_pa_mt": 0.1446869397673711,
+    "MAE_loocv": {
+      "pa_deg": 1.050566303770564,
+      "fl_mm": 2.474543472334016,
+      "mt_mm": 0.15826250681487788
+    },
+    "n": 35,
+    "n_ok": 35,
+    "gate_0.12": false,
+    "beats_0.13195": false
+  },
+  "S_frundles_baseline_recheck": {
+    "S_loocv_cal_pa_mt": 0.13293555901039555,
+    "MAE_loocv": {
+      "pa_deg": 0.9279384631482271,
+      "fl_mm": 2.2967497297340818,
+      "mt_mm": 0.15826250681487788
+    },
+    "n": 35,
+    "n_ok": 35,
+    "gate_0.12": false,
+    "beats_0.13195": false
+  },
+  "prior_C_0.13195": 0.13195144580335014,
+  "delta_vs_C": 0.01273549396402096,
+  "gate_0.12": false,
+  "promote": false,
+  "kaggle_submit": false,
+  "missing_fallback_frundles": [],
+  "stripe_proxy_abandoned": {
+    "reason": "geo-paint/orient targets themselves scored S=0.14-0.29 > Frundles 0.133",
+    "smoke_S": 0.5789967919128125
+  }
+}

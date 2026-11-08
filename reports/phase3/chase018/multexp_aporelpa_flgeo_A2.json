@@ -1,0 +1,26 @@
+{
+  "asof": "2026-11-05 17:14:35 Asia/Hong_Kong",
+  "baseline_check_S": 0.13293555901039555,
+  "A_ft_S": 0.14387982841031322,
+  "A_ft_best": {
+    "tag": "blend_a0.15",
+    "thr": 0.35,
+    "S": 0.14387982841031322,
+    "mae": {
+      "pa_deg": 1.0199071332367116,
+      "fl_mm": 2.506805459530449,
+      "mt_mm": 0.15826250681487788
+    },
+    "cache": "/home/chocheng9/kaggle_UMUD/reports/phase3/chase018/cache/maps_multexp_aporelpa_blend15"
+  },
+  "A2_pa_head_S": 0.13290682825773772,
+  "A2_best": {
+    "blend": 0.25,
+    "S": 0.13290682825773772,
+    "mae": {
+      "pa_deg": 0.9012888527130496,
+      "fl_mm": 2.349014674127067,
+      "mt_mm": 0.15826250681487788
+    }
+  }
+}

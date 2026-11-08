@@ -1,0 +1,120 @@
+{
+  "inventory": {
+    "external_weights": [
+      "data/external/frundles_weights/apo_resnet34_384x576_f0.pt",
+      "data/external/frundles_weights/fasc_resnet34_384x576_f0.pt"
+    ],
+    "phase3_lab_fasc_ckpts_n": 27,
+    "phase3_lab_fasc_top": [
+      "seg_fasc_v5_best.pt (Dice~0.285 MSTinyUNet)",
+      "seg_fasc_v10_best.pt (Dice~0.284)",
+      "seg_fasc_v6b_best.pt (Dice~0.283)",
+      "NOTE: all Dice\u226aFrundles/scratch~0.41; treated as weak outside-family DL"
+    ],
+    "chase018_ckpts_n": 14,
+    "chase018_ckpts_note": "Frundles FT / scratch / nested \u2014 EXHAUSTED, not re-dumped",
+    "map_caches": [
+      "maps_multexp",
+      "maps_multexp_classical_frangi",
+      "maps_multexp_fasc_ft_loocv_gt_teacher_blend_v2",
+      "maps_multexp_fasc_ft_nested_gt_teacher_v1",
+      "maps_multexp_fasc_ft_smoke_nested_geo",
+      "maps_multexp_ft_overnight",
+      "maps_multexp_geopaint_frundles",
+      "maps_multexp_geopaint_orient_rw",
+      "maps_multexp_geopaint_stripe020",
+      "maps_multexp_geopaint_stripe055",
+      "maps_multexp_gt_teacher_leaky_nested_gt_teacher_v1",
+      "maps_multexp_scratch60_s7",
+      "maps_multexp_scratch_best",
+      "maps_multexp_selftrain_b"
+    ],
+    "public_non_frundles_on_disk": false,
+    "documented_weight_urls": [
+      "kaggle dataset watehell/umud-r34-unet-weights (Frundles only)"
+    ],
+    "multexp_pixel_fasc_gt": false,
+    "multexp_gt_note": "expert_consensus PA/FL/MT only; no MultExp fasc masks \u2192 skip nested MultExp fasc head"
+  },
+  "ts": "2026-11-05 14:53:50 UTC+08:00"
+}
+=== eval classical_frangi ===
+  [classical_frangi] thr=0.20 S=0.62441 PA=1.270 FL=19.305 MT=0.158 beats_hold=False
+  [classical_frangi] thr=0.28 S=0.56068 PA=1.513 FL=16.526 MT=0.158 beats_hold=False
+  [classical_frangi] thr=0.35 S=0.52740 PA=1.497 FL=15.359 MT=0.158 beats_hold=False
+  [classical_frangi] thr=0.45 S=0.62353 PA=1.670 FL=18.475 MT=0.158 beats_hold=False
+  [classical_frangi] thr=0.55 S=0.64884 PA=1.315 FL=20.094 MT=0.158 beats_hold=False
+  [classical_frangi] thr=0.65 S=0.68041 PA=1.640 FL=20.582 MT=0.158 beats_hold=False
+=== eval classical_ridge ===
+=== eval classical_frangi_ridge ===
+=== eval classical_gabor ===
+=== eval classical_all_blend ===
+=== eval blend_frundles_frangi_ridge_a0.3 ===
+=== eval blend_frundles_frangi_ridge_a0.5 ===
+=== eval blend_frundles_frangi_ridge_a0.7 ===
+=== eval frundles_baseline frozen ===
+  [frundles_baseline] thr=0.35 S=0.13294 PA=0.928 FL=2.297 MT=0.158 beats_hold=False
+{
+  "best": {
+    "tag": "classical_frangi",
+    "thr": 0.35,
+    "n": 35,
+    "ok": 35,
+    "S": 0.5273961989666871,
+    "S1": 0.5273957275216258,
+    "MAE": {
+      "pa_deg": 1.497033977675538,
+      "fl_mm": 15.35912820816794,
+      "mt_mm": 0.15826250681487788
+    },
+    "gate_0.12": false,
+    "beats_hold": false,
+    "gap_to_hold": 0.39544475316333694,
+    "gap_to_0.12": 0.4073961989666871,
+    "kw": {
+      "apo_thr": 0.6,
+      "fasc_thr": 0.35,
+      "min_len": 3.0,
+      "depth_at": 0.7,
+      "tex_w": 0.4,
+      "fl_sin_w": 0.35,
+      "fl_factor": 0.9,
+      "agree_thr": null,
+      "tex_lo": 0.5,
+      "tex_hi": 0.95,
+      "pa_mode": "hough"
+    },
+    "cache": "/home/chocheng9/kaggle_UMUD/reports/phase3/chase018/cache/maps_multexp_classical_frangi"
+  },
+  "baseline": {
+    "tag": "frundles_baseline",
+    "thr": 0.35,
+    "n": 35,
+    "ok": 35,
+    "S": 0.13293555901039555,
+    "S1": 0.13293546342472354,
+    "MAE": {
+      "pa_deg": 0.9279384631482271,
+      "fl_mm": 2.2967497297340818,
+      "mt_mm": 0.15826250681487788
+    },
+    "gate_0.12": false,
+    "beats_hold": false,
+    "gap_to_hold": 0.0009841132070454173,
+    "gap_to_0.12": 0.012935559010395559,
+    "kw": {
+      "apo_thr": 0.6,
+      "fasc_thr": 0.35,
+      "min_len": 3.0,
+      "depth_at": 0.7,
+      "tex_w": 0.4,
+      "fl_sin_w": 0.35,
+      "fl_factor": 0.9,
+      "agree_thr": null,
+      "tex_lo": 0.5,
+      "tex_hi": 0.95,
+      "pa_mode": "hough"
+    }
+  },
+  "gate": false
+}

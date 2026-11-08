@@ -1,0 +1,132 @@
+{
+  "block_id": "fasc_thin_ceiling",
+  "failing_number": 0.2846309831975224,
+  "usable_bar": 0.4,
+  "attention_blocked": true,
+  "histogram": {
+    "align_nearest": "PASS",
+    "edt_radius": "PASS",
+    "mstiny_forward": "PASS",
+    "deep_sup_aux": "PASS",
+    "loss_mild_weights": "PASS",
+    "native_macro_dice": "PASS",
+    "vs_v5_floor": "PASS",
+    "aux1_probe": "PASS"
+  },
+  "details": {
+    "align_nearest": {
+      "img_hw": [
+        97,
+        130
+      ],
+      "aligned_hw": [
+        97,
+        130
+      ],
+      "uniq": [
+        0,
+        1
+      ]
+    },
+    "edt_radius": {
+      "radius": 2.5,
+      "soft_max": 1.0,
+      "soft_fg_mean": 0.654400110244751
+    },
+    "mstiny_forward": {
+      "logits_shape": [
+        1,
+        1,
+        64,
+        64
+      ],
+      "n_aux": 2,
+      "aux_tuple_len": 3,
+      "base": 48
+    },
+    "deep_sup_aux": {
+      "n_aux": 2,
+      "aux_names": [
+        "aux3",
+        "aux2"
+      ],
+      "spatial": [
+        64,
+        64
+      ]
+    },
+    "loss_mild_weights": {
+      "cldice_w": 0.5,
+      "hard_dice_w": 0.5,
+      "aux_w_v5": [
+        0.3,
+        0.2
+      ]
+    },
+    "native_macro_dice": {
+      "gate_metric": "native-res per-image MACRO Dice on hard masks",
+      "mode": "square_resize_native",
+      "winner_variant": "fasc_v5_edt_cldice_ms",
+      "v5_floor": 0.2846309831975224,
+      "usable_bar": 0.4,
+      "block_id": "fasc_thin_ceiling",
+      "status": "eval_json_absent_path_documented",
+      "note": "No eval JSON on this host; stage passes documentation-only. Re-run on SSH with --eval-json reports/phase3/eval_seg_fasc_v5_best_native.json"
+    },
+    "vs_v5_floor": {
+      "status": "skipped_no_candidate",
+      "v5_floor": 0.2846309831975224,
+      "rule": "mutant native macro Dice must be > V5_FLOOR or abort"
+    }
+  },
+  "ckpt_smoke": {
+    "status": "loaded",
+    "path": "reports/phase3/seg_ckpts/seg_fasc_v5_best.pt",
+    "logits_shape": [
+      1,
+      1,
+      512,
+      512
+    ],
+    "val_dice_meta": 0.2846309831975224,
+    "variant": "fasc_v5_edt_cldice_ms"
+  },
+  "aux1_probe": {
+    "forward": {
+      "logits_shape": [
+        1,
+        1,
+        64,
+        64
+      ],
+      "n_aux": 3,
+      "aux_tuple_len": 4,
+      "base": 48
+    },
+    "deep_sup": {
+      "n_aux": 3,
+      "aux_names": [
+        "aux3",
+        "aux2",
+        "aux1"
+      ],
+      "spatial": [
+        64,
+        64
+      ]
+    }
+  },
+  "failed_stage": null,
+  "ok": true,
+  "v5_structure_frozen": {
+    "align": "NEAREST mask\u2192img",
+    "edt_radius": 2.5,
+    "cldice_w": 0.5,
+    "hard_dice_w": 0.5,
+    "aux_w": [
+      0.3,
+      0.2
+    ],
+    "arch": "MSTinyUNet base48 @512"
+  }
+}

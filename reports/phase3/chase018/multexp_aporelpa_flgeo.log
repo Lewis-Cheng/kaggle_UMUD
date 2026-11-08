@@ -1,0 +1,33 @@
+[A] start device=cuda:1 2026-11-05 17:08:44 Asia/Hong_Kong
+[A] building apo-relative PA targets from ExpDrawn strokes...
+[A] usable ExpDrawn PA targets: 152
+[A] train=129 val=23 groups_val=23
+[A] ep1 loss=0.7065 valDice=0.1777
+[A] ep2 loss=0.6393 valDice=0.1853
+[A] ep3 loss=0.6087 valDice=0.1984
+[A] ep4 loss=0.5867 valDice=0.2168
+[A] ep5 loss=0.5718 valDice=0.2304
+[A] ep6 loss=0.5603 valDice=0.2420
+[A] ep7 loss=0.5500 valDice=0.2547
+[A] ep8 loss=0.5401 valDice=0.2654
+[A] ep9 loss=0.5320 valDice=0.2706
+[A] ep10 loss=0.5239 valDice=0.2761
+[A] ep11 loss=0.5182 valDice=0.2795
+[A] ep12 loss=0.5122 valDice=0.2835
+[A] dumped MultExp maps n=35
+Traceback (most recent call last):
+  File "/home/chocheng9/kaggle_UMUD/scripts/chase018/multexp_aporelpa_flgeo.py", line 1046, in <module>
+    main()
+  File "/home/chocheng9/kaggle_UMUD/scripts/chase018/multexp_aporelpa_flgeo.py", line 967, in main
+    A_out, A_best = run_A(args, report_dir)
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chocheng9/kaggle_UMUD/scripts/chase018/multexp_aporelpa_flgeo.py", line 766, in run_A
+    S, mae, df = eval_cache(cache_raw, fl_protocol="baseline", kw=kw)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chocheng9/kaggle_UMUD/scripts/chase018/multexp_aporelpa_flgeo.py", line 545, in eval_cache
+    pred = predict_bundle(
+           ^^^^^^^^^^^^^^^
+  File "/home/chocheng9/kaggle_UMUD/scripts/chase018/multexp_aporelpa_flgeo.py", line 436, in predict_bundle
+    sk = cv2.ximgproc.thinning(bin_f * 255) if hasattr(cv2, "ximgproc") else None
+         ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cv2.ximgproc' has no attribute 'thinning'

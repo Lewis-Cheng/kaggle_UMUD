@@ -1,0 +1,13 @@
+fasc_v3e train=2195 val=566 fov_meta=1774 crop_in_sample200=0 mean_gt_drop=-1.0000 pos_w=200.0 dilate=3 size=512 device=cuda:1
+epoch 1/30 loss=2.4832 dice@0.35=0.0182 dice@0.5=0.0202
+epoch 2/30 loss=2.1370 dice@0.35=0.0289 dice@0.5=0.0315
+epoch 3/30 loss=2.0129 dice@0.35=0.0229 dice@0.5=0.0244
+epoch 4/30 loss=1.9651 dice@0.35=0.0221 dice@0.5=0.0239
+epoch 5/30 loss=1.9067 dice@0.35=0.0279 dice@0.5=0.0298
+epoch 6/30 loss=1.8425 dice@0.35=0.0319 dice@0.5=0.0344
+epoch 7/30 loss=1.8293 dice@0.35=0.0382 dice@0.5=0.0424
+epoch 8/30 loss=1.8003 dice@0.35=0.0299 dice@0.5=0.0324
+epoch 9/30 loss=1.7958 dice@0.35=0.0306 dice@0.5=0.0332
+epoch 10/30 loss=1.7531 dice@0.35=0.0394 dice@0.5=0.0436
+epoch 11/30 loss=1.7405 dice@0.35=0.0402 dice@0.5=0.0444
+epoch 12/30 loss=1.7402 dice@0.35=0.0351 dice@0.5=0.0377

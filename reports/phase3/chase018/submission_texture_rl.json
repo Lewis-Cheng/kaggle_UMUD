@@ -1,0 +1,20 @@
+{
+  "n": 309,
+  "action_hist": {
+    "ch_only": 0,
+    "cal_pa_mt": 309,
+    "blend_ch75_v5_25": 0,
+    "blend_ch50_v5_50": 0,
+    "blend_ch75_et_25": 0,
+    "ch_fl_factor_0.85": 0,
+    "ch_fl_factor_0.95": 0,
+    "residual_or_scratch": 0
+  },
+  "policy": "reports/phase3/chase018/rl_refiner/chase018_bandit.npz",
+  "ch_submission": "reports/phase3/chase018/submission_texture_pa.csv",
+  "v5_submission": "reports/phase3/submission_tier_b_seg_gh_v5best.csv",
+  "et_submission": "reports/phase3/submission_extratrees_mask_proxy.csv",
+  "scratch_submission": "reports/phase3/chase018/submission_scratch_fasc_texture.csv",
+  "pipeline": "chase018 texture_pa \u2192 SoftmaxBandit refine (frozen seg)",
+  "claims_kaggle_lb": false
+}

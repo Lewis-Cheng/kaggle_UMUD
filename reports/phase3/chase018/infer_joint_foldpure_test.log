@@ -1,0 +1,30 @@
+device=cpu start 2026-11-06T21:10:30.001253+08:00
+loaded cached rule from /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/submission_joint_foldpure_rule.json {"alpha": 0.15, "fi": 0, "fkey": "fasc_mass", "lo_is_below": false, "sin_w": 0.3, "thr": 0.012220594618055556, "train_proxy": 0.345427552881776, "v_hi": "morph_connect", "v_lo": "ridge_blend03"}
+predict PA-head overrides on test...
+test 1/309 IMG_00001.tif
+test 26/309 IMG_00026.tif
+test 51/309 IMG_00051.tif
+test 76/309 IMG_00076.tif
+test 101/309 IMG_00101.tif
+test 126/309 IMG_00126.tif
+test 151/309 IMG_00151.tif
+test 176/309 IMG_00176.tif
+test 201/309 IMG_00201.tif
+test 226/309 IMG_00226.tif
+test 251/309 IMG_00251.tif
+test 276/309 IMG_00276.png
+test 301/309 IMG_00301.png
+test 309/309 IMG_00309.png
+wrote /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/submission_joint_foldpure.csv rows 309
+        pa_deg    fl_mm    mt_mm
+count  309.000  309.000  309.000
+mean    16.134   83.154   21.833
+std      4.166   21.681    4.209
+min      9.571   30.000   12.415
+25%     13.262   69.749   18.487
+50%     15.298   84.604   21.049
+75%     17.463   95.862   24.999
+max     37.508  141.749   33.020
+missing_maps []
+test picks {'ridge_blend03': 199, 'morph_connect': 110}
+meta /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/submission_joint_foldpure.json

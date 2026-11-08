@@ -1,0 +1,233 @@
+{
+  "audit": "phase2_inventory",
+  "counts": {
+    "apo_imgs": 1048,
+    "apo_masks": 1048,
+    "fasc_imgs": 2761,
+    "fasc_masks": 2761,
+    "test_imgs": 309
+  },
+  "data_root": "/home/chocheng9/kaggle_UMUD/data/raw/umud",
+  "extensions": {
+    "apo_imgs": {
+      ".tif": 1048
+    },
+    "apo_masks": {
+      ".tif": 1048
+    },
+    "fasc_imgs": {
+      ".tif": 2761
+    },
+    "fasc_masks": {
+      ".tif": 2761
+    },
+    "test_imgs": {
+      ".png": 58,
+      ".tif": 251
+    }
+  },
+  "notes": [
+    "Stem overlap compares filename stems only (extension-agnostic).",
+    "Sidecar scan is best-effort; TIFF tag sampling is capped.",
+    "This report does not invent or claim competition scores."
+  ],
+  "resolved_leaf_dirs": {
+    "apo_imgs": "/home/chocheng9/kaggle_UMUD/data/raw/umud/apo_imgs_v1/apo_images_new_model_v1",
+    "apo_masks": "/home/chocheng9/kaggle_UMUD/data/raw/umud/apo_masks_v1/apo_masks_new_model_v1",
+    "fasc_imgs": "/home/chocheng9/kaggle_UMUD/data/raw/umud/fasc_imgs_v1/fasc_images_new_model_v1",
+    "fasc_masks": "/home/chocheng9/kaggle_UMUD/data/raw/umud/fasc_masks_v1/fasc_masks_new_model_v1",
+    "test_imgs": "/home/chocheng9/kaggle_UMUD/data/raw/umud/test_images_v2/test_set_v2"
+  },
+  "sample_submission": {
+    "delimiter": ";",
+    "first_data_row": [
+      "IMG_00001.tif",
+      "17.334",
+      "79.423",
+      "21.778"
+    ],
+    "header": [
+      "\ufeffimage_id",
+      "pa_deg",
+      "fl_mm",
+      "mt_mm"
+    ],
+    "n_data_rows": 2,
+    "n_lines_including_header": 3,
+    "path": "/home/chocheng9/kaggle_UMUD/data/raw/umud/sample_submission.csv"
+  },
+  "sidecars": {
+    "n_scale_key_mentions": 5,
+    "n_sidecar_candidates": 6,
+    "scale_key_mentions": [
+      {
+        "path": "apo_imgs_v1/apo_images_new_model_v1/image_0000.tif",
+        "source": "tiff_tags"
+      },
+      {
+        "path": "apo_imgs_v1/apo_images_new_model_v1/image_0001.tif",
+        "source": "tiff_tags"
+      },
+      {
+        "path": "apo_imgs_v1/apo_images_new_model_v1/image_0002.tif",
+        "source": "tiff_tags"
+      },
+      {
+        "path": "apo_imgs_v1/apo_images_new_model_v1/image_0003.tif",
+        "source": "tiff_tags"
+      },
+      {
+        "path": "apo_imgs_v1/apo_images_new_model_v1/image_0004.tif",
+        "source": "tiff_tags"
+      }
+    ],
+    "sidecar_candidates": [
+      {
+        "info_sample": {
+          "compression": "tiff_lzw",
+          "dpi": "(1, 1)",
+          "resolution": "(1, 1)"
+        },
+        "path": "apo_imgs_v1/apo_images_new_model_v1/image_0000.tif",
+        "suffix": ".tif",
+        "tag_v2_sample": {
+          "256": "1200",
+          "257": "800",
+          "258": "(8, 8, 8)",
+          "259": "5",
+          "262": "2",
+          "273": "(8, 157, 308, 459, 610, 767, 923, 1079, 1237, 1388, 1539, 1690, 1841, 1992, 2143, 2294, 2445, 2596, 2747, 2904, 3055, 32",
+          "277": "3",
+          "278": "2",
+          "279": "(149, 151, 151, 151, 157, 156, 156, 158, 151, 151, 151, 151, 151, 151, 151, 151, 151, 151, 157, 151, 151, 151, 151, 151,",
+          "284": "1",
+          "317": "2",
+          "339": "(1, 1, 1)"
+        },
+        "tiff_tags_sampled": true
+      },
+      {
+        "info_sample": {
+          "compression": "tiff_lzw",
+          "dpi": "(1, 1)",
+          "resolution": "(1, 1)"
+        },
+        "path": "apo_imgs_v1/apo_images_new_model_v1/image_0001.tif",
+        "suffix": ".tif",
+        "tag_v2_sample": {
+          "256": "1200",
+          "257": "800",
+          "258": "(8, 8, 8)",
+          "259": "5",
+          "262": "2",
+          "273": "(8, 157, 308, 459, 610, 767, 923, 1079, 1237, 1388, 1539, 1690, 1841, 1992, 2143, 2294, 2445, 2596, 2747, 2904, 3055, 32",
+          "277": "3",
+          "278": "2",
+          "279": "(149, 151, 151, 151, 157, 156, 156, 158, 151, 151, 151, 151, 151, 151, 151, 151, 151, 151, 157, 151, 151, 151, 151, 151,",
+          "284": "1",
+          "317": "2",
+          "339": "(1, 1, 1)"
+        },
+        "tiff_tags_sampled": true
+      },
+      {
+        "info_sample": {
+          "compression": "tiff_lzw",
+          "dpi": "(1, 1)",
+          "resolution": "(1, 1)"
+        },
+        "path": "apo_imgs_v1/apo_images_new_model_v1/image_0002.tif",
+        "suffix": ".tif",
+        "tag_v2_sample": {
+          "256": "1200",
+          "257": "800",
+          "258": "(8, 8, 8)",
+          "259": "5",
+          "262": "2",
+          "273": "(8, 157, 308, 459, 610, 767, 923, 1079, 1237, 1388, 1539, 1690, 1841, 1992, 2143, 2294, 2445, 2596, 2747, 2904, 3055, 32",
+          "277": "3",
+          "278": "2",
+          "279": "(149, 151, 151, 151, 157, 156, 156, 158, 151, 151, 151, 151, 151, 151, 151, 151, 151, 151, 157, 151, 151, 151, 151, 151,",
+          "284": "1",
+          "317": "2",
+          "339": "(1, 1, 1)"
+        },
+        "tiff_tags_sampled": true
+      },
+      {
+        "info_sample": {
+          "compression": "tiff_lzw",
+          "dpi": "(1, 1)",
+          "resolution": "(1, 1)"
+        },
+        "path": "apo_imgs_v1/apo_images_new_model_v1/image_0003.tif",
+        "suffix": ".tif",
+        "tag_v2_sample": {
+          "256": "1200",
+          "257": "800",
+          "258": "(8, 8, 8)",
+          "259": "5",
+          "262": "2",
+          "273": "(8, 157, 308, 459, 610, 767, 923, 1079, 1237, 1388, 1539, 1690, 1841, 1992, 2143, 2294, 2445, 2596, 2747, 2904, 3055, 32",
+          "277": "3",
+          "278": "2",
+          "279": "(149, 151, 151, 151, 157, 156, 156, 158, 151, 151, 151, 151, 151, 151, 151, 151, 151, 151, 157, 151, 151, 151, 151, 151,",
+          "284": "1",
+          "317": "2",
+          "339": "(1, 1, 1)"
+        },
+        "tiff_tags_sampled": true
+      },
+      {
+        "info_sample": {
+          "compression": "tiff_lzw",
+          "dpi": "(1, 1)",
+          "resolution": "(1, 1)"
+        },
+        "path": "apo_imgs_v1/apo_images_new_model_v1/image_0004.tif",
+        "suffix": ".tif",
+        "tag_v2_sample": {
+          "256": "1200",
+          "257": "800",
+          "258": "(8, 8, 8)",
+          "259": "5",
+          "262": "2",
+          "273": "(8, 157, 308, 459, 616, 772, 929, 1080, 1236, 1394, 1550, 1701, 1852, 2003, 2154, 2305, 2456, 2607, 2758, 2915, 3066, 32",
+          "277": "3",
+          "278": "2",
+          "279": "(149, 151, 151, 157, 156, 157, 151, 156, 158, 156, 151, 151, 151, 151, 151, 151, 151, 151, 157, 151, 151, 151, 151, 151,",
+          "284": "1",
+          "317": "2",
+          "339": "(1, 1, 1)"
+        },
+        "tiff_tags_sampled": true
+      },
+      {
+        "bytes": 104,
+        "path": "sample_submission.csv",
+        "suffix": ".csv"
+      }
+    ]
+  },
+  "stem_overlap": {
+    "aponeurosis": {
+      "image_only_sample": [],
+      "mask_only_sample": [],
+      "n_image_only": 0,
+      "n_images": 1048,
+      "n_mask_only": 0,
+      "n_masks": 1048,
+      "n_stem_overlap": 1048
+    },
+    "fascicle": {
+      "image_only_sample": [],
+      "mask_only_sample": [],
+      "n_image_only": 0,
+      "n_images": 2761,
+      "n_mask_only": 0,
+      "n_masks": 2761,
+      "n_stem_overlap": 2761
+    }
+  },
+  "timestamp_utc": "2026-11-04T02:26:27+00:00"
+}

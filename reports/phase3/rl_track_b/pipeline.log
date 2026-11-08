@@ -1,0 +1,621 @@
+[1] ExtraTrees preds on MultExpData
+[ WARN:0@29.622] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@29.622] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@29.655] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@29.655] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@29.658] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@29.658] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@29.660] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@29.660] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@29.662] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@29.662] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@29.669] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@29.669] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@29.680] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@29.680] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@29.696] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@29.696] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@29.698] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@29.698] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@29.705] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@29.705] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@29.708] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@29.708] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@29.723] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@29.723] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@29.725] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@29.725] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@29.728] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@29.728] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@29.734] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@29.734] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@29.741] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@29.741] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@29.744] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@29.744] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@29.751] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@29.751] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@29.753] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@29.753] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@29.755] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@29.755] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@29.758] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@29.758] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@29.760] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@29.760] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@29.763] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@29.763] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@29.774] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@29.774] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@29.785] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@29.785] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@29.787] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@29.787] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@29.790] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@29.790] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@29.797] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@29.797] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@29.799] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@29.799] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@29.801] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@29.801] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@29.820] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@29.820] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@29.833] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@29.833] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@29.842] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@29.842] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@29.864] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@29.864] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@29.877] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@29.877] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@29.892] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@29.893] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@29.911] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@29.911] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@29.914] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@29.914] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@29.938] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@29.938] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@29.957] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@29.957] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@29.966] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@29.966] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@29.968] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@29.968] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@29.971] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@29.971] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@30.004] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@30.004] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@30.010] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@30.010] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@30.040] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@30.040] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@30.042] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@30.042] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@30.045] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@30.045] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@30.047] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@30.047] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@30.054] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@30.054] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@30.057] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@30.057] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@30.059] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@30.059] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@30.061] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@30.061] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@30.068] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@30.068] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@30.071] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@30.071] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@30.073] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@30.073] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@30.076] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@30.076] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@30.078] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@30.078] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@30.080] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@30.080] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@30.083] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@30.083] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@30.085] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@30.085] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.564] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.564] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.571] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.571] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.574] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.574] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.590] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.590] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.592] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.592] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.604] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.604] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.607] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.607] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.609] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.609] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.612] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.612] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.614] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.614] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.622] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.622] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.629] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.629] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.631] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.631] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.634] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.634] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.636] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.636] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.639] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.639] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.641] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.641] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.644] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.644] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.647] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.647] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.649] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.649] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.652] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.652] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.654] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.654] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.657] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.657] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.669] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.669] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.671] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.671] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.678] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.678] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.681] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.681] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.692] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.692] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.695] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.695] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.698] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.698] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.700] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.700] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.712] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.712] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.714] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.714] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.721] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.721] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.724] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.724] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.731] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.731] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.734] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.734] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.754] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.754] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.757] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.757] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.759] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.759] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.771] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.771] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.774] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.774] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.781] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.781] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.783] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.783] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.786] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.786] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.788] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.788] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.791] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.791] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.807] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.807] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.810] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.810] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.813] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.813] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.820] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.820] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.822] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.822] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.825] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.825] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.828] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.828] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.835] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.835] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.837] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.837] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.840] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.840] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.847] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.847] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.849] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.849] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.852] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.852] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.854] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.854] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.857] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.857] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.860] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.860] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.862] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.862] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.865] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.865] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.877] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.877] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.879] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.879] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.882] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.882] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.884] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.884] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.887] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.887] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.889] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.889] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.892] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.892] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.894] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.894] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.897] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.897] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.904] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.904] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.920] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.921] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.928] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.928] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.930] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.930] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.933] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.933] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.940] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.940] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.942] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.942] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.945] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.945] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.947] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.948] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.955] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.955] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.957] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.957] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.969] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.969] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.972] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.972] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.979] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.979] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.981] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.981] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.984] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.984] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.986] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.986] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@39.994] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@39.994] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@40.001] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@40.001] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@40.003] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@40.004] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@40.006] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@40.006] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@40.009] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@40.009] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@40.020] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@40.020] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@40.023] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@40.023] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@40.035] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@40.035] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@40.037] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@40.037] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@40.054] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@40.054] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@40.056] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@40.056] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@40.059] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@40.059] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@40.061] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@40.061] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@40.069] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@40.069] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@40.071] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@40.071] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@40.074] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@40.074] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@40.076] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@40.076] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@40.079] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@40.079] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@40.081] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@40.081] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@40.084] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@40.084] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@40.086] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@40.086] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@40.094] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@40.094] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@40.096] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@40.096] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@40.099] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@40.099] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@40.101] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@40.101] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@40.104] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@40.104] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@40.106] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@40.106] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@40.109] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@40.109] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@40.116] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@40.116] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@40.118] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@40.118] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@40.121] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@40.121] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@40.123] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@40.123] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@40.126] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@40.126] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@40.128] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@40.129] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@40.131] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@40.131] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@40.134] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@40.134] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@40.136] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@40.136] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@40.139] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@40.139] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@40.141] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@40.141] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@40.144] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@40.144] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@40.146] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@40.146] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@40.149] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@40.149] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@40.151] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@40.151] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@40.154] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@40.154] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@40.156] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@40.156] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@42.954] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@42.954] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@42.965] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@42.965] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@42.968] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@42.968] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@42.975] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@42.975] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@42.982] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@42.982] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@42.994] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@42.994] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@42.996] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@42.997] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@42.999] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@42.999] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@43.002] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@43.002] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@43.004] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@43.004] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@43.007] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@43.007] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@43.009] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@43.009] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@43.012] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@43.012] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@43.740] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@43.741] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@43.853] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@43.853] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@43.966] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@43.966] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@44.081] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@44.081] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@44.182] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@44.182] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@44.289] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@44.289] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@44.486] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@44.486] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@44.589] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@44.590] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@44.785] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@44.785] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@45.026] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@45.026] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@45.110] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@45.110] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@45.188] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@45.188] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@45.276] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@45.276] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@45.374] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@45.374] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@45.563] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@45.563] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@45.678] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@45.678] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@45.842] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@45.842] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@45.929] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@45.929] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@46.181] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@46.182] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@46.354] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@46.354] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@46.563] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@46.563] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@46.683] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@46.683] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@46.770] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@46.770] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@46.846] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@46.846] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+[ WARN:0@46.934] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50838 (0xc696) encountered
+[ WARN:0@46.935] global grfmt_tiff.cpp:122 TIFF_Warning TIFFReadDirectory: Unknown field with tag 50839 (0xc697) encountered
+ET train fasc=2190 apo=843
+im_01_arch: ET PA=5.49 FL=49.01 MT=1.72
+im_02_arch: ET PA=8.00 FL=39.84 MT=4.27
+im_03_arch: ET PA=7.12 FL=37.51 MT=5.95
+im_04_arch: ET PA=4.97 FL=48.81 MT=13.95
+im_05_arch: ET PA=6.20 FL=31.99 MT=11.92
+im_06_arch: ET PA=6.66 FL=36.42 MT=14.60
+im_07_arch: ET PA=2.01 FL=30.67 MT=9.34
+im_08_arch: ET PA=4.82 FL=41.95 MT=16.17
+im_09_arch: ET PA=10.71 FL=32.75 MT=5.36
+im_10_arch: ET PA=3.80 FL=39.43 MT=17.15
+im_11_arch: ET PA=7.02 FL=33.19 MT=2.29
+im_12_arch: ET PA=3.76 FL=35.50 MT=14.92
+im_13_arch: ET PA=2.83 FL=34.10 MT=16.01
+im_14_arch: ET PA=4.40 FL=45.87 MT=1.99
+im_15_arch: ET PA=3.85 FL=48.90 MT=8.03
+im_16_arch: ET PA=6.73 FL=34.14 MT=6.72
+im_17_arch: ET PA=6.24 FL=29.62 MT=4.23
+im_18_arch: ET PA=4.90 FL=49.74 MT=17.10
+im_19_arch: ET PA=2.30 FL=42.03 MT=14.83
+im_20_arch: ET PA=10.05 FL=34.40 MT=4.13
+im_21_arch: ET PA=5.51 FL=34.16 MT=9.08
+im_22_arch: ET PA=2.09 FL=34.49 MT=17.88
+im_23_arch: ET PA=5.71 FL=38.32 MT=15.92
+im_24_arch: ET PA=5.12 FL=51.54 MT=16.18
+im_25_arch: ET PA=1.81 FL=35.15 MT=16.67
+im_26_arch: ET PA=3.00 FL=34.05 MT=18.45
+im_27_arch: ET PA=5.01 FL=32.42 MT=8.07
+im_28_arch: ET PA=2.17 FL=41.85 MT=16.63
+im_29_arch: ET PA=6.44 FL=32.39 MT=5.08
+im_30_arch: ET PA=3.16 FL=34.62 MT=16.46
+im_31_arch: ET PA=5.33 FL=37.81 MT=15.26
+im_32_arch: ET PA=3.44 FL=41.39 MT=21.84
+im_33_arch: ET PA=6.70 FL=34.74 MT=2.85
+im_34_arch: ET PA=8.46 FL=31.17 MT=7.38
+im_35_arch: ET PA=6.29 FL=37.60 MT=1.93
+{'train_medians': {'pa_deg': 5.445698064952495, 'fl_mm': 50.163316237970605, 'mt_mm': 13.004999999999999}, 'n': 35, 'n_ok': 35, 'out_csv': '/home/chocheng9/kaggle_UMUD/reports/phase3/rl_track_b/multexp_et_preds.csv'}
+[2] Train geometry bandit LOOCV
+n_samples=35
+{
+  "label": "S_expert_NOT_LB",
+  "claims_kaggle_lb": false,
+  "n": 35,
+  "loocv": {
+    "S_expert_NOT_LB": 1.6415458064138941,
+    "S1": 1.6415440712920326,
+    "S2": 1.7332219575924348,
+    "S3": 1.8999040388460984,
+    "MAE_PA": 11.318089443246777,
+    "MAE_FL": 14.80687051065666,
+    "MAE_MT": 5.41313429234074,
+    "n": 35.0
+  },
+  "loocv_action_hist": {
+    "gh_only": 0,
+    "blend_gh75_et25": 0,
+    "blend_gh50_et50": 18,
+    "blend_gh25_et75": 3,
+    "et_only": 0,
+    "median_prior": 14,
+    "unable_use_prior": 0,
+    "target_mix_et_pa_mt_gh_fl": 0
+  },
+  "baseline_gh_only": {
+    "S_expert_NOT_LB": 2.070000621816404,
+    "S1": 2.069998909797191,
+    "S2": 1.709394471799575,
+    "S3": 2.6247414266642433,
+    "MAE_PA": 13.414088502749953,
+    "MAE_FL": 10.65484092041529,
+    "MAE_MT": 9.25923570669592,
+    "n": 35.0
+  },
+  "baseline_et_only": {
+    "S_expert_NOT_LB": 2.212022307943745,
+    "S1": 2.2120201936447983,
+    "S2": 2.111795347563408,
+    "S3": 2.5035989721604923,
+    "MAE_PA": 13.088825612093013,
+    "MAE_FL": 23.510720206415527,
+    "MAE_MT": 7.4860888851527925,
+    "n": 35.0
+  },
+  "baseline_median": {
+    "S_expert_NOT_LB": 1.598040977936865,
+    "S1": 1.5980394448684196,
+    "S2": 1.5312892007675016,
+    "S3": 1.7792445005213757,
+    "MAE_PA": 12.845473363618932,
+    "MAE_FL": 12.336452642012306,
+    "MAE_MT": 4.875505161503234,
+    "n": 35.0
+  },
+  "final_policy_full_greedy": {
+    "S_expert_NOT_LB": 1.6165236106380265,
+    "S1": 1.616521955394844,
+    "S2": 1.6532971786262045,
+    "S3": 1.9460038833061934,
+    "MAE_PA": 9.09142102978538,
+    "MAE_FL": 15.234191697753674,
+    "MAE_MT": 6.194439159222489,
+    "n": 35.0,
+    "action_hist": {
+      "gh_only": 0,
+      "blend_gh75_et25": 0,
+      "blend_gh50_et50": 35,
+      "blend_gh25_et75": 0,
+      "et_only": 0,
+      "median_prior": 0,
+      "unable_use_prior": 0,
+      "target_mix_et_pa_mt_gh_fl": 0
+    }
+  },
+  "gate_beat_gh": true,
+  "gate_rule": "loocv_S < gh_only_S",
+  "action_names": [
+    "gh_only",
+    "blend_gh75_et25",
+    "blend_gh50_et50",
+    "blend_gh25_et75",
+    "et_only",
+    "median_prior",
+    "unable_use_prior",
+    "target_mix_et_pa_mt_gh_fl"
+  ]
+}
+GATE PASS: LOOCV beat frozen GH-only on MultExpData.
+[3] Infer RL refiner on official test
+n_test_ids=309 overlap=309
+{
+  "n": 309,
+  "action_hist": {
+    "gh_only": 0,
+    "blend_gh75_et25": 0,
+    "blend_gh50_et50": 309,
+    "blend_gh25_et75": 0,
+    "et_only": 0,
+    "median_prior": 0,
+    "unable_use_prior": 0,
+    "target_mix_et_pa_mt_gh_fl": 0
+  },
+  "policy": "/home/chocheng9/kaggle_UMUD/reports/phase3/rl_track_b/geometry_bandit.npz",
+  "gh_submission": "/home/chocheng9/kaggle_UMUD/reports/phase3/submission_tier_b_seg_gh_v5best.csv",
+  "et_submission": "/home/chocheng9/kaggle_UMUD/reports/phase3/submission_extratrees_mask_proxy.csv",
+  "pipeline": "frozen_v5_GH + ExtraTrees \u2192 RL discrete refiner",
+  "claims_self_eval_as_goal": false
+}
+[4] Validate submission id set
+wrote 309 expected ids
+INVALID: missing columns: ['id', 'pa_deg', 'fl_mm', 'mt_mm']

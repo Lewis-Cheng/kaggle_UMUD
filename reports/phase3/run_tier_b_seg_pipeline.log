@@ -1,0 +1,52 @@
+== residual scale audit ==
+unknown=1373 wrote /home/chocheng9/kaggle_UMUD/reports/phase3/residual_scale_audit.json
+== expert GT hunt ==
+{"expert_gt_found": false, "candidates": 2}
+== train apo seg ==
+task=apo train=843 val=205 device=cuda:1
+epoch 1/8 loss=0.7473 val_dice=0.7459
+epoch 2/8 loss=0.4702 val_dice=0.9401
+epoch 3/8 loss=0.3841 val_dice=0.9451
+epoch 4/8 loss=0.2992 val_dice=0.9397
+epoch 5/8 loss=0.2506 val_dice=0.9619
+epoch 6/8 loss=0.2098 val_dice=0.9673
+epoch 7/8 loss=0.1801 val_dice=0.9684
+epoch 8/8 loss=0.1646 val_dice=0.9689
+best_dice=0.9689 ckpt=/home/chocheng9/kaggle_UMUD/reports/phase3/seg_ckpts/seg_apo_best.pt
+== train fasc seg ==
+task=fasc train=2195 val=566 device=cuda:1
+epoch 1/8 loss=1.3276 val_dice=0.0000
+epoch 2/8 loss=1.0837 val_dice=0.0735
+epoch 3/8 loss=1.0049 val_dice=0.1413
+epoch 4/8 loss=0.9237 val_dice=0.1980
+epoch 5/8 loss=0.8523 val_dice=0.2162
+epoch 6/8 loss=0.8165 val_dice=0.2578
+epoch 7/8 loss=0.7992 val_dice=0.2665
+epoch 8/8 loss=0.7905 val_dice=0.2702
+best_dice=0.2702 ckpt=/home/chocheng9/kaggle_UMUD/reports/phase3/seg_ckpts/seg_fasc_best.pt
+== infer val+test masks ==
+inferred 50/1047
+inferred 100/1047
+inferred 150/1047
+inferred 200/1047
+inferred 250/1047
+inferred 300/1047
+inferred 350/1047
+inferred 400/1047
+inferred 450/1047
+inferred 500/1047
+inferred 550/1047
+inferred 600/1047
+inferred 650/1047
+inferred 700/1047
+inferred 750/1047
+inferred 800/1047
+inferred 850/1047
+inferred 900/1047
+inferred 950/1047
+inferred 1000/1047
+inferred 1047/1047
+wrote 1047 mask pairs under /home/chocheng9/kaggle_UMUD/reports/phase3/seg_preds
+== tier B seg GH ==
+tier_b_seg_gh val_MAE_pa=6.745318232060372 fl=7.711460510830542 mt=6.256838635506608 test_ok=308/309 submission=/home/chocheng9/kaggle_UMUD/reports/phase3/submission_tier_b_seg_gh.csv
+DONE pipeline

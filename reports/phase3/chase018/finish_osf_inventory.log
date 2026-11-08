@@ -1,0 +1,35 @@
+UNZIP /home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/apo_images.zip -> /home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/labtrain_apo_images size 305141391
+  files 1700
+UNZIP /home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/apo_masks.zip -> /home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/labtrain_apo_masks size 4447512
+  files 1723
+UNZIP /home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/DLTrack_models.zip -> /home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/labtrain_DLTrack_models size 482330977
+  files 3
+h5_models 2
+  labtrain_DLTrack_models/DLTrack_models/model-apo-VGG16-BCE-512.h5 272926600
+  labtrain_DLTrack_models/DLTrack_models/model-fasc-VGG16-BCE-512.h5 272926600
+PROBE Muscle Architecture - Fascicles []
+PROBE Muscle Architecture - Aponeurosis []
+PROBE_FAIL Bechmark Models HTTP Error 404: Not Found
+{
+  "fasc_images": 367494790,
+  "fasc_masks_n": 1854,
+  "fasc_images_n": 1854,
+  "apo_images_zip": 305141391,
+  "apo_masks_n": 1722,
+  "dltrack_zip": 482330977,
+  "dltrack_h5_n": 2,
+  "dltrack_h5": [
+    "labtrain_DLTrack_models/DLTrack_models/model-apo-VGG16-BCE-512.h5",
+    "labtrain_DLTrack_models/DLTrack_models/model-fasc-VGG16-BCE-512.h5"
+  ],
+  "architecture_folders": {
+    "Muscle Architecture - Fascicles": [],
+    "Muscle Architecture - Aponeurosis": [],
+    "Bechmark Models": {
+      "error": "HTTP Error 404: Not Found"
+    }
+  },
+  "tensorflow": false,
+  "keras": false,
+  "labtrain_comp_overlap_names": 0
+}

@@ -1,0 +1,59 @@
+{
+  "ckpt": "reports/phase3/seg_ckpts/seg_fasc_v11_best.pt",
+  "arch": "MSTinyUNet",
+  "size": 576,
+  "variant": "fasc_v11_skel_primary",
+  "stored_val_dice": 0.2243500042093128,
+  "square_resize_native": {
+    "0.3": {
+      "n": 566,
+      "macro_dice": 0.20755828996301495,
+      "dice_p50": 0.21500066989526856,
+      "empty_pred_frac": 0.0,
+      "thr": 0.3,
+      "letterbox": false
+    },
+    "0.35": {
+      "n": 566,
+      "macro_dice": 0.2122060482739398,
+      "dice_p50": 0.2184928575942939,
+      "empty_pred_frac": 0.0,
+      "thr": 0.35,
+      "letterbox": false
+    },
+    "0.5": {
+      "n": 566,
+      "macro_dice": 0.22435000427390658,
+      "dice_p50": 0.23059815635902903,
+      "empty_pred_frac": 0.0,
+      "thr": 0.5,
+      "letterbox": false
+    }
+  },
+  "letterbox_native": {
+    "0.3": {
+      "n": 566,
+      "macro_dice": 0.14607261173931718,
+      "dice_p50": 0.13452297791703216,
+      "empty_pred_frac": 0.0,
+      "thr": 0.3,
+      "letterbox": true
+    },
+    "0.35": {
+      "n": 566,
+      "macro_dice": 0.1495530730681352,
+      "dice_p50": 0.13810459168728456,
+      "empty_pred_frac": 0.0,
+      "thr": 0.35,
+      "letterbox": true
+    },
+    "0.5": {
+      "n": 566,
+      "macro_dice": 0.15916648182409596,
+      "dice_p50": 0.1497726468156659,
+      "empty_pred_frac": 0.0,
+      "thr": 0.5,
+      "letterbox": true
+    }
+  }
+}

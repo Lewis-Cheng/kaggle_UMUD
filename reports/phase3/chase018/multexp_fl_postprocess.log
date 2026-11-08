@@ -1,0 +1,58 @@
+  im_01_arch.tif pa=29.01 mt=14.96 n_cands=81
+  im_02_arch.tif pa=15.87 mt=21.57 n_cands=81
+  im_03_arch.tif pa=24.89 mt=16.88 n_cands=81
+  im_04_arch.tif pa=18.40 mt=16.69 n_cands=81
+  im_05_arch.tif pa=21.02 mt=20.77 n_cands=81
+  im_06_arch.tif pa=12.19 mt=18.46 n_cands=81
+  im_07_arch.tif pa=15.28 mt=13.48 n_cands=81
+  im_08_arch.tif pa=21.64 mt=24.17 n_cands=81
+  im_09_arch.tif pa=12.18 mt=15.16 n_cands=81
+  im_10_arch.tif pa=21.47 mt=20.17 n_cands=81
+  im_11_arch.tif pa=13.40 mt=12.16 n_cands=81
+  im_12_arch.tif pa=14.91 mt=16.40 n_cands=81
+  im_13_arch.tif pa=14.70 mt=17.57 n_cands=81
+  im_14_arch.tif pa=24.74 mt=21.26 n_cands=81
+  im_15_arch.tif pa=16.92 mt=16.09 n_cands=81
+  im_16_arch.tif pa=15.26 mt=12.00 n_cands=81
+  im_17_arch.tif pa=16.51 mt=19.84 n_cands=81
+  im_18_arch.tif pa=19.80 mt=21.48 n_cands=81
+  im_19_arch.tif pa=16.02 mt=19.76 n_cands=81
+  im_20_arch.tif pa=18.57 mt=21.41 n_cands=81
+  im_21_arch.tif pa=17.02 mt=16.50 n_cands=81
+  im_22_arch.tif pa=14.91 mt=19.86 n_cands=81
+  im_23_arch.tif pa=17.31 mt=14.69 n_cands=81
+  im_24_arch.tif pa=16.98 mt=14.68 n_cands=81
+  im_25_arch.tif pa=18.08 mt=19.51 n_cands=81
+  im_26_arch.tif pa=18.12 mt=22.59 n_cands=81
+  im_27_arch.tif pa=16.55 mt=15.99 n_cands=81
+  im_28_arch.tif pa=15.06 mt=17.49 n_cands=81
+  im_29_arch.tif pa=22.00 mt=19.45 n_cands=81
+  im_30_arch.tif pa=19.28 mt=19.90 n_cands=81
+  im_31_arch.tif pa=14.94 mt=14.29 n_cands=81
+  im_32_arch.tif pa=13.53 mt=14.71 n_cands=81
+  im_33_arch.tif pa=12.99 mt=12.38 n_cands=81
+  im_34_arch.tif pa=24.21 mt=16.75 n_cands=81
+  im_35_arch.tif pa=19.85 mt=17.50 n_cands=81
+n=35 candidates=81
+TOP single-source FL:
+  0.14278  agree_sin_ff0.90  pa=1.023 fl=2.461 mt=0.158
+  0.14278  promoted  pa=1.023 fl=2.461 mt=0.158
+  0.14616  blend_sin0.25  pa=1.023 fl=2.583 mt=0.158
+  0.14616  centre_sin25_ff0.90  pa=1.023 fl=2.583 mt=0.158
+  0.14616  geo_sin25_ff0.90  pa=1.023 fl=2.583 mt=0.158
+  0.14638  blend_sin0.35  pa=1.023 fl=2.591 mt=0.158
+  0.14728  blend_sin0.15  pa=1.023 fl=2.623 mt=0.158
+  0.14737  reject_gate_blend  pa=1.023 fl=2.626 mt=0.158
+  0.14769  geo_sin40_ff0.90  pa=1.023 fl=2.638 mt=0.158
+  0.14893  deep_insert_sin25_ff0.95  pa=1.023 fl=2.683 mt=0.158
+  0.14977  shallow_insert_sin25_ff0.95  pa=1.023 fl=2.713 mt=0.158
+  0.15025  blend_sin0.45  pa=1.023 fl=2.730 mt=0.158
+  0.15060  deep_insert_sin25_ff0.90  pa=1.023 fl=2.743 mt=0.158
+  0.15337  shallow_insert_sin50_ff0.95  pa=1.023 fl=2.843 mt=0.158
+  0.15381  centre_sin50_ff0.90  pa=1.023 fl=2.858 mt=0.158
+ORACLE S=0.07834 MAE={'pa_deg': 1.022899041217902, 'fl_mm': 0.14152017235319708, 'mt_mm': 0.15826250681487788}
+SELECTOR soft S=0.16321 hard S=0.16480
+SELECTOR L1-resid S=0.16440
+SELECTOR8 soft S=0.14405 L1 S=0.14478
+wrote reports/phase3/chase018/multexp_fl_postprocess_scores.json reports/phase3/chase018/multexp_fl_postprocess_scores_rows.csv
+BEST_TRANSFER single_agree_sin_ff0.90 S=0.14278 gate=False vs_floor=+0.00517

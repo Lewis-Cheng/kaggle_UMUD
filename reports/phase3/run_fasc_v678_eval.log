@@ -1,0 +1,610 @@
+[2026-11-04T18:13:07+08:00] eval all fasc ckpts on cuda:3
+{
+  "ckpt": "reports/phase3/seg_ckpts/seg_fasc_v4b_best.pt",
+  "arch": "TinyUNet",
+  "size": 384,
+  "variant": "fasc_v4b_align_square",
+  "stored_val_dice": 0.2675978698738973,
+  "square_resize_native": {
+    "0.3": {
+      "n": 566,
+      "macro_dice": 0.24493855028440975,
+      "dice_p50": 0.24042706095468358,
+      "empty_pred_frac": 0.0,
+      "thr": 0.3,
+      "letterbox": false
+    },
+    "0.35": {
+      "n": 566,
+      "macro_dice": 0.251814162191239,
+      "dice_p50": 0.24566104247394793,
+      "empty_pred_frac": 0.0,
+      "thr": 0.35,
+      "letterbox": false
+    },
+    "0.5": {
+      "n": 566,
+      "macro_dice": 0.2675978698738973,
+      "dice_p50": 0.25828780317779804,
+      "empty_pred_frac": 0.0,
+      "thr": 0.5,
+      "letterbox": false
+    }
+  },
+  "letterbox_native": {
+    "0.3": {
+      "n": 566,
+      "macro_dice": 0.16824706167517528,
+      "dice_p50": 0.17439212313743488,
+      "empty_pred_frac": 0.0,
+      "thr": 0.3,
+      "letterbox": true
+    },
+    "0.35": {
+      "n": 566,
+      "macro_dice": 0.17467396855780548,
+      "dice_p50": 0.18164794018437028,
+      "empty_pred_frac": 0.0,
+      "thr": 0.35,
+      "letterbox": true
+    },
+    "0.5": {
+      "n": 566,
+      "macro_dice": 0.19143718073815788,
+      "dice_p50": 0.19576294375792797,
+      "empty_pred_frac": 0.0,
+      "thr": 0.5,
+      "letterbox": true
+    }
+  }
+}
+{
+  "ckpt": "reports/phase3/seg_ckpts/seg_fasc_v5_best.pt",
+  "arch": "MSTinyUNet",
+  "size": 512,
+  "variant": "fasc_v5_edt_cldice_ms",
+  "stored_val_dice": 0.2846309831975224,
+  "square_resize_native": {
+    "0.3": {
+      "n": 566,
+      "macro_dice": 0.2754492777914342,
+      "dice_p50": 0.26502185670889955,
+      "empty_pred_frac": 0.0,
+      "thr": 0.3,
+      "letterbox": false
+    },
+    "0.35": {
+      "n": 566,
+      "macro_dice": 0.2789833076511844,
+      "dice_p50": 0.26902081476738127,
+      "empty_pred_frac": 0.0,
+      "thr": 0.35,
+      "letterbox": false
+    },
+    "0.5": {
+      "n": 566,
+      "macro_dice": 0.2846309831975224,
+      "dice_p50": 0.2756301438741703,
+      "empty_pred_frac": 0.0,
+      "thr": 0.5,
+      "letterbox": false
+    }
+  },
+  "letterbox_native": {
+    "0.3": {
+      "n": 566,
+      "macro_dice": 0.20172853210549613,
+      "dice_p50": 0.18842754658639221,
+      "empty_pred_frac": 0.0,
+      "thr": 0.3,
+      "letterbox": true
+    },
+    "0.35": {
+      "n": 566,
+      "macro_dice": 0.20478239596972464,
+      "dice_p50": 0.19240506336164076,
+      "empty_pred_frac": 0.0,
+      "thr": 0.35,
+      "letterbox": true
+    },
+    "0.5": {
+      "n": 566,
+      "macro_dice": 0.2108129464565545,
+      "dice_p50": 0.20113285351356916,
+      "empty_pred_frac": 0.0,
+      "thr": 0.5,
+      "letterbox": true
+    }
+  }
+}
+{
+  "ckpt": "reports/phase3/seg_ckpts/seg_fasc_v5b_best.pt",
+  "arch": "TimmUNet",
+  "size": 384,
+  "variant": "fasc_v5b_timm_edt_cldice",
+  "stored_val_dice": 0.2476175080655402,
+  "square_resize_native": {
+    "0.3": {
+      "n": 566,
+      "macro_dice": 0.2609153870732654,
+      "dice_p50": 0.25466308598897824,
+      "empty_pred_frac": 0.0,
+      "thr": 0.3,
+      "letterbox": false
+    },
+    "0.35": {
+      "n": 566,
+      "macro_dice": 0.2662643313732693,
+      "dice_p50": 0.2591313830166943,
+      "empty_pred_frac": 0.0,
+      "thr": 0.35,
+      "letterbox": false
+    },
+    "0.5": {
+      "n": 566,
+      "macro_dice": 0.27381777556643655,
+      "dice_p50": 0.2652366816957242,
+      "empty_pred_frac": 0.0,
+      "thr": 0.5,
+      "letterbox": false
+    }
+  },
+  "letterbox_native": {
+    "0.3": {
+      "n": 566,
+      "macro_dice": 0.196075954290042,
+      "dice_p50": 0.18834945019228894,
+      "empty_pred_frac": 0.0,
+      "thr": 0.3,
+      "letterbox": true
+    },
+    "0.35": {
+      "n": 566,
+      "macro_dice": 0.20297271320247623,
+      "dice_p50": 0.19440761006648294,
+      "empty_pred_frac": 0.0,
+      "thr": 0.35,
+      "letterbox": true
+    },
+    "0.5": {
+      "n": 566,
+      "macro_dice": 0.2200656739870221,
+      "dice_p50": 0.20981297463952175,
+      "empty_pred_frac": 0.0,
+      "thr": 0.5,
+      "letterbox": true
+    }
+  }
+}
+{
+  "ckpt": "reports/phase3/seg_ckpts/seg_fasc_v6_best.pt",
+  "arch": "MSTinyUNet",
+  "size": 640,
+  "variant": "fasc_v6_hr_edt_cldice_ms",
+  "stored_val_dice": 0.2825587124445079,
+  "square_resize_native": {
+    "0.3": {
+      "n": 566,
+      "macro_dice": 0.27928754839409964,
+      "dice_p50": 0.26811246660816374,
+      "empty_pred_frac": 0.0,
+      "thr": 0.3,
+      "letterbox": false
+    },
+    "0.35": {
+      "n": 566,
+      "macro_dice": 0.2809828506723732,
+      "dice_p50": 0.26864034418158933,
+      "empty_pred_frac": 0.0,
+      "thr": 0.35,
+      "letterbox": false
+    },
+    "0.5": {
+      "n": 566,
+      "macro_dice": 0.2825587124445079,
+      "dice_p50": 0.2696755306453944,
+      "empty_pred_frac": 0.0,
+      "thr": 0.5,
+      "letterbox": false
+    }
+  },
+  "letterbox_native": {
+    "0.3": {
+      "n": 566,
+      "macro_dice": 0.19786404984075734,
+      "dice_p50": 0.18705717299318325,
+      "empty_pred_frac": 0.0,
+      "thr": 0.3,
+      "letterbox": true
+    },
+    "0.35": {
+      "n": 566,
+      "macro_dice": 0.19880556919441295,
+      "dice_p50": 0.18887769513115546,
+      "empty_pred_frac": 0.0,
+      "thr": 0.35,
+      "letterbox": true
+    },
+    "0.5": {
+      "n": 566,
+      "macro_dice": 0.19838800126673178,
+      "dice_p50": 0.192029241434806,
+      "empty_pred_frac": 0.0,
+      "thr": 0.5,
+      "letterbox": true
+    }
+  }
+}
+{
+  "ckpt": "reports/phase3/seg_ckpts/seg_fasc_v6b_best.pt",
+  "arch": "TimmUNet",
+  "size": 512,
+  "variant": "fasc_v6b_hrnet_edt_cldice",
+  "stored_val_dice": 0.2718290712371272,
+  "square_resize_native": {
+    "0.3": {
+      "n": 566,
+      "macro_dice": 0.27921092882501386,
+      "dice_p50": 0.2693893580857276,
+      "empty_pred_frac": 0.0,
+      "thr": 0.3,
+      "letterbox": false
+    },
+    "0.35": {
+      "n": 566,
+      "macro_dice": 0.2818628727864437,
+      "dice_p50": 0.2741154117752276,
+      "empty_pred_frac": 0.0,
+      "thr": 0.35,
+      "letterbox": false
+    },
+    "0.5": {
+      "n": 566,
+      "macro_dice": 0.2834576270387593,
+      "dice_p50": 0.2748018257807346,
+      "empty_pred_frac": 0.0,
+      "thr": 0.5,
+      "letterbox": false
+    }
+  },
+  "letterbox_native": {
+    "0.3": {
+      "n": 566,
+      "macro_dice": 0.2110413584985225,
+      "dice_p50": 0.19660393210774896,
+      "empty_pred_frac": 0.0,
+      "thr": 0.3,
+      "letterbox": true
+    },
+    "0.35": {
+      "n": 566,
+      "macro_dice": 0.2154242440504092,
+      "dice_p50": 0.19856231948775738,
+      "empty_pred_frac": 0.0,
+      "thr": 0.35,
+      "letterbox": true
+    },
+    "0.5": {
+      "n": 566,
+      "macro_dice": 0.22509778589526813,
+      "dice_p50": 0.20913622908835613,
+      "empty_pred_frac": 0.0,
+      "thr": 0.5,
+      "letterbox": true
+    }
+  }
+}
+{
+  "ckpt": "reports/phase3/seg_ckpts/seg_fasc_v7_best.pt",
+  "arch": "MSTinyUNet",
+  "size": 576,
+  "variant": "fasc_v7_amp_topo_ms",
+  "stored_val_dice": 0.282782161381508,
+  "square_resize_native": {
+    "0.3": {
+      "n": 566,
+      "macro_dice": 0.2764213367661287,
+      "dice_p50": 0.2679990916116285,
+      "empty_pred_frac": 0.0,
+      "thr": 0.3,
+      "letterbox": false
+    },
+    "0.35": {
+      "n": 566,
+      "macro_dice": 0.27912145386408854,
+      "dice_p50": 0.2690801313359712,
+      "empty_pred_frac": 0.0,
+      "thr": 0.35,
+      "letterbox": false
+    },
+    "0.5": {
+      "n": 566,
+      "macro_dice": 0.28278216149063445,
+      "dice_p50": 0.26959247656798263,
+      "empty_pred_frac": 0.0,
+      "thr": 0.5,
+      "letterbox": false
+    }
+  },
+  "letterbox_native": {
+    "0.3": {
+      "n": 566,
+      "macro_dice": 0.21382471054202848,
+      "dice_p50": 0.20185301201559372,
+      "empty_pred_frac": 0.0,
+      "thr": 0.3,
+      "letterbox": true
+    },
+    "0.35": {
+      "n": 566,
+      "macro_dice": 0.21688096872766663,
+      "dice_p50": 0.20600941439332132,
+      "empty_pred_frac": 0.0,
+      "thr": 0.35,
+      "letterbox": true
+    },
+    "0.5": {
+      "n": 566,
+      "macro_dice": 0.222395020226047,
+      "dice_p50": 0.21064197155695466,
+      "empty_pred_frac": 0.0,
+      "thr": 0.5,
+      "letterbox": true
+    }
+  }
+}
+{
+  "ckpt": "reports/phase3/seg_ckpts/seg_fasc_v8_best.pt",
+  "arch": "TimmUNet",
+  "size": 448,
+  "variant": "fasc_v8_amp_topo_resnet34",
+  "stored_val_dice": 0.27298252607269125,
+  "square_resize_native": {
+    "0.3": {
+      "n": 566,
+      "macro_dice": 0.260643998212335,
+      "dice_p50": 0.2543542557504267,
+      "empty_pred_frac": 0.0,
+      "thr": 0.3,
+      "letterbox": false
+    },
+    "0.35": {
+      "n": 566,
+      "macro_dice": 0.2650967496217565,
+      "dice_p50": 0.2590301338537158,
+      "empty_pred_frac": 0.0,
+      "thr": 0.35,
+      "letterbox": false
+    },
+    "0.5": {
+      "n": 566,
+      "macro_dice": 0.27298252618395424,
+      "dice_p50": 0.26687175589605716,
+      "empty_pred_frac": 0.0,
+      "thr": 0.5,
+      "letterbox": false
+    }
+  },
+  "letterbox_native": {
+    "0.3": {
+      "n": 566,
+      "macro_dice": 0.2030001975897906,
+      "dice_p50": 0.19249152755549537,
+      "empty_pred_frac": 0.0,
+      "thr": 0.3,
+      "letterbox": true
+    },
+    "0.35": {
+      "n": 566,
+      "macro_dice": 0.20906568428476888,
+      "dice_p50": 0.19856169577624413,
+      "empty_pred_frac": 0.0,
+      "thr": 0.35,
+      "letterbox": true
+    },
+    "0.5": {
+      "n": 566,
+      "macro_dice": 0.22429576587708605,
+      "dice_p50": 0.21554601824582006,
+      "empty_pred_frac": 0.0,
+      "thr": 0.5,
+      "letterbox": true
+    }
+  }
+}
+{
+  "winner": "fasc_v5_edt_cldice_ms",
+  "dice": 0.2846309831975224,
+  "top": [
+    [
+      "fasc_v5_edt_cldice_ms",
+      0.2846
+    ],
+    [
+      "fasc_v6b_hrnet_edt_cldice",
+      0.2835
+    ],
+    [
+      "fasc_v7_amp_topo_ms",
+      0.2828
+    ],
+    [
+      "fasc_v6_hr_edt_cldice_ms",
+      0.2826
+    ],
+    [
+      "fasc_v5b_timm_edt_cldice",
+      0.2738
+    ],
+    [
+      "fasc_v8_amp_topo_resnet34",
+      0.273
+    ],
+    [
+      "fasc_v4b_align_square",
+      0.2676
+    ],
+    [
+      "fasc_v2_recover",
+      0.2499
+    ],
+    [
+      "fasc_v4_letterbox_dilate",
+      0.1724
+    ],
+    [
+      "fasc_v4c_thick_soft",
+      0.0841
+    ]
+  ]
+}
+apo arch=TinyUNet size=256 thr=0.5 dice=0.9688958616758283 lb=False
+fasc arch=MSTinyUNet size=512 thr=0.5 dice=0.2846309831975224 variant=fasc_v5_edt_cldice_ms lb=False
+inferred 50/1047
+inferred 100/1047
+inferred 150/1047
+inferred 200/1047
+inferred 250/1047
+inferred 300/1047
+inferred 350/1047
+inferred 400/1047
+inferred 450/1047
+inferred 500/1047
+inferred 550/1047
+inferred 600/1047
+inferred 650/1047
+inferred 700/1047
+inferred 750/1047
+inferred 800/1047
+inferred 850/1047
+inferred 900/1047
+inferred 950/1047
+inferred 1000/1047
+inferred 1047/1047
+wrote 1047 under reports/phase3/seg_preds_best_fasc_latest
+tier_b_seg_gh_latest val_MAE_pa=3.9311923418711103 fl=7.689074930639469 mt=2.964498382558961 test_ok=309/309 submission=reports/phase3/submission_tier_b_seg_gh_latest.csv
+{
+  "attention_blocked": true,
+  "fasc_val_native_macro_dice": 0.2846309831975224,
+  "fasc_variant": "fasc_v5_edt_cldice_ms",
+  "fasc_ckpt": "reports/phase3/seg_ckpts/seg_fasc_v5_best.pt",
+  "seg_gh_val_mae": {
+    "pa_deg": 3.9311923418711103,
+    "fl_mm": 7.689074930639469,
+    "mt_mm": 2.964498382558961,
+    "diagnostic_s1": 0.7613736984615982
+  },
+  "official_S": null,
+  "fasc_usable_bar_0_40": false,
+  "et_still_better_pa_mt": true,
+  "reason": "Fasc still too weak and/or ExtraTrees still dominates PA/MT proxy; keep YES."
+}
+=== metrics ===
+{
+  "audit": "tier_b_seg_gh",
+  "scale_provenance_run": "ambrosm_per_family_mixed_v2_hflip",
+  "pred_mask_dir": "reports/phase3/seg_preds_best_fasc_latest",
+  "val_metrics": {
+    "label": "MAE_predMask_GH_vs_GTMask_GH_AmbrosM_NOT_expert_NOT_LB",
+    "n_val_stems": 738,
+    "n_gt_mm": 544,
+    "n_pred_mm": 545,
+    "n_paired_mm": 544,
+    "pa_mae": 3.9311923418711103,
+    "fl_mae": 7.689074930639469,
+    "mt_mae": 2.964498382558961,
+    "priors_from_gt_mm": {
+      "pa_deg": 6.491989323725299,
+      "fl_mm": 51.71328941374848,
+      "mt_mm": 21.5
+    },
+    "diagnostic_S1_vs_gt_mask_gh": 0.7613736984615982
+  },
+  "test": {
+    "n": 309,
+    "n_fail_or_unusable": 0,
+    "n_ok_mm": 309,
+    "policy": "direct_pred_masks_GeometryHead_AmbrosM_NOT_ExtraTrees",
+    "submission": "reports/phase3/submission_tier_b_seg_gh_latest.csv"
+  },
+  "official_S": null,
+  "official_S_reason": "no_independent_expert_gt_csv_in_data_root",
+  "expert_score": null,
+  "extratrees_v2_compare": {
+    "extratrees_val_mae": {
+      "diagnostic_S1_vs_gh_targets": 0.5090726352583422,
+      "fl_mae": 9.857590605995789,
+      "label": "MAE_vs_GeometryHead_AmbrosM_targets_NOT_expert_GT_NOT_LB",
+      "mt_mae": 1.0031300813873358,
+      "n_train_mm": 1744,
+      "n_val_mm": 544,
+      "note_S": "diagnostic only vs GeometryHead AmbrosM targets; NOT official S / NOT leaderboard (no independent expert GT locally)",
+      "pa_mae": 2.228251968877594
+    },
+    "note": "ET supervised by GH targets; seg-GH compared to GT-mask GH \u2014 different reference, both NOT expert"
+  },
+  "n_train_stems_split": 2376,
+  "attention_still_blocked": true,
+  "note": "NOT LB. Val MAE is pred-mask GH vs GT-mask GH under AmbrosM scale."
+}=== verdict head ===
+# Attention go / no-go verdict
+
+**Date (Asia/Hong_Kong):** 2026-11-04 18:28 HKT  
+**Host:** SSH `chocheng9@144.214.209.211:~/kaggle_UMUD`  
+**Decision: `attention_blocked = YES`** — do **not** start expensive attention training.
+
+Win-plan gates before image SA + anatomy-query CA + query SA:
+
+| Gate | Status | Evidence |
+|---|---|---|
+| Official scorer pinned (τ 6°/12mm/3mm, notebook SHA) | **PASS** | `configs/protocol.yaml` |
+| Duplicate-aware splits | **PASS** | `reports/phase2/split_assignments.jsonl` |
+| Calibration / scale honest | **PARTIAL** | AmbrosM v2: test 309/309; residual unknown — no invented parsers. |
+| Mask alignment / seg → GeometryHead | **PARTIAL** | Apo Dice ~0.969. Fasc **native macro Dice 0.2846** (`fasc_v5_edt_cldice_ms`). |
+| Tier B meaningful vs independent labels | **FAIL** | **No expert PA/FL/MT GT** → official **S = null**. |
+| Held-out proxy quality (pred GH vs GT-mask GH) | **proxy only** | Val MAE PA **3.93°** · FL **7.69 mm** · MT **2.96 mm** · diagnostic S1 **0.761** (NOT expert / NOT LB). |
+
+## Fasc native macro Dice ranking (gate metric)
+
+| Variant | Native macro Dice | Arch | Size |
+|---|---:|---|---:|
+| fasc_v5_edt_cldice_ms | 0.2846 | MSTinyUNet | 512 |
+| fasc_v6b_hrnet_edt_cldice | 0.2835 | TimmUNet | 512 |
+| fasc_v7_amp_topo_ms | 0.2828 | MSTinyUNet | 576 |
+| fasc_v6_hr_edt_cldice_ms | 0.2826 | MSTinyUNet | 640 |
+| fasc_v5b_timm_edt_cldice | 0.2738 | TimmUNet | 384 |
+| fasc_v8_amp_topo_resnet34 | 0.2730 | TimmUNet | 448 |
+| fasc_v4b_align_square | 0.2676 | TinyUNet | 384 |
+| fasc_v2_recover | 0.2499 | TinyUNet | 384 |
+| fasc_v4_letterbox_dilate | 0.1724 | TinyUNet | 512 |
+| fasc_v4c_thick_soft | 0.0841 | TinyUNet | 512 |
+
+Winner ckpt: `reports/phase3/seg_ckpts/seg_fasc_v5_best.pt`
+
+## Seg → GeometryHead + AmbrosM
+
+| | ExtraTrees Tier B v2 | Seg→GH v4b | **Seg→GH current** |
+|---|---:|---:|---:|
+| PA ° | **2.23** | 3.79 | **3.93** |
+| FL mm | 9.86 | 8.48 | **7.69** |
+| MT mm | **1.0** | 2.96 | **2.96** |
+| Official S | null | null | null |
+
+## Why attention stays blocked
+
+1. **No independent expert GT** → cannot pin official S / true LB (no fake waiver).
+2. **Fasc segmentation** native macro Dice **0.2846** (usable bar ~0.40 for MT/geometry path): FAIL.
+3. **ExtraTrees** still dominates PA/MT proxy vs seg→GH.
+4. **`q` remains AmbrosM UI prior**; absolute scale not independently verified.
+5. Fasc still too weak and/or ExtraTrees still dominates PA/MT proxy; keep YES.
+
+## Attention training
+
+- **Blocked = YES**
+- Do **not** scaffold full attention train.
+- Next levers: stronger fasc (HR multi-scale, HRNet/timm thin-structure, topology loss tune), apo boundary refine for MT, optional Kaggle tiny held-out for S pin.
+
+## Protocol stamp
+
+```yaml
+EVAL_DONE

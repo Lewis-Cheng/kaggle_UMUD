@@ -1,0 +1,9 @@
+running hough_tex03_thr032_apo60 on reports/phase3/chase018/cache/maps_multexp_ft_overnight
+  S_loocv=0.15558 MAE pa=1.131 fl=2.705 mt=0.158
+running band_agree_v1 on reports/phase3/chase018/cache/maps_multexp_ft_overnight
+  S_loocv=0.15244 MAE pa=1.104 fl=2.632 mt=0.162
+RANK (lower S better):
+  0.15244  band_agree_v1  pa=1.104 fl=2.632 mt=0.162
+  0.15558  hough_tex03_thr032_apo60  pa=1.131 fl=2.705 mt=0.158
+wrote reports/phase3/chase018/multexp_promoted_hough_ft_overnight.json
+BEST band_agree_v1 S=0.15244 gate_0.12=False gap=+0.03244

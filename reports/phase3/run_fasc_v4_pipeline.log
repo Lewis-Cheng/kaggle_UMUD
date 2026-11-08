@@ -1,0 +1,164 @@
+== diagnose shapes ==
+fasc_imgs /home/chocheng9/kaggle_UMUD/data/raw/umud/fasc_imgs_v1/fasc_images_new_model_v1
+fasc_masks /home/chocheng9/kaggle_UMUD/data/raw/umud/fasc_masks_v1/fasc_masks_new_model_v1
+same 216 mismatch 350
+{'stem': 'image_0001', 'img': (1200, 800), 'mask': (996, 556), 'ip': '/home/chocheng9/kaggle_UMUD/data/raw/umud/fasc_imgs_v1/fasc_images_new_model_v1/image_0001.tif', 'mp': '/home/chocheng9/kaggle_UMUD/data/raw/umud/fasc_masks_v1/fasc_masks_new_model_v1/image_0001.tif'}
+{'stem': 'image_0006', 'img': (1200, 800), 'mask': (996, 556), 'ip': '/home/chocheng9/kaggle_UMUD/data/raw/umud/fasc_imgs_v1/fasc_images_new_model_v1/image_0006.tif', 'mp': '/home/chocheng9/kaggle_UMUD/data/raw/umud/fasc_masks_v1/fasc_masks_new_model_v1/image_0006.tif'}
+{'stem': 'image_0007', 'img': (1200, 800), 'mask': (996, 556), 'ip': '/home/chocheng9/kaggle_UMUD/data/raw/umud/fasc_imgs_v1/fasc_images_new_model_v1/image_0007.tif', 'mp': '/home/chocheng9/kaggle_UMUD/data/raw/umud/fasc_masks_v1/fasc_masks_new_model_v1/image_0007.tif'}
+{'stem': 'image_0009', 'img': (1200, 800), 'mask': (996, 556), 'ip': '/home/chocheng9/kaggle_UMUD/data/raw/umud/fasc_imgs_v1/fasc_images_new_model_v1/image_0009.tif', 'mp': '/home/chocheng9/kaggle_UMUD/data/raw/umud/fasc_masks_v1/fasc_masks_new_model_v1/image_0009.tif'}
+{'stem': 'image_0014', 'img': (1200, 800), 'mask': (996, 556), 'ip': '/home/chocheng9/kaggle_UMUD/data/raw/umud/fasc_imgs_v1/fasc_images_new_model_v1/image_0014.tif', 'mp': '/home/chocheng9/kaggle_UMUD/data/raw/umud/fasc_masks_v1/fasc_masks_new_model_v1/image_0014.tif'}
+{'stem': 'image_0016', 'img': (1200, 800), 'mask': (996, 556), 'ip': '/home/chocheng9/kaggle_UMUD/data/raw/umud/fasc_imgs_v1/fasc_images_new_model_v1/image_0016.tif', 'mp': '/home/chocheng9/kaggle_UMUD/data/raw/umud/fasc_masks_v1/fasc_masks_new_model_v1/image_0016.tif'}
+{'stem': 'image_0026', 'img': (1200, 800), 'mask': (996, 556), 'ip': '/home/chocheng9/kaggle_UMUD/data/raw/umud/fasc_imgs_v1/fasc_images_new_model_v1/image_0026.tif', 'mp': '/home/chocheng9/kaggle_UMUD/data/raw/umud/fasc_masks_v1/fasc_masks_new_model_v1/image_0026.tif'}
+{'stem': 'image_0034', 'img': (1200, 800), 'mask': (996, 556), 'ip': '/home/chocheng9/kaggle_UMUD/data/raw/umud/fasc_imgs_v1/fasc_images_new_model_v1/image_0034.tif', 'mp': '/home/chocheng9/kaggle_UMUD/data/raw/umud/fasc_masks_v1/fasc_masks_new_model_v1/image_0034.tif'}
+{'stem': 'image_0035', 'img': (1200, 800), 'mask': (996, 556), 'ip': '/home/chocheng9/kaggle_UMUD/data/raw/umud/fasc_imgs_v1/fasc_images_new_model_v1/image_0035.tif', 'mp': '/home/chocheng9/kaggle_UMUD/data/raw/umud/fasc_masks_v1/fasc_masks_new_model_v1/image_0035.tif'}
+{'stem': 'image_0038', 'img': (1200, 800), 'mask': (996, 556), 'ip': '/home/chocheng9/kaggle_UMUD/data/raw/umud/fasc_imgs_v1/fasc_images_new_model_v1/image_0038.tif', 'mp': '/home/chocheng9/kaggle_UMUD/data/raw/umud/fasc_masks_v1/fasc_masks_new_model_v1/image_0038.tif'}
+== re-eval prior fasc best (native macro, resize-align) ==
+{
+  "ckpt": "/home/chocheng9/kaggle_UMUD/reports/phase3/seg_ckpts/seg_fasc_best.pt",
+  "arch": "FascUNet",
+  "size": 512,
+  "variant": "fasc_v3c_safe_fov",
+  "stored_val_dice": 0.05937294974156782,
+  "square_resize_native": {
+    "0.3": {
+      "n": 566,
+      "macro_dice": 0.05579891512857716,
+      "dice_p50": 0.05337179950614368,
+      "empty_pred_frac": 0.0,
+      "thr": 0.3,
+      "letterbox": false
+    },
+    "0.35": {
+      "n": 566,
+      "macro_dice": 0.05966152007643646,
+      "dice_p50": 0.05740627796494187,
+      "empty_pred_frac": 0.0,
+      "thr": 0.35,
+      "letterbox": false
+    },
+    "0.5": {
+      "n": 566,
+      "macro_dice": 0.07188745165959325,
+      "dice_p50": 0.06985880210843404,
+      "empty_pred_frac": 0.0,
+      "thr": 0.5,
+      "letterbox": false
+    }
+  },
+  "letterbox_native": {
+    "0.3": {
+      "n": 566,
+      "macro_dice": 0.03919063627995476,
+      "dice_p50": 0.036894696398280795,
+      "empty_pred_frac": 0.0,
+      "thr": 0.3,
+      "letterbox": true
+    },
+    "0.35": {
+      "n": 566,
+      "macro_dice": 0.04177643989520253,
+      "dice_p50": 0.03911067641782458,
+      "empty_pred_frac": 0.0,
+      "thr": 0.35,
+      "letterbox": true
+    },
+    "0.5": {
+      "n": 566,
+      "macro_dice": 0.04994681117534249,
+      "dice_p50": 0.04659207961177634,
+      "empty_pred_frac": 0.0,
+      "thr": 0.5,
+      "letterbox": true
+    }
+  }
+}
+{
+  "ckpt": "/home/chocheng9/kaggle_UMUD/reports/phase3/seg_ckpts/seg_fasc_v2_recover_best.pt",
+  "arch": "TinyUNet",
+  "size": 384,
+  "variant": "fasc_v2_recover",
+  "stored_val_dice": 0.2477997793509977,
+  "square_resize_native": {
+    "0.3": {
+      "n": 566,
+      "macro_dice": 0.2181837760197021,
+      "dice_p50": 0.21368362672011923,
+      "empty_pred_frac": 0.0,
+      "thr": 0.3,
+      "letterbox": false
+    },
+    "0.35": {
+      "n": 566,
+      "macro_dice": 0.22711887200401729,
+      "dice_p50": 0.22288069264501825,
+      "empty_pred_frac": 0.0,
+      "thr": 0.35,
+      "letterbox": false
+    },
+    "0.5": {
+      "n": 566,
+      "macro_dice": 0.24994737104633308,
+      "dice_p50": 0.24307362626334963,
+      "empty_pred_frac": 0.0,
+      "thr": 0.5,
+      "letterbox": false
+    }
+  },
+  "letterbox_native": {
+    "0.3": {
+      "n": 566,
+      "macro_dice": 0.1539941208005064,
+      "dice_p50": 0.14194670794130892,
+      "empty_pred_frac": 0.0,
+      "thr": 0.3,
+      "letterbox": true
+    },
+    "0.35": {
+      "n": 566,
+      "macro_dice": 0.1615601217157823,
+      "dice_p50": 0.1481240456327072,
+      "empty_pred_frac": 0.0,
+      "thr": 0.35,
+      "letterbox": true
+    },
+    "0.5": {
+      "n": 566,
+      "macro_dice": 0.1826050780952402,
+      "dice_p50": 0.166177394698283,
+      "empty_pred_frac": 0.0,
+      "thr": 0.5,
+      "letterbox": true
+    }
+  }
+}
+== train fasc v4 (align mask→img then letterbox) ==
+fasc_v4 train=2195 val=566 size=512 dilate=2 pos_w=45.0 device=cuda:2
+epoch 1/40 loss=2.1593 lb@0.35=0.0454 lb@0.5=0.0568 native@0.35=0.0449 native@0.5=0.0571
+epoch 2/40 loss=1.8193 lb@0.35=0.0595 lb@0.5=0.0701 native@0.35=0.0589 native@0.5=0.0709
+epoch 3/40 loss=1.6873 lb@0.35=0.0616 lb@0.5=0.0743 native@0.35=0.0609 native@0.5=0.0748
+epoch 4/40 loss=1.6180 lb@0.35=0.0816 lb@0.5=0.0912 native@0.35=0.0800 native@0.5=0.0917
+epoch 5/40 loss=1.5711 lb@0.35=0.1224 lb@0.5=0.1353 native@0.35=0.1200 native@0.5=0.1361
+epoch 6/40 loss=1.5564 lb@0.35=0.1334 lb@0.5=0.1455 native@0.35=0.1298 native@0.5=0.1462
+epoch 7/40 loss=1.5274 lb@0.35=0.0789 lb@0.5=0.0874
+epoch 8/40 loss=1.5111 lb@0.35=0.1150 lb@0.5=0.1279
+epoch 9/40 loss=1.4815 lb@0.35=0.1060 lb@0.5=0.1159
+epoch 10/40 loss=1.4690 lb@0.35=0.1125 lb@0.5=0.1235 native@0.35=0.1090 native@0.5=0.1236
+epoch 11/40 loss=1.4602 lb@0.35=0.1160 lb@0.5=0.1269
+epoch 12/40 loss=1.4411 lb@0.35=0.1170 lb@0.5=0.1279
+epoch 13/40 loss=1.4388 lb@0.35=0.1313 lb@0.5=0.1434
+epoch 14/40 loss=1.4299 lb@0.35=0.1250 lb@0.5=0.1349
+epoch 15/40 loss=1.4110 lb@0.35=0.1163 lb@0.5=0.1261 native@0.35=0.1117 native@0.5=0.1260
+epoch 16/40 loss=1.4079 lb@0.35=0.1426 lb@0.5=0.1537 native@0.35=0.1373 native@0.5=0.1536
+epoch 17/40 loss=1.3991 lb@0.35=0.1264 lb@0.5=0.1370
+epoch 18/40 loss=1.3906 lb@0.35=0.1260 lb@0.5=0.1373
+epoch 19/40 loss=1.3806 lb@0.35=0.1292 lb@0.5=0.1399
+epoch 20/40 loss=1.3762 lb@0.35=0.1253 lb@0.5=0.1352 native@0.35=0.1201 native@0.5=0.1349
+epoch 21/40 loss=1.3661 lb@0.35=0.1275 lb@0.5=0.1385
+epoch 22/40 loss=1.3576 lb@0.35=0.1361 lb@0.5=0.1458
+epoch 23/40 loss=1.3494 lb@0.35=0.1382 lb@0.5=0.1489
+epoch 24/40 loss=1.3462 lb@0.35=0.1409 lb@0.5=0.1516
+epoch 25/40 loss=1.3416 lb@0.35=0.1316 lb@0.5=0.1424 native@0.35=0.1262 native@0.5=0.1419
+epoch 26/40 loss=1.3324 lb@0.35=0.1321 lb@0.5=0.1419
+epoch 27/40 loss=1.3263 lb@0.35=0.1432 lb@0.5=0.1539 native@0.35=0.1371 native@0.5=0.1535
+epoch 28/40 loss=1.3212 lb@0.35=0.1448 lb@0.5=0.1552 native@0.35=0.1386 native@0.5=0.1548
+Terminated

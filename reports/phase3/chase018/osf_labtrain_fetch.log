@@ -1,0 +1,37 @@
+Walking OSF xbawc ...
+inventory n=33 -> /home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/osf_xbawc_inventory.json
+  [folder] Example Dataset Structure/ size=None id=67780cccc9a2d78a7c69872a
+  [folder] Example Dataset Structure/01 data/ size=None id=66fbbf87d586c5d708b3fe19
+  [file] Example Dataset Structure/01 data/apo_images.zip size=305141391 id=66ffe0ad91affabc9632d84e
+  [file] Example Dataset Structure/01 data/fasc_images.zip size=367494790 id=66ffe0aeeb7c27da94fcb442
+  [folder] Example Dataset Structure/02 metadata/ size=None id=66fbbf93c93c0652eb3cbe01
+  [file] Example Dataset Structure/02 metadata/dictionary_DL_Track_US_2023.py size=3976 id=677854d7906cebfce8e6dd30
+  [folder] Example Dataset Structure/03 labels/ size=None id=66fbbfa2e0f2ba23c7a8544f
+  [file] Example Dataset Structure/03 labels/fasc_masks.zip size=7118062 id=66ffe0c7f97b69ebae32da26
+  [file] Example Dataset Structure/03 labels/apo_masks.zip size=4447512 id=66ffe0c8cf2abd8a8f32d671
+  [folder] Example Dataset Structure/04 documentation/ size=None id=66fbbfb1819aa428d3f42ecb
+  [file] Example Dataset Structure/04 documentation/License Apache License 2.0.txt size=9192 id=66ffe10ec555ec0e92a2002c
+  [file] Example Dataset Structure/04 documentation/DL_Track Data Usage Policy.txt size=1809 id=66ffe10ecf2abd8a8f32d6c0
+  [file] Example Dataset Structure/04 documentation/Readme.md size=2742 id=66ffe6677d7bc650e0fcb4ee
+  [folder] Bechmark Models/ size=None id=67780d3198a2fb5f17116bea
+  [folder] Bechmark Models/ACSA Rectus Femoris/ size=None id=677812a6701e529795e6db24
+  [folder] Bechmark Models/ACSA Vastus Lateralis/ size=None id=677812c6fd0ad5417ce6dc5b
+  [folder] Bechmark Models/ACSA Gastrocnemii/ size=None id=677812d6fd0ad5417ce6dc66
+  [file] Bechmark Models/ACSA Gastrocnemii/DeepACSA_benchmark_images_GMGL.rar size=101819977 id=677813e40e45f5f0056988dc
+  [file] Bechmark Models/ACSA Gastrocnemii/DeepACSA_benchmark_masks_GMGL.rar size=429810 id=67781436cbe9e1886f828f35
+  [file] Bechmark Models/ACSA Gastrocnemii/VGG16pre-Gastro-256-BCE-100E.h5 size=272926360 id=677815329bc6e532f9829304
+  [folder] Bechmark Models/Muscle Architecture - Fascicles/ size=None id=677812e4a7e8891cbdf19dbc
+  [folder] Bechmark Models/Muscle Architecture - Aponeurosis/ size=None id=677812f7c52c86f2f869805f
+  [folder] Expert Analysed Benchmark Image Datasets/ size=None id=677817635e3d93d497e6e40f
+  [file] Expert Analysed Benchmark Image Datasets/benchmark_dataset_architecture_v0.1.0.zip size=6522838 id=677b8a2ebff45e172c698203
+  [file] Expert Analysed Benchmark Image Datasets/benchmark_dataset_csa_RF_v0.1.0.zip size=11019664 id=677b8a2ec243828d1ae6dad5
+  [file] Expert Analysed Benchmark Image Datasets/benchmark_dataset_architecture_GM_dynamic_v0.1.0.zip size=63842325 id=6899d0d5624b1b2f601b50ef
+  [file] Expert Analysed Benchmark Image Datasets/benchmark_dataset_architecture_dynamic_v0.2.0.zip size=161994699 id=6ae323deb92bbb9562957c23
+  [folder] Example Annotated Images/ size=None id=67850550c99c907415857f31
+  [file] Example Annotated Images/Young_ANONYMIZED_annotated_v0.1.0.zip size=45405046 id=67850581c54dc06e63857df5
+  [file] Example Annotated Images/Old_ANONYMIZED_annotated_v0.1.0.zip size=112006179 id=678505b1759bb3c94d4285d3
+  [file] Example Annotated Images/Readme.md size=1113 id=678b8121395dc9e637282e9b
+  [folder] Anonymisation Tools/ size=None id=678b814ebf4444536f283253
+  [file] Anonymisation Tools/ImageAnonymisation_Macro_UMUD_v0.1.0.ijm size=8896 id=678b816f853eb1fb88dd61d8
+download candidates=9
+GET https://osf.io/download/5xvd4/ -> /home/chocheng9/kaggle_UMUD/data/external/osf_xbawc/Example Dataset Structure__01 data__fasc_images.zip

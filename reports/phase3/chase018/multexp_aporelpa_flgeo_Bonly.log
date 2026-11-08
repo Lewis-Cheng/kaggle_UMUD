@@ -1,0 +1,136 @@
+[check] corrected baseline S=0.13294 PA=0.928 FL=2.297 (expect ~0.13294)
+[B] FL geometry on Frundles maps 2026-11-05 17:13:35 Asia/Hong_Kong
+[B] baseline S=0.13294
+[B] fixed deep_insert S=0.14899 FL=2.875
+[B] fixed tip_extrapolate S=0.29036 FL=7.964
+[B] fixed cond_sin_gate S=0.16330 FL=3.390
+[B] fixed mt_pa_cap S=0.14425 FL=2.704
+[B] fixed mt_pa_cap_blend S=0.13410 FL=2.339
+[B] fixed deep_snap_sinfb S=0.15531 FL=3.102
+[B] fixed deep_snap_sinfb_blend S=0.13938 FL=2.529
+[B] fixed sin_w0.20 S=0.13691 FL=2.440
+[B] fixed sin_w0.25 S=0.13424 FL=2.344
+[B] fixed sin_w0.30 S=0.13241 FL=2.278
+[B] fixed sin_w0.40 S=0.13483 FL=2.365
+[B] fixed sin_w0.45 S=0.13698 FL=2.442
+[B] fixed sin_w0.50 S=0.14187 FL=2.619
+[B] fixed sin_w0.55 S=0.14743 FL=2.819
+[B] fixed sin_w0.65 S=0.16057 FL=3.292
+[B] fixed ff0.80_sin035 S=0.20593 FL=4.924
+[B] fixed ff0.85_sin035 S=0.15881 FL=3.228
+[B] fixed ff0.95_sin035 S=0.15722 FL=3.171
+[B] fixed ff1.00_sin035 S=0.20252 FL=4.802
+[B] fixed ff0.80_sin030 S=0.21011 FL=5.075
+[B] fixed ff0.85_sin030 S=0.15886 FL=3.230
+[B] fixed ff0.95_sin030 S=0.16202 FL=3.344
+[B] fixed ff1.00_sin030 S=0.21479 FL=5.244
+[B] fixed sin_clip_blend S=0.13294 FL=2.297
+[B] fixed sin_clip_w45 S=0.13698 FL=2.442
+[B] fixed reject_adapt S=0.13369 FL=2.324
+[B] fixed overextrap_cap S=0.14602 FL=2.768
+[B] fixed sin_pa_only S=0.21667 FL=5.311
+[B] fixed geo70_sin30 S=0.13241 FL=2.278
+[B] fixed geo65_sin35 S=0.13294 FL=2.297
+[B] foldpure S=0.13398 picks={'fl_sin_w0.30': 33, 'fl_baseline': 2}
+[B] BEST S=0.13241 proto=sin_w0.30
+[A2] stronger PA head...
+[A2] train MAE PA=0.037
+[A2] blend=0.25 S=0.13291 PA=0.901 FL=2.349
+[A2] blend=0.40 S=0.13422 PA=0.901 FL=2.397
+[A2] blend=0.50 S=0.13536 PA=0.905 FL=2.430
+[A2] blend=0.60 S=0.13677 PA=0.914 FL=2.463
+[A2] blend=0.75 S=0.13918 PA=0.932 FL=2.513
+[A2] blend=1.00 S=0.14560 PA=1.001 FL=2.607
+[combo] A2 improved PA — B with PA overrides
+[B] FL geometry on Frundles maps 2026-11-05 17:14:31 Asia/Hong_Kong
+[B] baseline S=0.13291
+[B] fixed deep_insert S=0.14451 FL=2.767
+[B] fixed tip_extrapolate S=0.28840 FL=7.947
+[B] fixed cond_sin_gate S=0.15246 FL=3.053
+[B] fixed mt_pa_cap S=0.14529 FL=2.795
+[B] fixed mt_pa_cap_blend S=0.13370 FL=2.378
+[B] fixed deep_snap_sinfb S=0.15383 FL=3.102
+[B] fixed deep_snap_sinfb_blend S=0.13935 FL=2.581
+[B] fixed sin_w0.20 S=0.13599 FL=2.460
+[B] fixed sin_w0.25 S=0.13402 FL=2.389
+[B] fixed sin_w0.30 S=0.13240 FL=2.331
+[B] fixed sin_w0.40 S=0.13426 FL=2.398
+[B] fixed sin_w0.45 S=0.13644 FL=2.476
+[B] fixed sin_w0.50 S=0.14023 FL=2.612
+[B] fixed sin_w0.55 S=0.14506 FL=2.787
+[B] fixed sin_w0.65 S=0.15619 FL=3.187
+[B] fixed ff0.80_sin035 S=0.20184 FL=4.831
+[B] fixed ff0.85_sin035 S=0.15435 FL=3.121
+[B] fixed ff0.95_sin035 S=0.15643 FL=3.196
+[B] fixed ff1.00_sin035 S=0.20325 FL=4.881
+[B] fixed ff0.80_sin030 S=0.20656 FL=5.000
+[B] fixed ff0.85_sin030 S=0.15574 FL=3.171
+[B] fixed ff0.95_sin030 S=0.16132 FL=3.372
+[B] fixed ff1.00_sin030 S=0.21520 FL=5.312
+[B] fixed sin_clip_blend S=0.13291 FL=2.349
+[B] fixed sin_clip_w45 S=0.13644 FL=2.476
+[B] fixed reject_adapt S=0.13393 FL=2.386
+[B] fixed overextrap_cap S=0.14390 FL=2.745
+[B] fixed sin_pa_only S=0.20625 FL=4.989
+[B] fixed geo70_sin30 S=0.13240 FL=2.331
+[B] fixed geo65_sin35 S=0.13291 FL=2.349
+[B] foldpure S=0.13442 picks={'fl_sin_w0.30': 32, 'fl_baseline': 3}
+[B] BEST S=0.13240 proto=sin_w0.30
+{
+  "asof": "2026-11-05 17:14:35 Asia/Hong_Kong",
+  "baseline_check_S": 0.13293555901039555,
+  "baseline_check_mae": {
+    "pa_deg": 0.9279384631482271,
+    "fl_mm": 2.2967497297340818,
+    "mt_mm": 0.15826250681487788
+  },
+  "A_ft_S": 0.14387982841031322,
+  "A_ft_best": {
+    "tag": "blend_a0.15",
+    "thr": 0.35,
+    "S": 0.14387982841031322,
+    "mae": {
+      "pa_deg": 1.0199071332367116,
+      "fl_mm": 2.506805459530449,
+      "mt_mm": 0.15826250681487788
+    },
+    "cache": "/home/chocheng9/kaggle_UMUD/reports/phase3/chase018/cache/maps_multexp_aporelpa_blend15"
+  },
+  "A2_pa_head_S": 0.13290682825773772,
+  "A2_best": {
+    "blend": 0.25,
+    "S": 0.13290682825773772,
+    "mae": {
+      "pa_deg": 0.9012888527130496,
+      "fl_mm": 2.349014674127067,
+      "mt_mm": 0.15826250681487788
+    }
+  },
+  "B_S": 0.13241475990880067,
+  "B_best": {
+    "protocol": "sin_w0.30",
+    "S": 0.13241475990880067,
+    "mae": {
+      "pa_deg": 0.9279384631482271,
+      "fl_mm": 2.2780008732238435,
+      "mt_mm": 0.15826250681487788
+    }
+  },
+  "combo_S": 0.13240068410255748,
+  "combo_best": {
+    "protocol": "sin_w0.30",
+    "S": 0.13240068410255748,
+    "mae": {
+      "pa_deg": 0.9012888527130496,
+      "fl_mm": 2.3307934639653256,
+      "mt_mm": 0.15826250681487788
+    }
+  },
+  "champ_S": 0.13240068410255748,
+  "hold": 0.13195144580335014,
+  "frundles_floor": 0.13293555901039555,
+  "gate_0.12": false,
+  "promote": false,
+  "kaggle_submit": false,
+  "elapsed_min": 1.0469930171966553
+}

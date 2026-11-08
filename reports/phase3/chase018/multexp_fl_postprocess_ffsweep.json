@@ -1,0 +1,424 @@
+{
+  "asof": "2026-11-05 13:00 Asia/Hong_Kong",
+  "cache_dir": "/home/chocheng9/kaggle_UMUD/reports/phase3/chase018/cache/maps_multexp",
+  "prior_floor": 0.1376082508388217,
+  "prior_selector": 0.1355,
+  "grid_best": {
+    "name": "hough_tex0.3_thr035_apo60",
+    "S_ref": 0.13422
+  },
+  "best_base_confirm": {
+    "S": 0.13422213495638402,
+    "mae": {
+      "pa_deg": 0.9196941693440388,
+      "fl_mm": 2.3595548153828294,
+      "mt_mm": 0.15826250681487788
+    }
+  },
+  "best_fl_post": {
+    "name": "hough_tex0.4_thr035_apo60_ff0.9_sin0.35_agNone",
+    "S": 0.13293555901039555,
+    "mae": {
+      "pa_deg": 0.9279384631482271,
+      "fl_mm": 2.2967497297340818,
+      "mt_mm": 0.15826250681487788
+    },
+    "kw": {
+      "fasc_thr": 0.35,
+      "apo_thr": 0.6,
+      "tex_w": 0.4,
+      "fl_factor": 0.9,
+      "fl_sin_w": 0.35,
+      "agree_thr": null,
+      "pa_mode": "hough"
+    }
+  },
+  "top20": [
+    {
+      "name": "hough_tex0.4_thr035_apo60_ff0.9_sin0.35_agNone",
+      "S": 0.13293555901039555,
+      "mae": {
+        "pa_deg": 0.9279384631482271,
+        "fl_mm": 2.2967497297340818,
+        "mt_mm": 0.15826250681487788
+      },
+      "kw": {
+        "fasc_thr": 0.35,
+        "apo_thr": 0.6,
+        "tex_w": 0.4,
+        "fl_factor": 0.9,
+        "fl_sin_w": 0.35,
+        "agree_thr": null,
+        "pa_mode": "hough"
+      }
+    },
+    {
+      "name": "hough_tex0.4_thr035_apo60_ff0.9_sin0.35_ag25.0",
+      "S": 0.13293555901039555,
+      "mae": {
+        "pa_deg": 0.9279384631482271,
+        "fl_mm": 2.2967497297340818,
+        "mt_mm": 0.15826250681487788
+      },
+      "kw": {
+        "fasc_thr": 0.35,
+        "apo_thr": 0.6,
+        "tex_w": 0.4,
+        "fl_factor": 0.9,
+        "fl_sin_w": 0.35,
+        "agree_thr": 25.0,
+        "pa_mode": "hough"
+      }
+    },
+    {
+      "name": "hough_tex0.4_thr035_apo60_ff0.9_sin0.25_ag10.0",
+      "S": 0.13396950263251658,
+      "mae": {
+        "pa_deg": 0.9279384631482271,
+        "fl_mm": 2.3339715014747378,
+        "mt_mm": 0.15826250681487788
+      },
+      "kw": {
+        "fasc_thr": 0.35,
+        "apo_thr": 0.6,
+        "tex_w": 0.4,
+        "fl_factor": 0.9,
+        "fl_sin_w": 0.25,
+        "agree_thr": 10.0,
+        "pa_mode": "hough"
+      }
+    },
+    {
+      "name": "hough_tex0.3_thr035_apo60_ff0.9_sin0.35_agNone",
+      "S": 0.1340602773145451,
+      "mae": {
+        "pa_deg": 0.9196941693440388,
+        "fl_mm": 2.3537280427335765,
+        "mt_mm": 0.15826250681487788
+      },
+      "kw": {
+        "fasc_thr": 0.35,
+        "apo_thr": 0.6,
+        "tex_w": 0.3,
+        "fl_factor": 0.9,
+        "fl_sin_w": 0.35,
+        "agree_thr": null,
+        "pa_mode": "hough"
+      }
+    },
+    {
+      "name": "hough_tex0.3_thr035_apo60_ff0.9_sin0.35_ag25.0",
+      "S": 0.1340602773145451,
+      "mae": {
+        "pa_deg": 0.9196941693440388,
+        "fl_mm": 2.3537280427335765,
+        "mt_mm": 0.15826250681487788
+      },
+      "kw": {
+        "fasc_thr": 0.35,
+        "apo_thr": 0.6,
+        "tex_w": 0.3,
+        "fl_factor": 0.9,
+        "fl_sin_w": 0.35,
+        "agree_thr": 25.0,
+        "pa_mode": "hough"
+      }
+    },
+    {
+      "name": "hough_tex0.3_thr035_apo60_ff0.9_sin0.25_ag15.0",
+      "S": 0.13422213495638402,
+      "mae": {
+        "pa_deg": 0.9196941693440388,
+        "fl_mm": 2.3595548153828294,
+        "mt_mm": 0.15826250681487788
+      },
+      "kw": {
+        "fasc_thr": 0.35,
+        "apo_thr": 0.6,
+        "tex_w": 0.3,
+        "fl_factor": 0.9,
+        "fl_sin_w": 0.25,
+        "agree_thr": 15.0,
+        "pa_mode": "hough"
+      }
+    },
+    {
+      "name": "thr035_flscale_1.000",
+      "S": 0.13422213495638402,
+      "mae": {
+        "pa_deg": 0.9196941693440388,
+        "fl_mm": 2.3595548153828294,
+        "mt_mm": 0.15826250681487788
+      },
+      "kw": {
+        "fl_scale": 1.0
+      }
+    },
+    {
+      "name": "hough_tex0.4_thr035_apo60_ff0.9_sin0.25_agNone",
+      "S": 0.1342422802889695,
+      "mae": {
+        "pa_deg": 0.9279384631482271,
+        "fl_mm": 2.3437915445134383,
+        "mt_mm": 0.15826250681487788
+      },
+      "kw": {
+        "fasc_thr": 0.35,
+        "apo_thr": 0.6,
+        "tex_w": 0.4,
+        "fl_factor": 0.9,
+        "fl_sin_w": 0.25,
+        "agree_thr": null,
+        "pa_mode": "hough"
+      }
+    },
+    {
+      "name": "hough_tex0.4_thr035_apo60_ff0.9_sin0.25_ag25.0",
+      "S": 0.1342422802889695,
+      "mae": {
+        "pa_deg": 0.9279384631482271,
+        "fl_mm": 2.3437915445134383,
+        "mt_mm": 0.15826250681487788
+      },
+      "kw": {
+        "fasc_thr": 0.35,
+        "apo_thr": 0.6,
+        "tex_w": 0.4,
+        "fl_factor": 0.9,
+        "fl_sin_w": 0.25,
+        "agree_thr": 25.0,
+        "pa_mode": "hough"
+      }
+    },
+    {
+      "name": "hough_tex0.4_thr035_apo60_ff0.9_sin0.35_ag10.0",
+      "S": 0.13428588520835635,
+      "mae": {
+        "pa_deg": 0.9279384631482271,
+        "fl_mm": 2.3453613697572147,
+        "mt_mm": 0.15826250681487788
+      },
+      "kw": {
+        "fasc_thr": 0.35,
+        "apo_thr": 0.6,
+        "tex_w": 0.4,
+        "fl_factor": 0.9,
+        "fl_sin_w": 0.35,
+        "agree_thr": 10.0,
+        "pa_mode": "hough"
+      }
+    },
+    {
+      "name": "hough_tex0.3_thr035_apo60_ff0.9_sin0.25_ag10.0",
+      "S": 0.13429722979154085,
+      "mae": {
+        "pa_deg": 0.9196941693440388,
+        "fl_mm": 2.362258229430706,
+        "mt_mm": 0.15826250681487788
+      },
+      "kw": {
+        "fasc_thr": 0.35,
+        "apo_thr": 0.6,
+        "tex_w": 0.3,
+        "fl_factor": 0.9,
+        "fl_sin_w": 0.25,
+        "agree_thr": 10.0,
+        "pa_mode": "hough"
+      }
+    },
+    {
+      "name": "hough_tex0.4_thr035_apo60_ff0.9_sin0.25_ag15.0",
+      "S": 0.13443894818030463,
+      "mae": {
+        "pa_deg": 0.9279384631482271,
+        "fl_mm": 2.3508715266983016,
+        "mt_mm": 0.15826250681487788
+      },
+      "kw": {
+        "fasc_thr": 0.35,
+        "apo_thr": 0.6,
+        "tex_w": 0.4,
+        "fl_factor": 0.9,
+        "fl_sin_w": 0.25,
+        "agree_thr": 15.0,
+        "pa_mode": "hough"
+      }
+    },
+    {
+      "name": "hough_tex0.4_thr035_apo60_ff0.9_sin0.35_ag15.0",
+      "S": 0.13456755568125,
+      "mae": {
+        "pa_deg": 0.9279384631482271,
+        "fl_mm": 2.355501384891353,
+        "mt_mm": 0.15826250681487788
+      },
+      "kw": {
+        "fasc_thr": 0.35,
+        "apo_thr": 0.6,
+        "tex_w": 0.4,
+        "fl_factor": 0.9,
+        "fl_sin_w": 0.35,
+        "agree_thr": 15.0,
+        "pa_mode": "hough"
+      }
+    },
+    {
+      "name": "hough_tex0.4_thr035_apo60_ff0.9_sin0.15_ag10.0",
+      "S": 0.13485364159603055,
+      "mae": {
+        "pa_deg": 0.9279384631482271,
+        "fl_mm": 2.365800195995436,
+        "mt_mm": 0.15826250681487788
+      },
+      "kw": {
+        "fasc_thr": 0.35,
+        "apo_thr": 0.6,
+        "tex_w": 0.4,
+        "fl_factor": 0.9,
+        "fl_sin_w": 0.15,
+        "agree_thr": 10.0,
+        "pa_mode": "hough"
+      }
+    },
+    {
+      "name": "hough_tex0.3_thr035_apo60_ff0.9_sin0.15_ag10.0",
+      "S": 0.13487052767647648,
+      "mae": {
+        "pa_deg": 0.9196941693440388,
+        "fl_mm": 2.382896735520895,
+        "mt_mm": 0.15826250681487788
+      },
+      "kw": {
+        "fasc_thr": 0.35,
+        "apo_thr": 0.6,
+        "tex_w": 0.3,
+        "fl_factor": 0.9,
+        "fl_sin_w": 0.15,
+        "agree_thr": 10.0,
+        "pa_mode": "hough"
+      }
+    },
+    {
+      "name": "hough_tex0.3_thr035_apo60_ff0.9_sin0.25_agNone",
+      "S": 0.13500223630643104,
+      "mae": {
+        "pa_deg": 0.9196941693440388,
+        "fl_mm": 2.387638503577966,
+        "mt_mm": 0.15826250681487788
+      },
+      "kw": {
+        "fasc_thr": 0.35,
+        "apo_thr": 0.6,
+        "tex_w": 0.3,
+        "fl_factor": 0.9,
+        "fl_sin_w": 0.25,
+        "agree_thr": null,
+        "pa_mode": "hough"
+      }
+    },
+    {
+      "name": "hough_tex0.3_thr035_apo60_ff0.9_sin0.25_ag25.0",
+      "S": 0.13500223630643104,
+      "mae": {
+        "pa_deg": 0.9196941693440388,
+        "fl_mm": 2.387638503577966,
+        "mt_mm": 0.15826250681487788
+      },
+      "kw": {
+        "fasc_thr": 0.35,
+        "apo_thr": 0.6,
+        "tex_w": 0.3,
+        "fl_factor": 0.9,
+        "fl_sin_w": 0.25,
+        "agree_thr": 25.0,
+        "pa_mode": "hough"
+      }
+    },
+    {
+      "name": "hough_tex0.3_thr035_apo60_ff0.9_sin0.15_ag15.0",
+      "S": 0.13517867202021933,
+      "mae": {
+        "pa_deg": 0.9196941693440388,
+        "fl_mm": 2.393989931501962,
+        "mt_mm": 0.15826250681487788
+      },
+      "kw": {
+        "fasc_thr": 0.35,
+        "apo_thr": 0.6,
+        "tex_w": 0.3,
+        "fl_factor": 0.9,
+        "fl_sin_w": 0.15,
+        "agree_thr": 15.0,
+        "pa_mode": "hough"
+      }
+    },
+    {
+      "name": "hough_tex0.3_thr035_apo60_ff0.9_sin0.35_ag15.0",
+      "S": 0.13541544355289167,
+      "mae": {
+        "pa_deg": 0.9196941693440388,
+        "fl_mm": 2.4025139434378273,
+        "mt_mm": 0.15826250681487788
+      },
+      "kw": {
+        "fasc_thr": 0.35,
+        "apo_thr": 0.6,
+        "tex_w": 0.3,
+        "fl_factor": 0.9,
+        "fl_sin_w": 0.35,
+        "agree_thr": 15.0,
+        "pa_mode": "hough"
+      }
+    },
+    {
+      "name": "hough_tex0.3_thr035_apo60_ff0.9_sin0.35_ag10.0",
+      "S": 0.13546050045412847,
+      "mae": {
+        "pa_deg": 0.9196941693440388,
+        "fl_mm": 2.4041359918665544,
+        "mt_mm": 0.15826250681487788
+      },
+      "kw": {
+        "fasc_thr": 0.35,
+        "apo_thr": 0.6,
+        "tex_w": 0.3,
+        "fl_factor": 0.9,
+        "fl_sin_w": 0.35,
+        "agree_thr": 10.0,
+        "pa_mode": "hough"
+      }
+    }
+  ],
+  "selector": {
+    "oracle": {
+      "S": 0.08611844330282936,
+      "MAE": {
+        "pa_deg": 0.9196941693440388,
+        "fl_mm": 0.6278231337132792,
+        "mt_mm": 0.15826250681487788
+      }
+    },
+    "train_best_single": {
+      "S": 0.1374373913250072,
+      "MAE": {
+        "pa_deg": 0.9196941693440388,
+        "fl_mm": 2.475304044379005,
+        "mt_mm": 0.15826250681487788
+      }
+    },
+    "ols_top5_blend": {
+      "S": 0.14099761694437282,
+      "MAE": {
+        "pa_deg": 0.9196941693440388,
+        "fl_mm": 2.603471629803879,
+        "mt_mm": 0.15826250681487788
+      }
+    }
+  },
+  "gate_0.12": false,
+  "beats_floor": true,
+  "beats_selector": true,
+  "kaggle_submit": false,
+  "lab_fasc_ckpt": false,
+  "protocol": "LOOCV affine PA+MT only; FL raw"
+}

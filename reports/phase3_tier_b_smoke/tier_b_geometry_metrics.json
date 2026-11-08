@@ -1,0 +1,125 @@
+{
+  "ambrosm_scale_csv": "/home/chocheng9/kaggle_UMUD/reports/phase3/ambrosm_scale_rows.csv",
+  "attention_still_blocked": true,
+  "baseline": "tier_b_geometry",
+  "forbid_tiff_dpi_25_4": true,
+  "geometry_head_priors_from_train_mm": {
+    "fl_mm": 37.38727896700784,
+    "mt_mm": 23.17817420119262,
+    "pa_deg": 9.970926629179562
+  },
+  "label": "GeometryHead+AmbrosM_per_image_mm_ExtraTrees_NOT_expert_GT_NOT_leaderboard",
+  "model": {
+    "max_features": 0.72,
+    "min_samples_leaf": 3,
+    "n_estimators": 160,
+    "n_train": 40,
+    "n_val": 40,
+    "seed": 0,
+    "type": "ExtraTreesRegressor"
+  },
+  "n_test": 309,
+  "n_test_failures_to_median": 0,
+  "notes": [
+    "Per-image mm_per_px from AmbrosM when provenance in {measured, family_prior}.",
+    "q (mm-per-tick) remains AmbrosM UI prior \u2014 tagged via q_provenance.",
+    "Unknown scale \u2192 pixel_space; excluded from mm ExtraTrees targets.",
+    "Val MAE is ExtraTrees vs GeometryHead(mask, AmbrosM) \u2014 NOT expert PA/FL/MT.",
+    "No official S without independent GT. Attention still blocked.",
+    "Test CSV is ExtraTrees (geometry+scale supervised), not train-median stub.",
+    "Do not treat TIFF dpi as ultrasound spacing."
+  ],
+  "official_S": null,
+  "official_S_reason": "no_independent_expert_gt_csv_in_data_root",
+  "organizer_mt_policy": "vertical_not_perp_to_apo",
+  "rows_csv": "/home/chocheng9/kaggle_UMUD/reports/phase3_tier_b_smoke/tier_b_geometry_rows.csv",
+  "run_scale_provenance": "ambrosm_per_family_mixed",
+  "split_assignments": "/home/chocheng9/kaggle_UMUD/reports/phase2/split_assignments.jsonl",
+  "submission": "/home/chocheng9/kaggle_UMUD/reports/phase3_tier_b_smoke/submission_tier_b_geometry.csv",
+  "test_policy": "extratrees_supervised_by_geometry_head_ambrosm_mm_NOT_direct_test_mask_geometry",
+  "test_scale_coverage": {
+    "family_prior": 160,
+    "measured": 149,
+    "missing": 0,
+    "unknown": 0
+  },
+  "tier": "B_proxy_scale_aware_geometry_head",
+  "train_coverage": {
+    "geometry_head_mm_targets": {
+      "fl_mm": {
+        "mean": 37.12588771576044,
+        "n": 40,
+        "p25": 35.397680397313636,
+        "p50": 37.38727896700784,
+        "p75": 39.104118126400564
+      },
+      "mt_mm": {
+        "mean": 22.197695955910604,
+        "n": 40,
+        "p25": 19.77738937275347,
+        "p50": 23.17817420119262,
+        "p75": 24.98153713872482
+      },
+      "pa_deg": {
+        "mean": 11.832540396023251,
+        "n": 40,
+        "p25": 5.315517296680536,
+        "p50": 9.970926629179562,
+        "p75": 15.007446514921973
+      }
+    },
+    "n_geometry_ok": 40,
+    "n_mm_targets": 40,
+    "n_stems": 40,
+    "provenance_counts": {
+      "measured": 40
+    },
+    "scale_mode_counts": {
+      "ambrosm_mm": 40
+    }
+  },
+  "val_coverage": {
+    "geometry_head_mm_targets": {
+      "fl_mm": {
+        "mean": 37.95188368189057,
+        "n": 40,
+        "p25": 35.397680397313636,
+        "p50": 37.856546286848825,
+        "p75": 39.8364314619869
+      },
+      "mt_mm": {
+        "mean": 23.417969858486554,
+        "n": 40,
+        "p25": 21.170246537408826,
+        "p50": 23.07090845002245,
+        "p75": 25.810681614128033
+      },
+      "pa_deg": {
+        "mean": 10.81150545319245,
+        "n": 40,
+        "p25": 4.7211940039261675,
+        "p50": 10.647517885364017,
+        "p75": 13.131256906714638
+      }
+    },
+    "n_geometry_ok": 40,
+    "n_mm_targets": 40,
+    "n_stems": 40,
+    "provenance_counts": {
+      "measured": 40
+    },
+    "scale_mode_counts": {
+      "ambrosm_mm": 40
+    }
+  },
+  "val_metrics": {
+    "diagnostic_S1_vs_gh_targets": 0.5250387928316739,
+    "fl_mae": 1.9681826368520539,
+    "label": "MAE_vs_GeometryHead_AmbrosM_targets_NOT_expert_GT_NOT_LB",
+    "mt_mae": 2.2435476145233535,
+    "n_train_mm": 40,
+    "n_val_mm": 40,
+    "note_S": "diagnostic only vs GeometryHead AmbrosM targets; NOT official S / NOT leaderboard (no independent expert GT locally)",
+    "pa_mae": 3.9795117234973945
+  }
+}

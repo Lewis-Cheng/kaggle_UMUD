@@ -1,0 +1,37 @@
+{
+  "asof": "2026-11-05 13:02 Asia/Hong_Kong",
+  "best_S": 0.13293555901039555,
+  "best_name": "hough_tex0.4_thr035_apo60_ff0.9_sin0.35_agNone",
+  "MAE": {
+    "pa_deg": 0.9279384631482271,
+    "fl_mm": 2.2967497297340818,
+    "mt_mm": 0.15826250681487788
+  },
+  "beats_0.13761": true,
+  "beats_0.13550": true,
+  "gate_0.12": false,
+  "gap_to_0.12": 0.012935559010395559,
+  "reinferred_promoted_baseline_S": 0.13851259085282427,
+  "grid_best_S": 0.13422213495638402,
+  "grid_best_name": "hough_tex0.3_thr035_apo60",
+  "fl_post_oracle_S": 0.07834362336590386,
+  "ffsweep_oracle_S": 0.08611844330282936,
+  "ffsweep_selector_train_best_S": 0.1374373913250072,
+  "ffsweep_selector_ols_top5_S": 0.14099761694437282,
+  "tried": [
+    "Re-inferred Frundles maps_multexp (public weights; no lab fasc ckpt)",
+    "81 FL candidates (endpoint protocols, fl_factor, sin blends, reject gates) \u2014 best single 0.14278 (worse than promoted)",
+    "Oracle FL pick 0.078\u20130.086; fold-pure Softmax/L1/kNN/simplex selectors all failed (\u22650.137)",
+    "Nested cal-PA sin blends / bias correction \u2014 no beat of promoted",
+    "thr/apo/tex grid on Frundles \u2192 0.13422 (hough_tex0.3_thr035_apo60)",
+    "FL fl_factor/sin_w/agree sweep on grid recipes \u2192 0.13294 (tex0.4 thr035 sin0.35 no-agree)"
+  ],
+  "ceiling_evidence": {
+    "FL_source_selector_transferable_floor": "~0.133\u20130.135 on Frundles maps",
+    "oracle_headroom_S": 0.08611844330282936,
+    "gate_gap": 0.012935559010395559,
+    "conclusion": "Pure FL post-process + transferable source selection on Frundles maps plateaus ~0.133; clearing 0.12 needs better MultExp-domain fasc maps (not lab-scratch swaps) or PA/MT geometry lift beyond thr/tex tweaks."
+  },
+  "recommended_next": "MultExp-domain fasc adaptation (train/adapt fasc on MultExp-like distribution while freezing Frundles apo), keeping thr035/tex0.4/sin0.35 recipe; FL post-process on Frundles maps is exhausted for the 0.12 gate.",
+  "kaggle_submit": false
+}

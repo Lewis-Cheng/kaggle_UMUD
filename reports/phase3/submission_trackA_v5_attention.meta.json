@@ -1,0 +1,21 @@
+{
+  "n": 309,
+  "n_attn": 309,
+  "n_base_only": 0,
+  "n_missing_mask": 0,
+  "ckpt": "reports/phase3/attn_ckpts/attn_v5_best.pt",
+  "pred_mask_dir": "reports/phase3/seg_preds_best_fasc_v5",
+  "out_csv": "reports/phase3/submission_trackA_v5_attention.csv",
+  "variant": "trackA_v5_attention",
+  "val_metrics": {
+    "pa_mae": 3.789825439453125,
+    "fl_mae": 3.52571702003479,
+    "mt_mae": 2.1386892795562744,
+    "n": 544,
+    "base_pa_mae": 3.931192398071289,
+    "base_fl_mae": 7.689075469970703,
+    "base_mt_mae": 2.964498519897461,
+    "diagnostic_S1": 0.5461146235466003
+  },
+  "score": 0.5461145838101705
+}

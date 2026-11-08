@@ -1,0 +1,17 @@
+# Minimal scaffold deps. Pin tighter once the training stack is chosen.
+numpy>=1.24
+pandas>=2.0
+pyyaml>=6.0
+pillow>=10.0
+opencv-python-headless>=4.8
+scikit-learn>=1.3
+pytest>=7.4
+
+# Declared for later training; contract tests do not require a GPU install.
+# Install the CUDA build that matches your machine when you start training.
+torch>=2.1
+
+# Optional later (not required for contract tests):
+# kaggle>=1.6          # for scripts/pull_scorer.py live download
+# scikit-image>=0.22
+# tqdm>=4.66

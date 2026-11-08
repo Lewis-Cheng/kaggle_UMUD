@@ -1,0 +1,104 @@
+loading weights on cuda
+override fasc reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_scratch_best.pt
+infer 1/309 IMG_00001.tif
+infer 26/309 IMG_00026.tif
+infer 51/309 IMG_00051.tif
+infer 76/309 IMG_00076.tif
+infer 101/309 IMG_00101.tif
+infer 126/309 IMG_00126.tif
+infer 151/309 IMG_00151.tif
+infer 176/309 IMG_00176.tif
+infer 201/309 IMG_00201.tif
+infer 226/309 IMG_00226.tif
+infer 251/309 IMG_00251.tif
+infer 276/309 IMG_00276.png
+infer 301/309 IMG_00301.png
+infer 309/309 IMG_00309.png
+fallback (not ok): 0 tex finite: 309
+wrote reports/phase3/chase018/submission_scratch_fasc_texture.csv rows 309
+       pa_deg   fl_mm   mt_mm
+count  309.00  309.00  309.00
+mean    16.07   83.73   21.38
+std      4.40   22.63    4.08
+min      7.77   30.17   12.36
+25%     13.00   68.14   18.41
+50%     15.55   82.69   20.78
+75%     17.98   98.02   24.92
+max     31.59  138.27   33.67
+layouts ok rate:
+layout
+crop       1.0
+lumify     1.0
+siemens    1.0
+telemed    1.0
+Name: ok, dtype: float64
+running floor_frundles
+{
+  "name": "floor_frundles",
+  "n": 35,
+  "ok": 35,
+  "S_expert_NOT_LB": 0.20209069880345912,
+  "S1": 0.20209053593780277,
+  "MAE": {
+    "pa_deg": 1.8342478443016874,
+    "fl_mm": 2.8096056739881,
+    "mt_mm": 0.1992894827923563
+  },
+  "tex_w": 0.0,
+  "fl_sin_w": 0.0,
+  "fl_factor": 0.9
+}
+running texture_pa_tex0.5_flsin0.25
+{
+  "name": "texture_pa_tex0.5_flsin0.25",
+  "n": 35,
+  "ok": 35,
+  "S_expert_NOT_LB": 0.18111543314117773,
+  "S1": 0.1811152884373818,
+  "MAE": {
+    "pa_deg": 1.4769963480340493,
+    "fl_mm": 2.768999756508222,
+    "mt_mm": 0.1992894827923563
+  },
+  "tex_w": 0.5,
+  "fl_sin_w": 0.25,
+  "fl_factor": 0.9
+}
+running texture_pa_tex0.5_only
+{
+  "name": "texture_pa_tex0.5_only",
+  "n": 35,
+  "ok": 35,
+  "S_expert_NOT_LB": 0.18224337597788953,
+  "S1": 0.18224323058960068,
+  "MAE": {
+    "pa_deg": 1.4769963480340493,
+    "fl_mm": 2.8096056739881,
+    "mt_mm": 0.1992894827923563
+  },
+  "tex_w": 0.5,
+  "fl_sin_w": 0.0,
+  "fl_factor": 0.9
+}
+running texture_pa_tex0.7_flsin0.25
+{
+  "name": "texture_pa_tex0.7_flsin0.25",
+  "n": 35,
+  "ok": 35,
+  "S_expert_NOT_LB": 0.18288970960032366,
+  "S1": 0.18288956616606747,
+  "MAE": {
+    "pa_deg": 1.5095416422797865,
+    "fl_mm": 2.767783166249431,
+    "mt_mm": 0.1992894827923563
+  },
+  "tex_w": 0.7,
+  "fl_sin_w": 0.25,
+  "fl_factor": 0.9
+}
+wrote reports/phase3/chase018/multexp_scratch_fasc_scores.json
+RANK (lower S better):
+  0.18112  texture_pa_tex0.5_flsin0.25  MAE_pa=1.477 fl=2.769 mt=0.199
+  0.18224  texture_pa_tex0.5_only  MAE_pa=1.477 fl=2.810 mt=0.199
+  0.18289  texture_pa_tex0.7_flsin0.25  MAE_pa=1.510 fl=2.768 mt=0.199
+  0.20209  floor_frundles  MAE_pa=1.834 fl=2.810 mt=0.199

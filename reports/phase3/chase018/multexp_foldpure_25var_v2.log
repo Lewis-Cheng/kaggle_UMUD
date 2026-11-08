@@ -1,0 +1,58 @@
+cached im_01_arch.tif
+cached im_02_arch.tif
+cached im_03_arch.tif
+cached im_04_arch.tif
+cached im_05_arch.tif
+cached im_06_arch.tif
+cached im_07_arch.tif
+cached im_08_arch.tif
+cached im_09_arch.tif
+cached im_10_arch.tif
+cached im_11_arch.tif
+cached im_12_arch.tif
+cached im_13_arch.tif
+cached im_14_arch.tif
+cached im_15_arch.tif
+cached im_16_arch.tif
+cached im_17_arch.tif
+cached im_18_arch.tif
+cached im_19_arch.tif
+cached im_20_arch.tif
+cached im_21_arch.tif
+cached im_22_arch.tif
+cached im_23_arch.tif
+cached im_24_arch.tif
+cached im_25_arch.tif
+cached im_26_arch.tif
+cached im_27_arch.tif
+cached im_28_arch.tif
+cached im_29_arch.tif
+cached im_30_arch.tif
+cached im_31_arch.tif
+cached im_32_arch.tif
+cached im_33_arch.tif
+cached im_34_arch.tif
+cached im_35_arch.tif
+wrote /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/cache/foldpure_25var_predcache.npz
+leaky_oracle: S=0.10485 beats_C=True acc@1=1.000
+nested_trainS_full: S=0.13506 beats_C=False acc@1=0.000
+=== full bandit imitation ===
+nested_bandit_imitation_full: S=0.15964 beats_C=False acc@1=0.086
+nested_feature_rule_full: S=0.14501 beats_C=False acc@1=0.000
+nested_residual_full: S=0.13416 beats_C=False acc@1=0.029
+=== reduced ===
+leaky_oracle_reduced: S=0.10485 beats_C=True acc@1=1.000
+nested_trainS_reduced: S=0.13294 beats_C=False acc@1=0.143
+nested_bandit_imitation_reduced: S=0.16174 beats_C=False acc@1=0.057
+nested_bandit_imitation_reduced_long: S=0.15588 beats_C=False acc@1=0.114
+nested_feature_rule_reduced: S=0.14501 beats_C=False acc@1=0.000
+nested_residual_reduced: S=0.14095 beats_C=False acc@1=0.086
+=== safe ===
+leaky_oracle_safe: S=0.10811 beats_C=True acc@1=0.714
+nested_trainS_safe: S=0.13294 beats_C=False acc@1=0.143
+nested_bandit_safe: S=0.15453 beats_C=False acc@1=0.086
+nested_feature_rule_safe: S=0.13345 beats_C=False acc@1=0.114
+nested_residual_safe: S=0.14075 beats_C=False acc@1=0.114
+nested_hybrid_agree_else_baseline: S=0.13977 beats_C=False acc@1=0.057
+nested_hybrid_agree_else_trainS: S=0.13977 beats_C=False acc@1=0.057
+V2_RESULT S=0.13294 name=nested_trainS_reduced leaky=0.10485 gap=0.02808 vs_C=0.13195 gate=False promote=False

@@ -1,0 +1,73 @@
+pairs=2761 img_dir=data/raw/umud/fasc_imgs_v1 mask_dir=data/raw/umud/fasc_masks_v1
+computing dHash groups …
+groups=1513 train=2269 val=492
+init reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_scratch_best.pt size (384, 576) device cuda:0
+{"epoch": 1, "train_loss": 1.105188683724739, "val_dice": 0.28456925793040183, "lr": 9.98458666866564e-05}
+saved reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_ft_best.pt val_dice 0.28456925793040183
+{"epoch": 2, "train_loss": 1.092464504107623, "val_dice": 0.2834851698529336, "lr": 9.938441702975689e-05}
+{"epoch": 3, "train_loss": 1.084595477077323, "val_dice": 0.2819756569881593, "lr": 9.861849601988383e-05}
+{"epoch": 4, "train_loss": 1.077859513776403, "val_dice": 0.2867528553451261, "lr": 9.755282581475767e-05}
+saved reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_ft_best.pt val_dice 0.2867528553451261
+
+{"epoch": 5, "train_loss": 1.070594943115409, "val_dice": 0.2848838274517367, "lr": 9.619397662556432e-05}
+{"epoch": 6, "train_loss": 1.0631745384192803, "val_dice": 0.2866779387958588, "lr": 9.455032620941837e-05}
+saved reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_ft_best.pt val_dice 0.2866779387958588
+{"epoch": 7, "train_loss": 1.054068286863851, "val_dice": 0.2829402495295771, "lr": 9.26320082177046e-05}
+{"epoch": 8, "train_loss": 1.0482349907848196, "val_dice": 0.2827624207542789, "lr": 9.045084971874737e-05}
+Traceback (most recent call last):
+  File "/home/chocheng9/kaggle_UMUD/scripts/chase018/train_fasc_smp_ft.py", line 260, in <module>
+    main()
+  File "/home/chocheng9/kaggle_UMUD/scripts/chase018/train_fasc_smp_ft.py", line 234, in main
+    losses.append(float(loss.item()))
+                        ^^^^^^^^^^^
+  File "/home/chocheng9/.pyenv/versions/3.12.0/lib/python3.12/site-packages/torch/utils/data/_utils/signal_handling.py", line 73, in handler
+    _error_if_any_worker_fails()
+RuntimeError: DataLoader worker (pid 3405078) is killed by signal: Terminated. 
+pairs=2761 img_dir=data/raw/umud/fasc_imgs_v1 mask_dir=data/raw/umud/fasc_masks_v1
+computing dHash groups …
+groups=1513 train=2269 val=492
+init reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_scratch_best.pt size (384, 576) device cuda:0
+{"epoch": 1, "train_loss": 1.1052384246403062, "val_dice": 0.2842061957043986, "lr": 9.98458666866564e-05}
+saved reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_ft_best.pt val_dice 0.2842061957043986
+{"epoch": 2, "train_loss": 1.0921697969168005, "val_dice": 0.28436316573812115, "lr": 9.938441702975689e-05}
+saved reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_ft_best.pt val_dice 0.28436316573812115
+{"epoch": 3, "train_loss": 1.0838919080479044, "val_dice": 0.28153476671826455, "lr": 9.861849601988383e-05}
+{"epoch": 4, "train_loss": 1.0783960216901671, "val_dice": 0.2866715171164082, "lr": 9.755282581475767e-05}
+saved reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_ft_best.pt val_dice 0.2866715171164082
+{"epoch": 5, "train_loss": 1.0705879859521354, "val_dice": 0.28481777012348175, "lr": 9.619397662556432e-05}
+{"epoch": 6, "train_loss": 1.0628824179441156, "val_dice": 0.285987316600738, "lr": 9.455032620941837e-05}
+{"epoch": 7, "train_loss": 1.0534048158098275, "val_dice": 0.283403244951079, "lr": 9.26320082177046e-05}
+{"epoch": 8, "train_loss": 1.0482952460436754, "val_dice": 0.279124490916729, "lr": 9.045084971874737e-05}
+{"epoch": 9, "train_loss": 1.0383358591459166, "val_dice": 0.28061214810417545, "lr": 8.802029828000154e-05}
+{"epoch": 10, "train_loss": 1.0330692634616099, "val_dice": 0.2803872326208699, "lr": 8.535533905932737e-05}
+{"epoch": 11, "train_loss": 1.0237726403374068, "val_dice": 0.2794942855834961, "lr": 8.247240241650918e-05}
+{"epoch": 12, "train_loss": 1.0168562898753395, "val_dice": 0.27995317333167596, "lr": 7.938926261462365e-05}
+{"epoch": 13, "train_loss": 1.0069474252596708, "val_dice": 0.2746423528559746, "lr": 7.612492823579742e-05}
+{"epoch": 14, "train_loss": 1.001605555625029, "val_dice": 0.27771287868099825, "lr": 7.269952498697731e-05}
+{"epoch": 15, "train_loss": 0.9926392901951159, "val_dice": 0.2764240392754155, "lr": 6.913417161825447e-05}
+{"epoch": 16, "train_loss": 0.9880483887145217, "val_dice": 0.27759883000004676, "lr": 6.545084971874736e-05}
+{"epoch": 17, "train_loss": 0.9791836127848692, "val_dice": 0.27297386382856675, "lr": 6.167226819279526e-05}
+{"epoch": 18, "train_loss": 0.9728050935016551, "val_dice": 0.27022427488719264, "lr": 5.7821723252011525e-05}
+{"epoch": 19, "train_loss": 0.9648450344381198, "val_dice": 0.27620076940905663, "lr": 5.392295478639223e-05}
+{"epoch": 20, "train_loss": 0.9590038273116233, "val_dice": 0.2727738996186564, "lr": 4.999999999999998e-05}
+{"epoch": 21, "train_loss": 0.9489061530207245, "val_dice": 0.27098519739604765, "lr": 4.607704521360774e-05}
+{"epoch": 22, "train_loss": 0.9465004002124491, "val_dice": 0.2713861568800865, "lr": 4.217827674798845e-05}
+{"epoch": 23, "train_loss": 0.9412956414088397, "val_dice": 0.26807114481925964, "lr": 3.832773180720472e-05}
+{"epoch": 24, "train_loss": 0.9300161858259792, "val_dice": 0.26712130370639986, "lr": 3.4549150281252616e-05}
+{"epoch": 25, "train_loss": 0.9256770829079857, "val_dice": 0.26886635874548265, "lr": 3.08658283817455e-05}
+{"epoch": 26, "train_loss": 0.9211649680641335, "val_dice": 0.2661513818367835, "lr": 2.730047501302265e-05}
+{"epoch": 27, "train_loss": 0.9195804184591266, "val_dice": 0.26476121717883694, "lr": 2.387507176420255e-05}
+{"epoch": 28, "train_loss": 0.9127056424466657, "val_dice": 0.2658878896505602, "lr": 2.061073738537634e-05}
+{"epoch": 29, "train_loss": 0.9063704343329013, "val_dice": 0.2628862172845871, "lr": 1.7527597583490816e-05}
+{"epoch": 30, "train_loss": 0.9046485990705625, "val_dice": 0.2638901022653426, "lr": 1.464466094067262e-05}
+{"epoch": 31, "train_loss": 0.8960393178211131, "val_dice": 0.26211134007861536, "lr": 1.1979701719998447e-05}
+{"epoch": 32, "train_loss": 0.8995118594505418, "val_dice": 0.2644137922794588, "lr": 9.549150281252628e-06}
+{"epoch": 33, "train_loss": 0.8952684543082412, "val_dice": 0.2606976046677559, "lr": 7.367991782295387e-06}
+{"epoch": 34, "train_loss": 0.8958412480186408, "val_dice": 0.26147094272798105, "lr": 5.449673790581608e-06}
+{"epoch": 35, "train_loss": 0.8862018106688916, "val_dice": 0.2611626336170781, "lr": 3.806023374435661e-06}
+{"epoch": 36, "train_loss": 0.8842667513330218, "val_dice": 0.26017601980317023, "lr": 2.447174185242322e-06}
+{"epoch": 37, "train_loss": 0.8850983826207443, "val_dice": 0.25996819306765834, "lr": 1.3815039801161715e-06}
+{"epoch": 38, "train_loss": 0.8839863396026719, "val_dice": 0.26002432045436674, "lr": 6.155829702431167e-07}
+{"epoch": 39, "train_loss": 0.883481791951287, "val_dice": 0.26048704789530847, "lr": 1.5413331334360174e-07}
+{"epoch": 40, "train_loss": 0.8850233407927232, "val_dice": 0.2605385395788377, "lr": 0.0}
+done in 807s best_val_dice=0.2867

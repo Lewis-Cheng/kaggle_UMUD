@@ -1,0 +1,62 @@
+== start v2f TinyUNet+dilate on cuda:1 ==
+v2f_pid=2538164
+== infer_seg_v3 with recover ckpt (val+test, no FOV) ==
+usage: infer_seg_v3.py [-h] --data-root DATA_ROOT --apo-ckpt APO_CKPT
+                       --fasc-ckpt FASC_CKPT --out-dir OUT_DIR
+                       --split-assignments SPLIT_ASSIGNMENTS --scale-csv
+                       SCALE_CSV [--splits SPLITS [SPLITS ...]]
+                       [--device DEVICE] [--fasc-thr FASC_THR]
+                       [--apo-thr APO_THR] [--max-images MAX_IMAGES]
+infer_seg_v3.py: error: the following arguments are required: --scale-csv
+== tier_b ==
+tier_b_seg_gh_best val_MAE_pa=3.753521607876513 fl=9.25980607232606 mt=2.964498382558961 test_ok=0/309 submission=reports/phase3/submission_tier_b_seg_gh_best.csv
+== metrics ==
+{
+  "audit": "tier_b_seg_gh",
+  "scale_provenance_run": "ambrosm_v2_ui_prior",
+  "pred_mask_dir": "reports/phase3/seg_preds_best",
+  "val_metrics": {
+    "label": "MAE_predMask_GH_vs_GTMask_GH_AmbrosM_NOT_expert_NOT_LB",
+    "n_val_stems": 738,
+    "n_gt_mm": 544,
+    "n_pred_mm": 545,
+    "n_paired_mm": 544,
+    "pa_mae": 3.753521607876513,
+    "fl_mae": 9.25980607232606,
+    "mt_mae": 2.964498382558961,
+    "priors_from_gt_mm": {
+      "pa_deg": 6.491989323725299,
+      "fl_mm": 51.71328941374848,
+      "mt_mm": 21.5
+    },
+    "diagnostic_S1_vs_gt_mask_gh": 0.7951345227309701
+  },
+  "test": {
+    "n": 309,
+    "n_fail_or_unusable": 309,
+    "n_ok_mm": 0,
+    "policy": "direct_pred_masks_GeometryHead_AmbrosM_NOT_ExtraTrees",
+    "submission": "reports/phase3/submission_tier_b_seg_gh_best.csv"
+  },
+  "official_S": null,
+  "official_S_reason": "no_independent_expert_gt_csv_in_data_root",
+  "expert_score": null,
+  "extratrees_v2_compare": {
+    "extratrees_val_mae": {
+      "diagnostic_S1_vs_gh_targets": 0.5090726352583422,
+      "fl_mae": 9.857590605995789,
+      "label": "MAE_vs_GeometryHead_AmbrosM_targets_NOT_expert_GT_NOT_LB",
+      "mt_mae": 1.0031300813873358,
+      "n_train_mm": 1744,
+      "n_val_mm": 544,
+      "note_S": "diagnostic only vs GeometryHead AmbrosM targets; NOT official S / NOT leaderboard (no independent expert GT locally)",
+      "pa_mae": 2.228251968877594
+    },
+    "note": "ET supervised by GH targets; seg-GH compared to GT-mask GH \u2014 different reference, both NOT expert"
+  },
+  "n_train_stems_split": 2376,
+  "attention_still_blocked": true,
+  "note": "NOT LB. Val MAE is pred-mask GH vs GT-mask GH under AmbrosM scale."
+}DONE_INFER2
+== v2f early ==
+fasc_v2f train=2195 val=566 size=384 dilate=2 pos_w=80.0 device=cuda:1

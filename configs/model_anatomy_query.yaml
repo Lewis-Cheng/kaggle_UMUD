@@ -1,0 +1,56 @@
+# Anatomy-query candidate config.
+# Verification-first: attention is a HYPOTHESIS. Defaults keep all attention
+# blocks OFF so the first runnable path is encoder + linear query projection
+# only. Enable ablations in protocol order after baseline Tier-B evidence.
+#
+# Ablation order (do not skip):
+#   1. enable_image_self_attn
+#   2. enable_cross_attn   (vs dense decoder / param-budget control)
+#   3. enable_query_self_attn
+#
+# Physical PA/FL/MT are NOT produced inside AnatomyQueryModel.forward;
+# apply umud.models.geometry_head.GeometryHead outside with sx/sy.
+
+model_name: anatomy_query_v0
+note: >
+  Not a Fast3R/VGGT/DUSt3R transplant. No trained weights ship with this scaffold.
+  Do not claim leaderboard improvement from this config alone.
+
+backbone:
+  name: placeholder_cnn   # swap later (convnext/hrnet/…) after gates pass
+  in_channels: 1
+
+latent:
+  embed_dim: 128
+  num_heads: 4
+  mlp_ratio: 2.0
+  dropout: 0.0
+
+blocks:
+  num_image_sa_blocks: 1
+  num_cross_blocks: 1
+  num_query_sa_blocks: 1
+
+queries:
+  num_queries: 3
+  names: [superficial_apo, deep_apo, fascicle]
+  curve_points: 32
+
+# Staged enablement — matches verification report order.
+ablation:
+  enable_image_self_attn: false
+  enable_cross_attn: false
+  enable_query_self_attn: false
+
+geometry_head:
+  # Applied outside the attention module.
+  min_perp_component: 1.0e-3
+  fail_closed: true
+
+training:
+  # Placeholder only — do not start expensive training until gates pass.
+  blocked_until:
+    - pinned_scorer_hash_verified
+    - data_overlap_and_mask_alignment_audit
+    - duplicate_aware_split
+    - seg_geometry_baseline_tier_b_reported

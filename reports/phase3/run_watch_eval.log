@@ -1,0 +1,27 @@
+FASC CKPT RANKING:
+  dice=0.2478 name=seg_fasc_v2_recover_best.pt variant=fasc_v2_recover arch=TinyUNet
+  dice=0.0594 name=seg_fasc_best.pt variant=fasc_v3c_safe_fov arch=FascUNet
+  dice=0.0315 name=seg_fasc_v3e_best.pt variant=fasc_v3e_nofov_hipw arch=FascUNet
+BEST reports/phase3/seg_ckpts/seg_fasc_v2_recover_best.pt
+== infer apo+fasc with BEST=reports/phase3/seg_ckpts/seg_fasc_v2_recover_best.pt dice=0.2477997793509977 ==
+apo arch=TinyUNet size=256 thr=0.5 dice=0.9688958616758283
+fasc arch=TinyUNet size=384 thr=0.5 dice=0.2477997793509977 variant=fasc_v2_recover
+inferred 50/738
+inferred 100/738
+inferred 150/738
+inferred 200/738
+inferred 250/738
+inferred 300/738
+inferred 350/738
+inferred 400/738
+inferred 450/738
+inferred 500/738
+inferred 550/738
+inferred 600/738
+inferred 650/738
+inferred 700/738
+inferred 738/738
+wrote 738 under reports/phase3/seg_preds_best
+== tier_b seg GH ==
+tier_b_seg_gh_best val_MAE_pa=3.753521607876513 fl=9.25980607232606 mt=2.964498382558961 test_ok=0/309 submission=reports/phase3/submission_tier_b_seg_gh_best.csv
+DONE_INFER_TIERB

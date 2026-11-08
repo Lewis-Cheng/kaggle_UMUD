@@ -1,0 +1,87 @@
+{
+  "label": "S_expert_NOT_LB",
+  "claims_kaggle_lb": false,
+  "n": 35,
+  "loocv": {
+    "S_expert_NOT_LB": 1.6415458064138941,
+    "S1": 1.6415440712920326,
+    "S2": 1.7332219575924348,
+    "S3": 1.8999040388460984,
+    "MAE_PA": 11.318089443246777,
+    "MAE_FL": 14.80687051065666,
+    "MAE_MT": 5.41313429234074,
+    "n": 35.0
+  },
+  "loocv_action_hist": {
+    "gh_only": 0,
+    "blend_gh75_et25": 0,
+    "blend_gh50_et50": 18,
+    "blend_gh25_et75": 3,
+    "et_only": 0,
+    "median_prior": 14,
+    "unable_use_prior": 0,
+    "target_mix_et_pa_mt_gh_fl": 0
+  },
+  "baseline_gh_only": {
+    "S_expert_NOT_LB": 2.070000621816404,
+    "S1": 2.069998909797191,
+    "S2": 1.709394471799575,
+    "S3": 2.6247414266642433,
+    "MAE_PA": 13.414088502749953,
+    "MAE_FL": 10.65484092041529,
+    "MAE_MT": 9.25923570669592,
+    "n": 35.0
+  },
+  "baseline_et_only": {
+    "S_expert_NOT_LB": 2.212022307943745,
+    "S1": 2.2120201936447983,
+    "S2": 2.111795347563408,
+    "S3": 2.5035989721604923,
+    "MAE_PA": 13.088825612093013,
+    "MAE_FL": 23.510720206415527,
+    "MAE_MT": 7.4860888851527925,
+    "n": 35.0
+  },
+  "baseline_median": {
+    "S_expert_NOT_LB": 1.598040977936865,
+    "S1": 1.5980394448684196,
+    "S2": 1.5312892007675016,
+    "S3": 1.7792445005213757,
+    "MAE_PA": 12.845473363618932,
+    "MAE_FL": 12.336452642012306,
+    "MAE_MT": 4.875505161503234,
+    "n": 35.0
+  },
+  "final_policy_full_greedy": {
+    "S_expert_NOT_LB": 1.6165236106380265,
+    "S1": 1.616521955394844,
+    "S2": 1.6532971786262045,
+    "S3": 1.9460038833061934,
+    "MAE_PA": 9.09142102978538,
+    "MAE_FL": 15.234191697753674,
+    "MAE_MT": 6.194439159222489,
+    "n": 35.0,
+    "action_hist": {
+      "gh_only": 0,
+      "blend_gh75_et25": 0,
+      "blend_gh50_et50": 35,
+      "blend_gh25_et75": 0,
+      "et_only": 0,
+      "median_prior": 0,
+      "unable_use_prior": 0,
+      "target_mix_et_pa_mt_gh_fl": 0
+    }
+  },
+  "gate_beat_gh": true,
+  "gate_rule": "loocv_S < gh_only_S",
+  "action_names": [
+    "gh_only",
+    "blend_gh75_et25",
+    "blend_gh50_et50",
+    "blend_gh25_et75",
+    "et_only",
+    "median_prior",
+    "unable_use_prior",
+    "target_mix_et_pa_mt_gh_fl"
+  ]
+}

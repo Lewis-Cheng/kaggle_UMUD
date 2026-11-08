@@ -1,0 +1,25 @@
+pairs=2761 img_dir=data/raw/umud/fasc_imgs_v1/fasc_images_new_model_v1 mask_dir=data/raw/umud/fasc_masks_v1/fasc_masks_new_model_v1
+computing dHash groups …
+groups=1513 train=2269 val=492
+init data/external/frundles_weights/fasc_resnet34_384x576_f0.pt size (384, 576) device cuda
+{"epoch": 1, "train_loss": 0.983169179567149, "val_dice": 0.26940188821285, "lr": 0.00029953760005996916}
+saved reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_ft_best.pt val_dice 0.26940188821285
+{"epoch": 2, "train_loss": 0.9688525426555687, "val_dice": 0.27168136306347385, "lr": 0.00029815325108927063}
+saved reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_ft_best.pt val_dice 0.27168136306347385
+{"epoch": 3, "train_loss": 0.9618729730726967, "val_dice": 0.2739111824381736, "lr": 0.0002958554880596515}
+saved reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_ft_best.pt val_dice 0.2739111824381736
+{"epoch": 4, "train_loss": 0.9545875212676088, "val_dice": 0.2740836590528488, "lr": 0.00029265847744427303}
+saved reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_ft_best.pt val_dice 0.2740836590528488
+{"epoch": 5, "train_loss": 0.9475924561560993, "val_dice": 0.2714769003852721, "lr": 0.000288581929876693}
+{"epoch": 6, "train_loss": 0.9425408726846668, "val_dice": 0.27117893724672254, "lr": 0.0002836509786282552}
+{"epoch": 7, "train_loss": 0.9356230203534516, "val_dice": 0.27382650634934824, "lr": 0.00027789602465311383}
+{"epoch": 8, "train_loss": 0.9294511382008942, "val_dice": 0.272647324588991, "lr": 0.0002713525491562421}
+{"epoch": 9, "train_loss": 0.9256434449007813, "val_dice": 0.26887341901179285, "lr": 0.00026406089484000466}
+{"epoch": 10, "train_loss": 0.9166474115680641, "val_dice": 0.27192663521535937, "lr": 0.0002560660171779821}
+{"epoch": 11, "train_loss": 0.9087623021972011, "val_dice": 0.2722627184083385, "lr": 0.0002474172072495276}
+{"epoch": 12, "train_loss": 0.9021800009297652, "val_dice": 0.2713222816105812, "lr": 0.000238167787843871}
+{"epoch": 13, "train_loss": 0.896017119078569, "val_dice": 0.2713697062384698, "lr": 0.00022837478470739232}
+{"epoch": 14, "train_loss": 0.8901813223328389, "val_dice": 0.27266058518040565, "lr": 0.000218098574960932}
+{"epoch": 15, "train_loss": 0.8803690487230328, "val_dice": 0.26696262821074457, "lr": 0.00020740251485476348}
+{"epoch": 16, "train_loss": 0.8733890484756147, "val_dice": 0.2675574109438927, "lr": 0.00019635254915624213}
+{"epoch": 17, "train_loss": 0.8662813490545246, "val_dice": 0.2668020292635887, "lr": 0.00018501680457838585}

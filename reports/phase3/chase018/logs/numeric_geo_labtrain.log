@@ -1,0 +1,42 @@
+[numgeo] start 2026-11-05 16:32:27 UTC+08:00
+[numgeo] MultExp hashes n=0 (HELD OUT)
+[numgeo] co-located apo+fasc stems=309
+[numgeo] usable numeric geo targets=309 stats={'n_common': 309, 'drop_multexp': 0, 'drop_geo': 0, 'ok': 309}
+[numgeo] train=263 val=46 groups=308
+[numgeo] PA train mean/std=15.41/4.05
+[numgeo] init=frundles_state_dict:fasc_resnet34_384x576_f0.pt
+epoch 1/8 loss=0.6631 bce=0.628 dice=0.994 cldice=0.992 pa=0.111 val_dice=0.0076
+saved /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_numeric_geo_labtrain_best.pt best_dice 0.00755798420868814
+epoch 2/8 loss=0.6475 bce=0.588 dice=0.994 cldice=0.992 pa=0.096 val_dice=0.0134
+saved /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_numeric_geo_labtrain_best.pt best_dice 0.013363943435251713
+epoch 3/8 loss=0.6247 bce=0.516 dice=0.994 cldice=0.992 pa=0.092 val_dice=0.0142
+saved /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_numeric_geo_labtrain_best.pt best_dice 0.014215441265453896
+epoch 4/8 loss=0.6039 bce=0.448 dice=0.993 cldice=0.991 pa=0.091 val_dice=0.0159
+saved /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_numeric_geo_labtrain_best.pt best_dice 0.01589753044148286
+epoch 5/8 loss=0.5900 bce=0.403 dice=0.993 cldice=0.990 pa=0.090 val_dice=0.0182
+saved /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_numeric_geo_labtrain_best.pt best_dice 0.018182554747909307
+epoch 6/8 loss=0.5815 bce=0.376 dice=0.993 cldice=0.990 pa=0.089 val_dice=0.0194
+saved /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_numeric_geo_labtrain_best.pt best_dice 0.019421540045489866
+epoch 7/8 loss=0.5774 bce=0.360 dice=0.993 cldice=0.990 pa=0.091 val_dice=0.0199
+saved /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_numeric_geo_labtrain_best.pt best_dice 0.01992369582876563
+epoch 8/8 loss=0.5751 bce=0.355 dice=0.993 cldice=0.990 pa=0.089 val_dice=0.0200
+saved /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_numeric_geo_labtrain_best.pt best_dice 0.020039680569122236
+[numgeo] dump MultExp maps -> /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/cache/maps_multexp_numeric_geo
+[numgeo] dumped 0
+[numgeo] eval raw numeric-geo fasc + Frundles apo
+Traceback (most recent call last):
+  File "/home/chocheng9/kaggle_UMUD/scripts/chase018/train_fasc_numeric_geo_labtrain.py", line 728, in <module>
+    main()
+  File "/home/chocheng9/kaggle_UMUD/scripts/chase018/train_fasc_numeric_geo_labtrain.py", line 619, in main
+    best_raw, grid_raw, df_raw = eval_geo(args.cache_dir)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chocheng9/kaggle_UMUD/scripts/chase018/train_fasc_geoloss_labtrain_comp.py", line 361, in eval_frozen_robust
+    out = loocv_cal_pa_mt(df)
+          ^^^^^^^^^^^^^^^^^^^
+  File "/home/chocheng9/kaggle_UMUD/scripts/chase018/adapt_multexp_fasc.py", line 401, in loocv_cal_pa_mt
+    pa, fl, mt = df.pred_pa.values, df.pred_fl.values, df.pred_mt.values
+                 ^^^^^^^^^^
+  File "/home/chocheng9/.pyenv/versions/3.12.0/lib/python3.12/site-packages/pandas/core/generic.py", line 6318, in __getattr__
+    return object.__getattribute__(self, name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataFrame' object has no attribute 'pred_pa'

@@ -1,0 +1,28 @@
+=== baseline ===
+  S=0.13294 pa=0.928 fl=2.297 mt=0.158 beats=False
+=== belly_gate ===
+  S=0.14176 pa=1.014 fl=2.442 mt=0.158 beats=False
+=== belly_orient15 ===
+  S=0.15698 pa=1.167 fl=2.684 mt=0.158 beats=False
+=== belly_orient25 ===
+  S=0.15635 pa=1.053 fl=2.890 mt=0.158 beats=False
+=== ridge_blend03 ===
+  S=0.13683 pa=0.977 fl=2.339 mt=0.158 beats=False
+=== ridge_blend05 ===
+  S=0.15888 pa=1.167 fl=2.753 mt=0.158 beats=False
+=== ridge_replace ===
+  S=0.36586 pa=1.843 fl=8.852 mt=0.158 beats=False
+=== morph_connect ===
+  S=0.13734 pa=0.964 fl=2.382 mt=0.158 beats=False
+=== morph_prune ===
+  S=0.19724 pa=1.209 fl=4.049 mt=0.158 beats=False
+=== frangi_like ===
+  S=0.14973 pa=1.090 fl=2.578 mt=0.158 beats=False
+=== corridor_dilate ===
+  S=0.13641 pa=0.964 fl=2.350 mt=0.158 beats=False
+=== fold-pure selector ===
+trainS_pick {'S_loocv_cal_pa_mt': 0.13293555901039555, 'MAE_loocv': {'pa_deg': 0.9279384631482271, 'fl_mm': 2.2967497297340818, 'mt_mm': 0.15826250681487788}, 'picked_counts': {'baseline': 35, 'belly_gate': 0, 'belly_orient15': 0, 'belly_orient25': 0, 'ridge_blend03': 0, 'ridge_blend05': 0, 'ridge_replace': 0, 'morph_connect': 0, 'morph_prune': 0, 'frangi_like': 0, 'corridor_dilate': 0}, 'gate_0.12': False, 'beats_0.13294': False}
+feature_rule {'feature': 'fasc_mass', 'v_lo': 'ridge_blend03', 'v_hi': 'morph_connect', 'S': 0.12962987263663162, 'MAE': {'pa_deg': 0.9087342568147992, 'fl_mm': 2.2161535431033514, 'mt_mm': 0.15826250681487788}}
+oracle {'S_loocv_cal_pa_mt': 0.10669469905763038, 'MAE_loocv': {'pa_deg': 0.8268061542259696, 'fl_mm': 1.5543443491020779, 'mt_mm': 0.15826250681487788}, 'note': 'per-image oracle pick among A variants; not transferable'}
+wrote /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/multexp_fasc_adapt_scores.json /home/chocheng9/kaggle_UMUD/reports/phase3/chase018/multexp_fasc_adapt_status.md
+BEST selector_rule_fasc_mass S=0.12963 promote=True gate=False

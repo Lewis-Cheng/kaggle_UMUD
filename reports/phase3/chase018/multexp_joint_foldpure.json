@@ -1,0 +1,599 @@
+{
+  "asof": "2026-11-05 17:37:37 Asia/Hong_Kong",
+  "protocol": "honest nested LOOCV; PA+MT affine; FL raw; no leaky oracle",
+  "hold": 0.13195144580335014,
+  "gate": 0.12,
+  "C_sanity": {
+    "S": 0.14417766916760597,
+    "MAE": {
+      "pa_deg": 1.0178573453740616,
+      "fl_mm": 2.5216274335840163,
+      "mt_mm": 0.15826250681487788
+    },
+    "pick_counts": {
+      "corridor_dilate": 6,
+      "blend_base_morph": 1,
+      "ridge_blend03": 13,
+      "baseline": 14,
+      "ridge_soft02": 1
+    },
+    "nested": "per_fold_feature_rule",
+    "sin_w": 0.35,
+    "alpha": 0.0
+  },
+  "fixed_best": {
+    "kind": "sin",
+    "variant": "corridor_dilate",
+    "fl": 0.3,
+    "alpha": 0.15,
+    "S": 0.13172328136679268,
+    "mae": {
+      "pa_deg": 0.9033125123143603,
+      "fl_mm": 2.302359431977445,
+      "mt_mm": 0.15826250681487788
+    }
+  },
+  "fixed_top10": [
+    {
+      "kind": "sin",
+      "variant": "corridor_dilate",
+      "fl": 0.3,
+      "alpha": 0.15,
+      "S": 0.13172328136679268,
+      "mae": {
+        "pa_deg": 0.9033125123143603,
+        "fl_mm": 2.302359431977445,
+        "mt_mm": 0.15826250681487788
+      }
+    },
+    {
+      "kind": "proto",
+      "variant": "corridor_dilate",
+      "fl": "geo70_sin30",
+      "alpha": 0.15,
+      "S": 0.13172328136679268,
+      "mae": {
+        "pa_deg": 0.9033125123143603,
+        "fl_mm": 2.302359431977445,
+        "mt_mm": 0.15826250681487788
+      }
+    },
+    {
+      "kind": "sin",
+      "variant": "blend_base_morph",
+      "fl": 0.3,
+      "alpha": 0.15,
+      "S": 0.13203462731579332,
+      "mae": {
+        "pa_deg": 0.9033125123143603,
+        "fl_mm": 2.3135678861377245,
+        "mt_mm": 0.15826250681487788
+      }
+    },
+    {
+      "kind": "proto",
+      "variant": "blend_base_morph",
+      "fl": "geo70_sin30",
+      "alpha": 0.15,
+      "S": 0.13203462731579332,
+      "mae": {
+        "pa_deg": 0.9033125123143603,
+        "fl_mm": 2.3135678861377245,
+        "mt_mm": 0.15826250681487788
+      }
+    },
+    {
+      "kind": "sin",
+      "variant": "baseline",
+      "fl": 0.3,
+      "alpha": 0.15,
+      "S": 0.13227548104712755,
+      "mae": {
+        "pa_deg": 0.9033125123143603,
+        "fl_mm": 2.322238620463236,
+        "mt_mm": 0.15826250681487788
+      }
+    },
+    {
+      "kind": "proto",
+      "variant": "baseline",
+      "fl": "geo70_sin30",
+      "alpha": 0.15,
+      "S": 0.13227548104712755,
+      "mae": {
+        "pa_deg": 0.9033125123143603,
+        "fl_mm": 2.322238620463236,
+        "mt_mm": 0.15826250681487788
+      }
+    },
+    {
+      "kind": "sin",
+      "variant": "baseline",
+      "fl": 0.3,
+      "alpha": 0.0,
+      "S": 0.13241475990880067,
+      "mae": {
+        "pa_deg": 0.9279384631482271,
+        "fl_mm": 2.2780008732238435,
+        "mt_mm": 0.15826250681487788
+      }
+    },
+    {
+      "kind": "proto",
+      "variant": "baseline",
+      "fl": "geo70_sin30",
+      "alpha": 0.0,
+      "S": 0.13241475990880067,
+      "mae": {
+        "pa_deg": 0.9279384631482271,
+        "fl_mm": 2.2780008732238435,
+        "mt_mm": 0.15826250681487788
+      }
+    },
+    {
+      "kind": "sin",
+      "variant": "ridge_soft02",
+      "fl": 0.3,
+      "alpha": 0.15,
+      "S": 0.1324691096524299,
+      "mae": {
+        "pa_deg": 0.9033125123143603,
+        "fl_mm": 2.3292092469415997,
+        "mt_mm": 0.15826250681487788
+      }
+    },
+    {
+      "kind": "proto",
+      "variant": "ridge_soft02",
+      "fl": "geo70_sin30",
+      "alpha": 0.15,
+      "S": 0.1324691096524299,
+      "mae": {
+        "pa_deg": 0.9033125123143603,
+        "fl_mm": 2.3292092469415997,
+        "mt_mm": 0.15826250681487788
+      }
+    }
+  ],
+  "nested_base_path": {
+    "S": 0.13751181547892002,
+    "MAE": {
+      "pa_deg": 0.9350564957851906,
+      "fl_mm": 2.447258619808447,
+      "mt_mm": 0.15826250681487788
+    },
+    "pick_counts": {
+      "('sin', 'baseline', 0.3, 0.15)": 21,
+      "('sin', 'baseline', 0.3, 0.0)": 12,
+      "('sin', 'baseline', 0.28, 0.0)": 1,
+      "('sin', 'baseline', 0.28, 0.15)": 1
+    },
+    "nested": "per_fold_train_pick_fixed_config",
+    "proxy": "trainS"
+  },
+  "nested_all_fixed": {
+    "S": 0.1386628784830943,
+    "MAE": {
+      "pa_deg": 0.9317022407969324,
+      "fl_mm": 2.4954052327795857,
+      "mt_mm": 0.15826250681487788
+    },
+    "pick_counts": {
+      "('sin', 'corridor_dilate', 0.3, 0.15)": 32,
+      "('sin', 'corridor_dilate', 0.3, 0.0)": 1,
+      "('sin', 'ridge_blend03', 0.3, 0.15)": 1,
+      "('sin', 'blend_base_morph', 0.3, 0.15)": 1
+    },
+    "nested": "per_fold_train_pick_fixed_config",
+    "proxy": "trainS"
+  },
+  "feature_rule_grid": [
+    {
+      "S": 0.1441469024764271,
+      "MAE": {
+        "pa_deg": 1.0285509828939137,
+        "fl_mm": 2.499132350035736,
+        "mt_mm": 0.15826250681487788
+      },
+      "pick_counts": {
+        "ridge_blend03": 26,
+        "corridor_dilate": 3,
+        "baseline": 6
+      },
+      "nested": "per_fold_feature_rule",
+      "sin_w": 0.25,
+      "alpha": 0.0
+    },
+    {
+      "S": 0.13461994605120636,
+      "MAE": {
+        "pa_deg": 0.9033125123143603,
+        "fl_mm": 2.406639209870794,
+        "mt_mm": 0.15826250681487788
+      },
+      "pick_counts": {
+        "morph_connect": 15,
+        "ridge_blend03": 17,
+        "baseline": 1,
+        "corridor_dilate": 1,
+        "ridge_soft02": 1
+      },
+      "nested": "per_fold_feature_rule",
+      "sin_w": 0.25,
+      "alpha": 0.15
+    },
+    {
+      "S": 0.13552189343294188,
+      "MAE": {
+        "pa_deg": 0.9094408579459069,
+        "fl_mm": 2.426852665847744,
+        "mt_mm": 0.15826250681487788
+      },
+      "pick_counts": {
+        "morph_connect": 15,
+        "ridge_blend03": 17,
+        "baseline": 1,
+        "corridor_dilate": 1,
+        "ridge_soft02": 1
+      },
+      "nested": "per_fold_feature_rule",
+      "sin_w": 0.25,
+      "alpha": 0.25
+    },
+    {
+      "S": 0.14417766916760597,
+      "MAE": {
+        "pa_deg": 1.0178573453740616,
+        "fl_mm": 2.5216274335840163,
+        "mt_mm": 0.15826250681487788
+      },
+      "pick_counts": {
+        "corridor_dilate": 6,
+        "blend_base_morph": 1,
+        "ridge_blend03": 13,
+        "baseline": 14,
+        "ridge_soft02": 1
+      },
+      "nested": "per_fold_feature_rule",
+      "sin_w": 0.28,
+      "alpha": 0.0
+    },
+    {
+      "S": 0.1333594259322691,
+      "MAE": {
+        "pa_deg": 0.9033125123143603,
+        "fl_mm": 2.3612604032977647,
+        "mt_mm": 0.15826250681487788
+      },
+      "pick_counts": {
+        "morph_connect": 15,
+        "ridge_blend03": 17,
+        "baseline": 1,
+        "corridor_dilate": 1,
+        "ridge_soft02": 1
+      },
+      "nested": "per_fold_feature_rule",
+      "sin_w": 0.28,
+      "alpha": 0.15
+    },
+    {
+      "S": 0.13424670956123244,
+      "MAE": {
+        "pa_deg": 0.9094408579459069,
+        "fl_mm": 2.3809460031247993,
+        "mt_mm": 0.15826250681487788
+      },
+      "pick_counts": {
+        "morph_connect": 15,
+        "ridge_blend03": 17,
+        "baseline": 1,
+        "corridor_dilate": 1,
+        "ridge_soft02": 1
+      },
+      "nested": "per_fold_feature_rule",
+      "sin_w": 0.28,
+      "alpha": 0.25
+    },
+    {
+      "S": 0.14270286085444941,
+      "MAE": {
+        "pa_deg": 0.9897562869909945,
+        "fl_mm": 2.5247362349990756,
+        "mt_mm": 0.15826250681487788
+      },
+      "pick_counts": {
+        "corridor_dilate": 14,
+        "baseline": 17,
+        "ridge_blend03": 4
+      },
+      "nested": "per_fold_feature_rule",
+      "sin_w": 0.3,
+      "alpha": 0.0
+    },
+    {
+      "S": 0.13299811492704883,
+      "MAE": {
+        "pa_deg": 0.9033125123143603,
+        "fl_mm": 2.3482532801984264,
+        "mt_mm": 0.15826250681487788
+      },
+      "pick_counts": {
+        "morph_connect": 15,
+        "ridge_blend03": 17,
+        "baseline": 1,
+        "corridor_dilate": 1,
+        "ridge_soft02": 1
+      },
+      "nested": "per_fold_feature_rule",
+      "sin_w": 0.3,
+      "alpha": 0.15
+    },
+    {
+      "S": 0.13384697259354886,
+      "MAE": {
+        "pa_deg": 0.9094408579459069,
+        "fl_mm": 2.366555493985734,
+        "mt_mm": 0.15826250681487788
+      },
+      "pick_counts": {
+        "morph_connect": 15,
+        "ridge_blend03": 17,
+        "baseline": 1,
+        "corridor_dilate": 1,
+        "ridge_soft02": 1
+      },
+      "nested": "per_fold_feature_rule",
+      "sin_w": 0.3,
+      "alpha": 0.25
+    },
+    {
+      "S": 0.14417766916760597,
+      "MAE": {
+        "pa_deg": 1.0178573453740616,
+        "fl_mm": 2.5216274335840163,
+        "mt_mm": 0.15826250681487788
+      },
+      "pick_counts": {
+        "corridor_dilate": 6,
+        "blend_base_morph": 1,
+        "ridge_blend03": 13,
+        "baseline": 14,
+        "ridge_soft02": 1
+      },
+      "nested": "per_fold_feature_rule",
+      "sin_w": 0.32,
+      "alpha": 0.0
+    },
+    {
+      "S": 0.1333594259322691,
+      "MAE": {
+        "pa_deg": 0.9033125123143603,
+        "fl_mm": 2.3612604032977647,
+        "mt_mm": 0.15826250681487788
+      },
+      "pick_counts": {
+        "morph_connect": 15,
+        "ridge_blend03": 17,
+        "baseline": 1,
+        "corridor_dilate": 1,
+        "ridge_soft02": 1
+      },
+      "nested": "per_fold_feature_rule",
+      "sin_w": 0.32,
+      "alpha": 0.15
+    },
+    {
+      "S": 0.13424670956123244,
+      "MAE": {
+        "pa_deg": 0.9094408579459069,
+        "fl_mm": 2.3809460031247993,
+        "mt_mm": 0.15826250681487788
+      },
+      "pick_counts": {
+        "morph_connect": 15,
+        "ridge_blend03": 17,
+        "baseline": 1,
+        "corridor_dilate": 1,
+        "ridge_soft02": 1
+      },
+      "nested": "per_fold_feature_rule",
+      "sin_w": 0.32,
+      "alpha": 0.25
+    },
+    {
+      "S": 0.14417766916760597,
+      "MAE": {
+        "pa_deg": 1.0178573453740616,
+        "fl_mm": 2.5216274335840163,
+        "mt_mm": 0.15826250681487788
+      },
+      "pick_counts": {
+        "corridor_dilate": 6,
+        "blend_base_morph": 1,
+        "ridge_blend03": 13,
+        "baseline": 14,
+        "ridge_soft02": 1
+      },
+      "nested": "per_fold_feature_rule",
+      "sin_w": 0.35,
+      "alpha": 0.0
+    },
+    {
+      "S": 0.1333594259322691,
+      "MAE": {
+        "pa_deg": 0.9033125123143603,
+        "fl_mm": 2.3612604032977647,
+        "mt_mm": 0.15826250681487788
+      },
+      "pick_counts": {
+        "morph_connect": 15,
+        "ridge_blend03": 17,
+        "baseline": 1,
+        "corridor_dilate": 1,
+        "ridge_soft02": 1
+      },
+      "nested": "per_fold_feature_rule",
+      "sin_w": 0.35,
+      "alpha": 0.15
+    },
+    {
+      "S": 0.13424670956123244,
+      "MAE": {
+        "pa_deg": 0.9094408579459069,
+        "fl_mm": 2.3809460031247993,
+        "mt_mm": 0.15826250681487788
+      },
+      "pick_counts": {
+        "morph_connect": 15,
+        "ridge_blend03": 17,
+        "baseline": 1,
+        "corridor_dilate": 1,
+        "ridge_soft02": 1
+      },
+      "nested": "per_fold_feature_rule",
+      "sin_w": 0.35,
+      "alpha": 0.25
+    }
+  ],
+  "feature_rule_grid_best": {
+    "S": 0.13299811492704883,
+    "MAE": {
+      "pa_deg": 0.9033125123143603,
+      "fl_mm": 2.3482532801984264,
+      "mt_mm": 0.15826250681487788
+    },
+    "pick_counts": {
+      "morph_connect": 15,
+      "ridge_blend03": 17,
+      "baseline": 1,
+      "corridor_dilate": 1,
+      "ridge_soft02": 1
+    },
+    "nested": "per_fold_feature_rule",
+    "sin_w": 0.3,
+    "alpha": 0.15
+  },
+  "feature_rule_joint": {
+    "S": 0.1344865957876554,
+    "MAE": {
+      "pa_deg": 0.9208313222823786,
+      "fl_mm": 2.3668009153085854,
+      "mt_mm": 0.15826250681487788
+    },
+    "pick_counts": {
+      "morph_connect|sin0.30|a0.25|fasc_mass": 6,
+      "ridge_blend03|sin0.30|a0.15|fasc_mass": 6,
+      "morph_connect|sin0.30|a0.15|fasc_mass": 9,
+      "baseline|sin0.30|a0.15|fasc_mass": 1,
+      "corridor_dilate|sin0.30|a0.15|fasc_mass": 1,
+      "ridge_blend03|sin0.30|a0.25|fasc_mass": 11,
+      "ridge_soft02|sin0.30|a0.15|fasc_mass": 1
+    },
+    "nested": "per_fold_joint_feature_rule_sin_pa"
+  },
+  "candidates": [
+    {
+      "tag": "fixed_best",
+      "S": 0.13172328136679268,
+      "mae": {
+        "pa_deg": 0.9033125123143603,
+        "fl_mm": 2.302359431977445,
+        "mt_mm": 0.15826250681487788
+      },
+      "variant": "corridor_dilate",
+      "fl": 0.3,
+      "alpha": 0.15
+    },
+    {
+      "tag": "nested_base_path",
+      "S": 0.13751181547892002,
+      "mae": {
+        "pa_deg": 0.9350564957851906,
+        "fl_mm": 2.447258619808447,
+        "mt_mm": 0.15826250681487788
+      }
+    },
+    {
+      "tag": "nested_all_fixed",
+      "S": 0.1386628784830943,
+      "mae": {
+        "pa_deg": 0.9317022407969324,
+        "fl_mm": 2.4954052327795857,
+        "mt_mm": 0.15826250681487788
+      }
+    },
+    {
+      "tag": "feature_rule_grid_best",
+      "S": 0.13299811492704883,
+      "mae": {
+        "pa_deg": 0.9033125123143603,
+        "fl_mm": 2.3482532801984264,
+        "mt_mm": 0.15826250681487788
+      },
+      "sin_w": 0.3,
+      "alpha": 0.15
+    },
+    {
+      "tag": "feature_rule_joint",
+      "S": 0.1344865957876554,
+      "mae": {
+        "pa_deg": 0.9208313222823786,
+        "fl_mm": 2.3668009153085854,
+        "mt_mm": 0.15826250681487788
+      }
+    },
+    {
+      "tag": "C_sanity_sin035_a0",
+      "S": 0.14417766916760597,
+      "mae": {
+        "pa_deg": 1.0178573453740616,
+        "fl_mm": 2.5216274335840163,
+        "mt_mm": 0.15826250681487788
+      }
+    }
+  ],
+  "champ": {
+    "tag": "fixed_best",
+    "S": 0.13172328136679268,
+    "mae": {
+      "pa_deg": 0.9033125123143603,
+      "fl_mm": 2.302359431977445,
+      "mt_mm": 0.15826250681487788
+    },
+    "variant": "corridor_dilate",
+    "fl": 0.3,
+    "alpha": 0.15
+  },
+  "best_nested_S": 0.13172328136679268,
+  "promote": true,
+  "gate_0.12": false,
+  "kaggle_submit": false,
+  "elapsed_min": 2.7072780251502992,
+  "grid": {
+    "variants": [
+      "baseline",
+      "ridge_blend03",
+      "morph_connect",
+      "corridor_dilate",
+      "blend_base_morph",
+      "ridge_soft02"
+    ],
+    "sin_ws": [
+      0.25,
+      0.28,
+      0.3,
+      0.32,
+      0.35
+    ],
+    "pa_alphas": [
+      0.0,
+      0.15,
+      0.25
+    ],
+    "extra_fl": [
+      "geo70_sin30",
+      "geo65_sin35",
+      "deep_insert"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "label": "S_expert_NOT_LB",
+  "pipeline": "frozen apo + fasc_v5 MSTinyUNet \u2192 GeometryHead + MultExpData Scale_pixel_per_cm",
+  "gt": "median R1-R7 MultExpData architecture v0.1.0",
+  "n_images": 35,
+  "n_scored": 35,
+  "n_ok_geometry": 35,
+  "MAE_PA": 13.414088502749953,
+  "MAE_FL": 10.65484092041529,
+  "MAE_MT": 9.259235706695922,
+  "S_expert_NOT_LB": 2.0700006218164044,
+  "S1": 2.0699989097971914,
+  "S2": 1.709394471799575,
+  "S3": 2.6247414266642433,
+  "tolerances": {
+    "pa_deg": 6.0,
+    "fl_mm": 12.0,
+    "mt_mm": 3.0
+  },
+  "apo_ckpt": "reports/phase3/seg_ckpts/seg_apo_best.pt",
+  "fasc_ckpt": "reports/phase3/seg_ckpts/seg_fasc_v5_best.pt",
+  "fasc_arch": "MSTinyUNet",
+  "fasc_variant": "fasc_v5_edt_cldice_ms",
+  "fasc_best_native_dice": null,
+  "claims_kaggle_lb": false,
+  "attention_still_blocked": true
+}

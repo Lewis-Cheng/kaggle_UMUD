@@ -1,0 +1,59 @@
+{
+  "ckpt": "/home/chocheng9/kaggle_UMUD/reports/phase3/seg_ckpts/seg_fasc_v6b_best.pt",
+  "arch": "TimmUNet",
+  "size": 512,
+  "variant": "fasc_v6b_hrnet_edt_cldice",
+  "stored_val_dice": 0.2718290712371272,
+  "square_resize_native": {
+    "0.3": {
+      "n": 566,
+      "macro_dice": 0.27921092882501386,
+      "dice_p50": 0.2693893580857276,
+      "empty_pred_frac": 0.0,
+      "thr": 0.3,
+      "letterbox": false
+    },
+    "0.35": {
+      "n": 566,
+      "macro_dice": 0.2818628727864437,
+      "dice_p50": 0.2741154117752276,
+      "empty_pred_frac": 0.0,
+      "thr": 0.35,
+      "letterbox": false
+    },
+    "0.5": {
+      "n": 566,
+      "macro_dice": 0.2834576270387593,
+      "dice_p50": 0.2748018257807346,
+      "empty_pred_frac": 0.0,
+      "thr": 0.5,
+      "letterbox": false
+    }
+  },
+  "letterbox_native": {
+    "0.3": {
+      "n": 566,
+      "macro_dice": 0.2110413584985225,
+      "dice_p50": 0.19660393210774896,
+      "empty_pred_frac": 0.0,
+      "thr": 0.3,
+      "letterbox": true
+    },
+    "0.35": {
+      "n": 566,
+      "macro_dice": 0.2154242440504092,
+      "dice_p50": 0.19856231948775738,
+      "empty_pred_frac": 0.0,
+      "thr": 0.35,
+      "letterbox": true
+    },
+    "0.5": {
+      "n": 566,
+      "macro_dice": 0.22509778589526813,
+      "dice_p50": 0.20913622908835613,
+      "empty_pred_frac": 0.0,
+      "thr": 0.5,
+      "letterbox": true
+    }
+  }
+}

@@ -1,0 +1,437 @@
+{
+  "updated": "2026-11-05 16:12:29 UTC+08:00",
+  "elapsed_sec": 633.6338167190552,
+  "train_mix": {
+    "labtrain": 1841,
+    "comp": 2750
+  },
+  "expdrawn_missing": true,
+  "init": "frundles_state encoder=resnet34 size=(384, 576)",
+  "loss": {
+    "bce": 0.35,
+    "dice": 0.35,
+    "cldice": 0.2,
+    "orient": 0.1,
+    "description": "BCE+Dice+soft_clDice+structure-tensor orientation consistency (mask self-target)"
+  },
+  "epochs": 12,
+  "best_val_dice": 0.34070195717846646,
+  "n_train": 4047,
+  "n_val": 544,
+  "multexp_dropped": 24,
+  "ckpt": "/home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_geoloss_labtrain_comp_best.pt",
+  "cache_raw": "/home/chocheng9/kaggle_UMUD/reports/phase3/chase018/cache/maps_multexp_geoloss",
+  "raw_best": {
+    "thr": 0.4,
+    "S": 0.1444750174481074,
+    "mae_pa": 0.8930739456504133,
+    "mae_fl": 2.781898662799648,
+    "mae_mt": 0.15826250681487788,
+    "n": 35,
+    "kw": {
+      "name": "hough_tex0.4_thr035_apo60_ff0.9_sin0.35_agNone",
+      "apo_thr": 0.6,
+      "fasc_thr": 0.4,
+      "min_len": 3.0,
+      "depth_at": 0.7,
+      "tex_w": 0.4,
+      "fl_sin_w": 0.35,
+      "fl_factor": 0.9,
+      "agree_thr": null,
+      "tex_lo": 0.5,
+      "tex_hi": 0.95,
+      "pa_mode": "hough"
+    }
+  },
+  "raw_grid": [
+    {
+      "thr": 0.25,
+      "S": 0.1507859332901613,
+      "mae_pa": 1.0550239942490818,
+      "mae_fl": 2.68519144374956,
+      "mae_mt": 0.15826250681487788,
+      "n": 35,
+      "kw": {
+        "name": "hough_tex0.4_thr035_apo60_ff0.9_sin0.35_agNone",
+        "apo_thr": 0.6,
+        "fasc_thr": 0.25,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.4,
+        "fl_sin_w": 0.35,
+        "fl_factor": 0.9,
+        "agree_thr": null,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      }
+    },
+    {
+      "thr": 0.3,
+      "S": 0.14863713346881582,
+      "mae_pa": 1.0016381728517592,
+      "mae_fl": 2.7146059320791167,
+      "mae_mt": 0.15826250681487788,
+      "n": 35,
+      "kw": {
+        "name": "hough_tex0.4_thr035_apo60_ff0.9_sin0.35_agNone",
+        "apo_thr": 0.6,
+        "fasc_thr": 0.3,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.4,
+        "fl_sin_w": 0.35,
+        "fl_factor": 0.9,
+        "agree_thr": null,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      }
+    },
+    {
+      "thr": 0.35,
+      "S": 0.15165318741692219,
+      "mae_pa": 1.043331552515411,
+      "mae_fl": 2.73979732996498,
+      "mae_mt": 0.15826250681487788,
+      "n": 35,
+      "kw": {
+        "name": "hough_tex0.4_thr035_apo60_ff0.9_sin0.35_agNone",
+        "apo_thr": 0.6,
+        "fasc_thr": 0.35,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.4,
+        "fl_sin_w": 0.35,
+        "fl_factor": 0.9,
+        "agree_thr": null,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      }
+    },
+    {
+      "thr": 0.4,
+      "S": 0.1444750174481074,
+      "mae_pa": 0.8930739456504133,
+      "mae_fl": 2.781898662799648,
+      "mae_mt": 0.15826250681487788,
+      "n": 35,
+      "kw": {
+        "name": "hough_tex0.4_thr035_apo60_ff0.9_sin0.35_agNone",
+        "apo_thr": 0.6,
+        "fasc_thr": 0.4,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.4,
+        "fl_sin_w": 0.35,
+        "fl_factor": 0.9,
+        "agree_thr": null,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      }
+    },
+    {
+      "thr": 0.45,
+      "S": 0.14992987328929178,
+      "mae_pa": 1.0299332213977075,
+      "mae_fl": 2.70455495620543,
+      "mae_mt": 0.15826250681487788,
+      "n": 35,
+      "kw": {
+        "name": "hough_tex0.4_thr035_apo60_ff0.9_sin0.35_agNone",
+        "apo_thr": 0.6,
+        "fasc_thr": 0.45,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.4,
+        "fl_sin_w": 0.35,
+        "fl_factor": 0.9,
+        "agree_thr": null,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      }
+    }
+  ],
+  "blend_best": {
+    "thr": 0.25,
+    "S": 0.1377727313565292,
+    "mae_pa": 1.011486364010756,
+    "mae_fl": 2.3037915266000466,
+    "mae_mt": 0.15826250681487788,
+    "n": 35,
+    "kw": {
+      "name": "hough_tex0.4_thr035_apo60_ff0.9_sin0.35_agNone",
+      "apo_thr": 0.6,
+      "fasc_thr": 0.25,
+      "min_len": 3.0,
+      "depth_at": 0.7,
+      "tex_w": 0.4,
+      "fl_sin_w": 0.35,
+      "fl_factor": 0.9,
+      "agree_thr": null,
+      "tex_lo": 0.5,
+      "tex_hi": 0.95,
+      "pa_mode": "hough"
+    }
+  },
+  "blend_alpha": 0.4,
+  "frundles_ref": {
+    "thr": 0.35,
+    "S": 0.13293555901039555,
+    "mae_pa": 0.9279384631482271,
+    "mae_fl": 2.2967497297340818,
+    "mae_mt": 0.15826250681487788,
+    "n": 35,
+    "kw": {
+      "name": "hough_tex0.4_thr035_apo60_ff0.9_sin0.35_agNone",
+      "apo_thr": 0.6,
+      "fasc_thr": 0.35,
+      "min_len": 3.0,
+      "depth_at": 0.7,
+      "tex_w": 0.4,
+      "fl_sin_w": 0.35,
+      "fl_factor": 0.9,
+      "agree_thr": null,
+      "tex_lo": 0.5,
+      "tex_hi": 0.95,
+      "pa_mode": "hough"
+    }
+  },
+  "candidates": [
+    {
+      "tag": "frundles_ref",
+      "S": 0.13293555901039555,
+      "detail": {
+        "thr": 0.35,
+        "S": 0.13293555901039555,
+        "mae_pa": 0.9279384631482271,
+        "mae_fl": 2.2967497297340818,
+        "mae_mt": 0.15826250681487788,
+        "n": 35,
+        "kw": {
+          "name": "hough_tex0.4_thr035_apo60_ff0.9_sin0.35_agNone",
+          "apo_thr": 0.6,
+          "fasc_thr": 0.35,
+          "min_len": 3.0,
+          "depth_at": 0.7,
+          "tex_w": 0.4,
+          "fl_sin_w": 0.35,
+          "fl_factor": 0.9,
+          "agree_thr": null,
+          "tex_lo": 0.5,
+          "tex_hi": 0.95,
+          "pa_mode": "hough"
+        }
+      },
+      "cache": "/home/chocheng9/kaggle_UMUD/reports/phase3/chase018/cache/maps_multexp"
+    },
+    {
+      "tag": "blend_a0.40",
+      "S": 0.1377727313565292,
+      "detail": {
+        "thr": 0.25,
+        "S": 0.1377727313565292,
+        "mae_pa": 1.011486364010756,
+        "mae_fl": 2.3037915266000466,
+        "mae_mt": 0.15826250681487788,
+        "n": 35,
+        "kw": {
+          "name": "hough_tex0.4_thr035_apo60_ff0.9_sin0.35_agNone",
+          "apo_thr": 0.6,
+          "fasc_thr": 0.25,
+          "min_len": 3.0,
+          "depth_at": 0.7,
+          "tex_w": 0.4,
+          "fl_sin_w": 0.35,
+          "fl_factor": 0.9,
+          "agree_thr": null,
+          "tex_lo": 0.5,
+          "tex_hi": 0.95,
+          "pa_mode": "hough"
+        }
+      },
+      "cache": "/home/chocheng9/kaggle_UMUD/reports/phase3/chase018/cache/maps_multexp_geoloss_blend40"
+    },
+    {
+      "tag": "raw_geoloss",
+      "S": 0.1444750174481074,
+      "detail": {
+        "thr": 0.4,
+        "S": 0.1444750174481074,
+        "mae_pa": 0.8930739456504133,
+        "mae_fl": 2.781898662799648,
+        "mae_mt": 0.15826250681487788,
+        "n": 35,
+        "kw": {
+          "name": "hough_tex0.4_thr035_apo60_ff0.9_sin0.35_agNone",
+          "apo_thr": 0.6,
+          "fasc_thr": 0.4,
+          "min_len": 3.0,
+          "depth_at": 0.7,
+          "tex_w": 0.4,
+          "fl_sin_w": 0.35,
+          "fl_factor": 0.9,
+          "agree_thr": null,
+          "tex_lo": 0.5,
+          "tex_hi": 0.95,
+          "pa_mode": "hough"
+        }
+      },
+      "cache": "/home/chocheng9/kaggle_UMUD/reports/phase3/chase018/cache/maps_multexp_geoloss"
+    }
+  ],
+  "champ": {
+    "tag": "blend_a0.40",
+    "S": 0.1377727313565292,
+    "detail": {
+      "thr": 0.25,
+      "S": 0.1377727313565292,
+      "mae_pa": 1.011486364010756,
+      "mae_fl": 2.3037915266000466,
+      "mae_mt": 0.15826250681487788,
+      "n": 35,
+      "kw": {
+        "name": "hough_tex0.4_thr035_apo60_ff0.9_sin0.35_agNone",
+        "apo_thr": 0.6,
+        "fasc_thr": 0.25,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.4,
+        "fl_sin_w": 0.35,
+        "fl_factor": 0.9,
+        "agree_thr": null,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      }
+    },
+    "cache": "/home/chocheng9/kaggle_UMUD/reports/phase3/chase018/cache/maps_multexp_geoloss_blend40"
+  },
+  "hold": 0.13195144580335014,
+  "gate": 0.12,
+  "promote": false,
+  "gate_pass": false,
+  "hist": [
+    {
+      "epoch": 1,
+      "loss": 0.43768052187296425,
+      "val_dice": 0.2880275251672548,
+      "bce": 0.026132517151239484,
+      "dice": 0.7454348761256379,
+      "cldice": 0.7465318452013601,
+      "orient": 0.18325566836807988
+    },
+    {
+      "epoch": 2,
+      "loss": 0.41789759415211064,
+      "val_dice": 0.29797804311794396,
+      "bce": 0.020231292046385237,
+      "dice": 0.7190302075725971,
+      "cldice": 0.7185043319617167,
+      "orient": 0.15455204750051593
+    },
+    {
+      "epoch": 3,
+      "loss": 0.41082531249169074,
+      "val_dice": 0.30597736489246874,
+      "bce": 0.020252549572672585,
+      "dice": 0.7078033401234315,
+      "cldice": 0.7074122027595444,
+      "orient": 0.1452331181504939
+    },
+    {
+      "epoch": 4,
+      "loss": 0.40427536421483107,
+      "val_dice": 0.31064025663277683,
+      "bce": 0.020495190794146297,
+      "dice": 0.6966097708975915,
+      "cldice": 0.6963685010919477,
+      "orient": 0.14014926591131946
+    },
+    {
+      "epoch": 5,
+      "loss": 0.3985934863586237,
+      "val_dice": 0.3164876703830326,
+      "bce": 0.020675129856508555,
+      "dice": 0.6864895791110426,
+      "cldice": 0.6863204983201358,
+      "orient": 0.13821739430474764
+    },
+    {
+      "epoch": 6,
+      "loss": 0.3921490234313625,
+      "val_dice": 0.3224138444399132,
+      "bce": 0.020623515092647902,
+      "dice": 0.6752906263464749,
+      "cldice": 0.6751560980730718,
+      "orient": 0.13547855440047707
+    },
+    {
+      "epoch": 7,
+      "loss": 0.38651446222078684,
+      "val_dice": 0.33062491982298736,
+      "bce": 0.020582041800907343,
+      "dice": 0.6651626890248591,
+      "cldice": 0.6650551451314793,
+      "orient": 0.13492778641457606
+    },
+    {
+      "epoch": 8,
+      "loss": 0.38076470765737025,
+      "val_dice": 0.3319232761859894,
+      "bce": 0.020439124050190542,
+      "dice": 0.6550764021306935,
+      "cldice": 0.6549825102976053,
+      "orient": 0.13337772379417231
+    },
+    {
+      "epoch": 9,
+      "loss": 0.3754231880206873,
+      "val_dice": 0.3370153765906306,
+      "bce": 0.020201173738235295,
+      "dice": 0.6456017029167402,
+      "cldice": 0.6455148027674986,
+      "orient": 0.1328922124192266
+    },
+    {
+      "epoch": 10,
+      "loss": 0.37199486033751233,
+      "val_dice": 0.34000375143745365,
+      "bce": 0.02005580521124129,
+      "dice": 0.6396109230447524,
+      "cldice": 0.6395308060221153,
+      "orient": 0.1320534674395429
+    },
+    {
+      "epoch": 11,
+      "loss": 0.36941512870316456,
+      "val_dice": 0.3404870320330648,
+      "bce": 0.0198979181947537,
+      "dice": 0.6349816814507588,
+      "cldice": 0.6349013596478075,
+      "orient": 0.1322699777560659
+    },
+    {
+      "epoch": 12,
+      "loss": 0.3682441212753258,
+      "val_dice": 0.34070195717846646,
+      "bce": 0.019829850050039812,
+      "dice": 0.6330136269626051,
+      "cldice": 0.6329304460251686,
+      "orient": 0.13162814812494977
+    }
+  ],
+  "sources_attempted": [
+    {
+      "name": "labtrain",
+      "n_discovered": 1854
+    },
+    {
+      "name": "comp",
+      "n_discovered": 2761
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+START Thu Nov  5 03:51:46 PM HKT 2026 mode=cpu-forced
+2026-11-05 15:51:46.678996: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:485] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2026-11-05 15:51:46.693747: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:8454] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2026-11-05 15:51:46.698496: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1452] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2026-11-05 15:51:48.029223: E external/local_xla/xla/stream_executor/cuda/cuda_driver.cc:266] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+tf 2.17.1 devices [PhysicalDevice(name='/physical_device:CPU:0', device_type='CPU')]
+input (None, 512, 512, 3) output (None, 512, 512, 1)
+ok 1 im_01_arch.tif fasc 0.0 0.7021868228912354 0.0007779807783663273
+ok 2 im_02_arch.tif fasc 0.0 0.7156366109848022 0.006055009551346302
+ok 3 im_03_arch.tif fasc 0.0 0.5997673273086548 0.0015046275220811367
+ok 4 im_04_arch.tif fasc 0.0 0.6404482126235962 0.0024518833961337805
+ok 5 im_05_arch.tif fasc 0.0 0.6076937317848206 0.002280646003782749
+ok 6 im_06_arch.tif fasc 0.0 0.6543896794319153 0.004132316913455725
+ok 7 im_07_arch.tif fasc 0.0 0.7969832420349121 0.0016714533558115363
+ok 8 im_08_arch.tif fasc 0.0 0.6273519992828369 0.002974856412038207
+ok 9 im_09_arch.tif fasc 0.0 0.6070969700813293 0.0027136593125760555
+ok 10 im_10_arch.tif fasc 0.0 0.6202544569969177 0.008351000025868416
+ok 11 im_11_arch.tif fasc 0.0 0.5916633605957031 0.0027191166300326586
+ok 12 im_12_arch.tif fasc 0.0 0.6782130599021912 0.00528083648532629
+ok 13 im_13_arch.tif fasc 0.0 0.6515170335769653 0.0036783982068300247
+ok 14 im_14_arch.tif fasc 0.0 0.6571717858314514 0.0013599187368527055
+ok 15 im_15_arch.tif fasc 0.0 0.6455117464065552 0.0028196084313094616
+ok 16 im_16_arch.tif fasc 0.0 0.7137219309806824 0.0027366254944354296
+ok 17 im_17_arch.tif fasc 0.0 0.6707958579063416 0.0019756981637328863
+ok 18 im_18_arch.tif fasc 0.0 0.725167989730835 0.0034877241123467684
+ok 19 im_19_arch.tif fasc 0.0 0.7239512205123901 0.0035688343923538923
+ok 20 im_20_arch.tif fasc 0.0 0.679186999797821 0.005030704662203789
+ok 21 im_21_arch.tif fasc 0.0 0.6471447944641113 0.001783832791261375
+ok 22 im_22_arch.tif fasc 0.0 0.6459031701087952 0.004524721764028072
+ok 23 im_23_arch.tif fasc 0.0 0.6449770331382751 0.003040986368432641
+ok 24 im_24_arch.tif fasc 0.0 0.63059002161026 0.0024192610289901495
+ok 25 im_25_arch.tif fasc 0.0 0.6561669707298279 0.006065323017537594
+ok 26 im_26_arch.tif fasc 0.0 0.6548179984092712 0.0049192835576832294
+ok 27 im_27_arch.tif fasc 0.0 0.6679476499557495 0.004443101119250059
+ok 28 im_28_arch.tif fasc 0.0 0.6698285341262817 0.00501575693488121
+ok 29 im_29_arch.tif fasc 0.0 0.6335490345954895 0.006606980226933956
+ok 30 im_30_arch.tif fasc 0.0 0.6039236783981323 0.0034748283214867115
+ok 31 im_31_arch.tif fasc 0.0 0.7053765058517456 0.002928143832832575
+ok 32 im_32_arch.tif fasc 0.0 0.6698700189590454 0.002937987679615617
+ok 33 im_33_arch.tif fasc 0.0 0.7573246359825134 0.0036094170063734055
+ok 34 im_34_arch.tif fasc 0.0 0.7587446570396423 0.0019045370863750577
+ok 35 im_35_arch.tif fasc 0.0 0.6685948967933655 0.0065125334076583385
+dumped 35
+DUMP_EXIT 0
+35
+dltrack thr=0.25 S=0.16083
+dltrack thr=0.3 S=0.14880
+dltrack thr=0.35 S=0.27929
+dltrack thr=0.4 S=0.29699
+dltrack thr=0.45 S=0.28001
+dltrack thr=0.5 S=0.33966
+dltrack thr=0.55 S=0.31705
+{
+  "thr": 0.3,
+  "S": 0.14879581314237195,
+  "MAE": {
+    "pa_deg": 0.9746480014760337,
+    "fl_mm": 2.7742990093918776,
+    "mt_mm": 0.15826250681487788
+  },
+  "n": 35,
+  "gate": false,
+  "beats_hold": false
+}
+EVAL_EXIT 0
+# Lewis pivot — MultExp fasc outside Frundles+A
+Updated: 2026-11-05 15:52:22 UTC+08:00
+
+## Scores vs hold 0.13195 / gate 0.12
+
+| run | S | thr | note |
+|---|---:|---:|---|
+| classical_frangi | 0.52740 | 0.35 | outside-family classical |
+| frundles_baseline | 0.13294 | 0.35 | reference |
+| labtrain_imagenet | 0.13818 | 0.25 | OSF LabTrain 1854; MultExp never in train |
+| labtrain_comp_ft | 0.13779 | 0.25 | LabTrain→FT LabTrain+comp; MultExp dHash-excluded |
+| blend_best | 0.13294 | 0.35 | tag=labtrain a=0.0 |
+| dltrack_vgg16 | 0.14880 | 0.3 | Zenodo DLTrack fasc + Frundles apo |
+
+**Best outside-family MultExp S = 0.13779** (labtrain_comp_ft, thr=0.25) — MISS hold; FAIL gate.
+
+## LabTrain / OSF assets landed
+
+- fasc images/masks: 1854/1854
+- apo images zip: 305141391 bytes; apo masks n=1722
+- DLTrack h5: 2 — ['labtrain_DLTrack_models/DLTrack_models/model-apo-VGG16-BCE-512.h5', 'labtrain_DLTrack_models/DLTrack_models/model-fasc-VGG16-BCE-512.h5']
+- OSF Muscle Architecture Fascicles/Aponeurosis folders: empty
+- tensorflow in main venv: False (DLTrack uses `.venv_tf` if present)
+- filename overlap LabTrain↔competition: **0**
+- MultExp never in train; FT dropped 24 near-MultExp dHash neighbors
+
+## Train protocol
+
+1. Classical Frangi/ridge/Gabor fasc maps + Frundles apo → frozen recipe (done).
+2. ImageNet-init SMP ResNet34 U-Net, 25 epochs, LabTrain fasc 1482/372 group-split, 384×576.
+3. Fine-tune that ckpt 15 epochs on LabTrain+competition (4591 after MultExp dHash filter).
+4. Blend Frundles fasc with LabTrain(/FT) fasc alphas; apo Frundles.
+5. Zenodo DL_Track_US fasc VGG16-BCE-512 h5 dump (if TF venv succeeds).
+
+## Promote rule
+
+Promote only if MultExp S < 0.13195. Current outside-family best does **not** promote.
+No Kaggle. No attention heads.
+
+
+best_outside ('labtrain_comp_ft', 0.1377911253869276, 0.25, 'LabTrain→FT LabTrain+comp; MultExp dHash-excluded')
+DONE Thu Nov  5 03:52:22 PM HKT 2026

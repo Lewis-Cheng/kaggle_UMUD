@@ -1,0 +1,10 @@
+{
+  "train_medians": {
+    "pa_deg": 5.445698064952495,
+    "fl_mm": 50.163316237970605,
+    "mt_mm": 13.004999999999999
+  },
+  "n": 35,
+  "n_ok": 35,
+  "out_csv": "/home/chocheng9/kaggle_UMUD/reports/phase3/rl_track_b/multexp_et_preds.csv"
+}

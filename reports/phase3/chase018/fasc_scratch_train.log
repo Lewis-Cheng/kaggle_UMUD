@@ -1,0 +1,56 @@
+pairs=2761
+loading images into RAM …
+groups=1513 train=2299 val=462
+prep val tensors …
+{"epoch": 0, "train_loss": 1.4560335795638453, "val_hard_dice": 0.090428099300923, "best": 0.090428099300923} (32s)
+saved reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_scratch_best.pt val_hard_dice 0.090428099300923
+{"epoch": 1, "train_loss": 1.1284063194686942, "val_hard_dice": 0.30111635433161205, "best": 0.30111635433161205} (32s)
+saved reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_scratch_best.pt val_hard_dice 0.30111635433161205
+{"epoch": 2, "train_loss": 0.9477186005705325, "val_hard_dice": 0.3232912702800392, "best": 0.3232912702800392} (31s)
+saved reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_scratch_best.pt val_hard_dice 0.3232912702800392
+{"epoch": 3, "train_loss": 0.8267768827049574, "val_hard_dice": 0.3399376395073804, "best": 0.3399376395073804} (32s)
+saved reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_scratch_best.pt val_hard_dice 0.3399376395073804
+{"epoch": 4, "train_loss": 0.7883757211605431, "val_hard_dice": 0.3487499249832971, "best": 0.3487499249832971} (31s)
+saved reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_scratch_best.pt val_hard_dice 0.3487499249832971
+{"epoch": 5, "train_loss": 0.767624474153286, "val_hard_dice": 0.35784766581151395, "best": 0.35784766581151395} (31s)
+saved reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_scratch_best.pt val_hard_dice 0.35784766581151395
+{"epoch": 6, "train_loss": 0.7580809235988178, "val_hard_dice": 0.348988397135621, "best": 0.35784766581151395} (31s)
+{"epoch": 7, "train_loss": 0.7498647699372694, "val_hard_dice": 0.3682821911328283, "best": 0.3682821911328283} (32s)
+saved reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_scratch_best.pt val_hard_dice 0.3682821911328283
+{"epoch": 8, "train_loss": 0.7423816676339206, "val_hard_dice": 0.3795986329064225, "best": 0.3795986329064225} (32s)
+saved reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_scratch_best.pt val_hard_dice 0.3795986329064225
+{"epoch": 9, "train_loss": 0.7387096391737669, "val_hard_dice": 0.37781474758665284, "best": 0.3795986329064225} (33s)
+{"epoch": 10, "train_loss": 0.7340954334478345, "val_hard_dice": 0.38584356603426334, "best": 0.38584356603426334} (32s)
+saved reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_scratch_best.pt val_hard_dice 0.38584356603426334
+{"epoch": 11, "train_loss": 0.7329315661553306, "val_hard_dice": 0.37865690509607264, "best": 0.38584356603426334} (31s)
+{"epoch": 12, "train_loss": 0.7264702774921776, "val_hard_dice": 0.3932703382525093, "best": 0.3932703382525093} (31s)
+saved reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_scratch_best.pt val_hard_dice 0.3932703382525093
+{"epoch": 13, "train_loss": 0.7233527354662427, "val_hard_dice": 0.39493970437483356, "best": 0.39493970437483356} (29s)
+saved reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_scratch_best.pt val_hard_dice 0.39493970437483356
+{"epoch": 14, "train_loss": 0.720210436744557, "val_hard_dice": 0.39587411648912346, "best": 0.39587411648912346} (31s)
+saved reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_scratch_best.pt val_hard_dice 0.39587411648912346
+{"epoch": 15, "train_loss": 0.7160303981046643, "val_hard_dice": 0.38803682044083937, "best": 0.39587411648912346} (32s)
+{"epoch": 16, "train_loss": 0.7127341376779802, "val_hard_dice": 0.39870403036152646, "best": 0.39870403036152646} (32s)
+saved reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_scratch_best.pt val_hard_dice 0.39870403036152646
+{"epoch": 17, "train_loss": 0.7077866701298889, "val_hard_dice": 0.4008132696667791, "best": 0.4008132696667791} (31s)
+saved reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_scratch_best.pt val_hard_dice 0.4008132696667791
+{"epoch": 18, "train_loss": 0.7052231613767271, "val_hard_dice": 0.40259345146742737, "best": 0.40259345146742737} (31s)
+saved reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_scratch_best.pt val_hard_dice 0.40259345146742737
+{"epoch": 19, "train_loss": 0.7007509613286328, "val_hard_dice": 0.4061001150897055, "best": 0.4061001150897055} (33s)
+saved reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_scratch_best.pt val_hard_dice 0.4061001150897055
+{"epoch": 20, "train_loss": 0.7006197445068625, "val_hard_dice": 0.40805759961470894, "best": 0.40805759961470894} (31s)
+saved reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_scratch_best.pt val_hard_dice 0.40805759961470894
+{"epoch": 21, "train_loss": 0.6968366283572924, "val_hard_dice": 0.4055330738489762, "best": 0.40805759961470894} (31s)
+{"epoch": 22, "train_loss": 0.6937327175190224, "val_hard_dice": 0.40719829141706615, "best": 0.40805759961470894} (32s)
+{"epoch": 23, "train_loss": 0.6911389946106834, "val_hard_dice": 0.409433726140689, "best": 0.409433726140689} (32s)
+saved reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_scratch_best.pt val_hard_dice 0.409433726140689
+{"epoch": 24, "train_loss": 0.6898801742115087, "val_hard_dice": 0.4122540569537646, "best": 0.4122540569537646} (33s)
+saved reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_scratch_best.pt val_hard_dice 0.4122540569537646
+{"epoch": 25, "train_loss": 0.6886111448035422, "val_hard_dice": 0.4106801307369104, "best": 0.4122540569537646} (32s)
+{"epoch": 26, "train_loss": 0.685602796410019, "val_hard_dice": 0.4130636707464338, "best": 0.4130636707464338} (33s)
+saved reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_scratch_best.pt val_hard_dice 0.4130636707464338
+{"epoch": 27, "train_loss": 0.6868730841613397, "val_hard_dice": 0.41296364525050827, "best": 0.4130636707464338} (33s)
+{"epoch": 28, "train_loss": 0.6869116988331598, "val_hard_dice": 0.4136247794220458, "best": 0.4136247794220458} (32s)
+saved reports/phase3/chase018/seg_ckpts/fasc_resnet34_384x576_scratch_best.pt val_hard_dice 0.4136247794220458
+{"epoch": 29, "train_loss": 0.6847098465580558, "val_hard_dice": 0.41297730977659103, "best": 0.4136247794220458} (33s)
+done in 958s best=0.4136

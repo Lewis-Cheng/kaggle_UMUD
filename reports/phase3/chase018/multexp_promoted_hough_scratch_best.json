@@ -1,0 +1,2113 @@
+{
+  "asof": "2026-11-05 12:23 Asia/Hong_Kong",
+  "cache_dir": "reports/phase3/chase018/cache/maps_multexp_scratch_best",
+  "tag": "scratch_best",
+  "n_variants": 37,
+  "best": {
+    "name": "hough_tex0.4_thr028_apo60",
+    "n": 35,
+    "ok": 35,
+    "S_loocv_cal_pa_mt": 0.14443981506306436,
+    "S1_loocv": 0.1444396913973115,
+    "S_raw": 0.1551200825075009,
+    "MAE_loocv": {
+      "pa_deg": 0.9884491076242324,
+      "fl_mm": 2.5898806477952374,
+      "mt_mm": 0.15826250681487788
+    },
+    "kw": {
+      "apo_thr": 0.6,
+      "fasc_thr": 0.28,
+      "min_len": 3.0,
+      "depth_at": 0.7,
+      "tex_w": 0.4,
+      "fl_sin_w": 0.25,
+      "fl_factor": 0.9,
+      "agree_thr": 15.0,
+      "tex_lo": 0.5,
+      "tex_hi": 0.95,
+      "pa_mode": "hough"
+    },
+    "gate_0.12": false,
+    "gap_to_0.12": 0.024439815063064363
+  },
+  "gate_0.12": false,
+  "prior_promoted_floor": 0.1376082508388217,
+  "kaggle_submit": false,
+  "results_ranked": [
+    {
+      "name": "hough_tex0.4_thr028_apo60",
+      "n": 35,
+      "ok": 35,
+      "S_loocv_cal_pa_mt": 0.14443981506306436,
+      "S1_loocv": 0.1444396913973115,
+      "S_raw": 0.1551200825075009,
+      "MAE_loocv": {
+        "pa_deg": 0.9884491076242324,
+        "fl_mm": 2.5898806477952374,
+        "mt_mm": 0.15826250681487788
+      },
+      "kw": {
+        "apo_thr": 0.6,
+        "fasc_thr": 0.28,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.4,
+        "fl_sin_w": 0.25,
+        "fl_factor": 0.9,
+        "agree_thr": 15.0,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      },
+      "gate_0.12": false,
+      "gap_to_0.12": 0.024439815063064363
+    },
+    {
+      "name": "hough_tex0.4_thr028_apo55",
+      "n": 35,
+      "ok": 35,
+      "S_loocv_cal_pa_mt": 0.14533195196802856,
+      "S1_loocv": 0.14533182724219948,
+      "S_raw": 0.1558889877194678,
+      "MAE_loocv": {
+        "pa_deg": 0.9913188945692448,
+        "fl_mm": 2.6021480769049576,
+        "mt_mm": 0.16178997866893355
+      },
+      "kw": {
+        "apo_thr": 0.55,
+        "fasc_thr": 0.28,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.4,
+        "fl_sin_w": 0.25,
+        "fl_factor": 0.9,
+        "agree_thr": 15.0,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      },
+      "gate_0.12": false,
+      "gap_to_0.12": 0.025331951968028565
+    },
+    {
+      "name": "hough_tex0.3_thr028_apo60",
+      "n": 35,
+      "ok": 35,
+      "S_loocv_cal_pa_mt": 0.14590315847238441,
+      "S1_loocv": 0.14590303966378337,
+      "S_raw": 0.15624095349396766,
+      "MAE_loocv": {
+        "pa_deg": 1.0070953754310985,
+        "fl_mm": 2.6052686497744926,
+        "mt_mm": 0.15826250681487788
+      },
+      "kw": {
+        "apo_thr": 0.6,
+        "fasc_thr": 0.28,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.3,
+        "fl_sin_w": 0.25,
+        "fl_factor": 0.9,
+        "agree_thr": 15.0,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      },
+      "gate_0.12": false,
+      "gap_to_0.12": 0.02590315847238442
+    },
+    {
+      "name": "hough_tex0.3_thr030_apo60",
+      "n": 35,
+      "ok": 35,
+      "S_loocv_cal_pa_mt": 0.1462567953438144,
+      "S1_loocv": 0.14625668289176444,
+      "S_raw": 0.15221629598052722,
+      "MAE_loocv": {
+        "pa_deg": 1.0140068210029933,
+        "fl_mm": 2.6041769148380216,
+        "mt_mm": 0.15826250681487788
+      },
+      "kw": {
+        "apo_thr": 0.6,
+        "fasc_thr": 0.3,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.3,
+        "fl_sin_w": 0.25,
+        "fl_factor": 0.9,
+        "agree_thr": 15.0,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      },
+      "gate_0.12": false,
+      "gap_to_0.12": 0.026256795343814393
+    },
+    {
+      "name": "hough_tex0.3_thr028_apo55",
+      "n": 35,
+      "ok": 35,
+      "S_loocv_cal_pa_mt": 0.14657215892305356,
+      "S1_loocv": 0.14657204163577328,
+      "S_raw": 0.15683007694062104,
+      "MAE_loocv": {
+        "pa_deg": 1.0075334736633283,
+        "fl_mm": 2.614366636885448,
+        "mt_mm": 0.16178997866893355
+      },
+      "kw": {
+        "apo_thr": 0.55,
+        "fasc_thr": 0.28,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.3,
+        "fl_sin_w": 0.25,
+        "fl_factor": 0.9,
+        "agree_thr": 15.0,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      },
+      "gate_0.12": false,
+      "gap_to_0.12": 0.026572158923053563
+    },
+    {
+      "name": "hough_tex0.4_thr028_apo65",
+      "n": 35,
+      "ok": 35,
+      "S_loocv_cal_pa_mt": 0.14668880149278404,
+      "S1_loocv": 0.146688682735759,
+      "S_raw": 0.1565684781849263,
+      "MAE_loocv": {
+        "pa_deg": 0.9947205826643073,
+        "fl_mm": 2.621200583355925,
+        "mt_mm": 0.16753770745069607
+      },
+      "kw": {
+        "apo_thr": 0.65,
+        "fasc_thr": 0.28,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.4,
+        "fl_sin_w": 0.25,
+        "fl_factor": 0.9,
+        "agree_thr": 15.0,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      },
+      "gate_0.12": false,
+      "gap_to_0.12": 0.026688801492784048
+    },
+    {
+      "name": "hough_tex0.3_thr030_apo55",
+      "n": 35,
+      "ok": 35,
+      "S_loocv_cal_pa_mt": 0.1467804746361491,
+      "S1_loocv": 0.14678036108180917,
+      "S_raw": 0.1525525751364988,
+      "MAE_loocv": {
+        "pa_deg": 1.018002151284044,
+        "fl_mm": 2.600928781701308,
+        "mt_mm": 0.16178997866893355
+      },
+      "kw": {
+        "apo_thr": 0.55,
+        "fasc_thr": 0.3,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.3,
+        "fl_sin_w": 0.25,
+        "fl_factor": 0.9,
+        "agree_thr": 15.0,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      },
+      "gate_0.12": false,
+      "gap_to_0.12": 0.026780474636149104
+    },
+    {
+      "name": "hough_tex0.4_thr030_apo60",
+      "n": 35,
+      "ok": 35,
+      "S_loocv_cal_pa_mt": 0.14689370865473894,
+      "S1_loocv": 0.14689359204643881,
+      "S_raw": 0.1525539038643134,
+      "MAE_loocv": {
+        "pa_deg": 1.0245406407554543,
+        "fl_mm": 2.6060380049013774,
+        "mt_mm": 0.15826250681487788
+      },
+      "kw": {
+        "apo_thr": 0.6,
+        "fasc_thr": 0.3,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.4,
+        "fl_sin_w": 0.25,
+        "fl_factor": 0.9,
+        "agree_thr": 15.0,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      },
+      "gate_0.12": false,
+      "gap_to_0.12": 0.026893708654738946
+    },
+    {
+      "name": "hough_tex0.2_thr030_apo60",
+      "n": 35,
+      "ok": 35,
+      "S_loocv_cal_pa_mt": 0.14719292678104526,
+      "S1_loocv": 0.14719281160823441,
+      "S_raw": 0.15389480198044045,
+      "MAE_loocv": {
+        "pa_deg": 1.0308215045934366,
+        "fl_mm": 2.6042481814500547,
+        "mt_mm": 0.15826250681487788
+      },
+      "kw": {
+        "apo_thr": 0.6,
+        "fasc_thr": 0.3,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.2,
+        "fl_sin_w": 0.25,
+        "fl_factor": 0.9,
+        "agree_thr": 15.0,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      },
+      "gate_0.12": false,
+      "gap_to_0.12": 0.027192926781045262
+    },
+    {
+      "name": "hough_tex0.4_thr030_apo55",
+      "n": 35,
+      "ok": 35,
+      "S_loocv_cal_pa_mt": 0.14745248172014225,
+      "S1_loocv": 0.14745236419165061,
+      "S_raw": 0.153050102448955,
+      "MAE_loocv": {
+        "pa_deg": 1.027648551664209,
+        "fl_mm": 2.605828092895269,
+        "mt_mm": 0.16178997866893355
+      },
+      "kw": {
+        "apo_thr": 0.55,
+        "fasc_thr": 0.3,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.4,
+        "fl_sin_w": 0.25,
+        "fl_factor": 0.9,
+        "agree_thr": 15.0,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      },
+      "gate_0.12": false,
+      "gap_to_0.12": 0.027452481720142252
+    },
+    {
+      "name": "hough_tex0.3_thr028_apo65",
+      "n": 35,
+      "ok": 35,
+      "S_loocv_cal_pa_mt": 0.1477529286578915,
+      "S1_loocv": 0.14775281097382026,
+      "S_raw": 0.1572876213002637,
+      "MAE_loocv": {
+        "pa_deg": 1.012237999159793,
+        "fl_mm": 2.624474366935159,
+        "mt_mm": 0.16753770745069607
+      },
+      "kw": {
+        "apo_thr": 0.65,
+        "fasc_thr": 0.28,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.3,
+        "fl_sin_w": 0.25,
+        "fl_factor": 0.9,
+        "agree_thr": 15.0,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      },
+      "gate_0.12": false,
+      "gap_to_0.12": 0.0277529286578915
+    },
+    {
+      "name": "hough_tex0.2_thr028_apo60",
+      "n": 35,
+      "ok": 35,
+      "S_loocv_cal_pa_mt": 0.14775377082547894,
+      "S1_loocv": 0.1477536477121206,
+      "S_raw": 0.15813571341320248,
+      "MAE_loocv": {
+        "pa_deg": 1.031246950780528,
+        "fl_mm": 2.6235873888157744,
+        "mt_mm": 0.15826250681487788
+      },
+      "kw": {
+        "apo_thr": 0.6,
+        "fasc_thr": 0.28,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.2,
+        "fl_sin_w": 0.25,
+        "fl_factor": 0.9,
+        "agree_thr": 15.0,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      },
+      "gate_0.12": false,
+      "gap_to_0.12": 0.027753770825478946
+    },
+    {
+      "name": "hough_tex0.2_thr030_apo55",
+      "n": 35,
+      "ok": 35,
+      "S_loocv_cal_pa_mt": 0.14789528264383753,
+      "S1_loocv": 0.1478951699373678,
+      "S_raw": 0.15439145864949308,
+      "MAE_loocv": {
+        "pa_deg": 1.0346023484061366,
+        "fl_mm": 2.607861506257233,
+        "mt_mm": 0.16178997866893355
+      },
+      "kw": {
+        "apo_thr": 0.55,
+        "fasc_thr": 0.3,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.2,
+        "fl_sin_w": 0.25,
+        "fl_factor": 0.9,
+        "agree_thr": 15.0,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      },
+      "gate_0.12": false,
+      "gap_to_0.12": 0.027895282643837532
+    },
+    {
+      "name": "hough_tex0.3_thr030_apo65",
+      "n": 35,
+      "ok": 35,
+      "S_loocv_cal_pa_mt": 0.14818711127311193,
+      "S1_loocv": 0.14818699900588259,
+      "S_raw": 0.1532765259369558,
+      "MAE_loocv": {
+        "pa_deg": 1.017827274619438,
+        "fl_mm": 2.6289265851701122,
+        "mt_mm": 0.16753770745069607
+      },
+      "kw": {
+        "apo_thr": 0.65,
+        "fasc_thr": 0.3,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.3,
+        "fl_sin_w": 0.25,
+        "fl_factor": 0.9,
+        "agree_thr": 15.0,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      },
+      "gate_0.12": false,
+      "gap_to_0.12": 0.028187111273111937
+    },
+    {
+      "name": "hough_tex0.2_thr028_apo55",
+      "n": 35,
+      "ok": 35,
+      "S_loocv_cal_pa_mt": 0.14848518679799685,
+      "S1_loocv": 0.14848506247608326,
+      "S_raw": 0.15873570511197485,
+      "MAE_loocv": {
+        "pa_deg": 1.0309234978478088,
+        "fl_mm": 2.636455338767646,
+        "mt_mm": 0.16178997866893355
+      },
+      "kw": {
+        "apo_thr": 0.55,
+        "fasc_thr": 0.28,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.2,
+        "fl_sin_w": 0.25,
+        "fl_factor": 0.9,
+        "agree_thr": 15.0,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      },
+      "gate_0.12": false,
+      "gap_to_0.12": 0.02848518679799686
+    },
+    {
+      "name": "hough_tex0.4_thr030_apo65",
+      "n": 35,
+      "ok": 35,
+      "S_loocv_cal_pa_mt": 0.14883496671504276,
+      "S1_loocv": 0.14883485083437198,
+      "S_raw": 0.15365814937329816,
+      "MAE_loocv": {
+        "pa_deg": 1.0290645276008576,
+        "fl_mm": 2.6297747450328917,
+        "mt_mm": 0.16753770745069607
+      },
+      "kw": {
+        "apo_thr": 0.65,
+        "fasc_thr": 0.3,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.4,
+        "fl_sin_w": 0.25,
+        "fl_factor": 0.9,
+        "agree_thr": 15.0,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      },
+      "gate_0.12": false,
+      "gap_to_0.12": 0.028834966715042765
+    },
+    {
+      "name": "hough_tex0.2_thr030_apo65",
+      "n": 35,
+      "ok": 35,
+      "S_loocv_cal_pa_mt": 0.1490624767815912,
+      "S1_loocv": 0.14906236219699032,
+      "S_raw": 0.15494340704023554,
+      "MAE_loocv": {
+        "pa_deg": 1.033014639061162,
+        "fl_mm": 2.630064931166543,
+        "mt_mm": 0.16753770745069607
+      },
+      "kw": {
+        "apo_thr": 0.65,
+        "fasc_thr": 0.3,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.2,
+        "fl_sin_w": 0.25,
+        "fl_factor": 0.9,
+        "agree_thr": 15.0,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      },
+      "gate_0.12": false,
+      "gap_to_0.12": 0.029062476781591212
+    },
+    {
+      "name": "hough_tex03_thr032_apo60",
+      "n": 35,
+      "ok": 35,
+      "S_loocv_cal_pa_mt": 0.14955604941910267,
+      "S1_loocv": 0.14955591762189582,
+      "S_raw": 0.15603643804297507,
+      "MAE_loocv": {
+        "pa_deg": 1.0070357842707003,
+        "fl_mm": 2.7368914385873375,
+        "mt_mm": 0.15826250681487788
+      },
+      "kw": {
+        "apo_thr": 0.6,
+        "fasc_thr": 0.32,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.3,
+        "fl_sin_w": 0.25,
+        "fl_factor": 0.9,
+        "agree_thr": 15.0,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      },
+      "gate_0.12": false,
+      "gap_to_0.12": 0.02955604941910267
+    },
+    {
+      "name": "hough_tex0.2_thr028_apo65",
+      "n": 35,
+      "ok": 35,
+      "S_loocv_cal_pa_mt": 0.14957747631390242,
+      "S1_loocv": 0.14957735497150776,
+      "S_raw": 0.15914096016313903,
+      "MAE_loocv": {
+        "pa_deg": 1.0354054337211511,
+        "fl_mm": 2.643823081729193,
+        "mt_mm": 0.16753770745069607
+      },
+      "kw": {
+        "apo_thr": 0.65,
+        "fasc_thr": 0.28,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.2,
+        "fl_sin_w": 0.25,
+        "fl_factor": 0.9,
+        "agree_thr": 15.0,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      },
+      "gate_0.12": false,
+      "gap_to_0.12": 0.029577476313902423
+    },
+    {
+      "name": "hough_tex0.2_thr032_apo60",
+      "n": 35,
+      "ok": 35,
+      "S_loocv_cal_pa_mt": 0.14985764623502015,
+      "S1_loocv": 0.14985751742204223,
+      "S_raw": 0.155631608419044,
+      "MAE_loocv": {
+        "pa_deg": 1.0084680845524092,
+        "fl_mm": 2.7448844308291904,
+        "mt_mm": 0.15826250681487788
+      },
+      "kw": {
+        "apo_thr": 0.6,
+        "fasc_thr": 0.32,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.2,
+        "fl_sin_w": 0.25,
+        "fl_factor": 0.9,
+        "agree_thr": 15.0,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      },
+      "gate_0.12": false,
+      "gap_to_0.12": 0.029857646235020158
+    },
+    {
+      "name": "hough_tex0.4_thr032_apo65",
+      "n": 35,
+      "ok": 35,
+      "S_loocv_cal_pa_mt": 0.1498616164691655,
+      "S1_loocv": 0.1498614871312268,
+      "S_raw": 0.1567132527063188,
+      "MAE_loocv": {
+        "pa_deg": 1.0216403840577983,
+        "fl_mm": 2.681581938805783,
+        "mt_mm": 0.16753770745069607
+      },
+      "kw": {
+        "apo_thr": 0.65,
+        "fasc_thr": 0.32,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.4,
+        "fl_sin_w": 0.25,
+        "fl_factor": 0.9,
+        "agree_thr": 15.0,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      },
+      "gate_0.12": false,
+      "gap_to_0.12": 0.02986161646916549
+    },
+    {
+      "name": "hough_tex0.3_thr032_apo65",
+      "n": 35,
+      "ok": 35,
+      "S_loocv_cal_pa_mt": 0.14987269111829873,
+      "S1_loocv": 0.14987256094018855,
+      "S_raw": 0.15551723381264554,
+      "MAE_loocv": {
+        "pa_deg": 1.0105821731813347,
+        "fl_mm": 2.7040970176813346,
+        "mt_mm": 0.16753770745069607
+      },
+      "kw": {
+        "apo_thr": 0.65,
+        "fasc_thr": 0.32,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.3,
+        "fl_sin_w": 0.25,
+        "fl_factor": 0.9,
+        "agree_thr": 15.0,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      },
+      "gate_0.12": false,
+      "gap_to_0.12": 0.02987269111829874
+    },
+    {
+      "name": "hough_tex0.4_thr032_apo60",
+      "n": 35,
+      "ok": 35,
+      "S_loocv_cal_pa_mt": 0.14996810250350567,
+      "S1_loocv": 0.14996796678342583,
+      "S_raw": 0.1576657693645087,
+      "MAE_loocv": {
+        "pa_deg": 1.0169505110851975,
+        "fl_mm": 2.731895754773423,
+        "mt_mm": 0.15826250681487788
+      },
+      "kw": {
+        "apo_thr": 0.6,
+        "fasc_thr": 0.32,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.4,
+        "fl_sin_w": 0.25,
+        "fl_factor": 0.9,
+        "agree_thr": 15.0,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      },
+      "gate_0.12": false,
+      "gap_to_0.12": 0.029968102503505678
+    },
+    {
+      "name": "hough_tex0.3_thr032_apo55",
+      "n": 35,
+      "ok": 35,
+      "S_loocv_cal_pa_mt": 0.15058403083316274,
+      "S1_loocv": 0.15058390083831552,
+      "S_raw": 0.15679794385560966,
+      "MAE_loocv": {
+        "pa_deg": 1.0136316271162014,
+        "fl_mm": 2.7465972612712215,
+        "mt_mm": 0.16178997866893355
+      },
+      "kw": {
+        "apo_thr": 0.55,
+        "fasc_thr": 0.32,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.3,
+        "fl_sin_w": 0.25,
+        "fl_factor": 0.9,
+        "agree_thr": 15.0,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      },
+      "gate_0.12": false,
+      "gap_to_0.12": 0.030584030833162745
+    },
+    {
+      "name": "hough_tex0.2_thr032_apo55",
+      "n": 35,
+      "ok": 35,
+      "S_loocv_cal_pa_mt": 0.1506743564579165,
+      "S1_loocv": 0.150674227270424,
+      "S_raw": 0.15621579766145025,
+      "MAE_loocv": {
+        "pa_deg": 1.0126187857024007,
+        "fl_mm": 2.7518746956547293,
+        "mt_mm": 0.16178997866893355
+      },
+      "kw": {
+        "apo_thr": 0.55,
+        "fasc_thr": 0.32,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.2,
+        "fl_sin_w": 0.25,
+        "fl_factor": 0.9,
+        "agree_thr": 15.0,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      },
+      "gate_0.12": false,
+      "gap_to_0.12": 0.030674356457916496
+    },
+    {
+      "name": "hough_tex0.2_thr032_apo65",
+      "n": 35,
+      "ok": 35,
+      "S_loocv_cal_pa_mt": 0.15091189496291427,
+      "S1_loocv": 0.15091176656880437,
+      "S_raw": 0.15578859520178173,
+      "MAE_loocv": {
+        "pa_deg": 1.0112129934315273,
+        "fl_mm": 2.7402467798111183,
+        "mt_mm": 0.16753770745069607
+      },
+      "kw": {
+        "apo_thr": 0.65,
+        "fasc_thr": 0.32,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.2,
+        "fl_sin_w": 0.25,
+        "fl_factor": 0.9,
+        "agree_thr": 15.0,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      },
+      "gate_0.12": false,
+      "gap_to_0.12": 0.03091189496291427
+    },
+    {
+      "name": "hough_tex0.4_thr032_apo55",
+      "n": 35,
+      "ok": 35,
+      "S_loocv_cal_pa_mt": 0.15102802153773,
+      "S1_loocv": 0.15102788616278262,
+      "S_raw": 0.15853610613225974,
+      "MAE_loocv": {
+        "pa_deg": 1.023331724506787,
+        "fl_mm": 2.7431805381708667,
+        "mt_mm": 0.16178997866893355
+      },
+      "kw": {
+        "apo_thr": 0.55,
+        "fasc_thr": 0.32,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.4,
+        "fl_sin_w": 0.25,
+        "fl_factor": 0.9,
+        "agree_thr": 15.0,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      },
+      "gate_0.12": false,
+      "gap_to_0.12": 0.031028021537730016
+    },
+    {
+      "name": "hough_tex0.4_thr035_apo60",
+      "n": 35,
+      "ok": 35,
+      "S_loocv_cal_pa_mt": 0.15346143917242996,
+      "S1_loocv": 0.15346129589676136,
+      "S_raw": 0.16194413340494376,
+      "MAE_loocv": {
+        "pa_deg": 1.0639425164875018,
+        "fl_mm": 2.7636715920488935,
+        "mt_mm": 0.15826250681487788
+      },
+      "kw": {
+        "apo_thr": 0.6,
+        "fasc_thr": 0.35,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.4,
+        "fl_sin_w": 0.25,
+        "fl_factor": 0.9,
+        "agree_thr": 15.0,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      },
+      "gate_0.12": false,
+      "gap_to_0.12": 0.03346143917242997
+    },
+    {
+      "name": "hough_tex0.4_thr035_apo55",
+      "n": 35,
+      "ok": 35,
+      "S_loocv_cal_pa_mt": 0.15434203957342288,
+      "S1_loocv": 0.15434189788357755,
+      "S_raw": 0.16246189824864193,
+      "MAE_loocv": {
+        "pa_deg": 1.0723912675162937,
+        "fl_mm": 2.764365874100471,
+        "mt_mm": 0.16178997866893355
+      },
+      "kw": {
+        "apo_thr": 0.55,
+        "fasc_thr": 0.35,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.4,
+        "fl_sin_w": 0.25,
+        "fl_factor": 0.9,
+        "agree_thr": 15.0,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      },
+      "gate_0.12": false,
+      "gap_to_0.12": 0.03434203957342288
+    },
+    {
+      "name": "hough_tex0.3_thr035_apo60",
+      "n": 35,
+      "ok": 35,
+      "S_loocv_cal_pa_mt": 0.15581278737163382,
+      "S1_loocv": 0.15581265082122575,
+      "S_raw": 0.16317169952607571,
+      "MAE_loocv": {
+        "pa_deg": 1.0857948399346395,
+        "fl_mm": 2.804615722435336,
+        "mt_mm": 0.15826250681487788
+      },
+      "kw": {
+        "apo_thr": 0.6,
+        "fasc_thr": 0.35,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.3,
+        "fl_sin_w": 0.25,
+        "fl_factor": 0.9,
+        "agree_thr": 15.0,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      },
+      "gate_0.12": false,
+      "gap_to_0.12": 0.03581278737163382
+    },
+    {
+      "name": "hough_tex0.3_thr035_apo55",
+      "n": 35,
+      "ok": 35,
+      "S_loocv_cal_pa_mt": 0.15642466660298024,
+      "S1_loocv": 0.156424530396117,
+      "S_raw": 0.16354464856387094,
+      "MAE_loocv": {
+        "pa_deg": 1.0905008920876993,
+        "fl_mm": 2.8031213954090797,
+        "mt_mm": 0.16178997866893355
+      },
+      "kw": {
+        "apo_thr": 0.55,
+        "fasc_thr": 0.35,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.3,
+        "fl_sin_w": 0.25,
+        "fl_factor": 0.9,
+        "agree_thr": 15.0,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      },
+      "gate_0.12": false,
+      "gap_to_0.12": 0.036424666602980244
+    },
+    {
+      "name": "hough_tex0.4_thr035_apo65",
+      "n": 35,
+      "ok": 35,
+      "S_loocv_cal_pa_mt": 0.15673223800101918,
+      "S1_loocv": 0.1567320952639952,
+      "S_raw": 0.16433850096761923,
+      "MAE_loocv": {
+        "pa_deg": 1.0690084623297818,
+        "fl_mm": 2.8341876750414796,
+        "mt_mm": 0.16753770745069607
+      },
+      "kw": {
+        "apo_thr": 0.65,
+        "fasc_thr": 0.35,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.4,
+        "fl_sin_w": 0.25,
+        "fl_factor": 0.9,
+        "agree_thr": 15.0,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      },
+      "gate_0.12": false,
+      "gap_to_0.12": 0.036732238001019185
+    },
+    {
+      "name": "band_agree_v1",
+      "n": 35,
+      "ok": 35,
+      "S_loocv_cal_pa_mt": 0.15754276407977347,
+      "S1_loocv": 0.15754263743006178,
+      "S_raw": 0.16662112901083256,
+      "MAE_loocv": {
+        "pa_deg": 1.1667389624077995,
+        "fl_mm": 2.6908971079908905,
+        "mt_mm": 0.16178997866893355
+      },
+      "kw": {
+        "apo_thr": 0.55,
+        "fasc_thr": 0.35,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.6,
+        "fl_sin_w": 0.25,
+        "fl_factor": 0.9,
+        "agree_thr": 15.0,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "geo"
+      },
+      "gate_0.12": false,
+      "gap_to_0.12": 0.03754276407977347
+    },
+    {
+      "name": "hough_tex0.2_thr035_apo60",
+      "n": 35,
+      "ok": 35,
+      "S_loocv_cal_pa_mt": 0.1590137529710601,
+      "S1_loocv": 0.15901361373885756,
+      "S_raw": 0.1655885376646267,
+      "MAE_loocv": {
+        "pa_deg": 1.1192904686596405,
+        "fl_mm": 2.8528591300200787,
+        "mt_mm": 0.15826250681487788
+      },
+      "kw": {
+        "apo_thr": 0.6,
+        "fasc_thr": 0.35,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.2,
+        "fl_sin_w": 0.25,
+        "fl_factor": 0.9,
+        "agree_thr": 15.0,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      },
+      "gate_0.12": false,
+      "gap_to_0.12": 0.039013752971060106
+    },
+    {
+      "name": "hough_tex0.2_thr035_apo55",
+      "n": 35,
+      "ok": 35,
+      "S_loocv_cal_pa_mt": 0.1593027827635967,
+      "S1_loocv": 0.15930264594108365,
+      "S_raw": 0.16576346993305938,
+      "MAE_loocv": {
+        "pa_deg": 1.1203364776212248,
+        "fl_mm": 2.847062383960828,
+        "mt_mm": 0.16178997866893355
+      },
+      "kw": {
+        "apo_thr": 0.55,
+        "fasc_thr": 0.35,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.2,
+        "fl_sin_w": 0.25,
+        "fl_factor": 0.9,
+        "agree_thr": 15.0,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      },
+      "gate_0.12": false,
+      "gap_to_0.12": 0.039302782763596694
+    },
+    {
+      "name": "hough_tex0.3_thr035_apo65",
+      "n": 35,
+      "ok": 35,
+      "S_loocv_cal_pa_mt": 0.15931228220537258,
+      "S1_loocv": 0.15931214596849586,
+      "S_raw": 0.16583378124414408,
+      "MAE_loocv": {
+        "pa_deg": 1.088941417647451,
+        "fl_mm": 2.887203589768165,
+        "mt_mm": 0.16753770745069607
+      },
+      "kw": {
+        "apo_thr": 0.65,
+        "fasc_thr": 0.35,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.3,
+        "fl_sin_w": 0.25,
+        "fl_factor": 0.9,
+        "agree_thr": 15.0,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      },
+      "gate_0.12": false,
+      "gap_to_0.12": 0.039312282205372584
+    },
+    {
+      "name": "hough_tex0.2_thr035_apo65",
+      "n": 35,
+      "ok": 35,
+      "S_loocv_cal_pa_mt": 0.16282972497598405,
+      "S1_loocv": 0.16282958602045422,
+      "S_raw": 0.16857814875197294,
+      "MAE_loocv": {
+        "pa_deg": 1.1211314510551704,
+        "fl_mm": 2.9494513648232266,
+        "mt_mm": 0.16753770745069607
+      },
+      "kw": {
+        "apo_thr": 0.65,
+        "fasc_thr": 0.35,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.2,
+        "fl_sin_w": 0.25,
+        "fl_factor": 0.9,
+        "agree_thr": 15.0,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      },
+      "gate_0.12": false,
+      "gap_to_0.12": 0.04282972497598406
+    }
+  ],
+  "all_results": [
+    {
+      "name": "band_agree_v1",
+      "n": 35,
+      "ok": 35,
+      "S_loocv_cal_pa_mt": 0.15754276407977347,
+      "S1_loocv": 0.15754263743006178,
+      "S_raw": 0.16662112901083256,
+      "MAE_loocv": {
+        "pa_deg": 1.1667389624077995,
+        "fl_mm": 2.6908971079908905,
+        "mt_mm": 0.16178997866893355
+      },
+      "kw": {
+        "apo_thr": 0.55,
+        "fasc_thr": 0.35,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.6,
+        "fl_sin_w": 0.25,
+        "fl_factor": 0.9,
+        "agree_thr": 15.0,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "geo"
+      },
+      "gate_0.12": false,
+      "gap_to_0.12": 0.03754276407977347
+    },
+    {
+      "name": "hough_tex03_thr032_apo60",
+      "n": 35,
+      "ok": 35,
+      "S_loocv_cal_pa_mt": 0.14955604941910267,
+      "S1_loocv": 0.14955591762189582,
+      "S_raw": 0.15603643804297507,
+      "MAE_loocv": {
+        "pa_deg": 1.0070357842707003,
+        "fl_mm": 2.7368914385873375,
+        "mt_mm": 0.15826250681487788
+      },
+      "kw": {
+        "apo_thr": 0.6,
+        "fasc_thr": 0.32,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.3,
+        "fl_sin_w": 0.25,
+        "fl_factor": 0.9,
+        "agree_thr": 15.0,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      },
+      "gate_0.12": false,
+      "gap_to_0.12": 0.02955604941910267
+    },
+    {
+      "name": "hough_tex0.2_thr028_apo55",
+      "n": 35,
+      "ok": 35,
+      "S_loocv_cal_pa_mt": 0.14848518679799685,
+      "S1_loocv": 0.14848506247608326,
+      "S_raw": 0.15873570511197485,
+      "MAE_loocv": {
+        "pa_deg": 1.0309234978478088,
+        "fl_mm": 2.636455338767646,
+        "mt_mm": 0.16178997866893355
+      },
+      "kw": {
+        "apo_thr": 0.55,
+        "fasc_thr": 0.28,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.2,
+        "fl_sin_w": 0.25,
+        "fl_factor": 0.9,
+        "agree_thr": 15.0,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      },
+      "gate_0.12": false,
+      "gap_to_0.12": 0.02848518679799686
+    },
+    {
+      "name": "hough_tex0.3_thr028_apo55",
+      "n": 35,
+      "ok": 35,
+      "S_loocv_cal_pa_mt": 0.14657215892305356,
+      "S1_loocv": 0.14657204163577328,
+      "S_raw": 0.15683007694062104,
+      "MAE_loocv": {
+        "pa_deg": 1.0075334736633283,
+        "fl_mm": 2.614366636885448,
+        "mt_mm": 0.16178997866893355
+      },
+      "kw": {
+        "apo_thr": 0.55,
+        "fasc_thr": 0.28,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.3,
+        "fl_sin_w": 0.25,
+        "fl_factor": 0.9,
+        "agree_thr": 15.0,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      },
+      "gate_0.12": false,
+      "gap_to_0.12": 0.026572158923053563
+    },
+    {
+      "name": "hough_tex0.4_thr028_apo55",
+      "n": 35,
+      "ok": 35,
+      "S_loocv_cal_pa_mt": 0.14533195196802856,
+      "S1_loocv": 0.14533182724219948,
+      "S_raw": 0.1558889877194678,
+      "MAE_loocv": {
+        "pa_deg": 0.9913188945692448,
+        "fl_mm": 2.6021480769049576,
+        "mt_mm": 0.16178997866893355
+      },
+      "kw": {
+        "apo_thr": 0.55,
+        "fasc_thr": 0.28,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.4,
+        "fl_sin_w": 0.25,
+        "fl_factor": 0.9,
+        "agree_thr": 15.0,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      },
+      "gate_0.12": false,
+      "gap_to_0.12": 0.025331951968028565
+    },
+    {
+      "name": "hough_tex0.2_thr028_apo60",
+      "n": 35,
+      "ok": 35,
+      "S_loocv_cal_pa_mt": 0.14775377082547894,
+      "S1_loocv": 0.1477536477121206,
+      "S_raw": 0.15813571341320248,
+      "MAE_loocv": {
+        "pa_deg": 1.031246950780528,
+        "fl_mm": 2.6235873888157744,
+        "mt_mm": 0.15826250681487788
+      },
+      "kw": {
+        "apo_thr": 0.6,
+        "fasc_thr": 0.28,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.2,
+        "fl_sin_w": 0.25,
+        "fl_factor": 0.9,
+        "agree_thr": 15.0,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      },
+      "gate_0.12": false,
+      "gap_to_0.12": 0.027753770825478946
+    },
+    {
+      "name": "hough_tex0.3_thr028_apo60",
+      "n": 35,
+      "ok": 35,
+      "S_loocv_cal_pa_mt": 0.14590315847238441,
+      "S1_loocv": 0.14590303966378337,
+      "S_raw": 0.15624095349396766,
+      "MAE_loocv": {
+        "pa_deg": 1.0070953754310985,
+        "fl_mm": 2.6052686497744926,
+        "mt_mm": 0.15826250681487788
+      },
+      "kw": {
+        "apo_thr": 0.6,
+        "fasc_thr": 0.28,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.3,
+        "fl_sin_w": 0.25,
+        "fl_factor": 0.9,
+        "agree_thr": 15.0,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      },
+      "gate_0.12": false,
+      "gap_to_0.12": 0.02590315847238442
+    },
+    {
+      "name": "hough_tex0.4_thr028_apo60",
+      "n": 35,
+      "ok": 35,
+      "S_loocv_cal_pa_mt": 0.14443981506306436,
+      "S1_loocv": 0.1444396913973115,
+      "S_raw": 0.1551200825075009,
+      "MAE_loocv": {
+        "pa_deg": 0.9884491076242324,
+        "fl_mm": 2.5898806477952374,
+        "mt_mm": 0.15826250681487788
+      },
+      "kw": {
+        "apo_thr": 0.6,
+        "fasc_thr": 0.28,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.4,
+        "fl_sin_w": 0.25,
+        "fl_factor": 0.9,
+        "agree_thr": 15.0,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      },
+      "gate_0.12": false,
+      "gap_to_0.12": 0.024439815063064363
+    },
+    {
+      "name": "hough_tex0.2_thr028_apo65",
+      "n": 35,
+      "ok": 35,
+      "S_loocv_cal_pa_mt": 0.14957747631390242,
+      "S1_loocv": 0.14957735497150776,
+      "S_raw": 0.15914096016313903,
+      "MAE_loocv": {
+        "pa_deg": 1.0354054337211511,
+        "fl_mm": 2.643823081729193,
+        "mt_mm": 0.16753770745069607
+      },
+      "kw": {
+        "apo_thr": 0.65,
+        "fasc_thr": 0.28,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.2,
+        "fl_sin_w": 0.25,
+        "fl_factor": 0.9,
+        "agree_thr": 15.0,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      },
+      "gate_0.12": false,
+      "gap_to_0.12": 0.029577476313902423
+    },
+    {
+      "name": "hough_tex0.3_thr028_apo65",
+      "n": 35,
+      "ok": 35,
+      "S_loocv_cal_pa_mt": 0.1477529286578915,
+      "S1_loocv": 0.14775281097382026,
+      "S_raw": 0.1572876213002637,
+      "MAE_loocv": {
+        "pa_deg": 1.012237999159793,
+        "fl_mm": 2.624474366935159,
+        "mt_mm": 0.16753770745069607
+      },
+      "kw": {
+        "apo_thr": 0.65,
+        "fasc_thr": 0.28,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.3,
+        "fl_sin_w": 0.25,
+        "fl_factor": 0.9,
+        "agree_thr": 15.0,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      },
+      "gate_0.12": false,
+      "gap_to_0.12": 0.0277529286578915
+    },
+    {
+      "name": "hough_tex0.4_thr028_apo65",
+      "n": 35,
+      "ok": 35,
+      "S_loocv_cal_pa_mt": 0.14668880149278404,
+      "S1_loocv": 0.146688682735759,
+      "S_raw": 0.1565684781849263,
+      "MAE_loocv": {
+        "pa_deg": 0.9947205826643073,
+        "fl_mm": 2.621200583355925,
+        "mt_mm": 0.16753770745069607
+      },
+      "kw": {
+        "apo_thr": 0.65,
+        "fasc_thr": 0.28,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.4,
+        "fl_sin_w": 0.25,
+        "fl_factor": 0.9,
+        "agree_thr": 15.0,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      },
+      "gate_0.12": false,
+      "gap_to_0.12": 0.026688801492784048
+    },
+    {
+      "name": "hough_tex0.2_thr030_apo55",
+      "n": 35,
+      "ok": 35,
+      "S_loocv_cal_pa_mt": 0.14789528264383753,
+      "S1_loocv": 0.1478951699373678,
+      "S_raw": 0.15439145864949308,
+      "MAE_loocv": {
+        "pa_deg": 1.0346023484061366,
+        "fl_mm": 2.607861506257233,
+        "mt_mm": 0.16178997866893355
+      },
+      "kw": {
+        "apo_thr": 0.55,
+        "fasc_thr": 0.3,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.2,
+        "fl_sin_w": 0.25,
+        "fl_factor": 0.9,
+        "agree_thr": 15.0,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      },
+      "gate_0.12": false,
+      "gap_to_0.12": 0.027895282643837532
+    },
+    {
+      "name": "hough_tex0.3_thr030_apo55",
+      "n": 35,
+      "ok": 35,
+      "S_loocv_cal_pa_mt": 0.1467804746361491,
+      "S1_loocv": 0.14678036108180917,
+      "S_raw": 0.1525525751364988,
+      "MAE_loocv": {
+        "pa_deg": 1.018002151284044,
+        "fl_mm": 2.600928781701308,
+        "mt_mm": 0.16178997866893355
+      },
+      "kw": {
+        "apo_thr": 0.55,
+        "fasc_thr": 0.3,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.3,
+        "fl_sin_w": 0.25,
+        "fl_factor": 0.9,
+        "agree_thr": 15.0,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      },
+      "gate_0.12": false,
+      "gap_to_0.12": 0.026780474636149104
+    },
+    {
+      "name": "hough_tex0.4_thr030_apo55",
+      "n": 35,
+      "ok": 35,
+      "S_loocv_cal_pa_mt": 0.14745248172014225,
+      "S1_loocv": 0.14745236419165061,
+      "S_raw": 0.153050102448955,
+      "MAE_loocv": {
+        "pa_deg": 1.027648551664209,
+        "fl_mm": 2.605828092895269,
+        "mt_mm": 0.16178997866893355
+      },
+      "kw": {
+        "apo_thr": 0.55,
+        "fasc_thr": 0.3,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.4,
+        "fl_sin_w": 0.25,
+        "fl_factor": 0.9,
+        "agree_thr": 15.0,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      },
+      "gate_0.12": false,
+      "gap_to_0.12": 0.027452481720142252
+    },
+    {
+      "name": "hough_tex0.2_thr030_apo60",
+      "n": 35,
+      "ok": 35,
+      "S_loocv_cal_pa_mt": 0.14719292678104526,
+      "S1_loocv": 0.14719281160823441,
+      "S_raw": 0.15389480198044045,
+      "MAE_loocv": {
+        "pa_deg": 1.0308215045934366,
+        "fl_mm": 2.6042481814500547,
+        "mt_mm": 0.15826250681487788
+      },
+      "kw": {
+        "apo_thr": 0.6,
+        "fasc_thr": 0.3,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.2,
+        "fl_sin_w": 0.25,
+        "fl_factor": 0.9,
+        "agree_thr": 15.0,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      },
+      "gate_0.12": false,
+      "gap_to_0.12": 0.027192926781045262
+    },
+    {
+      "name": "hough_tex0.3_thr030_apo60",
+      "n": 35,
+      "ok": 35,
+      "S_loocv_cal_pa_mt": 0.1462567953438144,
+      "S1_loocv": 0.14625668289176444,
+      "S_raw": 0.15221629598052722,
+      "MAE_loocv": {
+        "pa_deg": 1.0140068210029933,
+        "fl_mm": 2.6041769148380216,
+        "mt_mm": 0.15826250681487788
+      },
+      "kw": {
+        "apo_thr": 0.6,
+        "fasc_thr": 0.3,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.3,
+        "fl_sin_w": 0.25,
+        "fl_factor": 0.9,
+        "agree_thr": 15.0,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      },
+      "gate_0.12": false,
+      "gap_to_0.12": 0.026256795343814393
+    },
+    {
+      "name": "hough_tex0.4_thr030_apo60",
+      "n": 35,
+      "ok": 35,
+      "S_loocv_cal_pa_mt": 0.14689370865473894,
+      "S1_loocv": 0.14689359204643881,
+      "S_raw": 0.1525539038643134,
+      "MAE_loocv": {
+        "pa_deg": 1.0245406407554543,
+        "fl_mm": 2.6060380049013774,
+        "mt_mm": 0.15826250681487788
+      },
+      "kw": {
+        "apo_thr": 0.6,
+        "fasc_thr": 0.3,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.4,
+        "fl_sin_w": 0.25,
+        "fl_factor": 0.9,
+        "agree_thr": 15.0,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      },
+      "gate_0.12": false,
+      "gap_to_0.12": 0.026893708654738946
+    },
+    {
+      "name": "hough_tex0.2_thr030_apo65",
+      "n": 35,
+      "ok": 35,
+      "S_loocv_cal_pa_mt": 0.1490624767815912,
+      "S1_loocv": 0.14906236219699032,
+      "S_raw": 0.15494340704023554,
+      "MAE_loocv": {
+        "pa_deg": 1.033014639061162,
+        "fl_mm": 2.630064931166543,
+        "mt_mm": 0.16753770745069607
+      },
+      "kw": {
+        "apo_thr": 0.65,
+        "fasc_thr": 0.3,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.2,
+        "fl_sin_w": 0.25,
+        "fl_factor": 0.9,
+        "agree_thr": 15.0,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      },
+      "gate_0.12": false,
+      "gap_to_0.12": 0.029062476781591212
+    },
+    {
+      "name": "hough_tex0.3_thr030_apo65",
+      "n": 35,
+      "ok": 35,
+      "S_loocv_cal_pa_mt": 0.14818711127311193,
+      "S1_loocv": 0.14818699900588259,
+      "S_raw": 0.1532765259369558,
+      "MAE_loocv": {
+        "pa_deg": 1.017827274619438,
+        "fl_mm": 2.6289265851701122,
+        "mt_mm": 0.16753770745069607
+      },
+      "kw": {
+        "apo_thr": 0.65,
+        "fasc_thr": 0.3,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.3,
+        "fl_sin_w": 0.25,
+        "fl_factor": 0.9,
+        "agree_thr": 15.0,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      },
+      "gate_0.12": false,
+      "gap_to_0.12": 0.028187111273111937
+    },
+    {
+      "name": "hough_tex0.4_thr030_apo65",
+      "n": 35,
+      "ok": 35,
+      "S_loocv_cal_pa_mt": 0.14883496671504276,
+      "S1_loocv": 0.14883485083437198,
+      "S_raw": 0.15365814937329816,
+      "MAE_loocv": {
+        "pa_deg": 1.0290645276008576,
+        "fl_mm": 2.6297747450328917,
+        "mt_mm": 0.16753770745069607
+      },
+      "kw": {
+        "apo_thr": 0.65,
+        "fasc_thr": 0.3,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.4,
+        "fl_sin_w": 0.25,
+        "fl_factor": 0.9,
+        "agree_thr": 15.0,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      },
+      "gate_0.12": false,
+      "gap_to_0.12": 0.028834966715042765
+    },
+    {
+      "name": "hough_tex0.2_thr032_apo55",
+      "n": 35,
+      "ok": 35,
+      "S_loocv_cal_pa_mt": 0.1506743564579165,
+      "S1_loocv": 0.150674227270424,
+      "S_raw": 0.15621579766145025,
+      "MAE_loocv": {
+        "pa_deg": 1.0126187857024007,
+        "fl_mm": 2.7518746956547293,
+        "mt_mm": 0.16178997866893355
+      },
+      "kw": {
+        "apo_thr": 0.55,
+        "fasc_thr": 0.32,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.2,
+        "fl_sin_w": 0.25,
+        "fl_factor": 0.9,
+        "agree_thr": 15.0,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      },
+      "gate_0.12": false,
+      "gap_to_0.12": 0.030674356457916496
+    },
+    {
+      "name": "hough_tex0.3_thr032_apo55",
+      "n": 35,
+      "ok": 35,
+      "S_loocv_cal_pa_mt": 0.15058403083316274,
+      "S1_loocv": 0.15058390083831552,
+      "S_raw": 0.15679794385560966,
+      "MAE_loocv": {
+        "pa_deg": 1.0136316271162014,
+        "fl_mm": 2.7465972612712215,
+        "mt_mm": 0.16178997866893355
+      },
+      "kw": {
+        "apo_thr": 0.55,
+        "fasc_thr": 0.32,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.3,
+        "fl_sin_w": 0.25,
+        "fl_factor": 0.9,
+        "agree_thr": 15.0,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      },
+      "gate_0.12": false,
+      "gap_to_0.12": 0.030584030833162745
+    },
+    {
+      "name": "hough_tex0.4_thr032_apo55",
+      "n": 35,
+      "ok": 35,
+      "S_loocv_cal_pa_mt": 0.15102802153773,
+      "S1_loocv": 0.15102788616278262,
+      "S_raw": 0.15853610613225974,
+      "MAE_loocv": {
+        "pa_deg": 1.023331724506787,
+        "fl_mm": 2.7431805381708667,
+        "mt_mm": 0.16178997866893355
+      },
+      "kw": {
+        "apo_thr": 0.55,
+        "fasc_thr": 0.32,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.4,
+        "fl_sin_w": 0.25,
+        "fl_factor": 0.9,
+        "agree_thr": 15.0,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      },
+      "gate_0.12": false,
+      "gap_to_0.12": 0.031028021537730016
+    },
+    {
+      "name": "hough_tex0.2_thr032_apo60",
+      "n": 35,
+      "ok": 35,
+      "S_loocv_cal_pa_mt": 0.14985764623502015,
+      "S1_loocv": 0.14985751742204223,
+      "S_raw": 0.155631608419044,
+      "MAE_loocv": {
+        "pa_deg": 1.0084680845524092,
+        "fl_mm": 2.7448844308291904,
+        "mt_mm": 0.15826250681487788
+      },
+      "kw": {
+        "apo_thr": 0.6,
+        "fasc_thr": 0.32,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.2,
+        "fl_sin_w": 0.25,
+        "fl_factor": 0.9,
+        "agree_thr": 15.0,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      },
+      "gate_0.12": false,
+      "gap_to_0.12": 0.029857646235020158
+    },
+    {
+      "name": "hough_tex0.4_thr032_apo60",
+      "n": 35,
+      "ok": 35,
+      "S_loocv_cal_pa_mt": 0.14996810250350567,
+      "S1_loocv": 0.14996796678342583,
+      "S_raw": 0.1576657693645087,
+      "MAE_loocv": {
+        "pa_deg": 1.0169505110851975,
+        "fl_mm": 2.731895754773423,
+        "mt_mm": 0.15826250681487788
+      },
+      "kw": {
+        "apo_thr": 0.6,
+        "fasc_thr": 0.32,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.4,
+        "fl_sin_w": 0.25,
+        "fl_factor": 0.9,
+        "agree_thr": 15.0,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      },
+      "gate_0.12": false,
+      "gap_to_0.12": 0.029968102503505678
+    },
+    {
+      "name": "hough_tex0.2_thr032_apo65",
+      "n": 35,
+      "ok": 35,
+      "S_loocv_cal_pa_mt": 0.15091189496291427,
+      "S1_loocv": 0.15091176656880437,
+      "S_raw": 0.15578859520178173,
+      "MAE_loocv": {
+        "pa_deg": 1.0112129934315273,
+        "fl_mm": 2.7402467798111183,
+        "mt_mm": 0.16753770745069607
+      },
+      "kw": {
+        "apo_thr": 0.65,
+        "fasc_thr": 0.32,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.2,
+        "fl_sin_w": 0.25,
+        "fl_factor": 0.9,
+        "agree_thr": 15.0,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      },
+      "gate_0.12": false,
+      "gap_to_0.12": 0.03091189496291427
+    },
+    {
+      "name": "hough_tex0.3_thr032_apo65",
+      "n": 35,
+      "ok": 35,
+      "S_loocv_cal_pa_mt": 0.14987269111829873,
+      "S1_loocv": 0.14987256094018855,
+      "S_raw": 0.15551723381264554,
+      "MAE_loocv": {
+        "pa_deg": 1.0105821731813347,
+        "fl_mm": 2.7040970176813346,
+        "mt_mm": 0.16753770745069607
+      },
+      "kw": {
+        "apo_thr": 0.65,
+        "fasc_thr": 0.32,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.3,
+        "fl_sin_w": 0.25,
+        "fl_factor": 0.9,
+        "agree_thr": 15.0,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      },
+      "gate_0.12": false,
+      "gap_to_0.12": 0.02987269111829874
+    },
+    {
+      "name": "hough_tex0.4_thr032_apo65",
+      "n": 35,
+      "ok": 35,
+      "S_loocv_cal_pa_mt": 0.1498616164691655,
+      "S1_loocv": 0.1498614871312268,
+      "S_raw": 0.1567132527063188,
+      "MAE_loocv": {
+        "pa_deg": 1.0216403840577983,
+        "fl_mm": 2.681581938805783,
+        "mt_mm": 0.16753770745069607
+      },
+      "kw": {
+        "apo_thr": 0.65,
+        "fasc_thr": 0.32,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.4,
+        "fl_sin_w": 0.25,
+        "fl_factor": 0.9,
+        "agree_thr": 15.0,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      },
+      "gate_0.12": false,
+      "gap_to_0.12": 0.02986161646916549
+    },
+    {
+      "name": "hough_tex0.2_thr035_apo55",
+      "n": 35,
+      "ok": 35,
+      "S_loocv_cal_pa_mt": 0.1593027827635967,
+      "S1_loocv": 0.15930264594108365,
+      "S_raw": 0.16576346993305938,
+      "MAE_loocv": {
+        "pa_deg": 1.1203364776212248,
+        "fl_mm": 2.847062383960828,
+        "mt_mm": 0.16178997866893355
+      },
+      "kw": {
+        "apo_thr": 0.55,
+        "fasc_thr": 0.35,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.2,
+        "fl_sin_w": 0.25,
+        "fl_factor": 0.9,
+        "agree_thr": 15.0,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      },
+      "gate_0.12": false,
+      "gap_to_0.12": 0.039302782763596694
+    },
+    {
+      "name": "hough_tex0.3_thr035_apo55",
+      "n": 35,
+      "ok": 35,
+      "S_loocv_cal_pa_mt": 0.15642466660298024,
+      "S1_loocv": 0.156424530396117,
+      "S_raw": 0.16354464856387094,
+      "MAE_loocv": {
+        "pa_deg": 1.0905008920876993,
+        "fl_mm": 2.8031213954090797,
+        "mt_mm": 0.16178997866893355
+      },
+      "kw": {
+        "apo_thr": 0.55,
+        "fasc_thr": 0.35,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.3,
+        "fl_sin_w": 0.25,
+        "fl_factor": 0.9,
+        "agree_thr": 15.0,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      },
+      "gate_0.12": false,
+      "gap_to_0.12": 0.036424666602980244
+    },
+    {
+      "name": "hough_tex0.4_thr035_apo55",
+      "n": 35,
+      "ok": 35,
+      "S_loocv_cal_pa_mt": 0.15434203957342288,
+      "S1_loocv": 0.15434189788357755,
+      "S_raw": 0.16246189824864193,
+      "MAE_loocv": {
+        "pa_deg": 1.0723912675162937,
+        "fl_mm": 2.764365874100471,
+        "mt_mm": 0.16178997866893355
+      },
+      "kw": {
+        "apo_thr": 0.55,
+        "fasc_thr": 0.35,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.4,
+        "fl_sin_w": 0.25,
+        "fl_factor": 0.9,
+        "agree_thr": 15.0,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      },
+      "gate_0.12": false,
+      "gap_to_0.12": 0.03434203957342288
+    },
+    {
+      "name": "hough_tex0.2_thr035_apo60",
+      "n": 35,
+      "ok": 35,
+      "S_loocv_cal_pa_mt": 0.1590137529710601,
+      "S1_loocv": 0.15901361373885756,
+      "S_raw": 0.1655885376646267,
+      "MAE_loocv": {
+        "pa_deg": 1.1192904686596405,
+        "fl_mm": 2.8528591300200787,
+        "mt_mm": 0.15826250681487788
+      },
+      "kw": {
+        "apo_thr": 0.6,
+        "fasc_thr": 0.35,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.2,
+        "fl_sin_w": 0.25,
+        "fl_factor": 0.9,
+        "agree_thr": 15.0,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      },
+      "gate_0.12": false,
+      "gap_to_0.12": 0.039013752971060106
+    },
+    {
+      "name": "hough_tex0.3_thr035_apo60",
+      "n": 35,
+      "ok": 35,
+      "S_loocv_cal_pa_mt": 0.15581278737163382,
+      "S1_loocv": 0.15581265082122575,
+      "S_raw": 0.16317169952607571,
+      "MAE_loocv": {
+        "pa_deg": 1.0857948399346395,
+        "fl_mm": 2.804615722435336,
+        "mt_mm": 0.15826250681487788
+      },
+      "kw": {
+        "apo_thr": 0.6,
+        "fasc_thr": 0.35,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.3,
+        "fl_sin_w": 0.25,
+        "fl_factor": 0.9,
+        "agree_thr": 15.0,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      },
+      "gate_0.12": false,
+      "gap_to_0.12": 0.03581278737163382
+    },
+    {
+      "name": "hough_tex0.4_thr035_apo60",
+      "n": 35,
+      "ok": 35,
+      "S_loocv_cal_pa_mt": 0.15346143917242996,
+      "S1_loocv": 0.15346129589676136,
+      "S_raw": 0.16194413340494376,
+      "MAE_loocv": {
+        "pa_deg": 1.0639425164875018,
+        "fl_mm": 2.7636715920488935,
+        "mt_mm": 0.15826250681487788
+      },
+      "kw": {
+        "apo_thr": 0.6,
+        "fasc_thr": 0.35,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.4,
+        "fl_sin_w": 0.25,
+        "fl_factor": 0.9,
+        "agree_thr": 15.0,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      },
+      "gate_0.12": false,
+      "gap_to_0.12": 0.03346143917242997
+    },
+    {
+      "name": "hough_tex0.2_thr035_apo65",
+      "n": 35,
+      "ok": 35,
+      "S_loocv_cal_pa_mt": 0.16282972497598405,
+      "S1_loocv": 0.16282958602045422,
+      "S_raw": 0.16857814875197294,
+      "MAE_loocv": {
+        "pa_deg": 1.1211314510551704,
+        "fl_mm": 2.9494513648232266,
+        "mt_mm": 0.16753770745069607
+      },
+      "kw": {
+        "apo_thr": 0.65,
+        "fasc_thr": 0.35,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.2,
+        "fl_sin_w": 0.25,
+        "fl_factor": 0.9,
+        "agree_thr": 15.0,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      },
+      "gate_0.12": false,
+      "gap_to_0.12": 0.04282972497598406
+    },
+    {
+      "name": "hough_tex0.3_thr035_apo65",
+      "n": 35,
+      "ok": 35,
+      "S_loocv_cal_pa_mt": 0.15931228220537258,
+      "S1_loocv": 0.15931214596849586,
+      "S_raw": 0.16583378124414408,
+      "MAE_loocv": {
+        "pa_deg": 1.088941417647451,
+        "fl_mm": 2.887203589768165,
+        "mt_mm": 0.16753770745069607
+      },
+      "kw": {
+        "apo_thr": 0.65,
+        "fasc_thr": 0.35,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.3,
+        "fl_sin_w": 0.25,
+        "fl_factor": 0.9,
+        "agree_thr": 15.0,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      },
+      "gate_0.12": false,
+      "gap_to_0.12": 0.039312282205372584
+    },
+    {
+      "name": "hough_tex0.4_thr035_apo65",
+      "n": 35,
+      "ok": 35,
+      "S_loocv_cal_pa_mt": 0.15673223800101918,
+      "S1_loocv": 0.1567320952639952,
+      "S_raw": 0.16433850096761923,
+      "MAE_loocv": {
+        "pa_deg": 1.0690084623297818,
+        "fl_mm": 2.8341876750414796,
+        "mt_mm": 0.16753770745069607
+      },
+      "kw": {
+        "apo_thr": 0.65,
+        "fasc_thr": 0.35,
+        "min_len": 3.0,
+        "depth_at": 0.7,
+        "tex_w": 0.4,
+        "fl_sin_w": 0.25,
+        "fl_factor": 0.9,
+        "agree_thr": 15.0,
+        "tex_lo": 0.5,
+        "tex_hi": 0.95,
+        "pa_mode": "hough"
+      },
+      "gate_0.12": false,
+      "gap_to_0.12": 0.036732238001019185
+    }
+  ]
+}
