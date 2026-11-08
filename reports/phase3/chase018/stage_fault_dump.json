@@ -1,0 +1,119 @@
+{
+  "constants_retuned": false,
+  "kaggle_submit": false,
+  "multiexp_used_to_select": false,
+  "blocks": [
+    {
+      "block": "scale_anchor",
+      "hypothesis": "Millimetre scale is not identified per image.",
+      "contrast": "measured vs family_prior vs unknown",
+      "evidence": {
+        "protocol_counts": {
+          "measured": 2318,
+          "family_prior": 427,
+          "unknown": 1373
+        },
+        "per_image_rows_present": false,
+        "q_invented": false
+      },
+      "verdict": "inconclusive",
+      "reason": "Scale-row CSV is not in this workspace. Counts are the v2 audit summary, not a new measurement."
+    },
+    {
+      "block": "coordinate_pullback",
+      "hypothesis": "Resize into 384x576 drops the spacing Jacobian.",
+      "contrast": "synthetic scene before vs after INTER_AREA, spacing scaled by pixel ratio",
+      "evidence": {
+        "verdict": "pass",
+        "abs_delta": {
+          "pa_deg": 0.0014831672850448285,
+          "fl_mm": 0.003954082980612839,
+          "mt_mm": 0.09999999999998721
+        },
+        "tolerance": {
+          "pa_deg": 1.5,
+          "fl_mm": 3.0,
+          "mt_mm": 1.0
+        },
+        "resize": "cv2.INTER_AREA"
+      },
+      "verdict": "pass",
+      "reason": "Synthetic binary scene, cv2.INTER_AREA into 384x576, spacing multiplied by the source/destination pixel ratio. Not a network probability map, not letterbox padding, and not a leaderboard result."
+    },
+    {
+      "block": "apo_geometry",
+      "hypothesis": "Predicted aponeurosis curves differ from manual apo masks.",
+      "contrast": "GT apo vs predicted apo, fasc frozen",
+      "evidence": {
+        "images_present": false,
+        "checkpoints_present": false
+      },
+      "verdict": "blocked_missing_inputs",
+      "reason": "No competition images, masks, or apo checkpoint in this workspace."
+    },
+    {
+      "block": "fasc_orientation",
+      "hypothesis": "Mask overlap can be high while fascicle direction is wrong.",
+      "contrast": "GT fasc direction vs predicted direction, apo frozen",
+      "evidence": {
+        "images_present": false,
+        "dice_used_as_decision": false
+      },
+      "verdict": "blocked_missing_inputs",
+      "reason": "No fascicle images or masks in this workspace. Dice was not computed."
+    },
+    {
+      "block": "measurement_definition",
+      "hypothesis": "The aggregator, not the map, changes pennation.",
+      "contrast": "weighted median vs unweighted median vs depth-fit on one synthetic scene",
+      "evidence": {
+        "ok": 1.0,
+        "weighted_median_pa": 24.958289383904685,
+        "unweighted_median_pa": 24.96868460779782,
+        "depth_fit_pa": null,
+        "depth_fit_defined": false,
+        "n": 4.0,
+        "depth_span": 0.09060112909920087
+      },
+      "verdict": "synthetic_contrast_not_a_selection",
+      "reason": "Three readouts are reported. None is selected. This is not a leaderboard score."
+    },
+    {
+      "block": "calibration_transfer",
+      "hypothesis": "The frozen PA+MT affine does not transfer.",
+      "contrast": "raw example vs deployed cal_pa_mt; FL affine in the JSON vs FL raw in infer",
+      "evidence": {
+        "example_not_a_test_image": {
+          "pa_deg": 20.0,
+          "fl_mm": 70.0,
+          "mt_mm": 20.0
+        },
+        "deployed_cal_pa_mt": {
+          "pa_deg": 19.397283713405216,
+          "fl_mm": 70.0,
+          "mt_mm": 20.1787607458375
+        },
+        "affine_file_fl_applied": true,
+        "deploy_path_applies_fl_affine": false,
+        "note": "multexp_chase_affine.json marks fl_mm applied=true, but infer_rl_refiner sets cal_fl to the raw fascicle length. No new affine was fit. Test-image residuals are unavailable."
+      },
+      "verdict": "inconclusive",
+      "reason": "The affine file and the deploy path disagree on FL. Test predictions are absent, so no domain verdict."
+    },
+    {
+      "block": "deployment_parity",
+      "hypothesis": "The CSV writer renames png ids to tif.",
+      "contrast": "official test basenames vs infer_rl_refiner id expression",
+      "evidence": {
+        "n_ids": 309,
+        "n_png": 58,
+        "n_tif": 251,
+        "n_rewritten_to_tif_by_infer_expression": 58,
+        "infer_expression_present": true,
+        "submitted_csv_present": false
+      },
+      "verdict": "inconclusive",
+      "reason": "The infer expression would rewrite every non-.tif id. 58 official ids do not end in .tif. The submitted CSV is not here, so the public file is not shown to contain that rewrite."
+    }
+  ]
+}

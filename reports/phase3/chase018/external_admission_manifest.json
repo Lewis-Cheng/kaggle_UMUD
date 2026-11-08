@@ -1,0 +1,127 @@
+{
+  "downloaded": false,
+  "trained": false,
+  "competition_rules_checked_this_run": false,
+  "rules_note": "Kaggle UMUD external-data rules still have to be re-read before any download. A public URL is not admission.",
+  "hard_rules": [
+    "algorithm labels stay pseudo-labels",
+    "missing physical scale cannot support a millimetre claim",
+    "unchecked overlap cannot be called an external test",
+    "unknown checkpoint provenance stays unknown"
+  ],
+  "sealed_benchmark_rank": [
+    {
+      "rank": 1,
+      "dataset_name": "Drazan, Hullfish, Baxter 2019 fascicle tracking",
+      "version": "Zenodo 2598553",
+      "doi": "10.5281/zenodo.2598553",
+      "license": "CC BY 4.0",
+      "competition_rule_status": "unchecked",
+      "task_and_annotation_type": "experimental fascicle tracks; repeated expert labels described by later DUSTrack use (5 participants, 18 frames, 3 experts, 3 days)",
+      "device": "unverified until archive parse",
+      "muscle": "unverified until archive parse",
+      "participant": "multiple; adjacent frames are not independent",
+      "sequence": "yes",
+      "physical_scale_source": "unverified",
+      "raw_image_or_overlay": "unverified",
+      "human_or_algorithm_labels": "human tracks plus tracking code",
+      "duplicate_and_provenance_status": "overlap with competition images unchecked",
+      "assigned_role": "sealed_test",
+      "why_this_rank": "First sealed external benchmark: participants and repeated human traces, not a training dump."
+    },
+    {
+      "rank": 2,
+      "dataset_name": "SMA dataset v2",
+      "version": "Mendeley dpmf9bz8pt.2",
+      "doi": "10.17632/dpmf9bz8pt.2",
+      "license": "CC BY 4.0",
+      "competition_rule_status": "unchecked",
+      "task_and_annotation_type": "GM samples A/B and TA sample C for Simple Muscle Architecture Analysis; dense masks not confirmed",
+      "device": "unverified",
+      "muscle": "GM, TA",
+      "participant": "sample images, not a cohort claim",
+      "sequence": "still images",
+      "physical_scale_source": "unverified",
+      "raw_image_or_overlay": "unverified",
+      "human_or_algorithm_labels": "analysis macro inputs; confirm before calling them expert GT",
+      "duplicate_and_provenance_status": "unchecked",
+      "assigned_role": "sealed_test",
+      "why_this_rank": "Non-network geometry baseline. Confirm annotation type before any segmentation use."
+    },
+    {
+      "rank": 3,
+      "dataset_name": "MuscleUS_Toolbox accompanying data",
+      "version": "Kilpatrick et al. 2023",
+      "doi": "unconfirmed-see-PMC11304077",
+      "license": "unverified",
+      "competition_rule_status": "unchecked",
+      "task_and_annotation_type": "local orientation and streamlines; human ROI and aponeurosis",
+      "device": "unverified",
+      "muscle": "unverified",
+      "participant": "unverified",
+      "sequence": "unverified",
+      "physical_scale_source": "paper states physical pixel resolution; not re-measured here",
+      "raw_image_or_overlay": "de-identified images described by the paper",
+      "human_or_algorithm_labels": "human ROI; algorithm streamlines are not expert GT",
+      "duplicate_and_provenance_status": "unchecked",
+      "assigned_role": "sealed_test",
+      "why_this_rank": "Local-orientation contrast for R2. Not a fully automatic multi-device benchmark."
+    },
+    {
+      "rank": 4,
+      "dataset_name": "DL_Track_US",
+      "version": "current OSF/GitHub package; Zenodo Examples record 7866598 is not the training archive",
+      "doi": "see PaulRitsche/DL_Track_US",
+      "license": "unverified",
+      "competition_rule_status": "unchecked",
+      "task_and_annotation_type": "apo/fasc segmentation then PA/FL/MT; paper mean difference is not MAE and is not S",
+      "device": "unverified",
+      "muscle": "unverified",
+      "participant": "unverified",
+      "sequence": "package-dependent",
+      "physical_scale_source": "unverified",
+      "raw_image_or_overlay": "unverified",
+      "human_or_algorithm_labels": "mixed until the current archive is parsed; model outputs are pseudo-labels",
+      "duplicate_and_provenance_status": "overlap with competition and Frundles weights unchecked",
+      "assigned_role": "sealed_test",
+      "why_this_rank": "Full-pipeline reproduction after the three measurement benchmarks above. Not a clean held-out set by default."
+    }
+  ],
+  "other_roles": [
+    {
+      "dataset_name": "UMUD LabTrainData",
+      "assigned_role": "development",
+      "status": "not_admitted",
+      "limit": "Segmentation or orientation supervision only after overlap audit. Not an external test."
+    },
+    {
+      "dataset_name": "UMUD ExpDrawnData",
+      "assigned_role": "development",
+      "status": "not_admitted",
+      "limit": "Overlay strokes are not clean masks. Already used in Dice fine-tunes that were not promoted."
+    },
+    {
+      "dataset_name": "UMUD MultExpData architecture v0.1.0",
+      "assigned_role": "sealed_diagnostic",
+      "status": "already_opened",
+      "n_architecture_images": 35,
+      "limit": "Score a frozen recipe once. Do not select on it. The panoramic ACSA set is not architecture labels."
+    },
+    {
+      "dataset_name": "DeepACSA",
+      "assigned_role": "representation_only",
+      "status": "not_admitted",
+      "limit": "ACSA masks are not fascicle masks. ACSA accuracy is not a PA or FL result."
+    }
+  ],
+  "reading_order": [
+    "Varma and Simon 2006, BMC Bioinformatics, nested selection",
+    "Cawley and Talbot 2010, JMLR, selection overfitting",
+    "Gulrajani and Lopez-Paz, DomainBed",
+    "Koh et al., WILDS",
+    "Seynnes and Cronin 2020, SMA",
+    "Ritsche et al., DL_Track_US",
+    "Kilpatrick et al. 2023, MuscleUS_Toolbox",
+    "UltraTrack, UltraTimTrack, DUSTrack only when a real sequence is the question"
+  ]
+}
