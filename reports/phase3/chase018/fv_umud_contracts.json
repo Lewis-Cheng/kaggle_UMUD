@@ -1,0 +1,136 @@
+{
+  "production_readiness": "BLOCKED",
+  "real_images_ran": false,
+  "texture_rl_replay_matched": false,
+  "positive_checks": {
+    "passed": 8,
+    "failed": 0,
+    "names": [
+      "coordinate_roundtrip",
+      "angle_geometry",
+      "length_units",
+      "metric_normalization",
+      "group_disjoint",
+      "finite_output",
+      "metric_anchor",
+      "promotion_evidence"
+    ]
+  },
+  "mutants": {
+    "expected_reject": 8,
+    "rejected": 8,
+    "details": [
+      {
+        "property": "coordinate_roundtrip",
+        "rejected": true,
+        "message": "coordinate_roundtrip length^2 26.251786562499998 != 3.3999999999999995"
+      },
+      {
+        "property": "angle_geometry",
+        "rejected": true,
+        "message": "angle_geometry cos 0.7071067811865474 != 0.7784130394753292"
+      },
+      {
+        "property": "length_units",
+        "rejected": true,
+        "message": "length_units got 100.0 mm, expected 10"
+      },
+      {
+        "property": "metric_normalization",
+        "rejected": true,
+        "message": "metric_normalization S1 1.5 != 0.5"
+      },
+      {
+        "property": "group_disjoint",
+        "rejected": true,
+        "message": "group_disjoint overlap: [3]"
+      },
+      {
+        "property": "finite_output",
+        "rejected": true,
+        "message": "finite_output accepted a non-finite prediction"
+      },
+      {
+        "property": "metric_anchor",
+        "rejected": true,
+        "message": "metric_anchor: family_prior stored as measured"
+      },
+      {
+        "property": "promotion_evidence",
+        "rejected": true,
+        "message": "promotion_evidence: PASS without real_images_ran"
+      }
+    ]
+  },
+  "random_affine": {
+    "n": 1000.0,
+    "seed": 20261108.0,
+    "max_abs_length_sq": 1.3822276656583199e-14,
+    "max_abs_cosine": 4.440892098500626e-16,
+    "max_abs_point_roundtrip": 7.771561172376096e-15
+  },
+  "integration_coordinate_pullback": {
+    "name": "coordinate_pullback",
+    "source_hw": [
+      600,
+      800
+    ],
+    "dest_hw": [
+      384,
+      576
+    ],
+    "sx_sy_source_mm_per_px": [
+      0.15,
+      0.08
+    ],
+    "sx_sy_dest_mm_per_px": [
+      0.20833333333333331,
+      0.125
+    ],
+    "tolerance": {
+      "pa_deg": 1.5,
+      "fl_mm": 3.0,
+      "mt_mm": 1.0
+    },
+    "native_ok": true,
+    "resized_ok": true,
+    "native": {
+      "pa_deg": 24.958289383904685,
+      "fl_mm": 71.09706123703137,
+      "mt_mm": 27.59999999999997,
+      "n_fasc": 4
+    },
+    "resized": {
+      "pa_deg": 24.95977255118973,
+      "fl_mm": 71.09310715405076,
+      "mt_mm": 27.499999999999982,
+      "n_fasc": 4
+    },
+    "abs_delta": {
+      "pa_deg": 0.0014831672850448285,
+      "fl_mm": 0.003954082980612839,
+      "mt_mm": 0.09999999999998721
+    },
+    "verdict": "pass",
+    "resize": "cv2.INTER_AREA",
+    "note": "Synthetic binary scene, cv2.INTER_AREA into 384x576, spacing multiplied by the source/destination pixel ratio. Not a network probability map, not letterbox padding, and not a leaderboard result."
+  },
+  "trusted_base": [
+    "tests/properties/test_umud_contracts.py",
+    "src/umud/verification/contracts.py",
+    "src/umud/geometry/physical.py",
+    "src/umud/metric/score.py",
+    "CPython",
+    "NumPy"
+  ],
+  "out_of_scope": [
+    "ultrasound appearance",
+    "fascicle detection on real images",
+    "leaderboard rank",
+    "private score",
+    "inputs outside the seeded set",
+    "Rocq or RISC-V proofs"
+  ],
+  "algebra_scope": "Hand algebra covers invertible affine A and diagonal positive spacing. It does not cover interpolation or network outputs.",
+  "promotion_refused": true
+}

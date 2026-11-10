@@ -1,0 +1,60 @@
+{
+  "git_commit": "af916a85d69f57f04bef6023c88d6614942c816d",
+  "git_commit_meaning": "HEAD when this manifest was generated. The commit that adds the manifest is a child of this hash.",
+  "replay_pass": false,
+  "replay_reason": "Checkpoint weights, prediction CSVs, bandit npz, and competition images are not in this workspace, so the 309-row CSV cannot be regenerated here.",
+  "scorer_sha256_pinned": "3873f613d55be3eee82229d661dd2c06c1d3c962ff63a1ec45b0a97b29cf061f",
+  "config_sha256": "147203cdf135e1d16fc7ee7834b607d96bcbdf2802aa2db3170f0e66e7cc8aa5",
+  "config": {
+    "texture_rl": {
+      "name": "texture_rl",
+      "kaggle_ref": 58005465,
+      "recorded_public_score": 0.29895,
+      "tex_w": 0.5,
+      "fl_sin_w": 0.25,
+      "fl_factor": 0.9,
+      "calibration": "PA+MT affine from multexp_chase_affine.json; FL left raw in infer_rl_refiner",
+      "policy_action": "cal_pa_mt on 309/309 recorded in submission_texture_rl.json"
+    },
+    "joint_foldpure": {
+      "name": "joint_foldpure",
+      "kaggle_ref": 58058659,
+      "recorded_public_score": 0.44238,
+      "role": "negative control",
+      "recorded_honest_nested_S": 0.1344865957876554
+    }
+  },
+  "file_sha256": {
+    "src/umud/metric/score.py": "37d46df995db4298ca5d59fb91e47d247eace5e870b8bbe762294952a5655b59",
+    "src/umud/geometry/host_faithful.py": "60c6a0871d000c76864d441f085e23010b3f57b571ee186c81c615a4a49b672c",
+    "src/umud/geometry/physical.py": "ba52505e48f8cebe796ae7cac1f6f90e9a948724cfc85b286d4d76d21b27d6a6",
+    "src/umud/verification/contracts.py": "113e98dace6aeb3ac2c329b309e0edc3236f7b711aaf70e03ae3690484c3b0d9",
+    "src/umud/seg/frundles_smp.py": "dc3bf18c847b7336aeaa6e0fe261adbe093eea9351addc8c81a95b28757e0949",
+    "scripts/chase018/infer_rl_refiner.py": "4aadca24d60815ddc664a7d41af01d9326f94f101d14b6cba08bd65dc90818bf",
+    "configs/protocol.yaml": "5d880301e3ca75f05b23c49c41161bcfbaad4705fcdbda70840620e75c5da7c7",
+    "reports/phase3/official_test_file_names.txt": "895a6c0d77701269cbe263b06915930c08902574839dce03459725a0b3ea95d6",
+    "reports/phase3/chase018/submission_texture_rl.json": "c04a4b1f93ea0731c669b55cf4028655c4804ede689d59e16fbe3e11f3ba8d9f",
+    "reports/phase3/chase018/submission_joint_foldpure.json": "4229399a387f4c119b5e05fc9a4b9cd43e6aa46016c8f2c012a49ac16325ec87",
+    "reports/phase3/chase018/multexp_chase_affine.json": "57fde34172155a9dcf7e064258328985d1c3bee11d56df4a4a0052d241dfb376",
+    "reports/phase3/chase018/fv_umud_contracts.json": "c4f16d02573348bca991b650751fb45d5b5051ca212b05e792f1afac1a67d738"
+  },
+  "missing_inputs": [
+    "data/external/frundles_weights/apo_resnet34_384x576_f0.pt",
+    "data/external/frundles_weights/fasc_resnet34_384x576_f0.pt",
+    "reports/phase3/chase018/submission_texture_rl.csv",
+    "reports/phase3/chase018/submission_texture_pa.csv",
+    "reports/phase3/chase018/submission_joint_foldpure.csv",
+    "reports/phase3/chase018/rl_refiner/chase018_bandit.npz",
+    "data/raw/umud"
+  ],
+  "hash_files_absent": [],
+  "n_test_ids": 309,
+  "per_image_stages": "reports/phase3/chase018/baseline_freeze/per_image_stages.jsonl",
+  "per_image_measurement_status": "null_artifacts_absent",
+  "stopped": [
+    "sin_w x factor x PA-head grids on the same maps",
+    "Dice-selected fine-tunes",
+    "changes aimed at MultExp S < 0.12",
+    "Kaggle submit without one written hypothesis"
+  ]
+}

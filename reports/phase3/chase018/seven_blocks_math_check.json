@@ -1,0 +1,101 @@
+{
+  "production_readiness": "BLOCKED",
+  "private_data_visible": false,
+  "private_weights_visible": false,
+  "any_of_seven_solved": false,
+  "score_is_mean": {
+    "hand_mean": 0.14975,
+    "score_components_S1": 0.14975,
+    "matches_official_mean": true,
+    "sum_not_the_score": 0.44925,
+    "share_pa": 0.4181042478204415,
+    "share_fl": 0.4616954182897422,
+    "share_mt": 0.12020033388981637
+  },
+  "supplied_mae_not_remeasured": {
+    "pa_deg": 1.127,
+    "fl_mm": 2.489,
+    "mt_mm": 0.162
+  },
+  "three_d_branch": "not_opened",
+  "blocks": [
+    {
+      "block": "scale_anchor",
+      "solved": false,
+      "verdict": "open",
+      "why": "Per-image scale rows are not in this clone. family_prior is still a usable label. sx, sy were not fit to expert outputs."
+    },
+    {
+      "block": "coordinate_pullback",
+      "solved": false,
+      "verdict": "partial_synthetic_only",
+      "why": "host_faithful.measure agreed on one synthetic INTER_AREA resize when sx and sy differed. 10 MultExp call sites still pass the same px_per_mm for both axes. 2 infer call sites pass sx, sy separately. Forcing sy = sx on a (1, 1) pixel step moves the physical angle by 18.43 degrees. That call-site split is not closed.",
+      "isotropic_calls": [
+        "scripts/chase018/eval_promoted_hough_multexp.py:73",
+        "scripts/chase018/multexp_aporelpa_flgeo_holdcombo.py:64",
+        "scripts/chase018/eval_multexp_variants.py:40",
+        "scripts/chase018/adapt_multexp_fasc.py:282",
+        "scripts/chase018/calibrate_multexp.py:95",
+        "scripts/chase018/eval_multexp_fl_postprocess.py:117",
+        "scripts/chase018/multexp_aporelpa_flgeo.py:155",
+        "scripts/chase018/multexp_aporelpa_flgeo.py:328",
+        "scripts/chase018/multexp_joint_foldpure.py:69",
+        "scripts/chase018/multexp_aporelpa_flgeo_Bonly.py:35"
+      ],
+      "separate_calls": [
+        "scripts/chase018/infer_geo_floor.py:92",
+        "scripts/chase018/infer_texture_pa.py:110"
+      ],
+      "aspect_fixture": {
+        "angle_deg_sx_0.1_sy_0.2": 63.43494882292201,
+        "angle_deg_forced_sy_eq_sx": 45.0,
+        "abs_delta_deg": 18.43494882292201
+      }
+    },
+    {
+      "block": "apo_geometry",
+      "solved": false,
+      "verdict": "open",
+      "why": "MT uses centreline separation minus half thickness. PA uses slope_deg of the apo_curves centreline polynomial, not the rich inner-edge tangent. No GT-apo comparison was run; images are not in this clone.",
+      "measure": {
+        "pa_uses_centreline_slope_deg": true,
+        "mt_uses_centre_minus_half_thickness": true,
+        "pa_uses_rich_inner_edge_tangent": false,
+        "rejects_near_parallel_intersection": false
+      }
+    },
+    {
+      "block": "fasc_orientation",
+      "solved": false,
+      "verdict": "open",
+      "why": "The production aggregator is a weighted median of SVD segments. Vesselness, Hough, and local projection/LOESS were not compared on held-out images."
+    },
+    {
+      "block": "measurement_definition",
+      "solved": false,
+      "verdict": "open",
+      "why": "The coupling identity is implemented as a diagnostic only. At L=50 mm and 15 degrees, a +1 degree pennation error predicts -3.2568 mm of FL change with thickness fixed. No per-image signed residuals exist here, so the identity has not explained the FL error. line_curve_intersection does not reject near-parallel crossings.",
+      "one_degree_fl_change_mm": -3.2568287221895114,
+      "explained_matches_first_order": true,
+      "measure": {
+        "pa_uses_centreline_slope_deg": true,
+        "mt_uses_centre_minus_half_thickness": true,
+        "pa_uses_rich_inner_edge_tangent": false,
+        "rejects_near_parallel_intersection": false
+      }
+    },
+    {
+      "block": "calibration_transfer",
+      "solved": false,
+      "verdict": "open",
+      "why": "The frozen affine is ordinary least squares (np.polyfit), not a regularized absolute-deviation fit. The affine JSON marks FL as applied while infer_rl_refiner leaves FL raw. No new coefficients were fit.",
+      "fit_is_least_squares": true
+    },
+    {
+      "block": "deployment_parity",
+      "solved": false,
+      "verdict": "open",
+      "why": "infer_rl_refiner still rewrites non-.tif ids, and the submitted CSV is absent. Eval and deploy are not one function."
+    }
+  ]
+}

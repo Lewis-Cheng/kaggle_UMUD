@@ -86,3 +86,6 @@ reports/**/*.pickle
 # Token/backup files
 **/access_token
 **/*.bak_*
+
+# graft's local graph cache — regenerable, not committed (run `graft build`).
+/graft/
