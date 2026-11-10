@@ -1,0 +1,23 @@
+{"task": "apo", "kept": 1044, "dropped_near_multexp": 4, "train": 836, "val": 208, "multiexp_hashes": 35}
+[32m[I 2026-11-09 15:47:26,155][0m Using an existing study with name 'ref_apo' instead of creating a new one.[0m
+{"tag": "apo-final", "epoch": 0, "train_loss": 1.3062280118465424, "val_hard_dice": 0.6282065013835493, "l2": 2.054762512591135e-05} (19s)
+{"tag": "apo-final", "epoch": 1, "train_loss": 0.6933926131862861, "val_hard_dice": 0.7257051068590954, "l2": 2.054762512591135e-05} (12s)
+{"tag": "apo-final", "epoch": 2, "train_loss": 0.45776181324170184, "val_hard_dice": 0.7789389382232912, "l2": 2.054762512591135e-05} (15s)
+{"tag": "apo-final", "epoch": 3, "train_loss": 0.407321681196873, "val_hard_dice": 0.7829714300728833, "l2": 2.054762512591135e-05} (12s)
+{"tag": "apo-final", "epoch": 4, "train_loss": 0.3807957232571565, "val_hard_dice": 0.7743158991394851, "l2": 2.054762512591135e-05} (11s)
+{"tag": "apo-final", "epoch": 5, "train_loss": 0.3684235968841956, "val_hard_dice": 0.7871788064591013, "l2": 2.054762512591135e-05} (11s)
+{"tag": "apo-final", "epoch": 6, "train_loss": 0.3700758224496475, "val_hard_dice": 0.7868181259747451, "l2": 2.054762512591135e-05} (11s)
+{"tag": "apo-final", "epoch": 7, "train_loss": 0.3524203673005104, "val_hard_dice": 0.7894049161539163, "l2": 2.054762512591135e-05} (11s)
+{"tag": "apo-final", "epoch": 8, "train_loss": 0.34571918486975706, "val_hard_dice": 0.794536465566265, "l2": 2.054762512591135e-05} (12s)
+{"tag": "apo-final", "epoch": 9, "train_loss": 0.34022962817778957, "val_hard_dice": 0.7985404191467051, "l2": 2.054762512591135e-05} (12s)
+{"tag": "apo-final", "epoch": 10, "train_loss": 0.32856458984315395, "val_hard_dice": 0.7761913814443128, "l2": 2.054762512591135e-05} (12s)
+{"tag": "apo-final", "epoch": 11, "train_loss": 0.31767606348372424, "val_hard_dice": 0.7992844365519256, "l2": 2.054762512591135e-05} (11s)
+{"tag": "apo-final", "epoch": 12, "train_loss": 0.3093015088771398, "val_hard_dice": 0.8046593470319819, "l2": 2.054762512591135e-05} (11s)
+{"tag": "apo-final", "epoch": 13, "train_loss": 0.30231312347146183, "val_hard_dice": 0.8053823702525383, "l2": 2.054762512591135e-05} (11s)
+{"tag": "apo-final", "epoch": 14, "train_loss": 0.2940169620112731, "val_hard_dice": 0.8063799084741802, "l2": 2.054762512591135e-05} (11s)
+{"tag": "apo-final", "epoch": 15, "train_loss": 0.2914504287048028, "val_hard_dice": 0.8154384214184784, "l2": 2.054762512591135e-05} (11s)
+{"tag": "apo-final", "epoch": 16, "train_loss": 0.28016761933954865, "val_hard_dice": 0.8135537892723312, "l2": 2.054762512591135e-05} (12s)
+{"tag": "apo-final", "epoch": 17, "train_loss": 0.2778558392937367, "val_hard_dice": 0.8165811899189765, "l2": 2.054762512591135e-05} (12s)
+{"tag": "apo-final", "epoch": 18, "train_loss": 0.27314159718270486, "val_hard_dice": 0.8172919544964455, "l2": 2.054762512591135e-05} (11s)
+{"tag": "apo-final", "epoch": 19, "train_loss": 0.2750328422452395, "val_hard_dice": 0.8163594424438018, "l2": 2.054762512591135e-05} (11s)
+{"saved": "/home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/ref_apo_optuna_best.pt", "val_hard_dice": 0.8172919544964455, "params": {"lr": 0.0004424804764191638, "l2": 2.054762512591135e-05, "crop_min": 0.8621205502737279, "rot_prob": 0.7818313802505146, "pos_weight": 4.300649112954666}}

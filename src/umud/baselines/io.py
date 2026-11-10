@@ -52,6 +52,33 @@ def load_test_ids(data_root: Path | str) -> list[str]:
     return read_sample_ids(layout.sample_submission)
 
 
+def load_official_submission_ids(path: Path | str) -> list[str]:
+    """Copy literal submission ids from the official test-name list.
+
+    Each image line is a path or a filename. The id is that line's final
+    path component exactly as written. ``sample_submission.csv`` is the
+    list's header artifact, not an image. This never strips a suffix and
+    never appends one. Duplicate filenames abort.
+    """
+    text = Path(path).read_text(encoding="utf-8")
+    ids: list[str] = []
+    for raw in text.splitlines():
+        line = raw.strip()
+        if not line:
+            continue
+        name = line.replace("\\", "/").rsplit("/", 1)[-1]
+        if name == "sample_submission.csv":
+            continue
+        if not name or name in {".", ".."}:
+            raise ValueError(f"official id line has no filename: {line!r}")
+        ids.append(name)
+    if not ids:
+        raise ValueError(f"official submission id list is empty: {path}")
+    if len(ids) != len(set(ids)):
+        raise ValueError("official submission ids collide")
+    return ids
+
+
 def read_sample_ids(path: Path | str) -> list[str]:
     """Parse sample_submission ids (supports ``;`` or ``,``)."""
     path = Path(path)

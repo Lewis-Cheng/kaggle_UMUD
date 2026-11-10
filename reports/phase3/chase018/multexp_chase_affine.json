@@ -4,6 +4,7 @@
     "b": 4.32414028451593,
     "mae_before": 1.4104868672963449,
     "mae_after": 1.2357152812239849,
+    "function": "affine",
     "applied": true
   },
   "fl_mm": {
@@ -11,14 +12,16 @@
     "b": 3.3277791396423897,
     "mae_before": 2.5658928634855283,
     "mae_after": 2.533857590780871,
-    "applied": true
+    "function": "identity",
+    "applied": false
   },
   "mt_mm": {
     "a": 1.0042834580955189,
     "b": 0.09309158392712405,
     "mae_before": 0.1992894827923563,
     "mae_after": 0.1575449096918829,
+    "function": "affine",
     "applied": true
   },
-  "note": "cal_pa_mt uses PA+MT only unless FL mae_after improves"
+  "note": "Executable spec: PA and MT affine, FL identity. FL coefficients are a diagnostic fit and are not applied. infer_rl_refiner aborts if fl_mm.function is not identity or fl_mm.applied is true."
 }

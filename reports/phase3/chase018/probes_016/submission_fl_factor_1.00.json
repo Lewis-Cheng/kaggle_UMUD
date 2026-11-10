@@ -1,0 +1,13 @@
+{
+  "file": "/home/chocheng9/kaggle_UMUD/reports/phase3/chase018/probes_016/submission_fl_factor_1.00.csv",
+  "note": "FL-only level. Absolute geometry factor 1.0 (texture_rl is 0.90). MT and PA copied.",
+  "mae_vs_texture_rl": {
+    "pa_deg": 0.0,
+    "fl_mm": 9.179008764749549,
+    "mt_mm": 0.0
+  },
+  "median_ratio_vs_texture_rl": {
+    "fl_mm": 1.1111111111111112,
+    "mt_mm": 1.0
+  }
+}

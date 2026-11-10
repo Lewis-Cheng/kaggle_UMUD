@@ -1,0 +1,23 @@
+{"task": "fasc", "kept": 2750, "dropped_near_multexp": 11, "train": 2357, "val": 393, "multiexp_hashes": 35}
+[32m[I 2026-11-09 15:30:16,166][0m Using an existing study with name 'ref_fasc' instead of creating a new one.[0m
+{"tag": "fasc-final", "epoch": 0, "val_hard_dice": 0.06928764281539085, "l2": 2.054762512591135e-05} (53s)
+{"tag": "fasc-final", "epoch": 1, "val_hard_dice": 0.31929416785789205, "l2": 2.054762512591135e-05} (51s)
+{"tag": "fasc-final", "epoch": 2, "val_hard_dice": 0.3503077990984492, "l2": 2.054762512591135e-05} (38s)
+{"tag": "fasc-final", "epoch": 3, "val_hard_dice": 0.3532329432419845, "l2": 2.054762512591135e-05} (45s)
+{"tag": "fasc-final", "epoch": 4, "val_hard_dice": 0.37383691598744184, "l2": 2.054762512591135e-05} (39s)
+{"tag": "fasc-final", "epoch": 5, "val_hard_dice": 0.37751095383676864, "l2": 2.054762512591135e-05} (39s)
+{"tag": "fasc-final", "epoch": 6, "val_hard_dice": 0.38523285682419783, "l2": 2.054762512591135e-05} (37s)
+{"tag": "fasc-final", "epoch": 7, "val_hard_dice": 0.3907500343165021, "l2": 2.054762512591135e-05} (36s)
+{"tag": "fasc-final", "epoch": 8, "val_hard_dice": 0.3906417484122682, "l2": 2.054762512591135e-05} (34s)
+{"tag": "fasc-final", "epoch": 9, "val_hard_dice": 0.3964662024841357, "l2": 2.054762512591135e-05} (34s)
+{"tag": "fasc-final", "epoch": 10, "val_hard_dice": 0.4002945664653948, "l2": 2.054762512591135e-05} (37s)
+{"tag": "fasc-final", "epoch": 11, "val_hard_dice": 0.4051464982615172, "l2": 2.054762512591135e-05} (33s)
+{"tag": "fasc-final", "epoch": 12, "val_hard_dice": 0.40600667287223513, "l2": 2.054762512591135e-05} (34s)
+{"tag": "fasc-final", "epoch": 13, "val_hard_dice": 0.4072080658364842, "l2": 2.054762512591135e-05} (35s)
+{"tag": "fasc-final", "epoch": 14, "val_hard_dice": 0.410267823828389, "l2": 2.054762512591135e-05} (37s)
+{"tag": "fasc-final", "epoch": 15, "val_hard_dice": 0.4099980246929722, "l2": 2.054762512591135e-05} (35s)
+{"tag": "fasc-final", "epoch": 16, "val_hard_dice": 0.4116543998548396, "l2": 2.054762512591135e-05} (35s)
+{"tag": "fasc-final", "epoch": 17, "val_hard_dice": 0.4141779207167128, "l2": 2.054762512591135e-05} (38s)
+{"tag": "fasc-final", "epoch": 18, "val_hard_dice": 0.4138562647820126, "l2": 2.054762512591135e-05} (39s)
+{"tag": "fasc-final", "epoch": 19, "val_hard_dice": 0.4135707959570654, "l2": 2.054762512591135e-05} (38s)
+{"saved": "/home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/ref_fasc_optuna_best.pt", "val_hard_dice": 0.4141779207167128, "params": {"lr": 0.0004424804764191638, "l2": 2.054762512591135e-05, "crop_min": 0.8621205502737279, "rot_prob": 0.7818313802505146, "pos_weight": 4.300649112954666}}

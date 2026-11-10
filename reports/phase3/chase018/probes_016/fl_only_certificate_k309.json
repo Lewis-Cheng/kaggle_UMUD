@@ -1,0 +1,37 @@
+{
+  "certificate": {
+    "n_rows": 309,
+    "public_count": 309,
+    "full_set_S1_distance": 0.16739388687800652,
+    "subset_S1_bound": 0.16739388687800652,
+    "subset_S2_bound": 1.6570267344716163,
+    "subset_S3_bound": 0.3015437605819726,
+    "absolute_score_change_bound": 0.16739554420628475,
+    "mean_absolute_changes": {
+      "pa_deg": 0.0,
+      "fl_mm": 6.026179927608235,
+      "mt_mm": 0.0
+    },
+    "mean_signed_changes": {
+      "pa_deg": 0.0,
+      "fl_mm": 0.0,
+      "mt_mm": 0.0
+    },
+    "both_length_means_shrink": false,
+    "meaning": "Necessary movement budget only; not expected gain or approval",
+    "public_improvement_proved": false,
+    "baseline_sha256": "208e1124478429d83bd124728a47932cde78c5c01a2642ef781935d478707ff6",
+    "candidate_sha256": "5e70c943aaa35df408ca8f112d6ecdea9c3c01d1631defe81830f168a822f174",
+    "target_screen": {
+      "baseline_displayed_score": 0.29895,
+      "baseline_score_uncertainty": 5e-06,
+      "target_gap_nominal": 0.13895,
+      "target_gap_lower_bound": 0.138945,
+      "numerical_comparison_tolerance": 1e-10,
+      "target_ruled_out_by_numerical_distance_screen": false,
+      "public_improvement_proved": false,
+      "interpretation": "Conditional numerical screen under the supplied score formula, baseline-score interval, exact baseline file and scored-subset assumptions; not formal verification of floating-point execution or an authenticated score."
+    },
+    "submission_authorized": false
+  }
+}

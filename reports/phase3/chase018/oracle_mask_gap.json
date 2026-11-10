@@ -1,0 +1,230 @@
+{
+  "summary": {
+    "n_sampled": 40,
+    "n_both_ok": 18,
+    "mae_pa_deg": 4.112444667017225,
+    "mae_fl_mm": 22.122802257016815,
+    "mae_mt_mm": 0.2967353945953465,
+    "mm_per_px": 0.07142857142857142,
+    "maps": "frundles public apo+fasc",
+    "masks": "competition apo+fasc GT on the 1048-image overlap",
+    "note": "Gap is map versus mask under one frozen geometry and one scale. It is not an error against expert PA/FL/MT.",
+    "S_if_gap_were_the_error": 0.8759620324842404
+  },
+  "rows": [
+    {
+      "stem": "image_0879",
+      "ok": false
+    },
+    {
+      "stem": "image_0503",
+      "ok": false
+    },
+    {
+      "stem": "image_0575",
+      "ok": false
+    },
+    {
+      "stem": "image_0565",
+      "ok": false
+    },
+    {
+      "stem": "image_0793",
+      "ok": true,
+      "d_pa": 1.549299469694546,
+      "d_fl": 3.045454330463052,
+      "d_mt": 0.16165633531288215
+    },
+    {
+      "stem": "image_0084",
+      "ok": true,
+      "d_pa": 7.451427485133337,
+      "d_fl": 18.972393068935034,
+      "d_mt": 0.42993575833024167
+    },
+    {
+      "stem": "image_0016",
+      "ok": true,
+      "d_pa": 1.7901299338331,
+      "d_fl": 32.692113348794464,
+      "d_mt": 0.4491920764220083
+    },
+    {
+      "stem": "image_0899",
+      "ok": false
+    },
+    {
+      "stem": "image_0757",
+      "ok": true,
+      "d_pa": 4.251335151473697,
+      "d_fl": 24.97302527258242,
+      "d_mt": 0.14027516204830093
+    },
+    {
+      "stem": "image_0273",
+      "ok": true,
+      "d_pa": 0.33194444902038356,
+      "d_fl": 24.41646118056093,
+      "d_mt": 0.27369091987487515
+    },
+    {
+      "stem": "image_0041",
+      "ok": true,
+      "d_pa": 1.6399041836261432,
+      "d_fl": 20.354389660840894,
+      "d_mt": 0.3748416792769831
+    },
+    {
+      "stem": "image_0661",
+      "ok": false
+    },
+    {
+      "stem": "image_0023",
+      "ok": true,
+      "d_pa": 9.999315349202632,
+      "d_fl": 11.311029974413728,
+      "d_mt": 0.37940818966427514
+    },
+    {
+      "stem": "image_0182",
+      "ok": true,
+      "d_pa": 1.2582421604655565,
+      "d_fl": 92.53853706375436,
+      "d_mt": 0.11060708511918094
+    },
+    {
+      "stem": "image_0516",
+      "ok": false
+    },
+    {
+      "stem": "image_0993",
+      "ok": false
+    },
+    {
+      "stem": "image_0076",
+      "ok": true,
+      "d_pa": 1.7926444976486238,
+      "d_fl": 6.479503434060021,
+      "d_mt": 0.29695227404700475
+    },
+    {
+      "stem": "image_0034",
+      "ok": true,
+      "d_pa": 2.1415486323977717,
+      "d_fl": 3.2025469852043216,
+      "d_mt": 0.3968478421884072
+    },
+    {
+      "stem": "image_0092",
+      "ok": true,
+      "d_pa": 4.3258422554675775,
+      "d_fl": 30.454994334758595,
+      "d_mt": 0.2546993878271451
+    },
+    {
+      "stem": "image_0442",
+      "ok": false
+    },
+    {
+      "stem": "image_0619",
+      "ok": false
+    },
+    {
+      "stem": "image_0886",
+      "ok": false
+    },
+    {
+      "stem": "image_0747",
+      "ok": true,
+      "d_pa": 11.27246212338828,
+      "d_fl": 34.75298982171041,
+      "d_mt": 0.3800616737696867
+    },
+    {
+      "stem": "image_0827",
+      "ok": false
+    },
+    {
+      "stem": "image_0407",
+      "ok": false
+    },
+    {
+      "stem": "image_0285",
+      "ok": true,
+      "d_pa": 2.1569033757850207,
+      "d_fl": 22.79890807146367,
+      "d_mt": 0.20548664942779027
+    },
+    {
+      "stem": "image_0573",
+      "ok": false
+    },
+    {
+      "stem": "image_0514",
+      "ok": false
+    },
+    {
+      "stem": "image_0931",
+      "ok": false
+    },
+    {
+      "stem": "image_0691",
+      "ok": true,
+      "d_pa": 4.597630051098378,
+      "d_fl": 33.05028737181135,
+      "d_mt": 0.10408474815645263
+    },
+    {
+      "stem": "image_0961",
+      "ok": false
+    },
+    {
+      "stem": "image_0178",
+      "ok": true,
+      "d_pa": 5.059287663109018,
+      "d_fl": 9.76593141349624,
+      "d_mt": 0.5041089835808563
+    },
+    {
+      "stem": "image_0840",
+      "ok": false
+    },
+    {
+      "stem": "image_0557",
+      "ok": false
+    },
+    {
+      "stem": "image_0002",
+      "ok": true,
+      "d_pa": 7.787711355978729,
+      "d_fl": 0.8787885644851059,
+      "d_mt": 0.458786574090734
+    },
+    {
+      "stem": "image_0313",
+      "ok": true,
+      "d_pa": 1.052270608464454,
+      "d_fl": 2.230095664036341,
+      "d_mt": 0.2536500207509995
+    },
+    {
+      "stem": "image_0311",
+      "ok": true,
+      "d_pa": 5.566105260522818,
+      "d_fl": 26.292991064931783,
+      "d_mt": 0.16695174282841307
+    },
+    {
+      "stem": "image_0858",
+      "ok": false
+    },
+    {
+      "stem": "image_0643",
+      "ok": false
+    },
+    {
+      "stem": "image_0648",
+      "ok": false
+    }
+  ]
+}

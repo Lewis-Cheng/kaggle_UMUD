@@ -1,0 +1,13 @@
+{
+  "file": "/home/chocheng9/kaggle_UMUD/reports/phase3/chase018/probes_016/submission_v2_pa_deg_only.csv",
+  "note": "PA-only v2. Do not submit until the FL-only score is back.",
+  "mae_vs_texture_rl": {
+    "pa_deg": 0.4990377914828433,
+    "fl_mm": 0.0,
+    "mt_mm": 0.0
+  },
+  "median_ratio_vs_texture_rl": {
+    "fl_mm": 1.0,
+    "mt_mm": 1.0
+  }
+}

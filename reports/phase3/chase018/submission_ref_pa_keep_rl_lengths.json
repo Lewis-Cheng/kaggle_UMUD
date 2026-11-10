@@ -1,0 +1,13 @@
+{
+  "out": "/home/chocheng9/kaggle_UMUD/reports/phase3/chase018/submission_ref_pa_keep_rl_lengths.csv",
+  "n": 309,
+  "pa_deg": "new reference maps + the same PA affine as texture_rl",
+  "fl_mm": "copied from submission_texture_rl.csv",
+  "mt_mm": "copied from submission_texture_rl.csv",
+  "why": "texture_rl equals cal_pa_mt. Its public gain over texture_pa was PA affine and +0.18 mm MT; FL was identical. Scaling FL and MT by 0.97 scored 0.35218. This file does not shorten lengths.",
+  "public_reference": {
+    "texture_rl": 0.29895,
+    "scale_probe_0.97": 0.35218
+  },
+  "claims_kaggle_lb": false
+}

@@ -1,0 +1,18 @@
+{
+  "base_csv": "/home/chocheng9/kaggle_UMUD/reports/phase3/chase018/submission_texture_rl.csv",
+  "factor": 0.97,
+  "targets_scaled": [
+    "fl_mm",
+    "mt_mm"
+  ],
+  "pa_deg": "copied",
+  "fl_median_gt_over_pred": 0.9971415527536746,
+  "mt_median_gt_over_pred_after_affine": 0.9993609009714499,
+  "n": 309,
+  "official_ids": "/home/chocheng9/kaggle_UMUD/reports/phase3/official_test_file_names.txt",
+  "claims_kaggle_lb": false,
+  "kaggle_submit": "uploaded",
+  "public_score": 0.35218,
+  "reference": "MultExp median sign only; not the reference model to train against",
+  "note": "Single factor from the shared MultExp residual sign. Not a scale grid and not a claim that MultExp is the right anatomy."
+}

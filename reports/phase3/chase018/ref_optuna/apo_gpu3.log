@@ -1,0 +1,13 @@
+{"task": "apo", "kept": 1044, "dropped_near_multexp": 4, "train": 836, "val": 208, "multiexp_hashes": 35}
+[32m[I 2026-11-09 15:43:23,501][0m Using an existing study with name 'ref_apo' instead of creating a new one.[0m
+{"tag": "apo-t3", "epoch": 0, "train_loss": 1.0277560989444072, "val_hard_dice": 0.6889336585009005, "l2": 0.0001398196140899405} (38s)
+{"tag": "apo-t3", "epoch": 1, "train_loss": 0.507754504107512, "val_hard_dice": 0.7569397515774023, "l2": 0.0001398196140899405} (28s)
+{"tag": "apo-t3", "epoch": 2, "train_loss": 0.4265706562078916, "val_hard_dice": 0.7814583301481505, "l2": 0.0001398196140899405} (25s)
+{"tag": "apo-t3", "epoch": 3, "train_loss": 0.3907920031879957, "val_hard_dice": 0.7858313586912118, "l2": 0.0001398196140899405} (25s)
+{"tag": "apo-t3", "epoch": 4, "train_loss": 0.3675254083310182, "val_hard_dice": 0.7897640079385243, "l2": 0.0001398196140899405} (24s)
+[32m[I 2026-11-09 15:45:46,261][0m Trial 3 finished with value: 0.7897640079385243 and parameters: {'lr': 0.00035384535909065536, 'l2': 0.0001398196140899405, 'crop_min': 0.7609671816250754, 'rot_prob': 0.5724415914984484, 'pos_weight': 4.541928796033428}. Best is trial 4 with value: 0.794777640340796.[0m
+{"tag": "apo-t6", "epoch": 0, "train_loss": 0.9075053377220264, "val_hard_dice": 0.7661334528014637, "l2": 2.054762512591135e-05} (28s)
+{"tag": "apo-t6", "epoch": 1, "train_loss": 0.4600281913120013, "val_hard_dice": 0.7380652863917371, "l2": 2.054762512591135e-05} (25s)
+{"tag": "apo-t6", "epoch": 2, "train_loss": 0.39960224081117374, "val_hard_dice": 0.7689368404367437, "l2": 2.054762512591135e-05} (25s)
+[32m[I 2026-11-09 15:47:05,922][0m Trial 6 pruned. [0m
+{"best_value": 0.794777640340796, "best_params": {"lr": 0.0004424804764191638, "l2": 2.054762512591135e-05, "crop_min": 0.8621205502737279, "rot_prob": 0.7818313802505146, "pos_weight": 4.300649112954666}}

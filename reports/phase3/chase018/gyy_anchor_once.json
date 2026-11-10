@@ -1,0 +1,48 @@
+{
+  "status": "BLOCKED",
+  "image_id": "IMG_00252.png",
+  "layout": "lumify",
+  "provenance": "anisotropic_scale.ocr_depth_vertical_ruler",
+  "ocr": "MI 0.9 TIB 0.0 Bildfrequenz 24 Hz Verstark 50 Tiefe 4.0 cm Schallkopf L12-4 Preset BewApp Leistung -0.3 dB",
+  "units": "mm",
+  "anchor": {
+    "y0_px": 118.0,
+    "y1_px": 721.0,
+    "displacement_px": [
+      0.0,
+      603.0
+    ],
+    "length_mm": 40.0
+  },
+  "H": [
+    [
+      0.0,
+      0.0,
+      363609.0
+    ]
+  ],
+  "H_rank": 1,
+  "H_columns": [
+    "g_xx",
+    "g_xy",
+    "g_yy"
+  ],
+  "singular_values": [
+    363609.0
+  ],
+  "conditioning": "rank_deficient",
+  "partial_gyy": 0.00440033112491715,
+  "vertical_length_interval_mm": [
+    40.0,
+    40.0
+  ],
+  "horizontal_length_unbounded": true,
+  "G_feasible_bounded": false,
+  "reasons": [
+    "feasible_interval"
+  ],
+  "fills_millimetres": false,
+  "ocr_error": null,
+  "image_path": "/home/chocheng9/kaggle_UMUD/data/raw/umud/test_images_v2/test_set_v2/IMG_00252.png",
+  "endpoint_note": "Depth text and vertical tick span come from the lumify/siemens path in anisotropic_scale. That pairing is not a second annotation of the same endpoints."
+}

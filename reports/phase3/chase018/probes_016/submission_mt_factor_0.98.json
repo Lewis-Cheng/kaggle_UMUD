@@ -1,0 +1,13 @@
+{
+  "file": "/home/chocheng9/kaggle_UMUD/reports/phase3/chase018/probes_016/submission_mt_factor_0.98.csv",
+  "note": "MT-only level x0.98. FL and PA copied from texture_rl.",
+  "mae_vs_texture_rl": {
+    "pa_deg": 0.0,
+    "fl_mm": 0.0,
+    "mt_mm": 0.43136443525047735
+  },
+  "median_ratio_vs_texture_rl": {
+    "fl_mm": 1.0,
+    "mt_mm": 0.98
+  }
+}

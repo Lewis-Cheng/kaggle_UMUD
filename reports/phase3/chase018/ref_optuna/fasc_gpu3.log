@@ -1,0 +1,15 @@
+{"task": "fasc", "kept": 2750, "dropped_near_multexp": 11, "train": 2357, "val": 393, "multiexp_hashes": 35}
+[32m[I 2026-11-09 15:22:59,609][0m Using an existing study with name 'ref_fasc' instead of creating a new one.[0m
+{"tag": "fasc-t3", "epoch": 0, "val_hard_dice": 0.25418649439441643, "l2": 0.0001398196140899405} (54s)
+{"tag": "fasc-t3", "epoch": 1, "val_hard_dice": 0.3287872567810782, "l2": 0.0001398196140899405} (38s)
+{"tag": "fasc-t3", "epoch": 2, "val_hard_dice": 0.3582569788430483, "l2": 0.0001398196140899405} (35s)
+{"tag": "fasc-t3", "epoch": 3, "val_hard_dice": 0.37324714217022176, "l2": 0.0001398196140899405} (34s)
+{"tag": "fasc-t3", "epoch": 4, "val_hard_dice": 0.37568260422189725, "l2": 0.0001398196140899405} (34s)
+[32m[I 2026-11-09 15:26:15,350][0m Trial 3 finished with value: 0.37568260422189725 and parameters: {'lr': 0.00035384535909065536, 'l2': 0.0001398196140899405, 'crop_min': 0.7609671816250754, 'rot_prob': 0.5724415914984484, 'pos_weight': 4.541928796033428}. Best is trial 3 with value: 0.37568260422189725.[0m
+{"tag": "fasc-t4", "epoch": 0, "val_hard_dice": 0.32389961571714654, "l2": 2.054762512591135e-05} (37s)
+{"tag": "fasc-t4", "epoch": 1, "val_hard_dice": 0.33803394717417906, "l2": 2.054762512591135e-05} (39s)
+{"tag": "fasc-t4", "epoch": 2, "val_hard_dice": 0.3745445194286851, "l2": 2.054762512591135e-05} (38s)
+{"tag": "fasc-t4", "epoch": 3, "val_hard_dice": 0.3816684369215832, "l2": 2.054762512591135e-05} (37s)
+{"tag": "fasc-t4", "epoch": 4, "val_hard_dice": 0.3876633952743831, "l2": 2.054762512591135e-05} (36s)
+[32m[I 2026-11-09 15:29:21,990][0m Trial 4 finished with value: 0.3876633952743831 and parameters: {'lr': 0.0004424804764191638, 'l2': 2.054762512591135e-05, 'crop_min': 0.8621205502737279, 'rot_prob': 0.7818313802505146, 'pos_weight': 4.300649112954666}. Best is trial 5 with value: 0.3885946658655584.[0m
+{"best_value": 0.3885946658655584, "best_params": {"lr": 0.0004424804764191638, "l2": 2.054762512591135e-05, "crop_min": 0.8621205502737279, "rot_prob": 0.7818313802505146, "pos_weight": 4.300649112954666}}

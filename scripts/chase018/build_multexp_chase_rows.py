@@ -85,16 +85,40 @@ def main() -> int:
     et = et.set_index("ImageID")
     cons = cons.set_index("ImageID")
 
-    # Fit PA/MT affine on chase texture preds (skip FL if mae_after worse)
+    # Fit PA/MT affine on chase texture preds. FL coefficients stay diagnostic.
+    # The executable spec is FL identity even when the fit MAE is slightly lower.
     pa_a, pa_b, pa0, pa1 = fit_affine(ch["pred_pa"].values, ch["gt_pa"].values)
     fl_a, fl_b, fl0, fl1 = fit_affine(ch["pred_fl"].values, ch["gt_fl"].values)
     mt_a, mt_b, mt0, mt1 = fit_affine(ch["pred_mt"].values, ch["gt_mt"].values)
-    use_fl = bool(np.isfinite(fl1) and fl1 < fl0 - 1e-9)
     affine = {
-        "pa_deg": {"a": pa_a, "b": pa_b, "mae_before": pa0, "mae_after": pa1, "applied": True},
-        "fl_mm": {"a": fl_a, "b": fl_b, "mae_before": fl0, "mae_after": fl1, "applied": use_fl},
-        "mt_mm": {"a": mt_a, "b": mt_b, "mae_before": mt0, "mae_after": mt1, "applied": True},
-        "note": "cal_pa_mt uses PA+MT only unless FL mae_after improves",
+        "pa_deg": {
+            "a": pa_a,
+            "b": pa_b,
+            "mae_before": pa0,
+            "mae_after": pa1,
+            "function": "affine",
+            "applied": True,
+        },
+        "fl_mm": {
+            "a": fl_a,
+            "b": fl_b,
+            "mae_before": fl0,
+            "mae_after": fl1,
+            "function": "identity",
+            "applied": False,
+        },
+        "mt_mm": {
+            "a": mt_a,
+            "b": mt_b,
+            "mae_before": mt0,
+            "mae_after": mt1,
+            "function": "affine",
+            "applied": True,
+        },
+        "note": (
+            "Executable spec: PA and MT affine, FL identity. "
+            "FL coefficients are a diagnostic fit and are not applied."
+        ),
     }
     # Prefer existing floor affine for PA/MT if chase fit is worse? Spec: MultExp affine on chase018.
     # Keep chase-fit. Also stash legacy floor affine path for reference.
@@ -127,7 +151,7 @@ def main() -> int:
         ch_pa, ch_fl, ch_mt = float(r["pred_pa"]), float(r["pred_fl"]), float(r["pred_mt"])
         cal_pa = pa_a * ch_pa + pa_b
         cal_mt = mt_a * ch_mt + mt_b
-        cal_fl = (fl_a * ch_fl + fl_b) if use_fl else ch_fl
+        cal_fl = ch_fl
         row = {
             "ImageID": iid,
             "image_file": r.get("image_file", f"{iid}.tif"),

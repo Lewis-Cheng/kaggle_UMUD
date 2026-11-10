@@ -1,0 +1,102 @@
+{
+  "probe": {
+    "fl_ratio": 0.97,
+    "mt_ratio": 0.97
+  },
+  "candidate_budget": {
+    "mae_pa_candidate_vs_rl": 0.0,
+    "max_norm_pa_available": 0.0,
+    "mae_fl_candidate_vs_rl": 6.026179927608234,
+    "max_norm_fl_available": 0.1673938868780065,
+    "mae_mt_candidate_vs_rl": 0.0,
+    "max_norm_mt_available": 0.0,
+    "need_mean_norm_gain_for_017": 0.3868499999999999,
+    "need_fl_mae_gain_if_fl_only": 4.642199999999999,
+    "need_pa_mae_gain_if_pa_only": 2.3210999999999995,
+    "need_mt_mae_gain_if_mt_only": 1.1605499999999997
+  },
+  "block": "output_recipe_identifiability",
+  "stages": [
+    {
+      "stage": "official_ids",
+      "result": "PASS",
+      "why": "309 official IMG ids"
+    },
+    {
+      "stage": "fl_identity",
+      "result": "PASS",
+      "why": "texture_rl keeps texture_pa FL exactly"
+    },
+    {
+      "stage": "pa_affine_rebuild",
+      "result": "PASS",
+      "why": "texture_rl PA is clipped PA affine of texture_pa"
+    },
+    {
+      "stage": "mt_affine_rebuild",
+      "result": "PASS",
+      "why": "texture_rl MT is clipped MT affine of texture_pa"
+    },
+    {
+      "stage": "fl_identity_manifest",
+      "result": "PASS",
+      "why": "manifest declares FL identity"
+    },
+    {
+      "stage": "probe_pa_unchanged",
+      "result": "PASS",
+      "why": "0.97 probe copied PA"
+    },
+    {
+      "stage": "probe_factor",
+      "result": "PASS",
+      "why": "probe is x0.97 on FL and MT"
+    },
+    {
+      "stage": "length_shrink_rejected",
+      "result": "PASS",
+      "why": "0.97 public 0.35218 > texture_rl 0.29895; shrinking lengths is not a 0.17 move"
+    },
+    {
+      "stage": "candidate_no_length_shrink",
+      "result": "PASS",
+      "why": "candidate must not shrink both lengths; 0.97 already lost publicly"
+    },
+    {
+      "stage": "candidate_not_slight",
+      "result": "PASS",
+      "why": "candidate must change at least one target by >5% of tolerance on average"
+    },
+    {
+      "stage": "mut_probe_lengths",
+      "result": "PASS",
+      "why": "mutant"
+    },
+    {
+      "stage": "candidate_not_slight",
+      "result": "FAIL",
+      "why": "mutant"
+    },
+    {
+      "stage": "mutant_identical_fails",
+      "result": "PASS",
+      "why": "identical rows fail candidate_not_slight"
+    },
+    {
+      "stage": "candidate_no_length_shrink",
+      "result": "FAIL",
+      "why": "mutant"
+    },
+    {
+      "stage": "mutant_shrink_fails",
+      "result": "PASS",
+      "why": "x0.97 rows fail candidate_no_length_shrink"
+    }
+  ],
+  "public_floor": {
+    "texture_pa": 0.31903,
+    "texture_rl": 0.29895,
+    "scale_probe_0.97": 0.35218
+  },
+  "note": "Harness green = output contract holds. It is not a public-score claim."
+}

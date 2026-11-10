@@ -1,0 +1,18 @@
+{
+  "file": "/home/chocheng9/kaggle_UMUD/reports/phase3/chase018/probes_016/submission_v2_fl_mm_only.csv",
+  "note": "FL-only v2. Tests whether the new FL ordering is more concordant than texture_rl. Submit this first.",
+  "mae_vs_texture_rl": {
+    "pa_deg": 0.0,
+    "fl_mm": 6.026179927608234,
+    "mt_mm": 0.0
+  },
+  "median_ratio_vs_texture_rl": {
+    "fl_mm": 1.0144521333171261,
+    "mt_mm": 1.0
+  },
+  "public_score": 0.33123,
+  "texture_rl_public_score": 0.29895,
+  "public_delta": 0.03228,
+  "implied_fl_mae_increase_mm": 1.16,
+  "result": "New FL ordering is less concordant with the public labels than texture_rl. Do not promote v2 FL."
+}

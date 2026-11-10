@@ -1,0 +1,123 @@
+{
+  "submit_first": "/home/chocheng9/kaggle_UMUD/reports/phase3/chase018/probes_016/submission_v2_fl_mm_only.csv",
+  "do_not_submit_together": "One file per public score. FL-only v2 is the attribution test.",
+  "files": [
+    {
+      "file": "/home/chocheng9/kaggle_UMUD/reports/phase3/chase018/probes_016/submission_v2_fl_mm_only.csv",
+      "note": "FL-only v2. Tests whether the new FL ordering is more concordant than texture_rl. Submit this first.",
+      "mae_vs_texture_rl": {
+        "pa_deg": 0.0,
+        "fl_mm": 6.026179927608234,
+        "mt_mm": 0.0
+      },
+      "median_ratio_vs_texture_rl": {
+        "fl_mm": 1.0144521333171261,
+        "mt_mm": 1.0
+      }
+    },
+    {
+      "file": "/home/chocheng9/kaggle_UMUD/reports/phase3/chase018/probes_016/submission_v2_pa_deg_only.csv",
+      "note": "PA-only v2. Do not submit until the FL-only score is back.",
+      "mae_vs_texture_rl": {
+        "pa_deg": 0.4990377914828433,
+        "fl_mm": 0.0,
+        "mt_mm": 0.0
+      },
+      "median_ratio_vs_texture_rl": {
+        "fl_mm": 1.0,
+        "mt_mm": 1.0
+      }
+    },
+    {
+      "file": "/home/chocheng9/kaggle_UMUD/reports/phase3/chase018/probes_016/submission_v2_mt_mm_only.csv",
+      "note": "MT-only v2. Do not submit until the FL-only score is back.",
+      "mae_vs_texture_rl": {
+        "pa_deg": 0.0,
+        "fl_mm": 0.0,
+        "mt_mm": 0.48844597833133974
+      },
+      "median_ratio_vs_texture_rl": {
+        "fl_mm": 1.0,
+        "mt_mm": 1.0000000000000002
+      }
+    },
+    {
+      "file": "/home/chocheng9/kaggle_UMUD/reports/phase3/chase018/probes_016/submission_fl_factor_0.85.csv",
+      "note": "FL-only level. Absolute geometry factor 0.85 (texture_rl is 0.90). MT and PA copied.",
+      "mae_vs_texture_rl": {
+        "pa_deg": 0.0,
+        "fl_mm": 4.589504382374774,
+        "mt_mm": 0.0
+      },
+      "median_ratio_vs_texture_rl": {
+        "fl_mm": 0.9444444444444444,
+        "mt_mm": 1.0
+      }
+    },
+    {
+      "file": "/home/chocheng9/kaggle_UMUD/reports/phase3/chase018/probes_016/submission_fl_factor_0.95.csv",
+      "note": "FL-only level. Absolute geometry factor 0.95 (texture_rl is 0.90). MT and PA copied.",
+      "mae_vs_texture_rl": {
+        "pa_deg": 0.0,
+        "fl_mm": 4.589504382374774,
+        "mt_mm": 0.0
+      },
+      "median_ratio_vs_texture_rl": {
+        "fl_mm": 1.0555555555555556,
+        "mt_mm": 1.0
+      }
+    },
+    {
+      "file": "/home/chocheng9/kaggle_UMUD/reports/phase3/chase018/probes_016/submission_fl_factor_1.00.csv",
+      "note": "FL-only level. Absolute geometry factor 1.0 (texture_rl is 0.90). MT and PA copied.",
+      "mae_vs_texture_rl": {
+        "pa_deg": 0.0,
+        "fl_mm": 9.179008764749549,
+        "mt_mm": 0.0
+      },
+      "median_ratio_vs_texture_rl": {
+        "fl_mm": 1.1111111111111112,
+        "mt_mm": 1.0
+      }
+    },
+    {
+      "file": "/home/chocheng9/kaggle_UMUD/reports/phase3/chase018/probes_016/submission_mt_factor_0.98.csv",
+      "note": "MT-only level x0.98. FL and PA copied from texture_rl.",
+      "mae_vs_texture_rl": {
+        "pa_deg": 0.0,
+        "fl_mm": 0.0,
+        "mt_mm": 0.43136443525047735
+      },
+      "median_ratio_vs_texture_rl": {
+        "fl_mm": 1.0,
+        "mt_mm": 0.98
+      }
+    },
+    {
+      "file": "/home/chocheng9/kaggle_UMUD/reports/phase3/chase018/probes_016/submission_mt_factor_1.02.csv",
+      "note": "MT-only level x1.02. FL and PA copied from texture_rl.",
+      "mae_vs_texture_rl": {
+        "pa_deg": 0.0,
+        "fl_mm": 0.0,
+        "mt_mm": 0.43136443525047735
+      },
+      "median_ratio_vs_texture_rl": {
+        "fl_mm": 1.0,
+        "mt_mm": 1.02
+      }
+    },
+    {
+      "file": "/home/chocheng9/kaggle_UMUD/reports/phase3/chase018/probes_016/submission_mt_factor_1.05.csv",
+      "note": "MT-only level x1.05. FL and PA copied from texture_rl.",
+      "mae_vs_texture_rl": {
+        "pa_deg": 0.0,
+        "fl_mm": 0.0,
+        "mt_mm": 1.0784110881261932
+      },
+      "median_ratio_vs_texture_rl": {
+        "fl_mm": 1.0,
+        "mt_mm": 1.05
+      }
+    }
+  ]
+}

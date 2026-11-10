@@ -13,7 +13,11 @@ import pandas as pd
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / "src"))
 
-from umud.baselines.io import write_submission_csv  # noqa: E402
+from umud.baselines.io import load_official_submission_ids, write_submission_csv  # noqa: E402
+from umud.calibration.executable import (  # noqa: E402
+    CalibrationSpecError,
+    require_executable_calibration,
+)
 from umud.rl.chase018_bandit import (  # noqa: E402
     ACTION_NAMES,
     GeometrySample,
@@ -23,12 +27,16 @@ from umud.rl.chase018_bandit import (  # noqa: E402
 )
 
 
-def _stem(x: str) -> str:
-    x = str(x).strip()
-    for suf in (".tif", ".png", ".jpg"):
-        if x.lower().endswith(suf):
-            return Path(x).stem
-    return x
+def _literal_id(x: str) -> str:
+    """Keep the id string as written. Do not strip or invent a suffix."""
+    return str(x).strip()
+
+
+def _require_unique_ids(frame: pd.DataFrame, name: str) -> pd.DataFrame:
+    indexed = frame.set_index("image_id")
+    if not indexed.index.is_unique:
+        raise SystemExit(f"{name} image_id collision")
+    return indexed
 
 
 def _read_sub(path: Path) -> pd.DataFrame:
@@ -42,7 +50,7 @@ def _read_sub(path: Path) -> pd.DataFrame:
     mt = cols.get("mt_mm") or cols.get("pred_mt")
     out = pd.DataFrame(
         {
-            "image_id": df[id_col].map(_stem),
+            "image_id": df[id_col].map(_literal_id),
             "pa_deg": df[pa].astype(float),
             "fl_mm": df[fl].astype(float),
             "mt_mm": df[mt].astype(float),
@@ -68,30 +76,39 @@ def main() -> int:
     args = ap.parse_args()
 
     pol = SoftmaxBandit.load(args.policy)
-    ch = _read_sub(args.ch_submission).set_index("image_id")
-    v5 = _read_sub(args.v5_submission).set_index("image_id")
-    et = _read_sub(args.et_submission).set_index("image_id")
+    ch = _require_unique_ids(_read_sub(args.ch_submission), "ch")
+    v5 = _require_unique_ids(_read_sub(args.v5_submission), "v5")
+    et = _require_unique_ids(_read_sub(args.et_submission), "et")
     scratch = None
     if args.scratch_submission and args.scratch_submission.is_file():
-        scratch = _read_sub(args.scratch_submission).set_index("image_id")
+        scratch = _require_unique_ids(_read_sub(args.scratch_submission), "scratch")
 
-    aff = json.loads(args.affine_json.read_text()) if args.affine_json.is_file() else {}
-    pa_a = float(aff.get("pa_deg", {}).get("a", 1.0))
-    pa_b = float(aff.get("pa_deg", {}).get("b", 0.0))
-    mt_a = float(aff.get("mt_mm", {}).get("a", 1.0))
-    mt_b = float(aff.get("mt_mm", {}).get("b", 0.0))
+    if not args.affine_json.is_file():
+        raise SystemExit(f"calibration manifest missing: {args.affine_json}")
+    aff = json.loads(args.affine_json.read_text())
+    try:
+        coeff = require_executable_calibration(aff)
+    except CalibrationSpecError as exc:
+        raise SystemExit(f"calibration spec abort: {exc}") from exc
+    pa_coeff = coeff["pa_deg"]
+    mt_coeff = coeff["mt_mm"]
+    if pa_coeff is None or mt_coeff is None or coeff["fl_mm"] is not None:
+        raise SystemExit("calibration spec abort: FL must be identity and PA/MT affine")
+    pa_a, pa_b = pa_coeff
+    mt_a, mt_b = mt_coeff
 
-    if args.ids.is_file():
-        ids = [_stem(x) for x in args.ids.read_text().splitlines() if x.strip()]
-    else:
-        ids = sorted(set(ch.index))
+    if not args.ids.is_file():
+        raise SystemExit(f"official id list missing: {args.ids}")
+    try:
+        ids = load_official_submission_ids(args.ids)
+    except ValueError as exc:
+        raise SystemExit(f"official id abort: {exc}") from exc
 
     rows = []
     action_hist = {n: 0 for n in ACTION_NAMES}
     for iid in ids:
         if iid not in ch.index:
-            print("missing ch", iid, file=sys.stderr)
-            continue
+            raise SystemExit(f"official id missing from ch submission: {iid}")
         c = ch.loc[iid]
         cpa, cfl, cmt = float(c.pa_deg), float(c.fl_mm), float(c.mt_mm)
         if iid in v5.index:
@@ -140,7 +157,7 @@ def main() -> int:
         action_hist[ACTION_NAMES[a]] += 1
         rows.append(
             {
-                "image_id": f"{iid}.tif" if not str(iid).endswith(".tif") else iid,
+                "image_id": iid,
                 "pa_deg": pred["pa_deg"],
                 "fl_mm": pred["fl_mm"],
                 "mt_mm": pred["mt_mm"],
@@ -150,7 +167,7 @@ def main() -> int:
         )
 
     args.out_csv.parent.mkdir(parents=True, exist_ok=True)
-    write_submission_csv(args.out_csv, rows, delimiter=",")
+    write_submission_csv(args.out_csv, rows, delimiter=",", validate_against=ids)
     # ensure no BOM
     text = args.out_csv.read_text(encoding="utf-8")
     args.out_csv.write_text(text.lstrip("\ufeff"), encoding="utf-8", newline="\n")

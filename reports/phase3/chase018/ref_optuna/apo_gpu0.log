@@ -1,0 +1,15 @@
+{"task": "apo", "kept": 1044, "dropped_near_multexp": 4, "train": 836, "val": 208, "multiexp_hashes": 35}
+[32m[I 2026-11-09 15:43:23,309][0m Using an existing study with name 'ref_apo' instead of creating a new one.[0m
+{"tag": "apo-t1", "epoch": 0, "train_loss": 1.1745599193068652, "val_hard_dice": 0.6663678976116129, "l2": 0.0001398196140899405} (18s)
+{"tag": "apo-t1", "epoch": 1, "train_loss": 0.5889403244050649, "val_hard_dice": 0.7587417189945251, "l2": 0.0001398196140899405} (14s)
+{"tag": "apo-t1", "epoch": 2, "train_loss": 0.46911995886610103, "val_hard_dice": 0.7584009453242359, "l2": 0.0001398196140899405} (11s)
+{"tag": "apo-t1", "epoch": 3, "train_loss": 0.4155915084366615, "val_hard_dice": 0.7753368031161909, "l2": 0.0001398196140899405} (11s)
+{"tag": "apo-t1", "epoch": 4, "train_loss": 0.3951804806979803, "val_hard_dice": 0.7825057800935331, "l2": 0.0001398196140899405} (12s)
+[32m[I 2026-11-09 15:44:32,249][0m Trial 1 finished with value: 0.7825057800935331 and parameters: {'lr': 0.00035384535909065536, 'l2': 0.0001398196140899405, 'crop_min': 0.7609671816250754, 'rot_prob': 0.5724415914984484, 'pos_weight': 4.541928796033428}. Best is trial 1 with value: 0.7825057800935331.[0m
+{"tag": "apo-t4", "epoch": 0, "train_loss": 1.015507507782716, "val_hard_dice": 0.6919479899448701, "l2": 2.054762512591135e-05} (14s)
+{"tag": "apo-t4", "epoch": 1, "train_loss": 0.48196158156945157, "val_hard_dice": 0.749931108450535, "l2": 2.054762512591135e-05} (12s)
+{"tag": "apo-t4", "epoch": 2, "train_loss": 0.40351973846554756, "val_hard_dice": 0.7822970132513617, "l2": 2.054762512591135e-05} (11s)
+{"tag": "apo-t4", "epoch": 3, "train_loss": 0.3695359732955694, "val_hard_dice": 0.794777640340796, "l2": 2.054762512591135e-05} (12s)
+{"tag": "apo-t4", "epoch": 4, "train_loss": 0.3444986841999568, "val_hard_dice": 0.7927416913891927, "l2": 2.054762512591135e-05} (11s)
+[32m[I 2026-11-09 15:45:33,552][0m Trial 4 finished with value: 0.794777640340796 and parameters: {'lr': 0.0004424804764191638, 'l2': 2.054762512591135e-05, 'crop_min': 0.8621205502737279, 'rot_prob': 0.7818313802505146, 'pos_weight': 4.300649112954666}. Best is trial 4 with value: 0.794777640340796.[0m
+{"best_value": 0.794777640340796, "best_params": {"lr": 0.0004424804764191638, "l2": 2.054762512591135e-05, "crop_min": 0.8621205502737279, "rot_prob": 0.7818313802505146, "pos_weight": 4.300649112954666}}

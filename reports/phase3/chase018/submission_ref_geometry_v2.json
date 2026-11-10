@@ -1,0 +1,18 @@
+{
+  "out": "/home/chocheng9/kaggle_UMUD/reports/phase3/chase018/submission_ref_geometry_v2.csv",
+  "n": 309,
+  "pa_deg": "new reference maps + same PA affine as texture_rl",
+  "fl_mm": "rank-preserving quantile map from ref FL to texture_rl FL (ordering from new model, distribution from winner)",
+  "mt_mm": "ref MT * clip(rl_mt/ref_mt, 1.0, 1.08) per image, then clip to range",
+  "why": "Global 0.97 on FL+MT scored 0.35218 (worse than 0.29895). Raw new-maps FL is -1.7 mm and MT -0.5 mm vs texture_rl (same wrong direction). This file keeps the new maps' PA and per-image FL ordering, restores the winning FL distribution, and applies only a bounded MT correction.",
+  "delta_vs_texture_rl": {
+    "pa_mae": 0.4990377914828433,
+    "fl_mae": 6.026179927608234,
+    "mt_mae": 0.48844597833133974
+  },
+  "public_reference": {
+    "texture_rl": 0.29895,
+    "scale_probe_0.97": 0.35218
+  },
+  "claims_kaggle_lb": false
+}

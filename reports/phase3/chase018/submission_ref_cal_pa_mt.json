@@ -1,0 +1,14 @@
+{
+  "out": "/home/chocheng9/kaggle_UMUD/reports/phase3/chase018/submission_ref_cal_pa_mt.csv",
+  "n": 309,
+  "ok_rate": 0.9449838187702265,
+  "apo_ckpt": "/home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/ref_apo_optuna_best.pt",
+  "fasc_ckpt": "/home/chocheng9/kaggle_UMUD/reports/phase3/chase018/seg_ckpts/ref_fasc_optuna_best.pt",
+  "calibration": "pa_mt_affine_fl_identity",
+  "fl_factor": 0.9,
+  "fl_sin_w": 0.25,
+  "tex_w": 0.5,
+  "length_scale": 1.0,
+  "why": "Public 0.35218 showed a 0.97 length scale hurts. texture_rl gained by PA affine and +0.18 mm MT, with FL unchanged.",
+  "claims_kaggle_lb": false
+}
