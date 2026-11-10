@@ -1,0 +1,126 @@
+{
+  "block": "attention_rl_promotion",
+  "cleared_for_one_submission": false,
+  "counts": {
+    "PASS": 3,
+    "FAIL": 0,
+    "BLOCKED": 8,
+    "RL_DISABLED": 0
+  },
+  "stages": [
+    {
+      "stage": "contracts",
+      "result": "PASS",
+      "why": "19 passed in 4.84s"
+    },
+    {
+      "stage": "lean_build",
+      "result": "PASS",
+      "why": "11 theorems audited; disallowed axioms: none",
+      "axioms": {
+        "UmudRl.rollout_length_le": [
+          "Quot.sound",
+          "propext"
+        ],
+        "UmudRl.rollout_drift": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "UmudRl.shaped_return_telescopes": [
+          "Quot.sound",
+          "propext"
+        ],
+        "UmudRl.shaped_return_order": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "UmudRl.shaped_return_order_free": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "UmudRl.shaped_return_objective": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "UmudRl.disc_return_telescopes": [
+          "Quot.sound",
+          "propext"
+        ],
+        "UmudRl.disc_return_order": [
+          "Quot.sound",
+          "propext"
+        ],
+        "UmudRl.fold_range": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "UmudRl.pa_range": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "UmudRl.pa_flip": [
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    {
+      "stage": "synthetic_learns",
+      "result": "PASS",
+      "why": "attention readout beats host measure on maps for PA and FL (synthetic val)",
+      "rl_beats_init_synthetic": false
+    },
+    {
+      "stage": "val_attention_beats_maps",
+      "result": "BLOCKED",
+      "why": "no lab val_report.json; run the train stage on the lab GPU"
+    },
+    {
+      "stage": "val_rl_beats_init",
+      "result": "BLOCKED",
+      "why": "no lab val_report.json"
+    },
+    {
+      "stage": "rl_use_consistent",
+      "result": "BLOCKED",
+      "why": "needs val_report.json and test_meta.json"
+    },
+    {
+      "stage": "multexp_not_worse",
+      "result": "BLOCKED",
+      "why": "no multexp_report.json; run eval-multexp on the lab"
+    },
+    {
+      "stage": "official_ids",
+      "result": "BLOCKED",
+      "why": "submission_texture_rl.csv is not on this machine"
+    },
+    {
+      "stage": "movement_budget",
+      "result": "BLOCKED",
+      "why": "submission_texture_rl.csv is not on this machine"
+    },
+    {
+      "stage": "no_joint_length_shrink",
+      "result": "BLOCKED",
+      "why": "submission_texture_rl.csv is not on this machine"
+    },
+    {
+      "stage": "csv_mutants",
+      "result": "BLOCKED",
+      "why": "submission_texture_rl.csv is not on this machine"
+    }
+  ],
+  "public": {
+    "texture_rl": 0.29895,
+    "target": 0.16,
+    "need_S1_drop": 0.13895
+  },
+  "note": "Green = contracts and gates hold. It is not a public-score claim."
+}
