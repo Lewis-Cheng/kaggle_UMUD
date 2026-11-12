@@ -1,0 +1,100 @@
+{
+  "label": "SYNTHETIC_NOT_LB",
+  "n_test_images": 200,
+  "agents": {
+    "v3_gamma095": {
+      "ff": {
+        "n": 866,
+        "angle_err_deg": {
+          "init": 0.8253855584997644,
+          "rl": 3.850028645003062
+        },
+        "offset_err_px": {
+          "init": 4.626225729546788,
+          "rl": 5.778769277828457
+        },
+        "frac_angle_improved": 0.09353348729792148,
+        "frac_angle_worse": 0.7228637413394919,
+        "mean_moves": 13.565819861431871,
+        "frac_stop_at_once": 0.017321016166281754
+      },
+      "small": {
+        "n": 600,
+        "angle_err_deg": {
+          "init": 1.660414468204873,
+          "rl": 3.6784615221335524
+        },
+        "offset_err_px": {
+          "init": 1.4805055978584412,
+          "rl": 2.641302651147559
+        },
+        "frac_angle_improved": 0.28,
+        "frac_angle_worse": 0.5933333333333334,
+        "mean_moves": 13.59,
+        "frac_stop_at_once": 0.008333333333333333
+      },
+      "large": {
+        "n": 600,
+        "angle_err_deg": {
+          "init": 5.9970425899076965,
+          "rl": 5.1412298226672934
+        },
+        "offset_err_px": {
+          "init": 3.0106288231301788,
+          "rl": 3.7300085009080455
+        },
+        "frac_angle_improved": 0.56,
+        "frac_angle_worse": 0.34,
+        "mean_moves": 15.75,
+        "frac_stop_at_once": 0.005
+      }
+    },
+    "v4_gamma1": {
+      "ff": {
+        "n": 866,
+        "angle_err_deg": {
+          "init": 0.8253855584997644,
+          "rl": 1.6634651204785327
+        },
+        "offset_err_px": {
+          "init": 4.626225729546788,
+          "rl": 4.932938038656929
+        },
+        "frac_angle_improved": 0.12933025404157045,
+        "frac_angle_worse": 0.5046189376443418,
+        "mean_moves": 5.689376443418014,
+        "frac_stop_at_once": 0.10277136258660508
+      },
+      "small": {
+        "n": 600,
+        "angle_err_deg": {
+          "init": 1.660414468204873,
+          "rl": 1.4545052943842214
+        },
+        "offset_err_px": {
+          "init": 1.4805055978584412,
+          "rl": 1.7514158248799405
+        },
+        "frac_angle_improved": 0.515,
+        "frac_angle_worse": 0.30333333333333334,
+        "mean_moves": 6.221666666666667,
+        "frac_stop_at_once": 0.023333333333333334
+      },
+      "large": {
+        "n": 600,
+        "angle_err_deg": {
+          "init": 5.9970425899076965,
+          "rl": 2.0883151235786697
+        },
+        "offset_err_px": {
+          "init": 3.0106288231301788,
+          "rl": 2.814301561082891
+        },
+        "frac_angle_improved": 0.835,
+        "frac_angle_worse": 0.11166666666666666,
+        "mean_moves": 12.901666666666667,
+        "frac_stop_at_once": 0.0016666666666666668
+      }
+    }
+  }
+}

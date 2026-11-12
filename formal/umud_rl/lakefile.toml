@@ -1,0 +1,5 @@
+name = "umud_rl"
+defaultTargets = ["UmudRl"]
+
+[[lean_lib]]
+name = "UmudRl"
